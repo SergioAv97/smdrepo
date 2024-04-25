@@ -1,0 +1,623 @@
+# Translation of Plugins - Simple Author Box - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Simple Author Box - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-01 14:37:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Simple Author Box - Stable (latest release)\n"
+
+#: inc/class-simple-author-box-admin-page.php:384
+msgid "Background image"
+msgstr "Фоновое изображение"
+
+#: inc/class-simple-author-box-admin-page.php:368
+msgid "Bottom"
+msgstr "Снизу"
+
+#: inc/class-simple-author-box-admin-page.php:98
+msgid "After Content"
+msgstr "После контента"
+
+#: inc/class-simple-author-box-admin-page.php:97
+msgid "Before Content"
+msgstr "Сверху контента"
+
+#: inc/class-simple-author-box-admin-page.php:715
+msgid "Custom CSS"
+msgstr "Пользовательские CSS"
+
+#: inc/class-simple-author-box-admin-page.php:350
+msgid "Dashed"
+msgstr "Пунктирная"
+
+#: inc/class-simple-author-box-admin-page.php:352
+msgid "Double"
+msgstr "Двойной"
+
+#: inc/class-simple-author-box-admin-page.php:23
+msgid "Elements"
+msgstr "Элементы"
+
+#: inc/class-simple-author-box-admin-page.php:353
+msgid "Groove"
+msgstr "Выпуклость"
+
+#: inc/class-simple-author-box-admin-page.php:67
+msgid "PHP Code"
+msgstr "PHP-код"
+
+#: inc/class-simple-author-box-admin-page.php:354
+msgid "Ridge"
+msgstr "Грани"
+
+#: inc/class-simple-author-box-admin-page.php:74
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: inc/class-simple-author-box-admin-page.php:351
+msgid "Solid"
+msgstr "Сплошной"
+
+#: inc/class-simple-author-box-admin-page.php:253
+msgid "Speed"
+msgstr "Скорость"
+
+#: inc/class-simple-author-box-admin-page.php:367
+msgid "Top"
+msgstr "Вверх"
+
+#: inc/class-simple-author-box-admin-page.php:19
+msgid "Visibility"
+msgstr "Видимость"
+
+#: inc/class-simple-author-box-admin-page.php:118
+msgid "Add \"nofollow\" attribute on author name link"
+msgstr "Добавить атрибут \"nofollow\" в ссылку имени автора"
+
+#: inc/class-simple-author-box-admin-page.php:55
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: inc/class-simple-author-box-admin-page.php:229
+msgid "Author avatar image size"
+msgstr "Размер изображения аватара автора"
+
+#: inc/class-simple-author-box-admin-page.php:349
+msgid "Dotted"
+msgstr "Точечный пунктир"
+
+#: inc/class-simple-author-box-admin-page.php:355
+msgid "Inset"
+msgstr "Вставка"
+
+#: inc/class-simple-author-box-helper.php:893
+msgid "Pages"
+msgstr "Страницы"
+
+#: inc/class-simple-author-box-helper.php:892
+msgid "Posts"
+msgstr "Записи"
+
+#: inc/class-simple-author-box-helper.php:914
+msgid "Tags"
+msgstr "Метки"
+
+#: inc/class-simple-author-box-helper.php:913
+msgid "Categories"
+msgstr "Рубрики"
+
+#. Author URI of the plugin
+msgid "https://www.webfactoryltd.com/"
+msgstr "https://www.webfactoryltd.com/"
+
+#. Author of the plugin
+msgid "WebFactory Ltd"
+msgstr "WebFactory Ltd"
+
+#. Plugin URI of the plugin
+msgid "https://wpauthorbox.com/"
+msgstr "https://wpauthorbox.com/"
+
+#: inc/class-simple-author-box-widget.php:91
+msgid "Autodetect"
+msgstr "Автоопределение"
+
+#: inc/class-simple-author-box-widget.php:87
+msgid "Choose author/user"
+msgstr "Выберите автора/пользователя"
+
+#: inc/class-simple-author-box-widget.php:81
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/class-simple-author-box-widget.php:18
+msgid "About Author"
+msgstr "Об авторе"
+
+#: inc/class-simple-author-box-widget.php:11
+msgid "Use this widget to display Simple Author Box"
+msgstr "Используйте этот виджет для отображения Simple Author Box"
+
+#: inc/elementor/class-simple-author-box-elementor-check.php:105
+msgid "PHP"
+msgstr "PHP"
+
+#: inc/elementor/class-simple-author-box-elementor-check.php:82
+msgid "Elementor"
+msgstr "Elementor"
+
+#: inc/elementor/class-simple-author-box-elementor-check.php:81
+#: inc/elementor/class-simple-author-box-elementor-check.php:104
+msgid "Simple Author Box Elementor widget"
+msgstr "Simple Author Box Elementor виджет"
+
+#: inc/elementor/class-simple-author-box-elementor-check.php:80
+#: inc/elementor/class-simple-author-box-elementor-check.php:103
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "\"%1$s\" требует \"%2$s\" версии %3$s или выше."
+
+#: inc/elementor/widgets/class-simple-author-box-elementor.php:70
+msgid "Autoselect"
+msgstr "Автовыбор"
+
+#: inc/elementor/widgets/class-simple-author-box-elementor.php:43
+#: assets/js/sab_gutenberg_editor_script.js:680
+#: assets/src/js/components/inspector.js:56
+msgid "Select author"
+msgstr "Выбрать автора"
+
+#: inc/elementor/widgets/class-simple-author-box-elementor.php:35
+msgid "Content"
+msgstr "Содержимое"
+
+#: inc/class-simple-author-box-admin-page.php:88
+msgid "When turned ON, the author box will be removed on archives."
+msgstr "При включении поле автора будет удалено из архивов."
+
+#: inc/class-simple-author-box-admin-page.php:87
+msgid "Hide the author box on archives"
+msgstr "Скрыть поле автора в архивах"
+
+#: inc/functions.php:446
+msgid "Please enter a social profile"
+msgstr "Пожалуйста, введите социальный профиль"
+
+#: inc/functions.php:425
+msgid "Please complete Biographical Info"
+msgstr "Пожалуйста, заполните биографические данные"
+
+#: template/template-sab.php:133 assets/js/sab_gutenberg_editor_script.js:539
+#: assets/src/js/components/edit.js:321
+msgid "Add Social Links"
+msgstr "Добавить ссылки на соц сети"
+
+#: template/template-sab.php:93
+msgid "Add Biographical Info"
+msgstr "Добавить биографические данные"
+
+#: inc/class-simple-author-box-admin-page.php:440
+msgid "Select the color for the author box links"
+msgstr "Выберите цвет ссылок в блоке автора"
+
+#: inc/class-simple-author-box-admin-page.php:439
+msgid "Color of author box links"
+msgstr "Цвет ссылок в блоке автора"
+
+#: inc/class-simple-author-box-admin-page.php:434
+msgid "Select the color for the author box paragraphs"
+msgstr "Выберите цвет абзацев в блоке автора"
+
+#: inc/class-simple-author-box-admin-page.php:433
+msgid "Color of author box paragraphs"
+msgstr "Цвет абзацев в блоке автора"
+
+#: inc/class-simple-author-box-admin-page.php:428
+msgid "Select the color for the author box background"
+msgstr "Выберите цвет фона блока автора"
+
+#: inc/class-simple-author-box-admin-page.php:427
+msgid "Background color of author box"
+msgstr "Цвет фона блока автора"
+
+#: inc/class-simple-author-box-admin-page.php:218
+msgid "This controls the border width of the author box"
+msgstr "Это контролирует ширину рамки блока автора"
+
+#: inc/class-simple-author-box-admin-page.php:217
+msgid "Border Width"
+msgstr "Ширина рамки"
+
+#: inc/class-simple-author-box-admin-page.php:51
+msgid "Guest Author"
+msgstr "Приглашенный автор"
+
+#: inc/class-simple-author-box-admin-page.php:300
+msgid "Social icons type"
+msgstr "Тип социальных иконок"
+
+#: template/template-sab.php:81
+msgid "Edit profile"
+msgstr "Редактировать профиль"
+
+#: inc/class-simple-author-box-user-profile.php:126
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: inc/class-simple-author-box-user-profile.php:124
+msgid "Remove Image"
+msgstr "Удалить изображение"
+
+#: inc/class-simple-author-box-user-profile.php:113
+msgid "Profile Image"
+msgstr "Изображение профиля"
+
+#: inc/class-simple-author-box-user-profile.php:110
+msgid "Custom User Profile Image (Simple Author Box)"
+msgstr "Произвольное изображение профиля пользователя (Simple Author Box)"
+
+#: inc/class-simple-author-box-user-profile.php:91
+msgid "+ Add new social platform"
+msgstr "+ Добавить новую социальную платформу"
+
+#: inc/class-simple-author-box-user-profile.php:39
+msgid "Social Media Links (Simple Author Box)"
+msgstr "Ссылки на соц сети (Simple Author Box)"
+
+#: inc/class-simple-author-box-admin-page.php:887
+#: inc/class-simple-author-box-admin-page.php:899
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: inc/class-simple-author-box-admin-page.php:556
+msgid "Select the font style for the author's description"
+msgstr "Выберите стиль шрифта для описания автора"
+
+#: inc/class-simple-author-box-admin-page.php:492
+msgid "Select the font family for the author's description"
+msgstr "Выберите шрифт для описания автора"
+
+#: inc/class-simple-author-box-admin-page.php:484
+msgid "Select the font family for the author's website"
+msgstr "Выберите шрифт для сайта автора"
+
+#: inc/class-simple-author-box-admin-page.php:469
+msgid "Select the font family for the author's name"
+msgstr "Выберите шрифт для имени автора"
+
+#: inc/class-simple-author-box-admin-page.php:446
+msgid "Select the color for social icons when using the symbols only social icon type"
+msgstr "Выберите цвет для значков соц сетей при использовании только символов значков соц сетей"
+
+#: inc/class-simple-author-box-admin-page.php:422
+msgid "Select the color for the social icons bar background"
+msgstr "Выберите цвет фона панели значков соц сетей"
+
+#: inc/class-simple-author-box-admin-page.php:416
+msgid "Select the color for author box border"
+msgstr "Выберите цвет рамки поля автора"
+
+#: inc/class-simple-author-box-admin-page.php:415
+msgid "Border color"
+msgstr "Цвет рамки"
+
+#: inc/class-simple-author-box-admin-page.php:409
+msgid "Select the color for author's website link"
+msgstr "Выберите цвет ссылки на сайт автора"
+
+#: inc/class-simple-author-box-admin-page.php:403
+msgid "Select the color for author's name text"
+msgstr "Выберите цвет текста имени автора"
+
+#: inc/class-simple-author-box-admin-page.php:338
+msgid "Add a border to social icons container."
+msgstr "Добавьте рамку в контейнер соц иконок."
+
+#: inc/class-simple-author-box-admin-page.php:331
+msgid "Check this if you want a flat shadow for social icons"
+msgstr "Отметьте, если вам нужна плоская тень для соц иконок."
+
+#: inc/class-simple-author-box-admin-page.php:324
+msgid "Add a rotate effect when you hover on social icons hover"
+msgstr "Добавить эффект поворота при наведении курсора на значки соц сетей"
+
+#: inc/class-simple-author-box-admin-page.php:323
+msgid "Rotate effect on social icons hover (works only for circle icons)"
+msgstr "Эффект поворота при наведении курсора на значки соц сетей (работает только для круглых значков)"
+
+#: inc/class-simple-author-box-admin-page.php:312
+msgid "Select the shape of social icons' container"
+msgstr "Выберите форму контейнера соц иконок"
+
+#: inc/class-simple-author-box-admin-page.php:301
+msgid "Colored background adds a background behind the social icon symbol"
+msgstr "Цветной фон добавляет фон позади символа соц сети"
+
+#: inc/class-simple-author-box-admin-page.php:289
+msgid "Select where you want to show the website ( left or right )"
+msgstr "Выберите, где вы хотите показывать сайт (слева или справа)"
+
+#: inc/class-simple-author-box-admin-page.php:281
+msgid "Toggling this to ON will make the author website have the no-follow parameter added."
+msgstr "При переключении этого параметра на ВКЛ на сайт автора будет добавлен параметр no-follow."
+
+#: inc/class-simple-author-box-admin-page.php:274
+msgid "If you check this the author's link will open in a new tab"
+msgstr "Если вы отметите это, ссылка автора откроется в новой вкладке"
+
+#: inc/class-simple-author-box-admin-page.php:267
+msgid "When turned ON, the box will include the author's website"
+msgstr "При включении в блоке будет указан сайт автора."
+
+#: inc/class-simple-author-box-admin-page.php:260
+msgid "When turned ON, this adds a rotate effect when hovering over the author's avatar"
+msgstr "При включении добавляет эффект поворота при наведении курсора на аватар автора."
+
+#: inc/class-simple-author-box-admin-page.php:243
+msgid "Change the shape of the author’s avatar image"
+msgstr "Изменить форму аватара автора"
+
+#: inc/class-simple-author-box-admin-page.php:207
+msgid "This controls the padding left & right of the author box"
+msgstr "Это контролирует отступ (padding) слева и справа от поля автора"
+
+#: inc/class-simple-author-box-admin-page.php:206
+msgid "Padding left and right of author box"
+msgstr "Отступ (padding) слева и справа от поля автора"
+
+#: inc/class-simple-author-box-admin-page.php:196
+msgid "This controls the padding top & bottom of the author box"
+msgstr "Это управляет отступом (padding) сверху и снизу поля автора."
+
+#: inc/class-simple-author-box-admin-page.php:195
+msgid "Padding top and bottom of author box"
+msgstr "Отступ (padding) сверху и снизу авторского поля"
+
+#: inc/class-simple-author-box-admin-page.php:185
+msgid "Choose how much space to add below the author box"
+msgstr "Выберите, сколько места добавить под полем автора"
+
+#: inc/class-simple-author-box-admin-page.php:174
+msgid "Choose how much space to add above the author box"
+msgstr "Выберите, сколько места добавить над полем автора"
+
+#: inc/class-simple-author-box-admin-page.php:166
+msgid "When turned ON, the author’s social icons will be hidden."
+msgstr "При включении соц иконки автора будут скрыты."
+
+#: inc/class-simple-author-box-admin-page.php:160
+msgid "When turned ON, the author’s social links will open in a new tab."
+msgstr "При включении ссылки автора в соц сетях открываются в новой вкладке."
+
+#: inc/class-simple-author-box-admin-page.php:154
+msgid "When turned ON, the plugin will add an email option next to the social icons."
+msgstr "При включении плагин добавит email рядом со значками соц сетей."
+
+#: inc/class-simple-author-box-admin-page.php:153
+msgid "Show author email"
+msgstr "Показать email автора"
+
+#: inc/class-simple-author-box-admin-page.php:82
+msgid "When turned ON, the author box will not appear for users without a description"
+msgstr "При включении блок автора не будет отображаться для пользователей без описания."
+
+#: inc/class-simple-author-box-admin-page.php:75
+msgid "If you want to manually insert the Simple Author Box in your post content, you can use the following shortcode"
+msgstr "Если вы хотите вручную вставить Simple Author Box в свой пост, вы можете использовать следующий шорткод"
+
+#: inc/class-simple-author-box-admin-page.php:62
+msgid "When turned ON, the author box will no longer be automatically added to your post. You'll need to manually add it using shortcodes or a PHP function."
+msgstr "При включении блок автора больше не будет автоматически добавляться к вашему посту. Вам нужно будет добавить его вручную, используя шорткоды или PHP функцию."
+
+#: inc/class-simple-author-box-admin-page.php:47
+msgid "Typography"
+msgstr "Типографика"
+
+#: inc/class-simple-author-box-admin-page.php:36
+msgid "Colors"
+msgstr "Цвета"
+
+#: template/template-sab.php:125
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/class-simple-author-box-admin-page.php:27
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: inc/class-simple-author-box-admin-page.php:559
+msgid "Normal"
+msgstr "Обычный"
+
+#. Plugin Name of the plugin
+#: inc/class-simple-author-box-admin-page.php:797
+#: inc/class-simple-author-box-admin-page.php:811
+#: inc/class-simple-author-box-widget.php:15
+#: inc/class-simple-author-box.php:117 inc/class-simple-author-box.php:462
+#: inc/elementor/widgets/class-simple-author-box-elementor.php:19
+msgid "Simple Author Box"
+msgstr "Simple Author Box"
+
+#: inc/class-simple-author-box-admin-page.php:710
+msgid "This option is useful ONLY if you run a plugin that optimizes your CSS delivery or moves your stylesheets to the footer, to get a higher score on speed testing services. However, the plugin style is loaded only on single post and single page."
+msgstr "Эта опция полезна ТОЛЬКО в том случае, если вы запускаете плагин, который оптимизирует CSS или перемещает ваши таблицы стилей в футер, чтобы получить более высокий балл при тестирования скорости. Однако стиль плагина загружается только для одного поста и одной страницы."
+
+#: inc/class-simple-author-box-admin-page.php:709
+msgid "Load generated inline style to footer"
+msgstr "Загрузить созданный встроенный стиль в футер"
+
+#: inc/class-simple-author-box-admin-page.php:560
+msgid "Italic"
+msgstr "Italic (курсив)"
+
+#: inc/class-simple-author-box-admin-page.php:555
+msgid "Author description font style"
+msgstr "Стиль шрифта описания автора"
+
+#: inc/class-simple-author-box-admin-page.php:545
+msgid "Default font size for social icons is 18px."
+msgstr "Размер шрифта по умолчанию для значков соц сетей - 18 px."
+
+#: inc/class-simple-author-box-admin-page.php:544
+msgid "Size of social icons"
+msgstr "Размер соц иконок"
+
+#. Description of the plugin
+msgid "Adds a responsive author box with social icons on any post."
+msgstr "Добавляет адаптивный блок автора с соц значками в любую вашу запись."
+
+#: inc/class-simple-author-box-admin-page.php:292
+#: inc/class-simple-author-box-admin-page.php:369
+msgid "Left"
+msgstr "Слева"
+
+#: inc/class-simple-author-box-admin-page.php:293
+#: inc/class-simple-author-box-admin-page.php:370
+msgid "Right"
+msgstr "Справа"
+
+#: inc/class-simple-author-box-admin-page.php:111
+#: inc/class-simple-author-box-admin-page.php:348
+msgid "None"
+msgstr "Отсутствует"
+
+#: inc/class-simple-author-box-admin-page.php:534
+msgid "Default font size for author description is 14px."
+msgstr "Размер шрифта по умолчанию для описания автора - 14 px."
+
+#: inc/class-simple-author-box-admin-page.php:533
+msgid "Author description font size"
+msgstr "Размер шрифта описания автора"
+
+#: inc/class-simple-author-box-admin-page.php:522
+msgid "Default font size for author website is 14px."
+msgstr "Размер шрифта по умолчанию для сайта автора - 14 px."
+
+#: inc/class-simple-author-box-admin-page.php:521
+msgid "Author website font size"
+msgstr "Размер шрифта сайта автора"
+
+#: inc/class-simple-author-box-admin-page.php:499
+msgid "Default font size for author name is 18px."
+msgstr "Размер шрифта по умолчанию для имени автора - 18 px."
+
+#: inc/class-simple-author-box-admin-page.php:498
+msgid "Author name font size"
+msgstr "Размер шрифта имени автора"
+
+#: inc/class-simple-author-box-admin-page.php:491
+msgid "Author description font family"
+msgstr "Шрифт описания автора"
+
+#: inc/class-simple-author-box-admin-page.php:483
+msgid "Author website font family"
+msgstr "Шрифт сайта автора"
+
+#: inc/class-simple-author-box-admin-page.php:468
+msgid "Author name font family"
+msgstr "Шрифт имени автора"
+
+#: inc/class-simple-author-box-admin-page.php:445
+msgid "Social icons color (for symbols only)"
+msgstr "Цвет соц иконок (только для символов)"
+
+#: inc/class-simple-author-box-admin-page.php:421
+msgid "Background color of social icons bar"
+msgstr "Цвет фона панели соц иконок"
+
+#: inc/class-simple-author-box-admin-page.php:408
+msgid "Author website link color"
+msgstr "Цвет ссылки на сайт автора"
+
+#: inc/class-simple-author-box-admin-page.php:402
+msgid "Author name color"
+msgstr "Цвет имени автора"
+
+#: inc/class-simple-author-box-admin-page.php:165
+msgid "Hide the social icons on author box"
+msgstr "Скрыть значки соц сетей в поле автора"
+
+#: inc/class-simple-author-box-admin-page.php:159
+msgid "Open social icon links in a new tab"
+msgstr "Открывать ссылки соц сетей в новой вкладке"
+
+#: inc/class-simple-author-box-admin-page.php:337
+msgid "Show a thin border on colored social icons"
+msgstr "Показывать тонкую рамку на цветных значках соц сетей"
+
+#: inc/class-simple-author-box-admin-page.php:330
+msgid "Use flat long shadow effect"
+msgstr "Используйте эффект плоской длинной тени"
+
+#: inc/class-simple-author-box-admin-page.php:315
+msgid "Squares"
+msgstr "Квадраты"
+
+#: inc/class-simple-author-box-admin-page.php:311
+msgid "Social icons style"
+msgstr "Стиль соц иконок"
+
+#: inc/class-simple-author-box-admin-page.php:304
+msgid "Symbols"
+msgstr "Символы"
+
+#: inc/class-simple-author-box-admin-page.php:305
+msgid "Colored"
+msgstr "Цветные"
+
+#: inc/class-simple-author-box-admin-page.php:280
+msgid "Add \"nofollow\" attribute on author website link"
+msgstr "Добавить атрибут \"nofollow\" для ссылки сайта автора"
+
+#: inc/class-simple-author-box-admin-page.php:273
+msgid "Open author website link in a new tab"
+msgstr "Открывать ссылку на сайт автора в новой вкладке"
+
+#: inc/class-simple-author-box-admin-page.php:288
+msgid "Author website position"
+msgstr "Позиция сайта автора"
+
+#: inc/class-simple-author-box-admin-page.php:266
+msgid "Show author website"
+msgstr "Показать сайт автора"
+
+#: inc/class-simple-author-box-admin-page.php:259
+msgid "Rotate effect on author avatar hover"
+msgstr "Эффект поворота при наведении на аватар автора"
+
+#: inc/class-simple-author-box-admin-page.php:246
+msgid "Square"
+msgstr "Квадрат"
+
+#: inc/class-simple-author-box-admin-page.php:247
+#: inc/class-simple-author-box-admin-page.php:316
+msgid "Circle"
+msgstr "Круг"
+
+#: inc/class-simple-author-box-admin-page.php:242
+msgid "Author avatar image style"
+msgstr "Стиль изображения аватара автора"
+
+#: inc/class-simple-author-box-admin-page.php:81
+msgid "Hide the author box if author description is empty"
+msgstr "Скрыть поле автора, если описание автора пусто"
+
+#: inc/class-simple-author-box-admin-page.php:184
+msgid "Bottom margin of author box"
+msgstr "Нижний отступ (margin) поля автора"
+
+#: inc/class-simple-author-box-admin-page.php:173
+msgid "Top margin of author box"
+msgstr "Верхний отступ (margin) поля автора"
+
+#: inc/class-simple-author-box-admin-page.php:68
+msgid "If you want to manually insert the Simple Author Box in your template file (single post view), you can use the following code snippet"
+msgstr "Если вы хотите вручную вставить Simple Author Box в файл шаблона (одиночный пост), вы можете использовать следующий фрагмент кода"
+
+#: inc/class-simple-author-box-admin-page.php:61
+msgid "Manually insert the Simple Author Box"
+msgstr "Вставить Simple Author Box вручную"

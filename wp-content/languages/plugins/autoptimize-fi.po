@@ -1,0 +1,390 @@
+# Translation of Plugins - Autoptimize - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - Autoptimize - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-29 04:22:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - Autoptimize - Stable (latest release)\n"
+
+#: classes/autoptimizeImages.php:1485
+msgid "based on status at "
+msgstr "perustuu tilanteeseen"
+
+#: classes/autoptimizeImages.php:1487
+msgid "based on previously fetched data"
+msgstr "perustuu aikaisemmin noudettuun dataan"
+
+#. translators: link points Async Javascript settings page.
+#: classes/autoptimizeExtra.php:614
+msgid "You have \"Async JavaScript\" installed, %1$sconfiguration of async javascript is best done there%2$s."
+msgstr "Sinulla on \"Async JavaScript\" asennettuna, %1$sasynkronisen javascriptin asetukset on paras hoitaa siellä%2$s."
+
+#. translators: link points to shortpixel image test page.
+#: classes/autoptimizeImages.php:1378
+msgid "You can %1$stest compression levels here%2$s."
+msgstr "Voit %1$skokeilla pakkaustasoja täällä%2$s."
+
+#. translators: links points to shortpixel TOS & Privacy Policy.
+#: classes/autoptimizeImages.php:1344
+msgid "Usage of this feature is subject to Shortpixel's %1$sTerms of Use%2$s and %3$sPrivacy policy%4$s."
+msgstr "Tämän ominaisuuden käyttäminen on Shortpixelin %1$skäyttöehtojen%2$s ja %3$stietosuojakäytännön%4$s alaista."
+
+#: classes/autoptimizeImages.php:1328
+msgid "Shortpixel status: "
+msgstr "ShortPixelin tila:"
+
+#: classes/autoptimizeImages.php:1288
+msgid "The image optimization service is launching, but not yet available for this domain, it should become available in the next couple of days."
+msgstr "Kuvanoptimointipalvelu on käynnistymässä, mutta ei vielä tarjolla tälle domanille. Se tulee saataville lähipäivinä."
+
+#. translators: "log in to check your account" will appear in a "a href".
+#: classes/autoptimizeImages.php:1472
+msgid "Your ShortPixel image optimization and CDN quota are in good shape, %1$slog in to check your account%2$s."
+msgstr "ShortPixelin kuvanoptimointi- ja CDN-kiintiösi ovat hyvässä kunnossa, %1$skirjaudu sisään tarkistaaksesi tilisi%2$s."
+
+#: classes/autoptimizeImages.php:1356
+msgid "Image Optimization quality"
+msgstr "Kuvanoptimoinnin laatu"
+
+#. translators: "Autoptimize support forum" will appear in a "a href".
+#: classes/autoptimizeImages.php:1281
+msgid "The image optimization service is currently down, image optimization will be skipped until further notice. Check the %1$sAutoptimize support forum%2$s for more info."
+msgstr "Kuvanoptimointipalvelu ei ole saatavilla juuri nyt, kuvienoptimointi ohitetaan kunnes ilmoitamme toisin. %1$sAutoptimizen tukifoorumilta%2$s löytyy lisätietoja."
+
+#. translators: "display:swap" should remain untranslated, will be shown in
+#. code tags.
+#: classes/autoptimizeExtra.php:562
+msgid "Combine and link in head (fonts load fast but are render-blocking)"
+msgstr "Yhdistä ja linkitä otsakkeessa (fontit lataavat nopeammin, mutta estävät renderöintiä)"
+
+#: classes/autoptimizeConfig.php:293
+msgid "Aggregate all linked CSS-files? If this option is off, the individual CSS-files will remain in place but will be minified."
+msgstr "Kokoa kaikki linkitetyt CSS-tiedostot? Jos tämä asetus on pois päältä, yksittäiset CSS-tiedostot minimoidaan, mutta niitä ei yhdistetä."
+
+#: classes/autoptimizeConfig.php:291
+msgid "Aggregate CSS-files?"
+msgstr "Yhdistä CSS-tiedostot?"
+
+#: classes/autoptimizeConfig.php:227
+msgid "Aggregate JS-files?"
+msgstr "Yhdistä JS-tiedostot?"
+
+#: classes/autoptimizePartners.php:84
+msgid "More info"
+msgstr "Lisätietoja"
+
+#. translators: %s will be replaced by a link to "wp youtube lyte" plugin.
+#: classes/autoptimizeExtra.php:639
+msgid "%s allows you to “lazy load” your videos, by inserting responsive “Lite YouTube Embeds\". "
+msgstr "%s mahdollistaa videoiden \"lazy load\" -toiminnon, käyttämällä responsiivista \"Lite YouTube Embed\"-sisällytyksiä."
+
+#: classes/autoptimizeExtra.php:636
+msgid "Click here to configure it."
+msgstr "Säädä sen asetukset tästä."
+
+#: classes/autoptimizeExtra.php:634
+msgid "Great, you have WP YouTube Lyte installed."
+msgstr "Hienoa, olet asentanut WP YouTube Lyten."
+
+#: classes/autoptimizeExtra.php:630
+msgid "Optimize YouTube videos"
+msgstr "Optimoi YouTube-videot"
+
+#: classes/autoptimizeExtra.php:624 classes/autoptimizeExtra.php:641
+msgid "Click here to install and activate it."
+msgstr "Asenna ja aktivoi se tästä."
+
+#. translators: %s will be replaced by a link to the "async javascript" plugin.
+#: classes/autoptimizeExtra.php:622
+msgid "Configuration of async javascript is easier and more flexible using the %s plugin."
+msgstr "Asynkronisen javascriptin säätäminen on helpompaa ja joustavampaa käyttäen %s -lisäosaa."
+
+#: classes/autoptimizeExtra.php:519 classes/autoptimizeExtra.php:541
+msgid "Extra"
+msgstr "Lisäasetuksia"
+
+#: classes/autoptimizeExtra.php:559
+msgid "Leave as is"
+msgstr "Anna olla sellaisenaan"
+
+#: classes/autoptimizeExtra.php:557
+msgid "Google Fonts"
+msgstr "Google-fontit"
+
+#: classes/autoptimizeExtra.php:575
+msgid "Remove query strings from static resources"
+msgstr "Poista kyselyparametrit staattisista resursseista"
+
+#: classes/autoptimizeExtra.php:571
+msgid "Removes WordPress' core emojis' inline CSS, inline JavaScript, and an otherwise un-autoptimized JavaScript file."
+msgstr "Poistaa WordPressin emojien inline-CSS:t, inline-JavaScriptit ja muuten optimoimattoman JavaScript-tiedoston."
+
+#: classes/autoptimizeExtra.php:569
+msgid "Remove emojis"
+msgstr "Poista emojit"
+
+#: classes/autoptimizeExtra.php:554
+msgid "The following settings can improve your site's performance even more."
+msgstr "Näillä asetuksilla voit parantaa sivustosi suorituskykyä entisestään."
+
+#: classes/autoptimizeExtra.php:553
+msgid "Extra Auto-Optimizations"
+msgstr "Ylimääräisiä optimointeja"
+
+#: classes/autoptimizeCLI.php:30
+msgid "Cache flushed."
+msgstr "Välimuisti tyhjennetty."
+
+#: classes/autoptimizeCLI.php:28
+msgid "Flushing the cache..."
+msgstr "Tyhjennetään välimuistia..."
+
+#: classes/autoptimizeConfig.php:474
+msgid "By default Autoptimize is also active on your shop's cart/ checkout, uncheck not to optimize those."
+msgstr "Autoptimize on oletuksena aktiivinen myös kauppasi ostoskorissa ja kassalla. Poista valinta, jos et halua optimoida näitä sivuja."
+
+#: classes/autoptimizeConfig.php:472
+msgid "Also optimize shop cart/ checkout?"
+msgstr "Optimoi myös kaupan ostoskori ja kassa?"
+
+#: classes/autoptimizeConfig.php:436
+msgid "Misc Options"
+msgstr "Sekalaisia asetuksia"
+
+#: classes/autoptimizeConfig.php:261 classes/autoptimizeConfig.php:310
+#: classes/autoptimizeExtra.php:565
+msgid "(deprecated)"
+msgstr "(vanhentunut)"
+
+#. Translators: %s is the cache directory location.
+#: classes/autoptimizeMain.php:753
+msgid "Autoptimize cannot write to the cache directory (%s), please fix to enable CSS/ JS optimization!"
+msgstr "Autoptimize ei voi kirjoittaa välimuistihakemistoon (%s), korjaa tämä, jotta saat CSS/JS-optimoinnin käyttöön!"
+
+#: classes/autoptimizePartners.php:40 classes/autoptimizePartners.php:142
+msgid "Optimize More!"
+msgstr "Optimoi enemmän!"
+
+#: classes/autoptimizeCacheChecker.php:67
+msgid "Autoptimize's cache size is getting big, consider purging the cache. Have a look at https://wordpress.org/plugins/autoptimize/faq/ to see how you can keep the cache size under control."
+msgstr "Autoptimizen välimuisti on jo aika iso; harkitse sen tyhjentämistä. Osoitteesta https://wordpress.org/plugins/autoptimize/faq/ löydät ohjeita välimuistin pitämiseksi hallinnassa."
+
+#: classes/autoptimizeCacheChecker.php:66
+msgid "Autoptimize cache size warning"
+msgstr "Varoitus Autoptimizen välimuistin koosta"
+
+#. translators: links to the Autoptimize settings page.
+#: classes/autoptimizeToolbar.php:153
+msgid "Dismiss this notice."
+msgstr "Piilota."
+
+#: classes/autoptimizeToolbar.php:107
+msgid "Files"
+msgstr "Tiedostoja"
+
+#: classes/autoptimizeToolbar.php:106
+msgid "Size"
+msgstr "Koko"
+
+#: classes/autoptimizePartners.php:146
+msgid "These Autoptimize power-ups and related services will improve your site's performance even more!"
+msgstr "Näillä Autoptimizen lisäosilla ja muilla palveluilla parannat sivustosi suorituskykyä entisestään!"
+
+#: classes/autoptimizeConfig.php:375
+msgid "Enable this if you want HTML comments to remain in the page."
+msgstr "Tämä asetus säästää HTML-kommentit sivulla. Muuten ne poistetaan."
+
+#: classes/autoptimizeConfig.php:944
+msgid "No items"
+msgstr "Ei kohteita"
+
+#. translators: the variable contains a date.
+#: classes/autoptimizeConfig.php:950
+msgid "Posted %s"
+msgstr "Julkaistu %s"
+
+#: classes/autoptimizeConfig.php:529
+msgid "Try my other plugins!"
+msgstr "Kokeile muita lisäosiani!"
+
+#: classes/autoptimizeConfig.php:529
+msgid "Happy with Autoptimize?"
+msgstr "Pidätkö Autoptimizesta?"
+
+#: classes/autoptimizeConfig.php:298
+msgid "Check this option for Autoptimize to also aggregate CSS in the HTML."
+msgstr "Jos haluat, että Autoptimize kokoaan yhteen HTML-koodin sisältämän CSS:n, valitse tämä asetus."
+
+#: classes/autoptimizeConfig.php:296
+msgid "Also aggregate inline CSS?"
+msgstr "Yhdistä dokumentin sisäinen CSS?"
+
+#: classes/autoptimizeConfig.php:232
+msgid "Also aggregate inline JS?"
+msgstr "Yhdistä dokumentin sisäinen JS?"
+
+#: classes/autoptimizeExtra.php:560
+msgid "Remove Google Fonts"
+msgstr "Poista Google-fontit"
+
+#: classes/autoptimizeConfig.php:413
+msgid "Yes"
+msgstr "Kyllä"
+
+#: classes/autoptimizeConfig.php:413
+msgid "No"
+msgstr "Ei"
+
+#: classes/autoptimizeConfig.php:797 classes/autoptimizeConfig.php:803
+msgid "Settings"
+msgstr "Asetukset"
+
+#: classes/autoptimizeConfig.php:498
+#: classes/autoptimizeCriticalCSSSettings.php:346
+#: classes/autoptimizeExtra.php:647 classes/autoptimizeImages.php:1418
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#. Author of the plugin
+#: autoptimize.php
+msgid "Frank Goossens (futtta)"
+msgstr "Frank Goossens (futtta)"
+
+#: classes/autoptimizeConfig.php:728 classes/autoptimizeConfig.php:731
+#: classes/autoptimizeConfig.php:734
+msgid "Autoptimize Options"
+msgstr "Autoptimizen asetukset"
+
+#: classes/autoptimizeConfig.php:544
+msgid "Do not donate for this plugin!"
+msgstr "Älä lahjoita rahaa tälle lisäosalle!"
+
+#. Plugin Name of the plugin
+#: autoptimize.php classes/autoptimizeCacheChecker.php:111
+#: classes/autoptimizeConfig.php:719 classes/autoptimizeToolbar.php:82
+msgid "Autoptimize"
+msgstr "Autoptimize"
+
+#: classes/autoptimizeConfig.php:499
+msgid "Save Changes and Empty Cache"
+msgstr "Tallenna muutokset ja tyhjennä välimuisti"
+
+#: classes/autoptimizeConfig.php:441
+msgid "By default files saved are static css/js, uncheck this option if your webserver doesn't properly handle the compression and expiry."
+msgstr "Oletuksena tallennettavat tiedostot ovat staattisia CSS- ja JS- tiedostoja. Ota tämä asetus pois käytöstä, jos palvelimesi ei osaa käsitellä pakkausta ja tiedostojen erääntymistä oikein."
+
+#: classes/autoptimizeConfig.php:439
+msgid "Save aggregated script/css as static files?"
+msgstr "Tallenna yhdistetyt skriptit ja CSS staattisina tiedostoina?"
+
+#: classes/autoptimizeConfig.php:416
+msgid "Cached styles and scripts"
+msgstr "Skriptit ja tyylitiedostot välimuistissa"
+
+#: classes/autoptimizeConfig.php:412
+msgid "Can we write?"
+msgstr "Voidaanko välimuistiin kirjoittaa?"
+
+#: classes/autoptimizeConfig.php:408
+msgid "Cache folder"
+msgstr "Välimuistihakemisto"
+
+#: classes/autoptimizeConfig.php:405
+msgid "Cache Info"
+msgstr "Välimuisti"
+
+#: classes/autoptimizeConfig.php:384
+msgid "CDN Base URL"
+msgstr "CDN:n juuri-URL"
+
+#: classes/autoptimizeConfig.php:381
+msgid "CDN Options"
+msgstr "CDN (sisällön jakeluverkosto)"
+
+#: classes/autoptimizeConfig.php:342
+msgid "A comma-separated list of CSS you want to exclude from being optimized."
+msgstr "Pilkuilla erotettu lista CSS-tiedostoista, joita et halua optimoida."
+
+#: classes/autoptimizeConfig.php:339
+msgid "Exclude CSS from Autoptimize:"
+msgstr "Älä optimoi näitä CSS-tiedostoja:"
+
+#: classes/autoptimizeConfig.php:334
+msgid "Inline all CSS?"
+msgstr "Sisällytä kaikki CSS sivulle?"
+
+#: classes/autoptimizeConfig.php:314
+msgid "Don't autoptimize CSS outside the head-section. If the cache gets big, you might want to enable this."
+msgstr "Älä optimoi CSS:ää sivuston head-osion ulkopuolella. Jos välimuisti käy liian isoksi, voit käyttää tätä toimintoa."
+
+#: classes/autoptimizeConfig.php:309
+msgid "Look for styles only in &lt;head&gt;?"
+msgstr "Etsi tyylejä vain &lt;head&gt;-elementistä?"
+
+#: classes/autoptimizeConfig.php:303
+msgid "Enable this to include small background-images in the CSS itself instead of as separate downloads."
+msgstr "Jos kytket tämän asetuksen päälle, pienet taustakuvat sisällytetään CSS:ään erillisenä tiedostona lataamisen sijasta."
+
+#: classes/autoptimizeConfig.php:301
+msgid "Generate data: URIs for images?"
+msgstr "Luo data: URI:t kuville?"
+
+#: classes/autoptimizeConfig.php:287
+msgid "Optimize CSS Code?"
+msgstr "Optimoi CSS?"
+
+#: classes/autoptimizeConfig.php:284
+msgid "CSS Options"
+msgstr "CSS-asetukset"
+
+#: classes/autoptimizeConfig.php:242
+msgid "Add try-catch wrapping?"
+msgstr "Lisää try-catch?"
+
+#: classes/autoptimizeConfig.php:269
+msgid "Exclude scripts from Autoptimize:"
+msgstr "Älä optimoi näitä skriptejä:"
+
+#: classes/autoptimizeConfig.php:265
+msgid "Mostly useful in combination with previous option when using jQuery-based templates, but might help keeping cache size under control."
+msgstr "Erityisen hyödyllinen yhdistettynä edelliseen asetukseen jQueryyn perustuvien sivupohjien kanssa, mutta voi auttaa muutenkin pitämään välimuistin koon hallinnassa."
+
+#: classes/autoptimizeConfig.php:260
+msgid "Look for scripts only in &lt;head&gt;?"
+msgstr "Etsi skriptejä vain &lt;head&gt;-elementistä?"
+
+#: classes/autoptimizeConfig.php:237
+msgid "Force JavaScript in &lt;head&gt;?"
+msgstr "Pakota JavaScriptit &lt;head&gt;-elementtiin?"
+
+#: classes/autoptimizeConfig.php:223
+msgid "Optimize JavaScript Code?"
+msgstr "Optimoi JavaScript?"
+
+#: classes/autoptimizeConfig.php:220
+msgid "JavaScript Options"
+msgstr "JavaScript-asetukset"
+
+#: classes/autoptimizeConfig.php:373
+msgid "Keep HTML comments?"
+msgstr "Säilytä HTML-kommentit?"
+
+#: classes/autoptimizeConfig.php:364
+msgid "Optimize HTML Code?"
+msgstr "Optimoi HTML?"
+
+#: classes/autoptimizeConfig.php:361
+msgid "HTML Options"
+msgstr "HTML-asetukset"
+
+#: classes/autoptimizeConfig.php:94 classes/autoptimizeConfig.php:193
+#: classes/autoptimizeCriticalCSSSettings.php:135
+#: classes/autoptimizeExtra.php:543 classes/autoptimizeImages.php:1268
+#: classes/autoptimizePartners.php:144 classes/autoptimizeProTab.php:90
+msgid "Autoptimize Settings"
+msgstr "Autoptimizen asetukset"
