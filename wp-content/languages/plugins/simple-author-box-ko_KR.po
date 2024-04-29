@@ -1,0 +1,454 @@
+# Translation of Plugins - Simple Author Box - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - Simple Author Box - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-27 01:14:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Simple Author Box - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://www.webfactoryltd.com/"
+msgstr "https://www.webfactoryltd.com/"
+
+#. Plugin URI of the plugin
+msgid "https://wpauthorbox.com/"
+msgstr "https://wpauthorbox.com/"
+
+#: inc/elementor/class-simple-author-box-elementor-check.php:105
+msgid "PHP"
+msgstr "PHP"
+
+#: inc/elementor/class-simple-author-box-elementor-check.php:82
+msgid "Elementor"
+msgstr "엘리멘터"
+
+#: inc/class-simple-author-box-admin-page.php:217
+msgid "Border Width"
+msgstr "테두리 폭"
+
+#: inc/class-simple-author-box-admin-page.php:218
+msgid "This controls the border width of the author box"
+msgstr "이 설정은 글쓴이 상자의 테두리 폭을 조정합니다"
+
+#: inc/class-simple-author-box-admin-page.php:427
+msgid "Background color of author box"
+msgstr "글쓴이 상자의 배경색상"
+
+#: inc/class-simple-author-box-admin-page.php:428
+msgid "Select the color for the author box background"
+msgstr "글쓴이 상자의 배경색상을 선택해주세요"
+
+#: inc/class-simple-author-box-admin-page.php:433
+msgid "Color of author box paragraphs"
+msgstr "글쓴이 상자의 단락 색상"
+
+#: inc/class-simple-author-box-admin-page.php:434
+msgid "Select the color for the author box paragraphs"
+msgstr "글쓴이 상자의 단락 색상을 선택해주세요"
+
+#: inc/class-simple-author-box-admin-page.php:439
+msgid "Color of author box links"
+msgstr "글쓴이 상자 링크 색상"
+
+#: inc/class-simple-author-box-admin-page.php:440
+msgid "Select the color for the author box links"
+msgstr "글쓴이 상자 링크 색상을 선택해주세요"
+
+#: inc/class-simple-author-box-admin-page.php:51
+msgid "Guest Author"
+msgstr "게스트 글쓴이"
+
+#: inc/class-simple-author-box-admin-page.php:300
+msgid "Social icons type"
+msgstr "소셜 아이콘 타입"
+
+#: inc/class-simple-author-box-user-profile.php:91
+msgid "+ Add new social platform"
+msgstr "+ 새로운 소셜 플랫폼 추가"
+
+#: inc/class-simple-author-box-user-profile.php:110
+msgid "Custom User Profile Image (Simple Author Box)"
+msgstr "맞춤 유저 프로필 이미지 (Simple Author Box)"
+
+#: template/template-sab.php:81
+msgid "Edit profile"
+msgstr "프로필 수정"
+
+#: inc/class-simple-author-box-user-profile.php:113
+msgid "Profile Image"
+msgstr "프로필 이미지"
+
+#: inc/class-simple-author-box-user-profile.php:126
+msgid "Upload Image"
+msgstr "이미지 업로드"
+
+#: inc/class-simple-author-box-user-profile.php:124
+msgid "Remove Image"
+msgstr "이미지 삭제"
+
+#: inc/class-simple-author-box-user-profile.php:39
+msgid "Social Media Links (Simple Author Box)"
+msgstr "소셜 미디어 링크 (Simple Author Box)"
+
+#: inc/class-simple-author-box-admin-page.php:887
+#: inc/class-simple-author-box-admin-page.php:899
+msgid "Save Settings"
+msgstr "설정 저장"
+
+#: inc/class-simple-author-box-admin-page.php:556
+msgid "Select the font style for the author's description"
+msgstr "글쓴이 설명 폰트 스타일 선택"
+
+#: inc/class-simple-author-box-admin-page.php:338
+msgid "Add a border to social icons container."
+msgstr "소셜 아이콘의 테두리 추가"
+
+#: inc/class-simple-author-box-admin-page.php:27
+msgid "Appearance"
+msgstr "외모"
+
+#: inc/class-simple-author-box-admin-page.php:324
+msgid "Add a rotate effect when you hover on social icons hover"
+msgstr "소셜 아이콘 위에 마우스 오버를 할 경우 돌아가는 효과 추가"
+
+#: inc/class-simple-author-box-admin-page.php:415
+msgid "Border color"
+msgstr "테두리 색상"
+
+#: template/template-sab.php:125
+msgid "Settings"
+msgstr "설정"
+
+#: inc/class-simple-author-box-admin-page.php:36
+msgid "Colors"
+msgstr "색상"
+
+#: inc/class-simple-author-box-admin-page.php:47
+msgid "Typography"
+msgstr "타이포그래피"
+
+#: inc/class-simple-author-box-admin-page.php:62
+msgid "When turned ON, the author box will no longer be automatically added to your post. You'll need to manually add it using shortcodes or a PHP function."
+msgstr "활성화 될 경우 글쓴이 상자가 더이상 게시물에 자동으로 추가가 되지 않습니다. 쇼트코드나 PHP 함수로 수동으로 추가하셔야 합니다."
+
+#: inc/class-simple-author-box-admin-page.php:75
+msgid "If you want to manually insert the Simple Author Box in your post content, you can use the following shortcode"
+msgstr "만약 Simple Author Box 을 게시물에 수동으로 추가하고 싶으시다면 다음과 같은 쇼트코드를 이용해주세요"
+
+#: inc/class-simple-author-box-admin-page.php:82
+msgid "When turned ON, the author box will not appear for users without a description"
+msgstr "활성화가 될 경우 유저가 설명이 없으면 글쓴이 상자가 보이지 않습니다"
+
+#: inc/class-simple-author-box-admin-page.php:153
+msgid "Show author email"
+msgstr "글쓴이 이메일 표시"
+
+#: inc/class-simple-author-box-admin-page.php:154
+msgid "When turned ON, the plugin will add an email option next to the social icons."
+msgstr "활성화 될 경우 플러그인이 이메일 옵션을 소셜 아이콘 옆에 추가합니다."
+
+#: inc/class-simple-author-box-admin-page.php:160
+msgid "When turned ON, the author’s social links will open in a new tab."
+msgstr "활성화 될 경우 글쓴이의 소셜 링크가 새 탭에서 열립니다."
+
+#: inc/class-simple-author-box-admin-page.php:166
+msgid "When turned ON, the author’s social icons will be hidden."
+msgstr "활성화 될 경우 글쓴이 소셜 아이콘이 숨겨집니다."
+
+#: inc/class-simple-author-box-admin-page.php:174
+msgid "Choose how much space to add above the author box"
+msgstr "글쓴이 상자 위에 얼마나 많은 공간을 추가할지 정하세요"
+
+#: inc/class-simple-author-box-admin-page.php:185
+msgid "Choose how much space to add below the author box"
+msgstr "글쓴이 상자 밑에 얼마나 많은 공간을 추가할지 정하세요"
+
+#: inc/class-simple-author-box-admin-page.php:195
+msgid "Padding top and bottom of author box"
+msgstr "글쓴이 상자 위쪽 안쪽 여백 (padding)"
+
+#: inc/class-simple-author-box-admin-page.php:196
+msgid "This controls the padding top & bottom of the author box"
+msgstr "글쓴이 상자 위/아래 안쪽 여백 (padding) 을 설정합니다"
+
+#: inc/class-simple-author-box-admin-page.php:206
+msgid "Padding left and right of author box"
+msgstr "글쓴이 상자 왼쪽과 오른쪽 안쪽 여백 (Padding)"
+
+#: inc/class-simple-author-box-admin-page.php:207
+msgid "This controls the padding left & right of the author box"
+msgstr "글쓴이 상자 왼쪽/오른쪽 안쪽 여백 (padding) 을 설정합니다"
+
+#: inc/class-simple-author-box-admin-page.php:243
+msgid "Change the shape of the author’s avatar image"
+msgstr "글쓴이 아바타 이미지의 모양을 조정합니다"
+
+#: inc/class-simple-author-box-admin-page.php:331
+msgid "Check this if you want a flat shadow for social icons"
+msgstr "소셜 아이콘에 평평한 그림자를 원하신다면 활성화 해주세요"
+
+#: inc/class-simple-author-box-admin-page.php:301
+msgid "Colored background adds a background behind the social icon symbol"
+msgstr "배경 색상은 소셜 아이콘 뒤에 배경을 추가합니다"
+
+#: inc/class-simple-author-box-admin-page.php:403
+msgid "Select the color for author's name text"
+msgstr "글쓴이 이름 색상 선택"
+
+#: inc/class-simple-author-box-admin-page.php:260
+msgid "When turned ON, this adds a rotate effect when hovering over the author's avatar"
+msgstr "활성화 될 경우 글쓴이 아바타 마우스 오버시 회전효과 추가"
+
+#: inc/class-simple-author-box-admin-page.php:267
+msgid "When turned ON, the box will include the author's website"
+msgstr "활성화 될 경우 글쓴이 웹사이트에 상자 추가"
+
+#: inc/class-simple-author-box-admin-page.php:274
+msgid "If you check this the author's link will open in a new tab"
+msgstr "확인해 볼 경우 글쓴이 링크가 새로운 탭에서 열립니다"
+
+#: inc/class-simple-author-box-admin-page.php:281
+msgid "Toggling this to ON will make the author website have the no-follow parameter added."
+msgstr "활성화 할경우 no-follow 파라미터 추가"
+
+#: inc/class-simple-author-box-admin-page.php:289
+msgid "Select where you want to show the website ( left or right )"
+msgstr "웹사이트를 어디에 보여줄건지 선택 (왼쪽 또는 오른쪽)"
+
+#: inc/class-simple-author-box-admin-page.php:312
+msgid "Select the shape of social icons' container"
+msgstr "소셜 아이콘 컨테이너의 모양 선택"
+
+#: inc/class-simple-author-box-admin-page.php:323
+msgid "Rotate effect on social icons hover (works only for circle icons)"
+msgstr "소셜 아이콘 마우스 오버시 회전 효과 추가 (원형 아이콘에만 작동)"
+
+#: inc/class-simple-author-box-admin-page.php:409
+msgid "Select the color for author's website link"
+msgstr "글쓴이 웹사이트 링크 색상 선택"
+
+#: inc/class-simple-author-box-admin-page.php:416
+msgid "Select the color for author box border"
+msgstr "글쓴이 상자 테두리 색상 선택"
+
+#: inc/class-simple-author-box-admin-page.php:492
+msgid "Select the font family for the author's description"
+msgstr "글쓴이 설명 글씨체 선택"
+
+#: inc/class-simple-author-box-admin-page.php:484
+msgid "Select the font family for the author's website"
+msgstr "글쓴이 웹사이트 글씨체 선택"
+
+#: inc/class-simple-author-box-admin-page.php:469
+msgid "Select the font family for the author's name"
+msgstr "글쓴이 이름 글씨체 선택"
+
+#: inc/class-simple-author-box-admin-page.php:446
+msgid "Select the color for social icons when using the symbols only social icon type"
+msgstr "소셜 기호만 이용할시 소셜 아이콘 색상 선택"
+
+#: inc/class-simple-author-box-admin-page.php:422
+msgid "Select the color for the social icons bar background"
+msgstr "소셜 아이콘 바 배경 색상 선택"
+
+#: inc/class-simple-author-box-admin-page.php:555
+msgid "Author description font style"
+msgstr "글쓴이 설명 폰트 스타일"
+
+#: inc/class-simple-author-box-admin-page.php:544
+msgid "Size of social icons"
+msgstr "소셜 아이콘 크기"
+
+#: inc/class-simple-author-box-admin-page.php:545
+msgid "Default font size for social icons is 18px."
+msgstr "소셜 아이콘 기본 글자 크기는 18px 입니다."
+
+#: inc/class-simple-author-box-admin-page.php:560
+msgid "Italic"
+msgstr "이탤릭체"
+
+#: inc/class-simple-author-box-admin-page.php:559
+msgid "Normal"
+msgstr "보통"
+
+#: inc/class-simple-author-box-admin-page.php:709
+msgid "Load generated inline style to footer"
+msgstr "만들어진 인라인 스타일을 바닥글에 로딩"
+
+#: inc/class-simple-author-box-admin-page.php:710
+msgid "This option is useful ONLY if you run a plugin that optimizes your CSS delivery or moves your stylesheets to the footer, to get a higher score on speed testing services. However, the plugin style is loaded only on single post and single page."
+msgstr "본 옵션은 CSS를 바닥글에 추가함으로써 최적화 하는 플러그인이 활성화 되어있을때만 쓸모 있습니다. 본 플러그인 스타일은 싱글 게시물과 싱글 페이지에만 로딩이 됩니다."
+
+#. Plugin Name of the plugin
+#: inc/class-simple-author-box-admin-page.php:797
+#: inc/class-simple-author-box-admin-page.php:811
+#: inc/class-simple-author-box-widget.php:15
+#: inc/class-simple-author-box.php:117 inc/class-simple-author-box.php:462
+#: inc/elementor/widgets/class-simple-author-box-elementor.php:19
+msgid "Simple Author Box"
+msgstr "Simple Author Box"
+
+#. Description of the plugin
+msgid "Adds a responsive author box with social icons on any post."
+msgstr "모든 글에 소셜 아이콘이 있는 반응형 작성자 상자를 추가합니다."
+
+#: inc/class-simple-author-box-admin-page.php:111
+#: inc/class-simple-author-box-admin-page.php:348
+msgid "None"
+msgstr "없음"
+
+#: inc/class-simple-author-box-admin-page.php:280
+msgid "Add \"nofollow\" attribute on author website link"
+msgstr "글쓴이 웹사이트 링크의 \"nofollow\" 특성 추가"
+
+#: inc/class-simple-author-box-admin-page.php:242
+msgid "Author avatar image style"
+msgstr "글쓴이 아바타 이미지 스타일"
+
+#: inc/class-simple-author-box-admin-page.php:491
+msgid "Author description font family"
+msgstr "글쓴이 설명 폰트"
+
+#: inc/class-simple-author-box-admin-page.php:533
+msgid "Author description font size"
+msgstr "글쓴이 설명 글자 크기"
+
+#: inc/class-simple-author-box-admin-page.php:468
+msgid "Author name font family"
+msgstr "글쓴이 이름 폰트"
+
+#: inc/class-simple-author-box-admin-page.php:498
+msgid "Author name font size"
+msgstr "글쓴이 이름 글자 크기"
+
+#: inc/class-simple-author-box-admin-page.php:483
+msgid "Author website font family"
+msgstr "글쓴이 웹사이트 폰트"
+
+#: inc/class-simple-author-box-admin-page.php:521
+msgid "Author website font size"
+msgstr "글쓴이 웹사이트 글자 크기"
+
+#: inc/class-simple-author-box-admin-page.php:288
+msgid "Author website position"
+msgstr "글쓴이 웹사이트 위치"
+
+#: inc/class-simple-author-box-admin-page.php:421
+msgid "Background color of social icons bar"
+msgstr "소셜 아이콘 막대의 배경 색상"
+
+#: inc/class-simple-author-box-admin-page.php:293
+#: inc/class-simple-author-box-admin-page.php:370
+msgid "Right"
+msgstr "우측"
+
+#: inc/class-simple-author-box-admin-page.php:292
+#: inc/class-simple-author-box-admin-page.php:369
+msgid "Left"
+msgstr "좌측"
+
+#: inc/class-simple-author-box-admin-page.php:247
+#: inc/class-simple-author-box-admin-page.php:316
+msgid "Circle"
+msgstr "원형"
+
+#: inc/class-simple-author-box-admin-page.php:246
+msgid "Square"
+msgstr "정사각형"
+
+#: inc/class-simple-author-box-admin-page.php:61
+msgid "Manually insert the Simple Author Box"
+msgstr "수동으로 Simple Author Box 추가"
+
+#: inc/class-simple-author-box-admin-page.php:68
+msgid "If you want to manually insert the Simple Author Box in your template file (single post view), you can use the following code snippet"
+msgstr "만약 Simple Author Box 을 템플릿 파일 (single post view) 에 수동으로 추가 하고 싶으시다면, 다음과 같은 코드 조각 (snippet) 을 이용해주세요"
+
+#: inc/class-simple-author-box-admin-page.php:184
+msgid "Bottom margin of author box"
+msgstr "글쓴이 상자의 아래쪽 여백"
+
+#: inc/class-simple-author-box-admin-page.php:173
+msgid "Top margin of author box"
+msgstr "글쓴이 상자의 위쪽 여백"
+
+#: inc/class-simple-author-box-admin-page.php:266
+msgid "Show author website"
+msgstr "글쓴이 웹사이트 표시"
+
+#: inc/class-simple-author-box-admin-page.php:81
+msgid "Hide the author box if author description is empty"
+msgstr "글쓴이 설명이 없을경우 글쓴이 상자를 숨깁니다"
+
+#: inc/class-simple-author-box-admin-page.php:259
+msgid "Rotate effect on author avatar hover"
+msgstr "글쓴이 아바타에 마우스 오버를 할 경우 회전 효과 추가"
+
+#: inc/class-simple-author-box-admin-page.php:305
+msgid "Colored"
+msgstr "색상"
+
+#: inc/class-simple-author-box-admin-page.php:304
+msgid "Symbols"
+msgstr "기호"
+
+#: inc/class-simple-author-box-admin-page.php:311
+msgid "Social icons style"
+msgstr "소셜 아이콘 스타일"
+
+#: inc/class-simple-author-box-admin-page.php:315
+msgid "Squares"
+msgstr "정사각형"
+
+#: inc/class-simple-author-box-admin-page.php:330
+msgid "Use flat long shadow effect"
+msgstr "길고 평평한 그림자 효과 이용"
+
+#: inc/class-simple-author-box-admin-page.php:337
+msgid "Show a thin border on colored social icons"
+msgstr "색상이 있는 소셜 아이콘에 가느다란 테둘이 표시"
+
+#: inc/class-simple-author-box-admin-page.php:159
+msgid "Open social icon links in a new tab"
+msgstr "소셜 아이콘 링크 새로운 탭에서 열기"
+
+#: inc/class-simple-author-box-admin-page.php:273
+msgid "Open author website link in a new tab"
+msgstr "글쓴이 웹사이트 링크 새로운 탭에서 열기"
+
+#: inc/class-simple-author-box-admin-page.php:165
+msgid "Hide the social icons on author box"
+msgstr "소셜 아이콘을 글쓴이 상자에서 숨기기"
+
+#: inc/class-simple-author-box-admin-page.php:402
+msgid "Author name color"
+msgstr "글쓴이 이름 색상"
+
+#: inc/class-simple-author-box-admin-page.php:408
+msgid "Author website link color"
+msgstr "글쓴이 웹사이트 링크 색상"
+
+#: inc/class-simple-author-box-admin-page.php:445
+msgid "Social icons color (for symbols only)"
+msgstr "소셜 아이콘 색상 (기호에만 적용)"
+
+#: inc/class-simple-author-box-admin-page.php:522
+msgid "Default font size for author website is 14px."
+msgstr "글쓴이 웹사이트의 글자 크기 값은 14px 입니다."
+
+#: inc/class-simple-author-box-admin-page.php:499
+msgid "Default font size for author name is 18px."
+msgstr "글쓴이 이름의 기본 글자 크기 값은 18px 입니다."
+
+#: inc/class-simple-author-box-admin-page.php:534
+msgid "Default font size for author description is 14px."
+msgstr "글쓴이 설명의 기본 글자 크기 값은 14px 입니다."
+
+#: inc/class-simple-author-box-admin-page.php:461
+msgid "Bunny font characters subset"
+msgstr "버니 폰트 캐릭터 서브셋"

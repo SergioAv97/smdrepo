@@ -1,0 +1,57 @@
+.box-guides .container {
+	padding: 3rem;
+	border-radius: 2rem;
+	box-shadow: 0 -1px 25px 1px rgba(0,0,0,.5);
+
+	h2,
+	b:last-of-type {
+		text-align: center;
+	}
+
+	b {
+		display: block;
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	.btn-green {
+		display: table;
+		margin: -1rem auto 0;
+	}
+
+	img {
+		object-fit: fill;
+	}
+
+	ul {
+		li {
+			list-style: none;
+
+			input[type="checkbox"] {
+				display: none;
+			}
+		}
+	}
+}
+
+@media all and (max-width:520px) {
+	.box-guides .container {
+		padding: 1rem;
+		border-radius: 0;
+
+		.grid {
+			div:first-of-type {
+				order: 2;
+			}
+
+			div:last-of-type {
+				order: 1;
+			}
+		}
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
