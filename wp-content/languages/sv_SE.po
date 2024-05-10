@@ -378,15 +378,15 @@ msgstr "Lägg till eller ta bort mönsterkategorier"
 msgid "Function %s used incorrectly in PHP."
 msgstr "Funktion %s användes felaktigt i PHP."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1068
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1069
 msgid "Where the template originally comes from e.g. 'theme'"
 msgstr "Varifrån mallen ursprungligen kommer, t.ex. ”tema”"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1063
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1064
 msgid "Human readable text for the author."
 msgstr "Mänsklig läsbar text för författaren."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:831
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:832
 msgid "Unknown author"
 msgstr "Okänd författare"
 
@@ -750,7 +750,7 @@ msgid "sub item"
 msgstr "underordnat objekt"
 
 #. translators: 1: theme.json, 2: settings.spacing.spacingScale
-#: wp-includes/class-wp-theme-json.php:3513
+#: wp-includes/class-wp-theme-json.php:3531
 msgid "Some of the %1$s %2$s values are invalid"
 msgstr "Några av värdena för %2$s i %1$s är ogiltiga"
 
@@ -1285,7 +1285,7 @@ msgstr "Kunde inte hitta WordPress innehållskatalog (%s)."
 msgid "Whether the theme is a block-based theme."
 msgstr "Om temat är ett blockbaserat tema."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1055
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1056
 msgid "The date the template was last modified, in the site's timezone."
 msgstr "Det datum mallen senast ändrades, i webbplatsens tidszon."
 
@@ -2046,18 +2046,18 @@ msgid "Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a>. <a href=\"%3$s
 msgstr "Inloggad som %1$s. <a href=\"%2$s\">Redigera din profil</a>. <a href=\"%3$s\">Logga ut?</a>"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
-#: wp-includes/class-wp-theme-json.php:3589
+#: wp-includes/class-wp-theme-json.php:3607
 msgid "%sX-Large"
 msgstr "%sX-stor"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
-#: wp-includes/class-wp-theme-json.php:3552
+#: wp-includes/class-wp-theme-json.php:3570
 msgid "%sX-Small"
 msgstr "%sX-liten"
 
 #. translators: 1: theme.json, 2: Value name, 3: Value path, 4: Another value
 #. name.
-#: wp-includes/class-wp-theme-json.php:2171
+#: wp-includes/class-wp-theme-json.php:2189
 msgid "Your %1$s file uses a dynamic value (%2$s) for the path at %3$s. However, the value at %3$s is also a dynamic value (pointing to %4$s) and pointing to another dynamic value is not supported. Please update %3$s to point directly to %4$s."
 msgstr "Din %1$s-fil använder ett dynamiskt värde (%2$s) för sökvägen vid %3$s. Värdet vid %3$s är dock även ett dynamiskt värde (som pekar på %4$s) och pekning på ett annat dynamiskt värde stöds inte. Uppdatera %3$s så att den pekar direkt mot %4$s."
 
@@ -2121,7 +2121,7 @@ msgstr "Din implementering av objektcache stöder inte tömning av cache i arbet
 
 #. translators: Custom template title in the Site Editor, referencing a deleted
 #. author. %s: Author nicename.
-#: wp-includes/block-template-utils.php:818
+#: wp-includes/block-template-utils.php:859
 msgid "Deleted author: %s"
 msgstr "Borttagen författare: %s"
 
@@ -2131,7 +2131,7 @@ msgstr "Borttagen författare: %s"
 #. name.
 #: wp-includes/block-template-utils.php:623
 #: wp-includes/block-template-utils.php:699
-#: wp-includes/block-template-utils.php:832
+#: wp-includes/block-template-utils.php:873
 msgid "Template for %s"
 msgstr "Mall för %s"
 
@@ -2895,47 +2895,47 @@ msgstr "Innehållet i elementet %s i URL-koden."
 msgid "The URL to process."
 msgstr "URL:en som ska bearbetas."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1093
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1094
 msgid "Where the template part is intended for use (header, footer, etc.)"
 msgstr "Var malldelen är avsedd att användas (sidhuvud, sidfot osv.)"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1084
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1085
 msgid "Whether a template is a custom template."
 msgstr "Om en mall är en anpassad mall."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1050
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1051
 msgid "The ID for the author of the template."
 msgstr "ID för författaren av mallen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1017
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1018
 msgid "HTML title for the template, transformed for display."
 msgstr "HTML-rubrik för mallen, omvandlad för visning."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1012
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1013
 msgid "Title for the template, as it exists in the database."
 msgstr "Mallens rubrik som den ser ut i databasen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:998
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:999
 msgid "Version of the content block format used by the template."
 msgstr "Version av innehållsblockformat som används av mallen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:993
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:994
 msgid "Content for the template, as it exists in the database."
 msgstr "Mallens innehåll, så som det finns i databasen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:981
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:982
 msgid "Source of a customized template"
 msgstr "Källa för en anpassad mall"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:970
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:971
 msgid "Type of template."
 msgstr "Typ av mall."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:926
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:927
 msgid "Post type to get the templates for."
 msgstr "Inläggstyp att hämta mallen för."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:922
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:923
 msgid "Limit to the specified template part area."
 msgstr "Begränsa till specificerat malldelområde."
 
@@ -3441,11 +3441,11 @@ msgstr "Länk till inläggsformat"
 msgid "The calendar block is hidden because there are no published posts."
 msgstr "Kalenderblocket är dolt eftersom det inte finns några publicerade inlägg."
 
-#: wp-includes/block-template-utils.php:1258
+#: wp-includes/block-template-utils.php:1299
 msgid "Unable to open export file (archive) for writing."
 msgstr "Kan inte öppna exportfilen (arkivfil) för skrivning."
 
-#: wp-includes/block-template-utils.php:1249
+#: wp-includes/block-template-utils.php:1290
 msgid "Zip Export not supported."
 msgstr "Zip-export stöds inte."
 
@@ -4404,66 +4404,66 @@ msgstr "Widgettyp-ID."
 msgid "Sort collection by user attribute."
 msgstr "Sortera samling efter användarattribut."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1044
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1045
 msgid "Theme file exists."
 msgstr "Temafil finns."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1038
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1039
 msgid "Post ID."
 msgstr "Inläggs-ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1031
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1032
 msgid "Status of template."
 msgstr "Status för mall."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1025
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1026
 msgid "Description of template."
 msgstr "Beskrivning av mall."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1006
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1007
 msgid "Title of template."
 msgstr "Rubrik för mall."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:987
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:988
 msgid "Content of template."
 msgstr "Innehåll för mall."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:975
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:976
 msgid "Source of template"
 msgstr "Källa till mall"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:965
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:966
 msgid "Theme identifier for the template."
 msgstr "Temaidentifierare för mallen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:957
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:958
 msgid "Unique slug identifying the template."
 msgstr "Unik slug som identifierar mallen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:951
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:952
 msgid "ID of template."
 msgstr "ID för mall."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:918
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:919
 msgid "Limit to the specified post id."
 msgstr "Begränsa till angivet inläggs-ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:504
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:505
 msgid "The template has already been deleted."
 msgstr "Mallen har redan tagits bort."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:480
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:481
 msgid "Templates based on theme files can't be removed."
 msgstr "Mallar baserade på temafiler kan inte tas bort."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:303
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:332
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:430
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:477
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:304
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:333
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:431
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:478
 msgid "No templates exist with that id."
 msgstr "Inga mallar finns med sådant ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:189
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:190
 msgid "Sorry, you are not allowed to access the templates on this site."
 msgstr "Du har inte behörighet att komma åt mallarna på denna webbplats."
 
@@ -4805,7 +4805,8 @@ msgstr "Ingen matchande mall hittades."
 msgid "Empty template: %s"
 msgstr "Tom mall: %s"
 
-#: wp-includes/block-template-utils.php:752
+#: wp-includes/block-template-utils.php:742
+#: wp-includes/block-template-utils.php:810
 msgid "No theme is defined for this template."
 msgstr "Inget tema är definierad för denna mall."
 
@@ -5785,17 +5786,6 @@ msgstr "Kommentar"
 msgid "Crop"
 msgstr "Beskär"
 
-#. translators: Theme and Directory Patterns tab title in the block inserter.
-#: wp-includes/js/dist/block-editor.js:42603
-#: wp-includes/js/dist/block-editor.js:43800
-#: wp-includes/js/dist/block-editor.js:49059
-#: wp-includes/js/dist/block-library.js:58090
-#: wp-includes/js/dist/core-commands.js:155
-#: wp-includes/js/dist/edit-site.js:13738
-#: wp-includes/js/dist/edit-site.js:17877 wp-admin/menu.php:209
-msgid "Patterns"
-msgstr "Mönster"
-
 #: wp-includes/script-loader.php:1010 wp-includes/js/media-views.js:3531
 #: wp-admin/js/media.js:237 wp-admin/js/post.js:1317
 msgid "The file URL has been copied to your clipboard"
@@ -6066,7 +6056,7 @@ msgstr "För parametern %1$s kan schemanyckelordet ”type” endast innehålla 
 #. translators: 1: Theme name. 2: Theme slug.
 #: wp-includes/block-template-utils.php:637
 #: wp-includes/block-template-utils.php:716
-#: wp-includes/block-template-utils.php:848 wp-includes/rest-api.php:730
+#: wp-includes/block-template-utils.php:889 wp-includes/rest-api.php:730
 #: wp-includes/js/dist/block-library.js:32487
 #: wp-includes/js/dist/edit-site.js:12537
 #: wp-includes/js/dist/edit-site.js:14265
@@ -6717,7 +6707,7 @@ msgid "Slug"
 msgstr "Slug"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
-#: wp-includes/class-wp-theme-json.php:3552
+#: wp-includes/class-wp-theme-json.php:3570
 #: wp-includes/js/dist/block-library.js:53560
 #: wp-includes/js/dist/components.js:59631
 msgid "Small"
@@ -8594,7 +8584,7 @@ msgstr "Du behöver en högre behörighetsnivå."
 #: wp-admin/includes/class-custom-image-header.php:1032
 #: wp-admin/includes/file.php:638 wp-admin/media-upload.php:38
 #: wp-admin/themes.php:27 wp-admin/themes.php:70 wp-admin/users.php:158
-#: wp-admin/js/tags.js:62 wp-admin/js/updates.js:2327
+#: wp-admin/js/tags.js:62 wp-admin/js/updates.js:2354
 #: wp-admin/network/site-users.php:158
 msgid "Something went wrong."
 msgstr "Något gick fel."
@@ -10713,7 +10703,7 @@ msgstr "REST-basrutt för taxonomin."
 msgid "+ %s"
 msgstr "+ %s"
 
-#: wp-includes/l10n.php:1671
+#: wp-includes/l10n.php:1687
 msgctxt "default site language"
 msgid "Site Default"
 msgstr "Standardspråk för webbplatsen"
@@ -10961,7 +10951,7 @@ msgstr "Antal publicerade inlägg för termen."
 msgid "Unique identifier for the user."
 msgstr "Unik ID-sträng för användaren."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:521
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:522
 msgid "The template cannot be deleted."
 msgstr "Mallen kan inte tas bort."
 
@@ -12054,7 +12044,7 @@ msgstr "Obefintliga termer."
 #: wp-includes/customize/class-wp-customize-theme-control.php:260
 #: wp-admin/includes/theme.php:1071 wp-admin/theme-install.php:408
 #: wp-admin/theme-install.php:488 wp-admin/themes.php:616
-#: wp-admin/themes.php:988 wp-admin/themes.php:1222 wp-admin/js/updates.js:1802
+#: wp-admin/themes.php:988 wp-admin/themes.php:1222 wp-admin/js/updates.js:1829
 msgctxt "theme"
 msgid "Activate %s"
 msgstr "Aktivera %s"
@@ -13944,7 +13934,7 @@ msgstr "Länktext"
 #: wp-admin/theme-install.php:420 wp-admin/theme-install.php:437
 #: wp-admin/themes.php:625 wp-admin/themes.php:634 wp-admin/themes.php:995
 #: wp-admin/themes.php:1003 wp-admin/themes.php:1225 wp-admin/themes.php:1236
-#: wp-admin/js/updates.js:1817
+#: wp-admin/js/updates.js:1844
 msgid "Live Preview"
 msgstr "Förhandsgranskning live"
 
@@ -14077,12 +14067,12 @@ msgstr "Nyare inlägg"
 msgid "Older posts"
 msgstr "Äldre inlägg"
 
-#: wp-includes/l10n.php:1700
+#: wp-includes/l10n.php:1716
 msgctxt "translations"
 msgid "Available"
 msgstr "Tillgängliga"
 
-#: wp-includes/l10n.php:1663
+#: wp-includes/l10n.php:1679
 msgctxt "translations"
 msgid "Installed"
 msgstr "Installerade"
@@ -14139,7 +14129,7 @@ msgid "F j, Y"
 msgstr "j F Y"
 
 #. translators: Custom template title in the Site Editor. %s: Author name.
-#: wp-includes/block-template-utils.php:826
+#: wp-includes/block-template-utils.php:867
 msgid "Author: %s"
 msgstr "Författare: %s"
 
@@ -15235,7 +15225,7 @@ msgstr "Högerställ"
 #: wp-includes/class-wp-customize-widgets.php:805
 #: wp-admin/includes/ajax-actions.php:1107
 #: wp-admin/includes/ajax-actions.php:2379 wp-admin/js/media.js:127
-#: wp-admin/js/media.js:132 wp-admin/js/updates.js:2336
+#: wp-admin/js/media.js:132 wp-admin/js/updates.js:2363
 msgid "An error has occurred. Please reload the page and try again."
 msgstr "Ett fel har uppstått. Ladda om sidan och försök igen."
 
@@ -15639,7 +15629,7 @@ msgid "No tags found."
 msgstr "Inga etiketter hittades."
 
 #. translators: 1: Script name, 2: wp_enqueue_scripts
-#: wp-includes/functions.wp-scripts.php:324
+#: wp-includes/functions.wp-scripts.php:318
 msgid "Do not deregister the %1$s script in the administration area. To target the front-end theme, use the %2$s hook."
 msgstr "Avregistrera inte skriptet %1$s i adminpanelen. Använd åtgärds-hooken %2$s för att rikta in dig mot temat på webbplatsens publika sidor."
 
@@ -15815,7 +15805,7 @@ msgid "Attachment Details"
 msgstr "Uppgifter om bilaga"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
-#: wp-includes/block-editor.php:173 wp-includes/class-wp-theme-json.php:3589
+#: wp-includes/block-editor.php:173 wp-includes/class-wp-theme-json.php:3607
 #: wp-includes/media-template.php:913 wp-includes/media-template.php:993
 #: wp-includes/media-template.php:1184 wp-includes/media.php:4419
 #: wp-includes/js/dist/block-editor.js:8990
@@ -16525,7 +16515,7 @@ msgstr "Du har inte behörighet att visa detta objekt."
 #: wp-includes/class-wp-xmlrpc-server.php:1499
 #: wp-includes/class-wp-xmlrpc-server.php:5469
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1301
-#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:613
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:614
 msgid "Invalid author ID."
 msgstr "Ogiltigt författar-ID."
 
@@ -19074,7 +19064,7 @@ msgid "%s is a protected WP option and may not be modified"
 msgstr "%s är ett skyddat WP-alternativ som inte får ändras"
 
 #. translators: Used between list items, there is a space after the comma.
-#: wp-includes/class-wp-locale.php:241 wp-includes/l10n.php:1903
+#: wp-includes/class-wp-locale.php:241 wp-includes/l10n.php:1919
 #: wp-includes/js/dist/block-editor.js:64471
 msgid ", "
 msgstr ", "
@@ -20098,7 +20088,7 @@ msgstr "Storlek"
 msgid "Full Size"
 msgstr "Full storlek"
 
-#: wp-includes/block-editor.php:172 wp-includes/class-wp-theme-json.php:3571
+#: wp-includes/block-editor.php:172 wp-includes/class-wp-theme-json.php:3589
 #: wp-includes/media-template.php:912 wp-includes/media-template.php:992
 #: wp-includes/media-template.php:1183 wp-includes/media.php:4418
 #: wp-includes/js/dist/block-editor.js:8987

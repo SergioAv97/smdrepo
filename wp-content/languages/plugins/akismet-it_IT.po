@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-21 01:12:47+0000\n"
+"PO-Revision-Date: 2024-05-01 11:55:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: it\n"
 "Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
 
@@ -81,7 +81,7 @@ msgstr "Tipo di abbonamento"
 
 #: views/config.php:226
 msgid "To help your site with transparency under privacy laws like the GDPR, Akismet can display a notice to your users under your comment forms."
-msgstr "Per aiutare il tuo sito con la trasparenza secondo le norme in materia di privacy come il GDPR, Akismet può mostrare una nota ai tuoi utenti sotto i moduli di commento."
+msgstr "Per aiutare il tuo sito a mantenere la trasparenza e a seguire le norme in materia di privacy come il GDPR, Akismet può mostrare un avviso sotto i moduli di commento."
 
 #: views/config.php:148
 msgid "Spam filtering"

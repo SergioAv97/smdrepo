@@ -6,11 +6,10 @@
  * @subpackage Components
  * @since 1.0.0
  */
-
 ?>
+
 <div class="raw-component quienes-somos">
 	<div class="container grid">
-
 		<div>
 			<?php
 			printf(
@@ -37,15 +36,6 @@
 			)
 			?>
 		</div>
-
-		<div class="raw-slider">
-			<div class="raw-slider-container">
-				<?php
-					print wp_get_attachment_image( esc_html( get_post_meta( get_the_ID(), 'raw_quienes-somos_image_madrid', true ) ) ?: 13924, array( 555, 400 ) );
-					print wp_get_attachment_image( esc_html( get_post_meta( get_the_ID(), 'raw_quienes-somos_image_sevilla', true ) ) ?: 15754, array( 555, 400 ) );
-				?>
-			</div>
-		</div>
-
+		
 	</div>
 </div>

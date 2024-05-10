@@ -12,6 +12,7 @@
 	<div class="container">
 
 		<?php
+			//EJEMPLO DE CONDICION PARA RENDERIZAR ELEMENTOS DIFERENTES
 			$type = get_post_meta( get_the_ID(), 'raw_texto-video_type', true );
 
 		switch ( $type ) {

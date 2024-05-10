@@ -1,0 +1,67 @@
+.quienes-somos-imagen {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: left;
+
+	width: 100%;
+	background-color: #F3F3F3;
+	
+	.grid {
+		div {
+			.title {
+				color: var(--raw-color-blue-bg);
+				text-align: center;
+			}
+		}
+	}
+}
+
+#contentQuienesSomos{
+	text-align: left;
+	width: 460px;
+	font-size: 16px;
+	div p{
+		color: black !important;
+	}
+}
+#imgEquipo{
+	margin-top: 50px;
+}
+
+@media all and (max-width:768px) {
+
+	.quienes-somos-imagen{
+		.grid {
+			div {
+				text-align: center;
+				margin-right: 0;
+
+				.title {
+					text-align: center;
+				}
+
+				p:not(.title) {
+					padding: 0 2rem;
+				}
+			}
+		}
+
+		.raw-slider {
+			margin: 2.5rem auto -2.5rem;
+		}
+	}
+
+}
+
+@media all and (max-width:425px) {
+
+	.quienes-somos-imagen {
+		.raw-slider {
+			margin: 2.5rem auto -12rem;
+		}
+	}
+
+}

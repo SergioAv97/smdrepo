@@ -2,14 +2,87 @@
 # This file is distributed under the same license as the Plugins - Autoptimize - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-14 07:13:40+0000\n"
+"PO-Revision-Date: 2024-04-30 09:41:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/4.0.0-rc.1\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: ru\n"
 "Project-Id-Version: Plugins - Autoptimize - Stable (latest release)\n"
+
+#. translators: h2, strong but also 2 links.
+#: classes/autoptimizeProTab.php:115
+msgid "%1$sAdd more power to Autoptimize with Pro!%2$s%3$sAs a user of Autoptimize you understand %5$sthe importance of having a fast site%6$s. Autoptimize Pro is a premium Power-Up extending AO by adding %5$simage optimization, CDN, automatic critical CSS rules generation and page caching but also providing extra “booster” options%6$s, all in one handy subscription to make your site even faster!%4$s%3$sHave a look at %7$shttps://autoptimize.com/pro/%8$s for more info or %9$sclick here to buy now%10$s!%4$s"
+msgstr "%1$sДобавьте больше мощности в Autoptimize с помощью Pro!%2$s%3$sКак пользователь Autoptimize вы понимаете %5$sважность быстрого сайта%6$s. Autoptimize Pro - это премиум-усиление, расширяющее возможности AO, добавляя %5$sоптимизацию изображений, CDN, автоматическое создание критического CSS и кэширование страниц, а также предоставляет дополнительные настройки «ускорения»%6$s, все в одной удобной подписке, чтобы сделать ваш сайт еще быстрее!%4$s%3$sПосмотрите на %7$shttps://autoptimize.com/pro/%8$s для получения дополнительной информации или %9$sнажмите здесь, чтобы купить прямо сейчас%10$s!%4$s"
+
+#: classes/autoptimizePartners.php:56
+msgid "Have a look at %1$sAutoptimize Pro%2$s to power-up your site!"
+msgstr "Взгляните на %1$sAutoptimize Pro%2$s, чтобы улучшить свой сайт!"
+
+#. translators: strong tags.
+#: classes/autoptimizeMain.php:822
+msgid " which not only has page caching but also image optimization, critical CSS and advanced booster options %1$sto make your site significantly faster%2$s!"
+msgstr ", в котором есть не только кэширование страниц, но и оптимизация изображений, критический CSS и расширенные настройки ускорителя, %1$sкоторые сделают ваш сайт значительно быстрее%2$s!"
+
+#. translators: strong tags.
+#: classes/autoptimizeMain.php:822
+msgid "or consider "
+msgstr "или рассмотрите "
+
+#. translators: strong tags and a break.
+#: classes/autoptimizeMain.php:820
+msgid "It looks like your site might not have %1$spage caching%2$s which is a %1$smust-have for performance%2$s. If you are sure you have a page cache, you can close this notice.%3$sWhen in doubt check with your host if they offer this or install a free page caching plugin like for example KeyCDN Cache Enabler"
+msgstr "Похоже, что на вашем сайте отсутствует %1$sкэширование страниц%2$s, которое является %1$sобязательным условием производительности%2$s. Если вы уверены, что оно у вас есть, вы можете закрыть это уведомление.%3$sЕсли вы сомневаетесь, уточните у вашего хостера, предлагает ли он такую возможность, или установите бесплатный плагин кэширования страниц, например KeyCDN Cache Enabler"
+
+#. translators: link points to shortpixel FAQ.
+#: classes/autoptimizeImages.php:1341
+msgid "%3$sQuestions%4$s? Take a look at the %1$sAutoptimize + ShortPixel FAQ%2$s!"
+msgstr "%3$sВопросы%4$s? Ознакомьтесь с часто задаваемыми вопросами по %1$sAutoptimize + ShortPixel%2$s!"
+
+#: classes/autoptimizeExtra.php:609
+msgid "Async Javascript-files (advanced users)"
+msgstr "Асинхронные Javascript-файлы (для опытных пользователей)"
+
+#. Translators; link to a page on keycdn blog about preconnecting.
+#: classes/autoptimizeExtra.php:597
+msgid "Add 3rd party domains you want the browser to %1$spreconnect%2$s to, separated by comma's. Make sure to include the correct protocol (HTTP or HTTPS)."
+msgstr "Добавьте сторонние домены, к которым браузер должен предварительно %1$sподключиться%2$s, через запятую. Обязательно укажите правильный протокол (HTTP или HTTPS)."
+
+#: classes/autoptimizeExtra.php:565
+msgid "Combine and load fonts asynchronously with %1$swebfont.js%2$s"
+msgstr "Объединять и загружать шрифты асинхронно с помощью %1$swebfont.js%2$s"
+
+#. Translators: link to criticalcss.com page.
+#: classes/autoptimizeCriticalCSSCore.php:465
+msgid "Please enter a valid %1$scriticalcss.com%2$s API key to start."
+msgstr "Чтобы начать, введите действительный ключ API %1$sriticalcss.com%2$s."
+
+#. Translators: link to criticalcss.com page.
+#: classes/autoptimizeCriticalCSSCore.php:434
+#: classes/autoptimizeCriticalCSSCore.php:453
+msgid "Your API key is invalid. Please enter a valid %1$scriticalcss.com%2$s key."
+msgstr "Ваш ключ API недействителен. Введите действительный ключ %1$scriticalcss.com%2$s."
+
+#. translators: link to the AO FAQ.
+#: classes/autoptimizeConfig.php:526
+msgid "Need help? %1$sCheck out the FAQ here%2$s."
+msgstr "Нужна помощь? Ознакомьтесь с часто задаваемыми вопросами %1$sздесь%2$s."
+
+#. translators: a link to rapidload + strong tags
+#: classes/autoptimizeConfig.php:354
+msgid "If Google Pagespeed Insights detects unused CSS, consider using %1$sthe premium Rapidload service%2$s to %3$sreduce your site's CSS size to up to 90&#37;%4$s, resulting in a slimmer, faster site!"
+msgstr "Если Google Pagespeed Insights обнаруживает неиспользуемый CSS, рассмотрите возможность использования %1$sпремиальной услуги Rapidload%2$s, чтобы %3$sуменьшить размер CSS вашего сайта до 90&#37;%4$s, в результате чего сайт станет легче и быстрее!"
+
+#. Translators: first two variables are strong tags, 3rd is link to the AO FAQ
+#. and the 4th closes that tag.
+#: classes/autoptimizeCacheChecker.php:93
+msgid "%1$sAutoptimize's cache size is getting big%2$s, consider purging the cache. Have a look at %3$sthe Autoptimize FAQ%4$s to see how you can keep the cache size under control."
+msgstr "%1$sРазмер кэша Autoptimize становится большим%2$s, рассмотрите возможность очистки кэша. Ознакомьтесь с %3$sчасто задаваемыми вопросами по Autoptimize%4$s, чтобы узнать, как контролировать размер кэша."
+
+#: classes/autoptimizeConfig.php:490
+msgid "Autoptimize applies extra \"compatibiity logic\" to prevent issues with JS optimization (for e.g. Gutenberg blocks, Revolution Slider, jQuery-heavy plugins, ...) but may sometimes be a bit too careful. If you have render-blocking JS issues, you can try disabling this logic here. Make sure to test your site thoroughly though!"
+msgstr "Autoptimize применяет дополнительную «логику совместимости» для предотвращения проблем с оптимизацией JS (например, блоков Gutenberg, слайдера Revolution, плагинов с большим количеством jQuery и т. д.), но иногда может быть слишком осторожным. Если у вас есть проблемы с блокировкой рендеринга JS, вы можете попробовать отключить эту логику здесь. Обязательно тщательно протестируйте работу сайта!"
 
 #: classes/autoptimizeProTab.php:26
 msgid "Pro Boosters"
@@ -111,7 +184,7 @@ msgstr "WordPress добавляет блочный CSS и глобальные 
 
 #: classes/autoptimizeExtra.php:586
 msgid "Remove WordPress block CSS"
-msgstr "Удалить блокировку CSS WordPress"
+msgstr "Удалить блочный CSS WordPress"
 
 #: classes/autoptimizeCriticalCSSSettings.php:168
 msgid "To be able to use Critical CSS you will have to enable CSS optimization and make sure \"eliminate render-blocking CSS\" is active on the main Autoptimize settings page."
@@ -433,6 +506,11 @@ msgstr "Недействительный"
 #: classes/autoptimizeCriticalCSSCore.php:443
 msgid "Valid"
 msgstr "Действительный"
+
+#. translators; just 2 opening and closing <code> tags.
+#: classes/autoptimizeConfig.php:459
+msgid "Sometimes Autoptimized JS/ CSS is referenced in cached HTML but is already removed, resulting in broken sites. With this option on, Autoptimize will try to redirect those not-found files to \"fallback\"-versions, keeping the page/ site somewhat intact. In some cases this will require extra web-server level configuration to ensure %1$swp-content/autoptimize_404_handler.php%2$s is set to handle 404's in %1$swp-content/cache/autoptimize%2$s."
+msgstr "Иногда в кэшированном HTML содержатся просроченные ссылки на оптимизированнные JS / CSS, что приводит к поломке сайтов. При включении это опции Autoptimize попытается перенаправить ссылки на \"резервные\" версии файлов, сохранив страницу / сайт в некоторой степени нетронутым. Иногда это потребует дополнительной настройки на уровне веб-сервера, чтобы гарантировать, что %1$swp-content/autoptimize_404_handler.php%2$s настроен на обработку ошибок 404 в %1$swp-content/cache/autoptimize%2$s."
 
 #: classes/autoptimizeConfig.php:336
 msgid "Inlining all CSS is an easy way to stop the CSS from being render-blocking, but is generally not recommended because the size of the HTML increases significantly. Additionally it might push meta-tags down to a position where e.g. Facebook and Whatsapp will not find them any more, breaking thumbnails when sharing."
@@ -1231,6 +1309,10 @@ msgstr "Нажмите здесь, чтобы установить и актив
 #: classes/autoptimizeExtra.php:622
 msgid "Configuration of async javascript is easier and more flexible using the %s plugin."
 msgstr "С помощью плагина %s настройка асинхронного javascript становится более простой и гибкой."
+
+#: classes/autoptimizeExtra.php:620
+msgid "Comma-separated list of local or 3rd party JS-files that should loaded with the %1$sasync%2$s flag. JS-files from your own site will be automatically excluded if added here. "
+msgstr "Разделенный запятыми список локальных или сторонних JS-файлов, которые следует загрузить с флагом %1$sasync%2$s. JS-файлы с вашего сайта будут автоматически исключены, если они будут добавлены сюда. "
 
 #: classes/autoptimizeExtra.php:559
 msgid "Leave as is"

@@ -1,3 +1,24 @@
+= 11.1.5 (2024-04-19) =
+* Pushing new plugin version with tagging mechanism working correctly.
+
+= 11.1.3 (2024-04-17) =
+* Optimize metadata update on connection
+
+= 11.1.0 (2024-04-16) =
+* Addressing issue with our SVN tagging
+
+= 11.0.57 (2024-04-16) =
+* Update logic that is used to disable blocks in the full site editor
+
+= 11.0.55 (2024-04-12) =
+* Remove support for full site editor for forms and meetings blocks
+
+= 11.0.37 (2024-04-10) =
+* Fix translation keys
+
+= 11.0.36 (2024-04-09) =
+* Refactor connection function and add extra leadin config
+
 = 11.0.32 (2024-03-27) =
 * Update the gutenberg save blocks for wordpress customizer compatibility
 
@@ -283,27 +304,4 @@
 
 = 8.4.60 (2021-08-05) =
 * Added development backdoor for the new odyssey signup flow
-
-= 8.4.33 (2021-07-30) =
-* Check refresh token exists before attempting to make the refresh token API call.
-
-= 8.4.0 (2021-07-23) =
-* New portals created in the EU now have their data kept in EU datacentres.
-* Ungated the OAuth connection flow for all users.
-* Updated deprecated block_categories hook for WordPress 5.8
-
-= 8.3.67 (2021-07-12) =
-* Remove leadin_affiliate_code filter. This filter is not used and should not have any user-facing consequence
-
-= 8.3.20 (2021-06-23) =
-* Correctly render forms on non-NA1 regions
-
-= 8.3.16 (2021-06-22) =
-* Fix urls pointing to the wrong domain from region NA1
-
-= 8.3.15 (2021-06-22) =
-* Pass the connection nonce to leadinConfig variable. This change does not have impact on users
-
-= 8.3.0 (2021-06-18) =
-* Hide menu items that rely on third-party cookies when they are disabled
 

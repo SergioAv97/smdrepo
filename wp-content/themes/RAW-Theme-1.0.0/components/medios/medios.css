@@ -1,0 +1,30 @@
+.imgMedios{
+    margin-top: 20px;
+    width: 270px;
+    height: 58px;
+}
+
+#tituloMedios{
+    font-size: 2rem ;
+    color: black;
+}
+
+#raw-mainContainer-Medios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-bottom: 60px;
+    padding-top: 45px;
+    background-color: #F3F3F3 ;
+}
+
+    #raw-mainContainer-Medios div a img{
+       margin: 20px;
+       transition: transform 0.3s ease;
+    }
+       #raw-mainContainer-Medios div img:hover{
+           transform: scale(1.15);
+       }
+

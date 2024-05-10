@@ -3,7 +3,7 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-
+	background-color: #F3F3F3;
 	.grid {
 		div.home {
 			p {
