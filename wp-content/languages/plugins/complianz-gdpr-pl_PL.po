@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - Complianz &#8211; GDPR/CCPA Cookie Consent - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-02-27 14:46:47+0000\n"
+"PO-Revision-Date: 2024-04-11 06:22:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/4.0.0-rc.1\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: pl\n"
 "Project-Id-Version: Plugins - Complianz &#8211; GDPR/CCPA Cookie Consent - Stable (latest release)\n"
 
@@ -750,7 +750,6 @@ msgstr "Twoja wersja PHP jest niższa niż rekomendowana wersja PHP. Niektóre f
 #: settings/build/7552.b57f976f5bb521ee880e.js:1
 #: settings/build/8824.d94b084089ddd88b1aff.js:1
 #: settings/build/index.1cffd4da35a767c8d5a3.js:1
-#: settings/build/index.71f507b41a51d0f4b911.js:1
 #: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:21
 #: settings/src/Settings/InstallPlugin/InstallPlugin.js:60
 #: settings/src/Settings/Premium.js:17
@@ -889,7 +888,6 @@ msgstr "Żądania danych"
 
 #: DNSMPD/class-admin-DNSMPD.php:362
 #: settings/build/1300.313f0f49f3b4e67ac46d.js:1
-#: settings/build/1300.a0950efcc9b9b65a1308.js:1
 #: settings/build/6112.614f15c1bf20cf408588.js:1
 #: settings/build/7944.5a7e0e8f288115f88373.js:1
 #: settings/build/8348.9b99a0a1b5003480c9cc.js:1
@@ -1072,21 +1070,6 @@ msgstr "Kliknij, żeby zaakceptować marketingowe pliki cookies"
 #: settings/config/fields/tools/placeholders.php:80
 msgid "I agree"
 msgstr "Zgadzam się"
-
-#: callback-notices.php:114 settings/build/9080.8a8c975ca932d24767f5.js:1
-#: settings/src/Settings/CookieScan/CookieScanControl.js:46
-msgid "Please run the scan with these browser options disabled."
-msgstr "Uruchom skanowanie z wyłączonymi tymi opcjami przeglądarki."
-
-#: callback-notices.php:114 settings/build/9080.8a8c975ca932d24767f5.js:1
-#: settings/src/Settings/CookieScan/CookieScanControl.js:46
-msgid "This will prevent most cookies from being placed."
-msgstr "To powstrzyma większość plików cookies przed umieszczeniem."
-
-#: callback-notices.php:114 settings/build/9080.8a8c975ca932d24767f5.js:1
-#: settings/src/Settings/CookieScan/CookieScanControl.js:46
-msgid "Your browser has the Do Not Track or Global Privacy Control setting enabled."
-msgstr "Twoja przeglądarka ma włączone ustawienie Do Not Track lub Global Privacy Control."
 
 #: config/documents/documents.php:132
 msgid "Privacy Statement (ZA)"
@@ -1540,7 +1523,7 @@ msgstr "Przykład"
 msgid "Click to accept the cookies for this service"
 msgstr "Kliknij, żeby zaakceptować pliki cookies dla tego serwisu"
 
-#: callback-notices.php:228 settings/config/fields-notices.php:107
+#: settings/config/fields-notices.php:107
 msgid "You're using Google Tag Manager. This means you need to configure Tag Manager to use the below categories."
 msgstr "Korzystasz z Google Tag Manager. Oznacza to, że musisz skonfigurować Tag Manager, aby korzystał z poniższych kategorii."
 
@@ -2102,10 +2085,6 @@ msgstr "Zainstalowano"
 msgid "Export"
 msgstr "Eksport"
 
-#: callback-notices.php:15
-msgid "Cookiedatabase.org synchronization disabled."
-msgstr "Synchronizacja z Cookiedatabase.org zablokowana"
-
 #: settings/config/fields/wizard/consent.php:549
 msgid "Because Clicky always sets a so-called unique identifier cookie, consent for statistics is always required."
 msgstr "Ponieważ Clicky zawsze ustawia unikalny identyfikator plików cookie, zgoda na \"statystyki\" jest zawsze wymagana."
@@ -2227,11 +2206,7 @@ msgstr "Zaznaczyłeś, że nie korzystasz z serwisów zewnętrznych. Używasz na
 msgid "Do you want to block reCAPTCHA before consent, and when consent is revoked?"
 msgstr "Czy chcesz blokować reCAPTCHA na stronie zanim użytkownik wyrazi zgodę na stosowanie plików cookies oraz w przypadku, kiedy zgoda ta zostanie cofnięta?"
 
-#: callback-notices.php:262
-msgid "You use plugins which place first-party marketing cookies. You can view these plugins on the integrations page. Complianz cannot automatically block first-party marketing cookies unless these plugins conform to the WP Consent API."
-msgstr "Używasz wtyczek, które umieszczają marketingowe cookies. Możesz zobaczyć te wtyczki na stronie \"Integracje\". Complianz nie może automatycznie blokować marketingowych cookies innych wtyczek, chyba, że używają one WP Consent API."
-
-#: callback-notices.php:180 settings/config/fields/wizard/services.php:78
+#: settings/config/fields/wizard/services.php:78
 msgid "If you choose to block reCAPTCHA, please make sure you add a placeholder to your forms."
 msgstr "Jeżeli zdecydowałeś się na zablokowanie reCAPTCHA, pamiętaj o dodaniu elementu zastępczego do twoich formularzy (np. kontaktowych)."
 
@@ -2299,7 +2274,6 @@ msgstr "Nie musisz konfigurować swojej witryny pod kątem \"przypadkowych\" odw
 msgid "Click to accept %s cookies and enable this content"
 msgstr "Kliknij, żeby zaakceptować %s pliki cookies i włączyć tę treść"
 
-#: callback-notices.php:247 callback-notices.php:249
 #: settings/config/fields-notices.php:130
 #: settings/config/fields-notices.php:137
 msgid "It is recommended to select a Privacy Statement."
@@ -2339,17 +2313,9 @@ msgstr "Pokaz slajdów"
 msgid "Checkbox style"
 msgstr "Styl pól wyboru (checkbox)"
 
-#: callback-notices.php:163 callback-notices.php:172
-msgid "The cookie scan detected cookies from services which share data with Third Parties. If these cookies were also used in the past 12 months, you should at least select the option 'Internet activity...'"
-msgstr "Skanowanie plików cookie wykryło pliki cookie z usług udostępniających dane stronom trzecim. Jeśli te pliki cookie były również używane w ciągu ostatnich 12 miesięcy, należy przynajmniej zaznaczyć opcję \"Aktywność internetowa...\""
-
-#: callback-notices.php:133 settings/config/fields-notices.php:88
+#: settings/config/fields-notices.php:88
 msgid "Your site uses Divi. If you use reCAPTCHA on your site, you may need to disable the reCAPTCHA integration in Complianz. "
 msgstr "Twoja witryna używa Divi. Jeżeli używasz na swojej witrynie reCAPTCHA, możliwe że będziesz musiał zablokować reCAPTCHA w zakładce \"Integracje\"."
-
-#: callback-notices.php:100
-msgid "The cookie scan detected cookies from services that share data with Third Parties. According to US privacy laws, your website is considered to sell personal data if it collects and shares any personal data in return for money or services. This includes a service like Google Analytics."
-msgstr "Skan plików cookies wykrył cookies z serwisów, które dzielą dane z podmiotami zewnętrznymi. Zgodnie z przepisami USA dotyczącymi prywatności, twoja witryna jest uważana za sprzedającą dane jeżeli zbiera i sprzedane dane w zamian za pieniądze lub usługi. Obejmuje to usługi jak Google Analytics."
 
 #: class-field.php:2062
 msgid "Services in %s"
@@ -2379,13 +2345,9 @@ msgstr "Które: przepisy dotyczące prywatności czy wytyczne dotyczące prywatn
 msgid "Impressum"
 msgstr "Impressum"
 
-#: callback-notices.php:249 settings/config/fields-notices.php:137
+#: settings/config/fields-notices.php:137
 msgid "The link to the Privacy Statement is used in your Cookie Policy."
 msgstr "Link do oświadczenia o ochronie prywatności jest używany w twojej polityce plików cookies."
-
-#: callback-notices.php:247
-msgid "The link to the Privacy Statement is used in the cookie banner and in your Cookie Policy."
-msgstr "Link do oświadczenia o ochronie prywatności jest używany w twoim banerze cookies oraz w twojej polityce cookies."
 
 #: class-field.php:1146
 msgid "None selected"
@@ -2419,10 +2381,6 @@ msgstr "Link do menu"
 #: settings/config/fields/wizard/documents.php:13
 msgid "Create documents"
 msgstr "Stwórz dokumenty"
-
-#: callback-notices.php:199
-msgid "You haven't created all required pages yet. You can add missing pages in the previous step, or create them manually with the shortcode. You can come back later to this step to add your pages to the desired menu, or do it manually via Appearance > Menu."
-msgstr "Nie stworzyłeś jeszcze wszystkich wymaganych stron. Możesz dodać brakujące strony w poprzednich korkach lub utworzyć je ręcznie za pomocą shortcode. Możesz później wrócić do tego kroku i dodać swoje strony do menu lub zrobić to ręcznie za pomocą Wygląd -> Menu."
 
 #: class-document.php:1537 class-document.php:1623
 msgid "Update pages"
@@ -2611,7 +2569,7 @@ msgstr "Polityka Cookies (CA)"
 msgid "Canada (PIPEDA)"
 msgstr "Kanada (PIPEDA)"
 
-#: callback-notices.php:274 settings/config/fields-notices.php:160
+#: settings/config/fields-notices.php:160
 msgid "You have selected options that indicate your site processes sensitive, personal data. You should select 'Yes'"
 msgstr "Wybrałeś opcje wskazujące, że twoja witryna przetwarza wrażliwe dane osobowe. Powinieneś wybrać opcję \"Tak”"
 
@@ -2684,29 +2642,13 @@ msgstr "Ta Polityka Plików Cookies została zsynchronizowana z  %scookiedatabas
 msgid "Complianz provides your Cookie Policy with comprehensive cookie descriptions, supplied by cookiedatabase.org. We connect to this open-source database using an external API, which sends the results of the cookiescan (a list of found cookies, used plugins and your domain) to cookiedatabase.org, for the sole purpose of providing you with accurate descriptions and keeping them up-to-date on a regular basis."
 msgstr "Complianz udostępnia tobie politykę plików cookie z kompleksowymi opisami plików cookie, dostarczonymi przez cookiedatabase.org. Łączymy się z tą bazą danych typu open source za pomocą zewnętrznego interfejsu API, który przesyła wyniki skanowania plików cookie (lista znalezionych plików cookie, używanych wtyczek i twojej domeny) do witryny cookiedatabase.org, wyłącznie w celu zapewnienia dokładnych opisów i zachowania ich aktualnymi."
 
-#: callback-notices.php:37 settings/config/fields-notices.php:20
+#: settings/config/fields-notices.php:20
 msgid "Please make sure you remove your current implementation to prevent double statistics tracking."
 msgstr "Proszę upewnij się, że usunąłeś poprzedni rodzaj integracji, żeby uniknąć podwójnego śledzenia statystyk."
-
-#: callback-notices.php:9 callback-notices.php:36
-msgid "This field has been pre-filled based on the scan results."
-msgstr "To pole zostało wstępnie wypełnione na podstawie wyników skanowania."
-
-#: callback-notices.php:19
-msgid "Your server does not have CURL installed, which is required for the sync. Please contact your hosting company to install CURL."
-msgstr "Twój serwer nie ma zainstalowanego CURL, który jest wymagany dla synchronizacji. Proszę skontaktuj się ze swoim hostingiem w celu instalacji CURL."
-
-#: callback-notices.php:26
-msgid "Synchronization disabled: This happens when all cookies have synchronized to cookiedatabase.org in the last week."
-msgstr "Synchronizacja zablokowana: To się zdarza kiedy wszystkie pliki cookies zostały zsynchronizowane do cookiedatabase.org w zeszłym tygodniu."
 
 #: settings/config/fields/wizard/consent.php:17
 msgid "If you want to clear all cookies from the plugin, you can do so here. If you want to start with a clean slate, you might need to clear your browsercache, to make sure all cookies are removed from your browser as well."
 msgstr "Jeśli chcesz usunąć wszystkie pliki cookie z wtyczki, możesz to zrobić tutaj. Jeśli chcesz zacząć od nowa, może być konieczne wyczyszczenie pamięci podręcznej przeglądarki, aby upewnić się, że wszystkie pliki cookie również zostały usunięte z przeglądarki."
-
-#: callback-notices.php:107
-msgid "Your server does not have CURL installed, which is required for the scan. Please contact your hosting company to install CURL."
-msgstr "Twój serwer nie ma zainstalowanego CURL, który jest wymagany żeby móc przeprowadzić skan. Proszę skontaktować się ze swoim hostingiem w celu instalacji CURL."
 
 #: cookiebanner/class-banner-loader.php:1152
 msgid "(not synced yet)"
@@ -2815,10 +2757,6 @@ msgstr "Przepraszamy, ale nie udało się aktywować integracji Complianz"
 msgid "Integrate Forminator with Complianz Privacy Suite"
 msgstr "Zintegruj Forminator z Complianz Privacy Suit"
 
-#: callback-notices.php:150
-msgid "Because your site uses third-party cookies, the cookie blocker is now activated. If you experience issues on the front-end of your site due to blocked scripts, you can disable specific services or plugin integrations in the %sintegrations section%s, or you can disable the cookie blocker entirely on the %ssettings page%s"
-msgstr "Ponieważ twoja witryna korzysta z plików cookie innych firm, funkcja blokowania plików cookie jest teraz aktywna. Jeśli napotkasz problemy z front-endem swojej witryny z powodu zablokowanych skryptów, możesz wyłączyć określone usługi lub integracje wtyczek w %s\"Integracje\"%s lub możesz całkowicie wyłączyć blokowanie plików cookie na %sstronie ustawień%s"
-
 #: integrations/plugins/monsterinsights.php:45
 msgid "You have selected you anonymize IP addresses. This setting is now enabled in MonsterInsights."
 msgstr "Wybrałeś anonimizację adresów IP. To ustawienie jest teraz włączone w MonsterInsights."
@@ -2877,7 +2815,7 @@ msgstr "Usługi"
 msgid "Integrations"
 msgstr "Integracje"
 
-#: callback-notices.php:235 settings/config/fields-notices.php:117
+#: settings/config/fields-notices.php:117
 msgid "Categories are mandatory for your statistics configuration."
 msgstr "Kategorie są wymagane do twojej konfiguracji statystyk."
 
@@ -3105,11 +3043,7 @@ msgstr "Zaleca się, aby Complianz zajął się skryptem statystyk. W ten sposó
 msgid "Website information"
 msgstr "Informacje o witrynie"
 
-#: callback-notices.php:187
-msgid "You have indicated you use a statistics tool which tracks personal data. You can insert this script here so it only fires if the user consents to this."
-msgstr "Wskazałeś, że korzystasz z narzędzia statystycznego, które śledzi dane osobowe. Możesz wstawić ten skrypt tutaj, aby był uruchamiany tylko wtedy, gdy użytkownik wyrazi na to zgodę."
-
-#: callback-notices.php:39 settings/config/fields/wizard/consent.php:394
+#: settings/config/fields/wizard/consent.php:394
 #: settings/config/fields/wizard/consent.php:485
 msgid "If you add the ID for your statistics tool here, Complianz will configure your site for statistics tracking."
 msgstr "Jeśli dodasz tutaj ID narzędzia statystycznego, Complianz skonfiguruje witrynę pod kątem śledzenia statystyk."
@@ -3747,15 +3681,6 @@ msgctxt "Subject in notification email"
 msgid "Your legal documents on %s need to be updated."
 msgstr "Twoje dokumenty prawne na %s muszą zostać zaktualizowane."
 
-#: callback-notices.php:122
-msgid "You are using an anonymous window. This will prevent most cookies from being placed. Please run the scan in a normal browser window."
-msgstr "Używasz anonimowego okna. Zapobiegnie to umieszczaniu większości plików cookie. Uruchom skanowanie w normalnym oknie przeglądarki."
-
-#: callback-notices.php:119 settings/build/9080.8a8c975ca932d24767f5.js:1
-#: settings/src/Settings/CookieScan/CookieScanControl.js:39
-msgid "You are using an ad blocker. This will prevent most cookies from being placed. Please run the scan without an adblocker enabled."
-msgstr "Używasz programu do blokowania reklam. Zapobiegnie to umieszczaniu większości plików cookie. Uruchom skanowanie bez włączonego programu do blokowania reklam."
-
 #: settings/config/fields/tools/support.php:39
 msgid "System Status"
 msgstr "Stan systemu"
@@ -3773,7 +3698,7 @@ msgstr "Dokumenty"
 msgid "Data successfully cleared"
 msgstr "Dane zostały pomyślnie usunięte"
 
-#: callback-notices.php:77 settings/config/fields-notices.php:55
+#: settings/config/fields-notices.php:55
 msgid "The scan found forms on your site, which means answer should probably include \"contact\"."
 msgstr "Skan odnalazł formularze w twojej witrynie, co oznacza, że odpowiedź powinna prawdopodobnie zawierać \"kontakt\"."
 
@@ -3936,7 +3861,7 @@ msgstr "Czy twoja witryna używa zewnętrznych serwisów?"
 msgid "Custom CSS"
 msgstr "Własny CSS"
 
-#: callback-notices.php:90 settings/config/fields-notices.php:69
+#: settings/config/fields-notices.php:69
 msgid "The scan found third-party services on your website: %s, this means the answer should be yes."
 msgstr "Skan znalazł zewnętrzne serwisy w twojej witrynie: %s. To oznacza, że odpowiedź powinna brzmieć \"tak\"."
 
@@ -3971,7 +3896,6 @@ msgstr "Nazwa"
 
 #: class-field.php:943 settings/build/300.014b08be1dac0b2aeb8d.js:1
 #: settings/build/1300.313f0f49f3b4e67ac46d.js:1
-#: settings/build/1300.a0950efcc9b9b65a1308.js:1
 #: settings/build/2680.0fe54e6009060d7088b4.js:1
 #: settings/build/4128.3275de3976cbfbe6ea0f.js:1
 #: settings/build/5384.d1da4d6574dd818b127e.js:1
@@ -4153,7 +4077,6 @@ msgid "When you visit our website for the first time, we will show you a pop-up 
 msgstr "Kiedy odwiedzasz naszą stronę po raz pierwszy, pokażemy Ci wyskakujące okienko z wyjaśnieniem dotyczącym plików cookie. Po kliknięciu przycisku \"%s\" wyrażasz zgodę na używanie przez nas wszystkich plików cookie i wtyczek zgodnie z opisem w wyskakującym okienku i tym oświadczeniu dotyczącym plików cookie. Korzystanie z plików cookie może zostać wyłączone za pośrednictwem przeglądarki, ale pamiętaj, że nasza witryna może już nie działać poprawnie."
 
 #: settings/config/menu.php:101 settings/build/1300.313f0f49f3b4e67ac46d.js:1
-#: settings/build/1300.a0950efcc9b9b65a1308.js:1
 #: settings/src/Settings/ProofOfConsent/ProofOfConsentControl.js:177
 msgid "Consent"
 msgstr "Zgoda"
@@ -4852,7 +4775,7 @@ msgstr "Gabon"
 
 #: config/countries.php:231
 msgid "French Southern Territories"
-msgstr "Francuskie Terytoria Południowe i Antarktyczne"
+msgstr "Francuskie Terytoria Południowe"
 
 #: config/countries.php:230
 msgid "French Polynesia"
@@ -5391,19 +5314,6 @@ msgstr "Załącznik"
 msgid "Select a menu"
 msgstr "Wybierz menu"
 
-#: callback-notices.php:217 settings/build/6632.974eefb032cd447892d8.js:1
-#: settings/src/Settings/DocumentsMenu/DocumentsMenuControl.js:53
-msgid "Great! All your generated documents have been assigned to a menu, so you can skip this step."
-msgstr "Świetnie! Wszystkie wygenerowane przez ciebie dokumenty zostały przypisane do menu, więc możesz pominąć ten krok."
-
-#: callback-notices.php:211 settings/build/6632.974eefb032cd447892d8.js:1
-#: settings/src/Settings/DocumentsMenu/DocumentsMenuControl.js:46
-msgid "The generated document %s has not been assigned to a menu yet, you can do this now, or skip this step and do it later."
-msgid_plural "Not all generated documents have been assigned to a menu yet, you can do this now, or skip this step and do it later."
-msgstr[0] "Wygenerowany dokument %s nie został jeszcze przypisany do menu. Możesz to zrobić teraz, lub ominąć ten krok i zrobić to później."
-msgstr[1] "Nie wszystkie wygenerowane dokumenty zostały przypisane do menu. Możesz to zrobić teraz, lub ominąć ten krok i zrobić to później."
-msgstr[2] "Nie wszystkie wygenerowane dokumenty zostały przypisane do menu. Możesz to zrobić teraz, lub ominąć ten krok i zrobić to później."
-
 #: class-document.php:1664 class-document.php:1728
 msgid "No menus were found. Skip this step, or %screate a menu%s first."
 msgstr "Żadne menu nie zostało odnalezione. Pomiń ten krok lub najpierw %screate a menu%s."
@@ -5411,10 +5321,6 @@ msgstr "Żadne menu nie zostało odnalezione. Pomiń ten krok lub najpierw %scre
 #: cookiebanner/class-banner-loader.php:1132
 msgid "%s at %s"
 msgstr "%s na %s"
-
-#: callback-notices.php:53
-msgid "The cookie scan detected %s on your site, which means the answer to this question should be %s."
-msgstr "Skan plików cookies wykrył %s w twojej witrynie, co oznacza, że odpowiedź na to pytanie powinna być %s."
 
 #: mailer/class-mail.php:50
 msgid "Email address not valid"
@@ -5433,7 +5339,7 @@ msgstr "Kreator"
 
 #: class-admin.php:236 settings/config/menu.php:280
 #: settings/config/menu.php:284 settings/build/index.1cffd4da35a767c8d5a3.js:1
-#: settings/build/index.71f507b41a51d0f4b911.js:1 settings/src/Header.js:32
+#: settings/src/Header.js:32
 msgid "Support"
 msgstr "Pomoc techniczna"
 
@@ -5444,6 +5350,6 @@ msgstr "Pomoc techniczna"
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: callback-notices.php:67 settings/config/fields-notices.php:45
+#: settings/config/fields-notices.php:45
 msgid "The scan found social media buttons or widgets for %s on your site, which means the answer should be yes"
 msgstr "Skan znalazł przyciski lub widgety z social media dla %s w twojej witrynie, co oznacza, że odpowiedź powinna brzmieć \"tak\"."

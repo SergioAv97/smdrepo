@@ -1,6 +1,6 @@
 #footer {
 	padding: var(--raw-components-padding);
-	border-top: 15px solid var(--raw-color-white);
+
 	background-color: var(--raw-color-blue-bg);
 
 	p.container {

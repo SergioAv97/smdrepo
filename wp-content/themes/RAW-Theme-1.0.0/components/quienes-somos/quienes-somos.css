@@ -1,11 +1,17 @@
 .quienes-somos {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+
 	.grid {
 		div {
-			margin-right: 4rem;
 
 			.title {
 				color: var(--raw-color-blue-bg);
-				text-align: left;
+				text-align: center;
 			}
 		}
 	}

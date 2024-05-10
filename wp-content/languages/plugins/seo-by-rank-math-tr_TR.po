@@ -1,21 +1,62 @@
-# Translation of Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release) in Turkish
-# This file is distributed under the same license as the Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release) package.
+# Translation of Plugins - Rank Math SEO with AI Best SEO Tools - Stable (latest release) in Turkish
+# This file is distributed under the same license as the Plugins - Rank Math SEO with AI Best SEO Tools - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-21 21:27:29+0000\n"
+"PO-Revision-Date: 2024-05-07 08:37:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-beta.2\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: tr\n"
-"Project-Id-Version: Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Rank Math SEO with AI Best SEO Tools - Stable (latest release)\n"
 
-#: includes/modules/database-tools/class-database-tools.php:375
+#: includes/modules/content-ai/views/options.php:86
+msgid "Technical"
+msgstr "Teknik"
+
+#: includes/modules/content-ai/views/options.php:70
+msgid "Empathetic"
+msgstr "Empatik"
+
+#: includes/modules/content-ai/views/options.php:69
+msgid "Emotional"
+msgstr "Duygusal"
+
+#: includes/modules/content-ai/views/options.php:68
+msgid "Descriptive"
+msgstr "Açıklayıcı"
+
+#: includes/modules/content-ai/views/options.php:67
+msgid "Creative"
+msgstr "Yaratıcı"
+
+#: includes/modules/content-ai/views/options.php:66
+msgid "Conversational"
+msgstr "Sohbete dayalı"
+
+#: includes/modules/content-ai/views/options.php:65
+msgid "Casual"
+msgstr "Gündelik"
+
+#: includes/modules/content-ai/views/options.php:64
+msgid "Argumentative"
+msgstr "Tartışmacı"
+
+#: includes/modules/content-ai/views/options.php:63
+msgid "Analytical"
+msgstr "Analitik"
+
+#: includes/modules/content-ai/class-content-ai-page.php:185
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+msgid "Chat"
+msgstr "Sohbet"
+
+#: includes/modules/database-tools/class-database-tools.php:355
 msgid "Re-create Tables"
 msgstr "Tabloları yeniden oluştur"
 
-#: includes/module/class-manager.php:411
+#: includes/module/class-manager.php:412
 #: includes/modules/status/class-system-status.php:141
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Free"
@@ -142,7 +183,7 @@ msgstr "Adsense"
 #: includes/admin/wizard/views/search-console-ui.php:278
 #: includes/admin/wizard/views/search-console-ui.php:303
 #: includes/admin/wizard/views/search-console-ui.php:378
-#: includes/module/class-manager.php:419
+#: includes/module/class-manager.php:420
 #: includes/modules/analytics/views/options.php:149
 msgid "PRO"
 msgstr "PRO"
@@ -207,183 +248,183 @@ msgstr "Emlak"
 msgid "Rebuild Index"
 msgstr "İndeksleri yeniden oluştur"
 
-#: includes/helpers/class-choices.php:726
+#: includes/helpers/class-choices.php:746
 msgid "United Kingdom"
 msgstr "İngiltere"
 
-#: includes/helpers/class-choices.php:724
+#: includes/helpers/class-choices.php:744
 msgid "Ukraine"
 msgstr "Ukrayna"
 
-#: includes/helpers/class-choices.php:723
+#: includes/helpers/class-choices.php:743
 msgid "Turkey"
 msgstr "Türkiye"
 
-#: includes/helpers/class-choices.php:721
+#: includes/helpers/class-choices.php:741
 msgid "Thailand"
 msgstr "Tayland"
 
-#: includes/helpers/class-choices.php:720
+#: includes/helpers/class-choices.php:740
 msgid "Taiwan"
 msgstr "Tayvan"
 
-#: includes/helpers/class-choices.php:719
+#: includes/helpers/class-choices.php:739
 msgid "Switzerland"
 msgstr "İsviçre"
 
-#: includes/helpers/class-choices.php:718
+#: includes/helpers/class-choices.php:738
 msgid "Sweden"
 msgstr "İsveç"
 
-#: includes/helpers/class-choices.php:715
+#: includes/helpers/class-choices.php:735
 msgid "South Africa"
 msgstr "Güney Afrika"
 
-#: includes/helpers/class-choices.php:712
+#: includes/helpers/class-choices.php:732
 msgid "Singapore"
 msgstr "Singapur"
 
-#: includes/helpers/class-choices.php:709
+#: includes/helpers/class-choices.php:729
 msgid "Saudi Arabia"
 msgstr "Suudi Arabistan"
 
-#: includes/helpers/class-choices.php:707
+#: includes/helpers/class-choices.php:727
 msgid "Romania"
 msgstr "Romanya"
 
-#: includes/helpers/class-choices.php:706
+#: includes/helpers/class-choices.php:726
 msgid "Portugal"
 msgstr "Portekiz"
 
-#: includes/helpers/class-choices.php:705
+#: includes/helpers/class-choices.php:725
 msgid "Poland"
 msgstr "Polonya"
 
-#: includes/helpers/class-choices.php:704
+#: includes/helpers/class-choices.php:724
 msgid "Philippines"
 msgstr "Filipinler"
 
-#: includes/helpers/class-choices.php:700
+#: includes/helpers/class-choices.php:720
 msgid "Norway"
 msgstr "Norveç"
 
-#: includes/helpers/class-choices.php:699
+#: includes/helpers/class-choices.php:719
 msgid "Nigeria"
 msgstr "Nijerya"
 
-#: includes/helpers/class-choices.php:697
+#: includes/helpers/class-choices.php:717
 msgid "New Zealand"
 msgstr "Yeni Zelanda"
 
-#: includes/helpers/class-choices.php:696
+#: includes/helpers/class-choices.php:716
 msgid "Netherlands"
 msgstr "Hollanda"
 
-#: includes/helpers/class-choices.php:693
+#: includes/helpers/class-choices.php:713
 msgid "Mexico"
 msgstr "Meksika"
 
-#: includes/helpers/class-choices.php:691
+#: includes/helpers/class-choices.php:711
 msgid "Malaysia"
 msgstr "Malezya"
 
-#: includes/helpers/class-choices.php:686
+#: includes/helpers/class-choices.php:706
 msgid "Kenya"
 msgstr "Kenya"
 
-#: includes/helpers/class-choices.php:683
+#: includes/helpers/class-choices.php:703
 msgid "Japan"
 msgstr "Japonya"
 
-#: includes/helpers/class-choices.php:682
+#: includes/helpers/class-choices.php:702
 msgid "Italy"
 msgstr "İtalya"
 
-#: includes/helpers/class-choices.php:681
+#: includes/helpers/class-choices.php:701
 msgid "Israel"
 msgstr "İsrail"
 
-#: includes/helpers/class-choices.php:680
+#: includes/helpers/class-choices.php:700
 msgid "Ireland"
 msgstr "İrlanda"
 
-#: includes/helpers/class-choices.php:679
+#: includes/helpers/class-choices.php:699
 msgid "Indonesia"
 msgstr "Endonezya"
 
-#: includes/helpers/class-choices.php:678
+#: includes/helpers/class-choices.php:698
 msgid "India"
 msgstr "Hindistan"
 
-#: includes/helpers/class-choices.php:677
+#: includes/helpers/class-choices.php:697
 msgid "Hungary"
 msgstr "Macaristan"
 
-#: includes/helpers/class-choices.php:676
+#: includes/helpers/class-choices.php:696
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
-#: includes/helpers/class-choices.php:674
+#: includes/helpers/class-choices.php:694
 msgid "Greece"
 msgstr "Yunanistan"
 
-#: includes/helpers/class-choices.php:672
+#: includes/helpers/class-choices.php:692
 msgid "Germany"
 msgstr "Almanya"
 
-#: includes/helpers/class-choices.php:671
+#: includes/helpers/class-choices.php:691
 msgid "France"
 msgstr "Fransa"
 
-#: includes/helpers/class-choices.php:670
+#: includes/helpers/class-choices.php:690
 msgid "Finland"
 msgstr "Finlandiya"
 
-#: includes/helpers/class-choices.php:667
+#: includes/helpers/class-choices.php:687
 msgid "Egypt"
 msgstr "Mısır"
 
-#: includes/helpers/class-choices.php:665
+#: includes/helpers/class-choices.php:685
 msgid "Denmark"
 msgstr "Danimarka"
 
-#: includes/helpers/class-choices.php:664
+#: includes/helpers/class-choices.php:684
 msgid "Czechia"
 msgstr "Çekya"
 
-#: includes/helpers/class-choices.php:660
+#: includes/helpers/class-choices.php:680
 msgid "Colombia"
 msgstr "Kolombiya"
 
-#: includes/helpers/class-choices.php:659
+#: includes/helpers/class-choices.php:679
 msgid "Chile"
 msgstr "Şili"
 
-#: includes/helpers/class-choices.php:658
+#: includes/helpers/class-choices.php:678
 msgid "Canada"
 msgstr "Kanada"
 
-#: includes/helpers/class-choices.php:655
+#: includes/helpers/class-choices.php:675
 msgid "Brazil"
 msgstr "Brezilya"
 
-#: includes/helpers/class-choices.php:653
+#: includes/helpers/class-choices.php:673
 msgid "Belgium"
 msgstr "Belçika"
 
-#: includes/helpers/class-choices.php:648
+#: includes/helpers/class-choices.php:668
 msgid "Austria"
 msgstr "Avusturya"
 
-#: includes/helpers/class-choices.php:647
+#: includes/helpers/class-choices.php:667
 msgid "Australia"
 msgstr "Avustralya"
 
-#: includes/helpers/class-choices.php:645
+#: includes/helpers/class-choices.php:665
 msgid "Argentina"
 msgstr "Arjantin"
 
-#: includes/helpers/class-choices.php:643
+#: includes/helpers/class-choices.php:663
 msgid "Worldwide"
 msgstr "Dünya çapında"
 
@@ -471,25 +512,25 @@ msgid_plural "%s years"
 msgstr[0] "%s yıl"
 msgstr[1] "%s yıl"
 
-#: includes/helpers/class-schema.php:93
+#: includes/helpers/class-schema.php:94
 #: includes/settings/titles/post-types.php:136
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "EDD Product"
 msgstr "EDD Ürün"
 
-#: includes/helpers/class-schema.php:89
+#: includes/helpers/class-schema.php:90
 #: includes/settings/titles/post-types.php:136
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "WooCommerce Product"
 msgstr "WooCommerce Ürünü"
 
-#: includes/frontend/class-shortcodes.php:368
+#: includes/frontend/class-shortcodes.php:373
 msgid "Email:"
 msgstr "E-posta:"
 
-#: includes/frontend/class-shortcodes.php:309
+#: includes/frontend/class-shortcodes.php:314
 msgid "Telephone"
 msgstr "Telefon"
 
@@ -598,11 +639,11 @@ msgstr "PHP OpenSSL eklentisi yüklü"
 msgid "SEO Score: Ok"
 msgstr "SEO Puanı: Öyle böyle"
 
-#: includes/module/class-manager.php:351
+#: includes/module/class-manager.php:352
 msgid "Google Web Stories"
 msgstr "Google Web Hikayeleri"
 
-#: includes/module/class-manager.php:356
+#: includes/module/class-manager.php:357
 msgid "Please activate Web Stories plugin to use this module."
 msgstr "Lütfen bu modülde web hikayelerini aktif edin."
 
@@ -619,6 +660,7 @@ msgstr "Hesabınızın bağlantısını kesin"
 #: includes/admin/views/plugin-activation.php:42 assets/admin/js/post-list.js:1
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/content-ai/assets/js/media-edit.js:1
 #: includes/modules/content-ai/blocks/command/assets/js/index.js:1
 #: includes/modules/content-ai/blocks/command/assets/src/edit.js:24
 msgid "Connect Now"
@@ -801,8 +843,8 @@ msgstr "Gelişmiş Mod"
 msgid "Out of stock"
 msgstr "Stoklar tükendi"
 
-#: includes/modules/database-tools/class-database-tools.php:282
-#: includes/modules/database-tools/class-database-tools.php:301
+#: includes/modules/database-tools/class-database-tools.php:281
+#: includes/modules/database-tools/class-database-tools.php:300
 msgid "Conversion started. A success message will be shown here once the process completes. You can close this page."
 msgstr "Dönüşüm başladı. İşlem tamamlandığında burada bir başarı mesajı gösterilir. Sonrasında sayfayı kapatabilirsiniz."
 
@@ -988,24 +1030,24 @@ msgstr "Etkinlik Katılım Modu"
 msgid "Online Event URL"
 msgstr "Çevrimiçi Etkinlik Linki"
 
-#: includes/admin/importers/class-yoast.php:1208
+#: includes/admin/importers/class-yoast.php:1245
 msgid "No post found."
 msgstr "Yazı bulunamadı."
 
 #. translators: placeholders are units of time, e.g. '1 day, 8 hours and 30
 #. minutes'
-#: includes/modules/schema/blocks/class-block-howto.php:493
+#: includes/modules/schema/blocks/class-block-howto.php:492
 msgid "%1$s, %2$s and %3$s"
 msgstr "%1$s, %2$s ve %3$s"
 
 #. translators: placeholders are units of time, e.g. '1 hour and 30 minutes'
-#: includes/modules/schema/blocks/class-block-howto.php:491
+#: includes/modules/schema/blocks/class-block-howto.php:490
 msgid "%1$s and %2$s"
 msgstr "%1$s ve %2$s"
 
 #. translators: %d is the number of minutes.
 #. translators: %d: minutes
-#: includes/modules/schema/blocks/class-block-howto.php:484
+#: includes/modules/schema/blocks/class-block-howto.php:483
 #: includes/opengraph/class-slack.php:311
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -1013,14 +1055,14 @@ msgstr[0] "%d dakika"
 msgstr[1] "%d dakika"
 
 #. translators: %d is the number of hours.
-#: includes/modules/schema/blocks/class-block-howto.php:479
+#: includes/modules/schema/blocks/class-block-howto.php:478
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d saat"
 msgstr[1] "%d saat"
 
 #. translators: %d is the number of days.
-#: includes/modules/schema/blocks/class-block-howto.php:474
+#: includes/modules/schema/blocks/class-block-howto.php:473
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d gün"
@@ -1034,7 +1076,7 @@ msgstr "Yayın içeriklerindeki tüm uyumlu blokları içe aktarın ve dönüşt
 msgid "Import Blocks"
 msgstr "Blokları İçeri Aktar"
 
-#: includes/modules/schema/blocks/class-block-howto.php:499
+#: includes/modules/schema/blocks/class-block-howto.php:498
 msgid "Total Time:"
 msgstr "Toplam zaman:"
 
@@ -1057,21 +1099,21 @@ msgstr "Sırasız"
 msgid "Numbered"
 msgstr "Numaralı"
 
-#: includes/modules/database-tools/class-database-tools.php:276
-#: includes/modules/database-tools/class-database-tools.php:295
+#: includes/modules/database-tools/class-database-tools.php:275
+#: includes/modules/database-tools/class-database-tools.php:294
 msgid "No posts found to convert."
 msgstr "Dönüştürülecek yazı bulunamadı."
 
-#: includes/modules/database-tools/class-database-tools.php:391
+#: includes/modules/database-tools/class-database-tools.php:371
 msgid "Are you sure you want to convert Yoast blocks into Rank Math blocks? This action is irreversible."
 msgstr "Yoast bloklarını Rank Math bloklarına dönüştürmek istediğinizden emin misin? Bu eylem geri alınamaz."
 
-#: includes/modules/database-tools/class-database-tools.php:392
-#: includes/modules/database-tools/class-database-tools.php:402
+#: includes/modules/database-tools/class-database-tools.php:372
+#: includes/modules/database-tools/class-database-tools.php:382
 msgid "Convert Blocks"
 msgstr "Blokları dönüştür"
 
-#: includes/modules/database-tools/class-database-tools.php:389
+#: includes/modules/database-tools/class-database-tools.php:369
 msgid "Yoast Block Converter"
 msgstr "Yoast blok dönüştürücü"
 
@@ -1164,7 +1206,7 @@ msgid "Version Control"
 msgstr "Sürüm kontrolü"
 
 #: includes/module/class-manager.php:278
-#: includes/modules/database-tools/class-database-tools.php:334
+#: includes/modules/database-tools/class-database-tools.php:314
 msgid "Database Tools"
 msgstr "Veritabanı araçları"
 
@@ -1346,24 +1388,24 @@ msgstr "Şema işaretleme verilerini WooCommerce mağaza arşiv sayfalarından k
 msgid "Enable the BuddyPress module for Rank Math SEO to make your BuddyPress forum SEO friendly by adding proper meta tags to all forum pages."
 msgstr "BuddyPress forumunuzu tüm forum sayfalarına uygun meta etiketler ekleyerek SEO dostu hale getirmek için BuddyPress modülünü Rank Math SEO için etkinleştirin."
 
-#: includes/modules/database-tools/class-database-tools.php:365
-#: includes/modules/database-tools/class-database-tools.php:368
+#: includes/modules/database-tools/class-database-tools.php:345
+#: includes/modules/database-tools/class-database-tools.php:348
 msgid "Clear 404 Log"
 msgstr "404 Hata kayıtlarını temizle"
 
-#: includes/modules/database-tools/class-database-tools.php:366
+#: includes/modules/database-tools/class-database-tools.php:346
 msgid "Is the 404 error log getting out of hand? Use this option to clear ALL 404 logs generated by your website in the Rank Math 404 Monitor."
 msgstr "404 hata günlüğü kontrolden çıkıyor mu? Rank Math 404 Monitor'de web siteniz tarafından oluşturulan TÜM 404 günlüklerini temizlemek için bu seçeneği kullanın."
 
-#: includes/modules/database-tools/class-database-tools.php:409
+#: includes/modules/database-tools/class-database-tools.php:389
 msgid "In some instances, the internal links data might show an inflated number or no number at all. Deleting the internal links data might fix the issue."
 msgstr "Bazı durumlarda, iç bağlantı verileri şişirilmiş bir sayı gösterebilir veya hiç sayı göstermeyebilir. Dahili bağlantı verilerinin silinmesi sorunu çözebilir."
 
-#: includes/modules/database-tools/class-database-tools.php:360
+#: includes/modules/database-tools/class-database-tools.php:340
 msgid "Remove transients"
 msgstr "Geçici süreleri kaldır"
 
-#: includes/modules/database-tools/class-database-tools.php:359
+#: includes/modules/database-tools/class-database-tools.php:339
 msgid "If you see any issue while using Rank Math or one of its options - clearing the Rank Math transients fixes the problem in most cases. Deleting transients does not delete ANY data added using Rank Math."
 msgstr "Rank Math veya seçeneklerinden birini kullanırken herhangi bir sorun görürseniz - Rank Math geçici öğelerini temizlemek çoğu durumda sorunu çözer. Geçici geçişlerin silinmesi, Rank Math kullanılarak eklenen HERHANGİ bir veriyi silmez."
 
@@ -1466,55 +1508,55 @@ msgstr "Sistem Durumu"
 msgid "Status & Tools"
 msgstr "Durum ve Araçlar"
 
-#: includes/modules/database-tools/class-database-tools.php:190
+#: includes/modules/database-tools/class-database-tools.php:189
 msgid "Redirection rules successfully deleted."
 msgstr "Yönlendirmeler başarıyla silindi."
 
-#: includes/modules/database-tools/class-database-tools.php:420
+#: includes/modules/database-tools/class-database-tools.php:400
 msgid "Delete Redirections"
 msgstr "Yeniden Yönlendirmeleri Sil"
 
-#: includes/modules/database-tools/class-database-tools.php:417
+#: includes/modules/database-tools/class-database-tools.php:397
 msgid "Delete Redirections Rules"
 msgstr "Yeniden Yönlendirme Kurallarını Sil"
 
-#: includes/modules/database-tools/class-database-tools.php:411
+#: includes/modules/database-tools/class-database-tools.php:391
 msgid "Delete Internal Links"
 msgstr "Dahili Bağlantıları Sil"
 
-#: includes/module/class-manager.php:342
+#: includes/module/class-manager.php:343
 msgid "ACF"
 msgstr "ACF"
 
-#: includes/modules/database-tools/class-database-tools.php:408
+#: includes/modules/database-tools/class-database-tools.php:388
 msgid "Delete Internal Links Data"
 msgstr "Dahili Bağlantı Verilerini Sil"
 
-#: includes/modules/database-tools/class-database-tools.php:151
+#: includes/modules/database-tools/class-database-tools.php:150
 msgid "Internal Links successfully deleted."
 msgstr "Dahili bağlantılar başarıyla silindi."
 
-#: includes/modules/database-tools/class-database-tools.php:419
+#: includes/modules/database-tools/class-database-tools.php:399
 msgid "Are you sure you want to delete all the Redirection Rules? This action is irreversible."
 msgstr "Tüm yönlendirme kuralları'nı silmek istediğinizden emin misiniz? Bu eylem geri döndürülemez."
 
-#: includes/modules/database-tools/class-database-tools.php:367
+#: includes/modules/database-tools/class-database-tools.php:347
 msgid "Are you sure you want to delete the 404 log? This action is irreversible."
 msgstr "404 günlüğünü silmek istediğinizden emin misiniz? Bu eylem geri döndürülemez."
 
-#: includes/modules/database-tools/class-database-tools.php:410
+#: includes/modules/database-tools/class-database-tools.php:390
 msgid "Are you sure you want to delete Internal Links Data? This action is irreversible."
 msgstr "Dahili bağlantı verilerini silmek istediğinizden emin misiniz? Bu eylem geri döndürülemez."
 
-#: includes/module/class-manager.php:347
+#: includes/module/class-manager.php:348
 msgid "Please activate ACF plugin to use this module."
 msgstr "Bu modülü kullanmak için lütfen ACF eklentisini etkinleştirin."
 
-#: includes/module/class-manager.php:343
+#: includes/module/class-manager.php:344
 msgid "ACF support helps Rank Math SEO read and analyze content written in the Advanced Custom Fields. If your theme uses ACF, you should enable this option."
 msgstr "ACF desteği Rank Math SEO'nun Gelişmiş Özel Alanlarda yazılmış içeriği okumasına ve analiz etmesine yardımcı olur. Temanız ACF kullanıyorsa, bu seçeneği etkinleştirmeniz gerekir."
 
-#: includes/modules/database-tools/class-database-tools.php:170
+#: includes/modules/database-tools/class-database-tools.php:169
 msgid "404 Log successfully deleted."
 msgstr "404 Kayıtları başarıyla silindi."
 
@@ -1884,22 +1926,22 @@ msgid "Review analytics and sitemaps"
 msgstr "Analizleri ve site haritalarını inceleyin"
 
 #. translators: 1 is plugin name
-#: includes/admin/wizard/class-import.php:183
+#: includes/admin/wizard/class-import.php:186
 msgid "Import meta data from the %1$s plugin."
 msgstr "Eklentiden %1$s meta verileri içe aktar."
 
 #. translators: 1 is plugin name
-#: includes/admin/wizard/class-import.php:183
+#: includes/admin/wizard/class-import.php:186
 msgid "Import settings and meta data from the %1$s plugin."
 msgstr "Eklentiden %1$s ayarları ve meta verileri içe aktar."
 
 #. translators: 2 is link to Knowledge Base article
-#: includes/admin/wizard/class-import.php:186
+#: includes/admin/wizard/class-import.php:189
 msgid "The process may take a few minutes if you have a large number of posts or pages <a href=\"%2$s\" target=\"_blank\">Learn more about the import process here.</a>"
 msgstr "Çok sayıda gönderi veya sayfa varsa işlem birkaç dakika sürebilir <a href=\"%2$s\" target=\"_blank\">Buradan içe aktarma işlemi hakkında daha fazla bilgi edinin.</a>"
 
 #. translators: 1 is plugin name
-#: includes/admin/wizard/class-import.php:190
+#: includes/admin/wizard/class-import.php:193
 msgid " %1$s plugin will be disabled automatically moving forward to avoid conflicts. <strong>It is thus recommended to import the data you need now.</strong>"
 msgstr " %1$s Eklenti çakışmalarını önlemek için otomatik olarak ileriye doğru devre dışı bırakılacak.<strong>Bu nedenle, şimdi ihtiyacınız olan verileri içe aktarmanız önerilir.</strong>"
 
@@ -1963,11 +2005,11 @@ msgstr "Sayfanız Facebook'ta ve diğer sosyal ağlarda paylaşıldığında gö
 msgid "Sorry, field is empty which is not allowed."
 msgstr "Maalesef, alanın boş bırakılmaması gerekiyor."
 
-#: includes/rest/class-admin.php:167
+#: includes/rest/class-admin.php:169
 msgid "Module state either on or off"
 msgstr "Modül durumu açık veya kapalı"
 
-#: includes/rest/class-admin.php:161
+#: includes/rest/class-admin.php:163
 msgid "Module slug"
 msgstr "Modül kısa ismi"
 
@@ -2273,8 +2315,9 @@ msgid "Default"
 msgstr "Varsayılan"
 
 #: includes/modules/404-monitor/views/options.php:58
-#: includes/modules/local-seo/views/titles-options.php:157
-#: includes/modules/local-seo/views/titles-options.php:199
+#: includes/modules/local-seo/views/titles-options.php:167
+#: includes/modules/local-seo/views/titles-options.php:209
+#: includes/modules/local-seo/views/titles-options.php:253
 #: includes/modules/redirections/class-form.php:89
 msgid "Remove"
 msgstr "Kaldır"
@@ -2337,10 +2380,6 @@ msgstr "Yerel SEO"
 msgid "Social Meta"
 msgstr "Sosyal Meta"
 
-#: includes/admin/class-option-center.php:158
-msgid "Homepage"
-msgstr "Anasayfa"
-
 #. translators: Link to kb article
 #. translators: Link to KB article
 #. translators: Redirection page url
@@ -2370,8 +2409,8 @@ msgstr "Anasayfa"
 #: includes/modules/analytics/class-analytics.php:502
 #: includes/modules/content-ai/class-content-ai.php:111
 #: includes/modules/image-seo/class-admin.php:47
-#: includes/modules/instant-indexing/class-instant-indexing.php:210
-#: includes/modules/instant-indexing/class-instant-indexing.php:218
+#: includes/modules/instant-indexing/class-instant-indexing.php:214
+#: includes/modules/instant-indexing/class-instant-indexing.php:222
 #: includes/modules/redirections/class-admin.php:227
 #: includes/modules/robots-txt/class-robots-txt.php:69
 #: includes/modules/role-manager/views/main.php:28
@@ -2383,6 +2422,10 @@ msgstr "Anasayfa"
 #: includes/modules/woocommerce/class-admin.php:76
 msgid "Learn more"
 msgstr "Daha fazla bilgi edin"
+
+#: includes/admin/class-option-center.php:158
+msgid "Homepage"
+msgstr "Anasayfa"
 
 #: includes/admin/class-option-center.php:167
 #: includes/modules/content-ai/views/options.php:102
@@ -2469,7 +2512,7 @@ msgstr "Aramak için buraya yazınız..."
 
 #: includes/module/class-module.php:96
 #: includes/modules/404-monitor/class-admin.php:219
-#: includes/modules/instant-indexing/class-instant-indexing.php:216
+#: includes/modules/instant-indexing/class-instant-indexing.php:220
 #: includes/modules/redirections/class-admin.php:357 rank-math.php:430
 #: assets/admin/js/rank-math-app.js:1
 #: includes/modules/schema/blocks/toc/assets/js/index.js:1
@@ -2519,7 +2562,7 @@ msgstr "Özel alan değeri."
 msgid "Starts at 1 and increments by 1."
 msgstr "1 ile başlar ve 1 ile artar."
 
-#: includes/frontend/class-shortcodes.php:179
+#: includes/frontend/class-shortcodes.php:184
 msgid "Address:"
 msgstr "Adres:"
 
@@ -2537,7 +2580,7 @@ msgstr "GIF simgesi"
 msgid "No Follow"
 msgstr "No Follow"
 
-#: includes/helpers/class-choices.php:445 includes/helpers/class-schema.php:97
+#: includes/helpers/class-choices.php:445 includes/helpers/class-schema.php:98
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Video"
@@ -2573,11 +2616,11 @@ msgstr "Basit"
 msgid "Links: "
 msgstr "Bağlantılar: "
 
-#: includes/modules/local-seo/views/titles-options.php:93
+#: includes/modules/local-seo/views/titles-options.php:103
 msgid "Phone"
 msgstr "Telefon"
 
-#: includes/modules/local-seo/views/titles-options.php:103
+#: includes/modules/local-seo/views/titles-options.php:113
 #: includes/modules/schema/shortcode/event.php:62
 #: includes/modules/schema/shortcode/person.php:27
 #: includes/modules/schema/shortcode/restaurant.php:20
@@ -2587,12 +2630,12 @@ msgstr "Telefon"
 msgid "Address"
 msgstr "Adres"
 
-#: includes/modules/local-seo/views/titles-options.php:153
+#: includes/modules/local-seo/views/titles-options.php:163
 #: includes/modules/schema/class-snippet-shortcode.php:246
 msgid "Opening Hours"
 msgstr "Açılış Saatleri"
 
-#: includes/modules/local-seo/views/titles-options.php:138
+#: includes/modules/local-seo/views/titles-options.php:148
 msgid "Opening Hours Format"
 msgstr "Açılış Saatleri Formatı"
 
@@ -2692,6 +2735,9 @@ msgid "Google oAuth is not authorized."
 msgstr "Google oAuth yetkili değil."
 
 #: includes/modules/seo-analysis/class-result.php:177
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/content-ai/assets/js/media-edit.js:1
 msgid "Failed"
 msgstr "Başarısız oldu"
 
@@ -2848,7 +2894,6 @@ msgstr "Yedekleme Oluştur"
 #: includes/admin/views/import-export/backup-panel.php:43
 #: includes/modules/404-monitor/class-table.php:156
 #: includes/modules/404-monitor/class-table.php:276
-#: includes/modules/database-tools/class-database-tools.php:429
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Delete"
@@ -2901,7 +2946,7 @@ msgid "Use automatic structured data to mark up content, to help Google better u
 msgstr "İçeriği işaretlemek için Google’ın, içeriğinizin Arama’da görüntülenecek içeriğini daha iyi anlamasına yardımcı olmak için otomatik yapılandırılmış verileri kullanın. Burada yazılarınız için farklı varsayılanlar belirleyebilirsiniz."
 
 #: includes/admin/wizard/class-schema-markup.php:82
-#: includes/helpers/class-choices.php:436 includes/helpers/class-schema.php:85
+#: includes/helpers/class-choices.php:436 includes/helpers/class-schema.php:86
 #: includes/settings/titles/post-types.php:167
 #: includes/settings/titles/post-types.php:214
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -3179,7 +3224,7 @@ msgstr "Facebook Paylaşım Hata Ayıklama"
 
 #. translators: Search query term
 #. translators: placeholder
-#: includes/class-installer.php:343
+#: includes/class-installer.php:344
 #: includes/settings/general/breadcrumbs.php:110
 msgid "Results for %s"
 msgstr "İçin sonuçlar %s"
@@ -3461,7 +3506,7 @@ msgstr "Örnek Etiket 1 | Örnek Etiket 2"
 msgid "Counter"
 msgstr "Sayaç"
 
-#: includes/frontend/class-shortcodes.php:209
+#: includes/frontend/class-shortcodes.php:214
 msgid "Hours:"
 msgstr "Saatler:"
 
@@ -3504,13 +3549,13 @@ msgstr "Kurs"
 msgid "Event"
 msgstr "Etkinlik"
 
-#: includes/helpers/class-choices.php:440 includes/helpers/class-schema.php:101
+#: includes/helpers/class-choices.php:440 includes/helpers/class-schema.php:102
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Job Posting"
 msgstr "İş ilanı"
 
-#: includes/helpers/class-choices.php:441 includes/helpers/class-schema.php:109
+#: includes/helpers/class-choices.php:441 includes/helpers/class-schema.php:110
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Music"
@@ -3524,7 +3569,7 @@ msgstr "Müzik"
 msgid "Person"
 msgstr "Kişi"
 
-#: includes/helpers/class-choices.php:448 includes/helpers/class-schema.php:105
+#: includes/helpers/class-choices.php:448 includes/helpers/class-schema.php:106
 msgid "Software Application"
 msgstr "Yazılım uygulaması"
 
@@ -3729,78 +3774,73 @@ msgstr "Kişi veya Şirket"
 msgid "Choose whether the site represents a person or an organization."
 msgstr "Sitenin bir kişiyi mi yoksa bir kuruluşu mu temsil edeceğini seçin."
 
-#: includes/modules/local-seo/views/titles-options.php:64
+#: includes/modules/local-seo/views/titles-options.php:74
 #: includes/settings/titles/local.php:58
 msgid "Logo"
 msgstr "Logo"
 
-#: includes/modules/local-seo/views/titles-options.php:75
 #: includes/settings/titles/local.php:69
 msgid "URL of the item."
 msgstr "Öğenin URL'si."
 
-#: includes/modules/local-seo/views/titles-options.php:85
-msgid "Search engines display your email address."
-msgstr "Arama motorları e-posta adresinizi gösterir."
-
-#: includes/modules/local-seo/views/titles-options.php:94
-#: includes/modules/local-seo/views/titles-options.php:196
+#: includes/modules/local-seo/views/titles-options.php:104
+#: includes/modules/local-seo/views/titles-options.php:206
 msgid "Search engines may prominently display your contact phone number for mobile users."
 msgstr "Arama motorları, mobil kullanıcılar için iletişim telefon numaranızı belirgin bir şekilde görüntüleyebilir."
 
-#: includes/modules/local-seo/views/titles-options.php:111
+#: includes/modules/local-seo/views/titles-options.php:121
 msgid "Address Format"
 msgstr "Adres Formatı"
 
-#: includes/modules/local-seo/views/titles-options.php:112
+#: includes/modules/local-seo/views/titles-options.php:122
 msgid "Format used when the address is displayed using the <code>[rank_math_contact_info]</code> shortcode.<br><strong>Available Tags: {address}, {locality}, {region}, {postalcode}, {country}, {gps}</strong>"
 msgstr "Adres kısa kod kullanılarak görüntülendiğinde <code>[rank_math_contact_info]</code> kullanılan biçim.<br><strong>Mevcut Etiketler: {address}, {locality}, {region}, {postalcode}, {country}, {gps}</strong>"
 
-#: includes/modules/local-seo/views/titles-options.php:154
+#: includes/modules/local-seo/views/titles-options.php:164
 msgid "Select opening hours. You can add multiple sets if you have different opening or closing hours on some days or if you have a mid-day break. Times are specified using 24:00 time."
 msgstr "Açılış saatlerini seçin. Bazı günlerde farklı açılış ve kapanış saatleriniz varsa veya gün ortası molanız varsa birden fazla set ekleyebilirsiniz. Zamanlar 24:00 zamanı kullanılarak belirtilir."
 
-#: includes/modules/local-seo/views/titles-options.php:156
+#: includes/modules/local-seo/views/titles-options.php:166
 msgid "Add time"
 msgstr "Zaman Ekle"
 
-#: includes/modules/local-seo/views/titles-options.php:170
+#: includes/modules/local-seo/views/titles-options.php:180
 msgid "Monday"
 msgstr "Pazartesi"
 
-#: includes/modules/local-seo/views/titles-options.php:171
+#: includes/modules/local-seo/views/titles-options.php:181
 msgid "Tuesday"
 msgstr "Salı"
 
-#: includes/modules/local-seo/views/titles-options.php:172
+#: includes/modules/local-seo/views/titles-options.php:182
 msgid "Wednesday"
 msgstr "Çarşamba"
 
-#: includes/modules/local-seo/views/titles-options.php:173
+#: includes/modules/local-seo/views/titles-options.php:183
 msgid "Thursday"
 msgstr "Perşembe"
 
-#: includes/modules/local-seo/views/titles-options.php:174
+#: includes/modules/local-seo/views/titles-options.php:184
 msgid "Friday"
 msgstr "Cuma"
 
-#: includes/modules/local-seo/views/titles-options.php:175
+#: includes/modules/local-seo/views/titles-options.php:185
 msgid "Saturday"
 msgstr "Cumartesi"
 
-#: includes/modules/local-seo/views/titles-options.php:176
+#: includes/modules/local-seo/views/titles-options.php:186
 msgid "Sunday"
 msgstr "Pazar"
 
-#: includes/modules/local-seo/views/titles-options.php:186
+#: includes/modules/local-seo/views/titles-options.php:196
 msgid "e.g. 09:00-17:00"
 msgstr "örneğin. 09: 00-17: 00"
 
-#: includes/modules/local-seo/views/titles-options.php:143
+#: includes/modules/local-seo/views/titles-options.php:153
 msgid "Time format used in the contact shortcode."
 msgstr "İletişim kısa kodunda Kullanılan zaman biçimi."
 
-#: includes/modules/local-seo/views/titles-options.php:198
+#: includes/modules/local-seo/views/titles-options.php:208
 msgid "Add number"
 msgstr "Numara Ekle"
 
@@ -3840,41 +3880,41 @@ msgstr "Yol yardımı"
 msgid "Package Tracking"
 msgstr "Paket takibi"
 
-#: includes/modules/local-seo/views/titles-options.php:221
+#: includes/modules/local-seo/views/titles-options.php:231
 msgid "Format: +1-401-555-1212"
 msgstr "Format: +1-401-555-1212"
 
-#: includes/modules/local-seo/views/titles-options.php:230
+#: includes/modules/local-seo/views/titles-options.php:240
 msgid "The price range of the business, for example $$$."
 msgstr "İşletmenin fiyat aralığı, örneğin $$$."
 
-#: includes/modules/local-seo/views/titles-options.php:247
+#: includes/modules/local-seo/views/titles-options.php:290
 msgid "About Page"
 msgstr "Sayfa Hakkında"
 
-#: includes/modules/local-seo/views/titles-options.php:248
-#: includes/modules/local-seo/views/titles-options.php:266
+#: includes/modules/local-seo/views/titles-options.php:291
+#: includes/modules/local-seo/views/titles-options.php:309
 msgid "Select a page on your site where you want to show the LocalBusiness meta data."
 msgstr "Sitenizde, Yerel İşletme meta verilerini göstermek istediğiniz bir sayfa seçin."
 
 #. translators: %s expands to "Google Maps Embed API"
 #. https://developers.google.com/maps/documentation/embed
-#: includes/modules/local-seo/views/titles-options.php:277
+#: includes/modules/local-seo/views/titles-options.php:320
 msgid "An API Key is required to display embedded Google Maps on your site. Get it here: %s"
 msgstr "Sitenizde yerleşik Google Haritalar'ı görüntülemek için bir API Anahtarı gerekir. Buradan alın: %s"
 
 #. translators: %s expands to "Google Maps Embed API"
 #. https://developers.google.com/maps/documentation/embed
-#: includes/modules/local-seo/views/titles-options.php:277
+#: includes/modules/local-seo/views/titles-options.php:320
 msgid "Google Maps Embed API"
 msgstr "Google Haritalar Gömülü API"
 
-#: includes/modules/local-seo/views/titles-options.php:287
+#: includes/modules/local-seo/views/titles-options.php:330
 #: includes/modules/schema/shortcode/restaurant.php:27
 msgid "Geo Coordinates"
 msgstr "Coğrafi Koordinatlar"
 
-#: includes/modules/local-seo/views/titles-options.php:288
+#: includes/modules/local-seo/views/titles-options.php:331
 msgid "Latitude and longitude values separated by comma."
 msgstr "Enlem ve boylam değerleri virgülle ayrılmış."
 
@@ -3907,6 +3947,7 @@ msgstr "Yönlendirme başarıyla geri yüklendi."
 msgid "%d redirection(s) successfully deleted."
 msgstr "%d yönlendirme(ler) başarıyla silindi."
 
+#: includes/modules/local-seo/views/titles-options.php:252
 #: includes/modules/redirections/class-form.php:41
 msgid "Add"
 msgstr "Ekle"
@@ -3939,7 +3980,7 @@ msgid "Please add at least one valid source URL."
 msgstr "Lütfen en az bir geçerli kaynak URL ekleyin."
 
 #. translators: source pattern
-#: includes/modules/redirections/class-redirection.php:393
+#: includes/modules/redirections/class-redirection.php:392
 msgid "Invalid regex pattern: %s"
 msgstr "Geçersiz regex deseni: %s"
 
@@ -4223,7 +4264,7 @@ msgstr "Menü URL"
 msgid "Duration"
 msgstr "Süre"
 
-#: includes/admin/class-admin.php:335
+#: includes/admin/class-admin.php:369
 #: includes/modules/role-manager/class-role-manager.php:131
 #: includes/traits/class-ajax.php:59
 msgid "You are not authorized to perform this action."
@@ -4242,8 +4283,8 @@ msgstr "Yetenekleri Güncelle"
 msgid "Pages"
 msgstr "Sayfalar"
 
-#: includes/modules/analytics/google/class-request.php:281
-#: includes/modules/analytics/google/class-request.php:339
+#: includes/modules/analytics/google/class-request.php:288
+#: includes/modules/analytics/google/class-request.php:346
 msgid "Bad request. Please check the code."
 msgstr "Geçersiz istek. Lütfen kodu kontrol edin."
 
@@ -4366,10 +4407,6 @@ msgstr "Sorunu çözmek basittir - sadece yazı/sayfayı düzenleyin ve odak ana
 msgid "XML sitemaps are a special type of text file that tells search engines about the structure of your site. They're a list of all the resources (pages and files) you would like the search engine to index. You can assign different priorities, so certain pages will be crawled first. Before XML sitemaps, search engines were limited to indexing the content they could find by following links. That's still an important feature for search engine spiders, but XML sitemaps have made it easier for content creators and search engines to collaborate."
 msgstr "XML site haritaları, arama motorlarına sitenizin yapısı hakkında bilgi veren özel bir metin dosyası türüdür. Arama motorunun dizine eklemesini istediğiniz tüm kaynakların (sayfaların ve dosyaların) listesi. Farklı öncelikler atayabilirsiniz, böylece ilk önce belirli sayfalar taranacaktır. XML site haritalarından önce arama motorları, bağlantıları izleyerek bulabilecekleri içeriği dizine eklemeye sınırlı kalıyordu. Bu, arama motoru örümcekleri için hala önemli bir özelliktir, ancak XML site haritaları, içerik oluşturucuların ve arama motorlarının birlikte çalışmasını kolaylaştırmıştır."
 
-#: includes/modules/seo-analysis/seo-analysis-tests.php:135
-msgid "If you don't have an XML sitemap, the best option is to install a plugin that creates sitemaps for you. That way you'll know the sitemap will always be up-to-date. Plugins can also automatically ping the search engines when the XML file is updated. The Rank Math WordPress plugin gives you complete control over your site's XML sitemaps. You can control the settings for each page as you write or edit it, and Rank Math will ping Google as soon as you submit your edits. This results in fast crawls and indexing."
-msgstr "XML site haritanız yoksa, en iyi seçenek sizin için site haritaları oluşturan bir eklenti yüklemektir. Bu şekilde, site haritasının her zaman güncel olacağını bileceksiniz. Eklentiler ayrıca XML dosyası güncellendiğinde arama motorlarına otomatik olarak ping atabilir. Rank Math WordPress eklentisi, sitenizin XML site haritaları üzerinde tam kontrol sağlar. Yazarken veya düzenlerken her sayfanın ayarlarını kontrol edebilirsiniz ve Rank Math, düzenlemelerinizi gönderir göndermez Google’a ping gönderecektir. Bu hızlı tarayıcılar ve indeksleme ile sonuçlanır."
-
 #: includes/modules/seo-analysis/seo-analysis-tests.php:233
 msgid "Your Site Tagline is set to a custom value."
 msgstr "Site Slogan'ınız özel bir değere ayarlanmış."
@@ -4395,6 +4432,10 @@ msgstr "Yayınlanan tüm yayınlarda odak anahtar kelimeler ayarlanmış."
 #: includes/modules/seo-analysis/seo-analysis-tests.php:365
 msgid "There are %s with no focus keyword set."
 msgstr "Odak anahtar kelimesi %s ayarlanmamış."
+
+#: includes/modules/seo-analysis/seo-analysis-tests.php:135
+msgid "If you don't have an XML sitemap, the best option is to install a plugin that creates sitemaps for you. That way you'll know the sitemap will always be up-to-date. Plugins can also automatically ping the search engines when the XML file is updated. The Rank Math WordPress plugin gives you complete control over your site's XML sitemaps. You can control the settings for each page as you write or edit it, and Rank Math will ping Google as soon as you submit your edits. This results in fast crawls and indexing."
+msgstr "XML site haritanız yoksa, en iyi seçenek sizin için site haritaları oluşturan bir eklenti yüklemektir. Bu şekilde, site haritasının her zaman güncel olacağını bileceksiniz. Eklentiler ayrıca XML dosyası güncellendiğinde arama motorlarına otomatik olarak ping atabilir. Rank Math WordPress eklentisi, sitenizin XML site haritaları üzerinde tam kontrol sağlar. Yazarken veya düzenlerken her sayfanın ayarlarını kontrol edebilirsiniz ve Rank Math, düzenlemelerinizi gönderir göndermez Google’a ping gönderecektir. Bu hızlı tarayıcılar ve indeksleme ile sonuçlanır."
 
 #: includes/modules/seo-analysis/seo-analysis-tests.php:382
 msgid "Focus keywords appear in the titles of published posts where it is set."
@@ -4815,21 +4856,21 @@ msgstr "Etkisizleştir"
 msgid "Activate"
 msgstr "Etkinleştir"
 
-#: includes/modules/local-seo/views/titles-options.php:275
+#: includes/modules/local-seo/views/titles-options.php:318
 msgid "Google Maps API Key"
 msgstr "Google Maps API Anahtarı"
 
-#: includes/modules/local-seo/views/titles-options.php:265
+#: includes/modules/local-seo/views/titles-options.php:308
 msgid "Contact Page"
 msgstr "İletişim Sayfası"
 
-#: includes/modules/local-seo/views/titles-options.php:236
-#: includes/modules/local-seo/views/titles-options.php:254
+#: includes/modules/local-seo/views/titles-options.php:279
+#: includes/modules/local-seo/views/titles-options.php:297
 #: includes/modules/sitemap/settings/html-sitemap.php:58
 msgid "Select Page"
 msgstr "Sayfa seç"
 
-#: includes/modules/local-seo/views/titles-options.php:229
+#: includes/modules/local-seo/views/titles-options.php:239
 #: includes/modules/schema/shortcode/restaurant.php:41
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
@@ -4844,14 +4885,14 @@ msgstr "Acil durum"
 msgid "Customer Service"
 msgstr "Müsteri hizmetleri"
 
-#: includes/modules/local-seo/views/titles-options.php:195
+#: includes/modules/local-seo/views/titles-options.php:205
 #: includes/modules/schema/shortcode/restaurant.php:34
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Phone Number"
 msgstr "Telefon"
 
-#: includes/modules/local-seo/views/titles-options.php:84
+#: includes/modules/local-seo/views/titles-options.php:94
 #: includes/modules/schema/shortcode/person.php:20
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -4860,7 +4901,7 @@ msgid "Email"
 msgstr "Email"
 
 #: includes/modules/instant-indexing/views/history.php:15
-#: includes/modules/local-seo/views/titles-options.php:74
+#: includes/modules/local-seo/views/titles-options.php:84
 #: includes/modules/schema/shortcode/book.php:20
 #: includes/modules/schema/shortcode/music.php:20
 #: includes/modules/sitemap/sitemap-xsl.php:308
@@ -5017,7 +5058,7 @@ msgstr "Belgeler"
 msgid "Inactive"
 msgstr "Etkin olmayan"
 
-#: includes/class-installer.php:339
+#: includes/class-installer.php:340
 #: includes/settings/general/breadcrumbs.php:65
 msgid "Home"
 msgstr "Ana Sayfa"
@@ -5044,6 +5085,7 @@ msgstr "Ürünler &ldquo;%s&rdquo; olarak etiketlendi"
 #: includes/modules/analytics/assets/js/admin-bar.js:1
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/content-ai/assets/js/media-edit.js:1
 msgid "Learn More"
 msgstr "Daha Fazlasını Öğrenin"
 
@@ -5135,16 +5177,16 @@ msgstr "Geçerli yayının odak anahtar kelimesi"
 msgid "Site Description"
 msgstr "Site açıklaması"
 
-#. translators: Archive title
-#. translators: placeholder
-#: includes/class-installer.php:341
-#: includes/settings/general/breadcrumbs.php:98
-msgid "Archives for %s"
-msgstr "Arşivler için %s"
-
 #: includes/settings/general/htaccess.php:52
 msgid "Be careful when editing the htaccess file, it is easy to make mistakes and break your site. If that happens, you can restore the file to its state <strong>before the last edit</strong> by replacing the htaccess file with the backup copy created by Rank Math in the same directory (<em>.htaccess_back_xxxxxx</em>) using an FTP client."
 msgstr "Htaccess dosyasını düzenlerken dikkatli olun, hata yapmak ve sitenizi bozmak kolaydır. Bu durumda, bir FTP programı kullanarak aynı dizinde Rank Math tarafından oluşturulan yedek dosyanız  (<em>.htaccess_back_xxxxxx</em>) ile htaccess dosyasını değiştirerek dosyayı <strong>son düzenlemeden önceki</strong> durumuna geri çevirebilirsiniz."
+
+#. translators: Archive title
+#. translators: placeholder
+#: includes/class-installer.php:342
+#: includes/settings/general/breadcrumbs.php:98
+msgid "Archives for %s"
+msgstr "Arşivler için %s"
 
 #: includes/modules/image-seo/options.php:25
 msgid "Alt attribute format"
@@ -5192,16 +5234,17 @@ msgid "Deactivating Plugins..."
 msgstr "Eklentileri devre dışı bırakma ..."
 
 #. translators: Link to How to Setup Sitemap KB article
+#. Translators: placeholder is the KB link.
 #: includes/admin/wizard/class-sitemap.php:37
 #: includes/admin/wizard/views/google-connect.php:37
-#: includes/admin/wizard/views/rank-math-connect.php:45
+#: includes/admin/wizard/views/rank-math-connect.php:48
 #: includes/admin/wizard/views/search-console-ui.php:160
 #: includes/admin/wizard/views/search-console-ui.php:389
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 msgid "Learn more."
 msgstr "Daha fazla bilgi edinin."
 
-#: includes/class-installer.php:344
+#: includes/class-installer.php:345
 #: includes/settings/general/breadcrumbs.php:121
 msgid "404 Error: page not found"
 msgstr "404 Hata: Sayfa bulunamadı"
@@ -5779,6 +5822,7 @@ msgid "File Name of the attachment"
 msgstr "Ek dosyanın adı"
 
 #: includes/admin/metabox/class-taxonomy-screen.php:130
+#: includes/modules/local-seo/views/titles-options.php:64
 #: includes/settings/general/rss-vars-table.php:20
 #: includes/settings/titles/post-types.php:191
 #: assets/admin/js/rank-math-app.js:1
@@ -5809,12 +5853,12 @@ msgstr "Yardım"
 msgid "Modules"
 msgstr "Modüller"
 
-#: includes/admin/class-admin.php:76
+#: includes/admin/class-admin.php:77
 msgid "Facebook profile URL"
 msgstr "Facebook profil adresi"
 
 #. Author of the plugin
-#: includes/admin/class-admin-menu.php:62
+#: rank-math.php includes/admin/class-admin-menu.php:62
 #: includes/admin/class-post-filters.php:168
 #: includes/admin/class-registration.php:212 includes/class-cmb2.php:177
 #: includes/modules/analytics/views/email-reports/header.php:38
@@ -5852,7 +5896,7 @@ msgstr "Açık"
 msgid "Off"
 msgstr "Kapalı"
 
-#: includes/admin/class-admin.php:304
+#: includes/admin/class-admin.php:338
 msgid "Copy Link URL to Clipboard"
 msgstr "Bağlantı Adresini Panoya Kopyala"
 
@@ -5915,9 +5959,8 @@ msgstr "Gelişmiş"
 msgid "General"
 msgstr "Genel"
 
-#. Plugin Name of the plugin
 #: includes/admin/class-admin-bar-menu.php:173
-#: includes/admin/class-admin-menu.php:89
+#: includes/admin/class-admin-menu.php:90
 #: includes/admin/class-registration.php:213
 #: includes/admin/metabox/class-metabox.php:320
 msgid "Rank Math SEO"
@@ -6179,20 +6222,20 @@ msgstr "Vazgeç"
 msgid "Settings could not be imported:"
 msgstr "Ayarlar içe aktarılamadı:"
 
-#: includes/admin/class-admin.php:75
+#: includes/admin/class-admin.php:76
 msgid "Twitter username (without @)"
 msgstr "Twitter kullancı adı (@ işareti olmadan)"
 
 #: includes/admin/class-admin-bar-menu.php:183
 #: includes/admin/class-admin-bar-menu.php:185
 #: includes/admin/class-admin-breadcrumbs.php:32
-#: includes/admin/class-admin-menu.php:105
+#: includes/admin/class-admin-menu.php:106
 #: includes/modules/version-control/class-version-control.php:235
 #: includes/modules/analytics/assets/js/stats.js:1
 msgid "Dashboard"
 msgstr "Pano"
 
-#: includes/admin/class-admin-menu.php:115
+#: includes/admin/class-admin-menu.php:116
 msgid "Help &amp; Support"
 msgstr "Yardım ve Destek"
 
@@ -6233,7 +6276,7 @@ msgstr "Şimdi atla"
 msgid "Connect FREE Account"
 msgstr "ÜCRETSİZ Hesabınızı Bağlayın"
 
-#: includes/admin/class-admin.php:305
+#: includes/admin/class-admin.php:339
 msgid "Insert Link in Content"
 msgstr "İçeriğe bağlantı ekle"
 
@@ -6242,7 +6285,7 @@ msgid "Other Business Website"
 msgstr "Diğer iş web sitesi"
 
 #: includes/admin/wizard/class-your-site.php:59
-#: includes/modules/local-seo/views/titles-options.php:127
+#: includes/modules/local-seo/views/titles-options.php:137
 msgid "Business Type"
 msgstr "İş türü"
 
@@ -6291,7 +6334,7 @@ msgstr "Kişisel portföy"
 msgid "Title"
 msgstr "Başlık"
 
-#: includes/admin/class-admin.php:120
+#: includes/admin/class-admin.php:121
 msgid "The canonical URL you entered does not seem to be a valid URL. Please double check it in the SEO meta box &raquo; Advanced tab."
 msgstr "Girdiğiniz kanonik URL geçerli bir URL gibi görünmüyor. Lütfen SEO meta kutusu veya gelişmiş sekmesinde kontrol edin."
 

@@ -1,17 +1,18 @@
-# Translation of Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release) in Italian
-# This file is distributed under the same license as the Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release) package.
+# Translation of Plugins - Rank Math SEO with AI Best SEO Tools - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Rank Math SEO with AI Best SEO Tools - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-02-16 15:04:37+0000\n"
+"PO-Revision-Date: 2024-04-16 11:28:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-beta.2\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: it\n"
-"Project-Id-Version: Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Rank Math SEO with AI Best SEO Tools - Stable (latest release)\n"
 
 #. Description of the plugin
+#: rank-math.php
 msgid "Rank Math SEO is the Best WordPress SEO plugin with the features of many SEO and AI SEO tools in a single package to help multiply your SEO traffic."
 msgstr "Rank Math SEO è il miglior plugin SEO per WordPress con le caratteristiche di molti strumenti SEO e AI SEO in un unico pacchetto per aiutare a moltiplicare il vostro traffico SEO."
 
@@ -27,15 +28,15 @@ msgstr "Imposta su follow"
 msgid "Set to nofollow"
 msgstr "Imposta su nofollow"
 
-#: includes/admin/class-admin-menu.php:230
+#: includes/admin/class-admin-menu.php:231
 msgid "Christmas Sale"
 msgstr "Saldi di Natale"
 
-#: includes/helpers/class-content-ai.php:454
+#: includes/helpers/class-content-ai.php:455
 msgid "User wallet not found."
 msgstr "Wallet dell'utente non trovato."
 
-#: includes/helpers/class-content-ai.php:453
+#: includes/helpers/class-content-ai.php:454
 msgid "Invalid API key. Please check your API key or reconnect the site and try again."
 msgstr "Chiave API non valida. Controlla la tua chiave API o riconnetti il sito e prova di nuovo."
 
@@ -60,21 +61,25 @@ msgstr "Imposta su noindex"
 msgid "&#8595; Rank Math"
 msgstr "&#8595; Rank Math"
 
-#: includes/admin/class-admin-menu.php:250
+#: includes/admin/class-admin-menu.php:251
 msgid "Cyber Monday Sale"
 msgstr "Offerta per il Cyber Monday"
 
-#: includes/admin/class-admin-menu.php:245
+#: includes/admin/class-admin-menu.php:246
 msgid "Black Friday Sale"
 msgstr "Offerta per il Black Friday"
 
-#: includes/admin/class-admin-menu.php:240
+#: includes/admin/class-admin-menu.php:241
 msgid "Anniversary Sale"
 msgstr "Offerta per l'anniversario"
 
-#: includes/admin/class-admin-menu.php:235
+#: includes/admin/class-admin-menu.php:236
 msgid "New Year Sale"
 msgstr "Offerta di Capodanno"
+
+#: includes/modules/analytics/class-analytics-common.php:301
+msgid "This is the number of pageviews carried out by visitors from Search Engines."
+msgstr "Questo è il numero di visualizzazioni di pagina dei visitatori provenienti dai motori di ricerca."
 
 #. Translators: link to the update page.
 #: includes/modules/content-ai/class-rest.php:481
@@ -125,14 +130,16 @@ msgid "Data import will not work for this service as sufficient permissions are 
 msgstr "L'importazione dei dati non funzionerà per questo servizio perché non sono state concesse autorizzazioni sufficienti."
 
 #. Plugin URI of the plugin
+#: rank-math.php
 msgid "https://rankmath.com/"
 msgstr "https://rankmath.com/"
 
 #. Author URI of the plugin
+#: rank-math.php
 msgid "https://rankmath.com/?utm_source=Plugin&utm_medium=Readme%20Author%20URI&utm_campaign=WP"
 msgstr "https://rankmath.com/?utm_source=Plugin&utm_medium=Readme%20Author%20URI&utm_campaign=WP"
 
-#: includes/admin/class-admin.php:77
+#: includes/admin/class-admin.php:78
 msgid "Additional profile URLs"
 msgstr "URL profili aggiuntivi"
 
@@ -144,7 +151,7 @@ msgstr "Profili aggiuntivi"
 msgid "Import Social URLs of your author archive pages."
 msgstr "Importa gli URL social delle pagine dell'archivio autori."
 
-#: includes/admin/class-admin.php:415 includes/settings/titles/social.php:88
+#: includes/admin/class-admin.php:450 includes/settings/titles/social.php:88
 msgid "Additional Profiles to add in the <code>sameAs</code> Schema property."
 msgstr "Profili aggiuntivi da aggiungere nella proprietà Schema <code>sameAs</code>."
 
@@ -170,7 +177,7 @@ msgstr "Visualizza i problemi"
 msgid "Last checked:"
 msgstr "Ultima verifica:"
 
-#: includes/modules/seo-analysis/class-admin.php:115
+#: includes/modules/seo-analysis/class-admin.php:116
 msgid "Print"
 msgstr "Stampa"
 
@@ -193,7 +200,8 @@ msgstr "Verifica che gli aggiornamenti automatici siano abilitati per Rank Math"
 msgid "Start SEO Analyzer"
 msgstr "Avvia SEO Analyzer"
 
-#: includes/modules/seo-analysis/class-admin.php:87
+#. Translators: placeholder is the new Rank Math label.
+#: includes/modules/seo-analysis/class-admin.php:88
 msgid "SEO Analyzer %s"
 msgstr "SEO Analyzer %s"
 
@@ -255,7 +263,7 @@ msgstr "Analizza i siti web della concorrenza per ottenere un vantaggio"
 msgid "%1$s at %2$s"
 msgstr "%1$s alle %2$s"
 
-#: includes/modules/database-tools/class-database-tools.php:390
+#: includes/modules/database-tools/class-database-tools.php:370
 msgid "Convert FAQ, HowTo, & Table of Contents Blocks created using Yoast. Use this option to easily move your previous blocks into Rank Math."
 msgstr "Converti i blocchi FAQ, Tutorial e Indice dei contenuti creati con Yoast. Usa questa opzione per spostare facilmente i blocchi precedenti in Rank Math."
 
@@ -331,11 +339,11 @@ msgstr "Scegli i titoli da escludere dal blocco Indice dei contenuti."
 msgid "Blocks"
 msgstr "Blocchi"
 
-#: includes/modules/database-tools/class-database-tools.php:401
+#: includes/modules/database-tools/class-database-tools.php:381
 msgid "Are you sure you want to convert AIOSEO blocks into Rank Math blocks? This action is irreversible."
 msgstr "Confermi di voler convertire i blocchi AIOSEO in blocchi Rank Math? Questa azione è irreversibile."
 
-#: includes/modules/database-tools/class-database-tools.php:399
+#: includes/modules/database-tools/class-database-tools.php:379
 msgid "AIOSEO Block Converter"
 msgstr "Convertitore di blocchi AIOSEO"
 
@@ -441,7 +449,7 @@ msgstr "Includi gli archivi degli autori nella sitemap XML."
 msgid "Ctrl/Cmd + Enter"
 msgstr "Ctrl/Cmd + Invio"
 
-#: includes/admin/class-admin.php:402
+#: includes/admin/class-admin.php:436
 msgid "Exclusive Offer!"
 msgstr "Offerta esclusiva!"
 
@@ -494,7 +502,7 @@ msgstr "Termini principali"
 msgid "Output list of terms from the primary taxonomy associated to the current post."
 msgstr "Elenco di output dei termini della tassonomia primaria associati all'articolo attuale."
 
-#: includes/modules/database-tools/class-database-tools.php:435
+#: includes/modules/database-tools/class-database-tools.php:406
 msgid "Update SEO Scores"
 msgstr "Aggiornare i punteggi SEO"
 
@@ -519,7 +527,7 @@ msgstr "I punteggi SEO sono stati ricalcolati con successo!"
 msgid "Calculated:"
 msgstr "Cacolato:"
 
-#: includes/modules/database-tools/class-database-tools.php:436
+#: includes/modules/database-tools/class-database-tools.php:407
 msgid "This tool will calculate the SEO score for the posts/pages that have a Focus Keyword set. Note: This process may take some time and the browser tab must be kept open while it is running."
 msgstr "Questo strumento calcolerà il punteggio SEO per i post/pagine che hanno impostato una parola chiave focalizzata. Nota: questo processo può richiedere del tempo e la scheda del browser deve essere mantenuta aperta durante l'esecuzione."
 
@@ -531,11 +539,11 @@ msgstr "Questo processo potrebbe richiedere un po' di tempo. Tieni aperta questa
 msgid "Recalculating SEO Scores"
 msgstr "Ricalcolo dei punteggi SEO"
 
-#: includes/modules/database-tools/class-database-tools.php:437
+#: includes/modules/database-tools/class-database-tools.php:408
 msgid "Recalculate Scores"
 msgstr "Ricalcola i punteggi"
 
-#: includes/modules/local-seo/views/titles-options.php:65
+#: includes/modules/local-seo/views/titles-options.php:75
 #: includes/settings/titles/local.php:59
 msgid "<strong>Min Size: 112Χ112px</strong>.<br /> A squared image is preferred by the search engines."
 msgstr "<strong>Dim. Min: 112Χ112px</strong>.<br /> I motori di ricerca preferiscono le immagini quadrate."
@@ -544,7 +552,7 @@ msgstr "<strong>Dim. Min: 112Χ112px</strong>.<br /> I motori di ricerca preferi
 msgid "Podcast"
 msgstr "Podcast"
 
-#: includes/module/class-manager.php:431
+#: includes/module/class-manager.php:432
 msgid "PRO options are enabled."
 msgstr "Le opzioni PRO sono abilitate."
 
@@ -553,7 +561,7 @@ msgstr "Le opzioni PRO sono abilitate."
 msgid "This module is available in the PRO version."
 msgstr "Questo modulo è disponibile nella versione PRO."
 
-#: includes/module/class-manager.php:426
+#: includes/module/class-manager.php:427
 msgid "More powerful options are available in the PRO version."
 msgstr "Opzioni più potenti sono disponibili nella versione PRO."
 
@@ -714,15 +722,15 @@ msgstr "È tutto pronto per il passaggio a Google Analytics 4? %s"
 msgid "No collation mismatch to fix."
 msgstr "Non ci sono errori di classificazione da correggere."
 
-#: includes/modules/database-tools/class-database-tools.php:381
+#: includes/modules/database-tools/class-database-tools.php:361
 msgid "In some cases, the Analytics database tables or columns don't match with each other, which can cause database errors. This tool can fix that issue."
 msgstr "In alcuni casi, le tabelle o le colonne del database di Analytics non corrispondono tra loro, causando errori nel database. Questo strumento può risolvere il problema."
 
-#: includes/modules/database-tools/class-database-tools.php:382
+#: includes/modules/database-tools/class-database-tools.php:362
 msgid "Fix Collations"
 msgstr "Correggi le classificazioni"
 
-#: includes/modules/database-tools/class-database-tools.php:380
+#: includes/modules/database-tools/class-database-tools.php:360
 msgid "Fix Analytics table collations"
 msgstr "Correggi le classificazioni delle tabelle di Analytics"
 
@@ -758,7 +766,7 @@ msgstr "Barra delle statistiche del frontend"
 msgid "Enable this option to show Analytics Stats on the front just after the admin bar."
 msgstr "Attiva questa opzione per mostrare le statistiche di Analytics nella parte anteriore, subito dopo la barra di amministrazione."
 
-#: includes/modules/analytics/google/class-request.php:343
+#: includes/modules/analytics/google/class-request.php:350
 msgid "Unknown error, call get_response() to find out what happened."
 msgstr "Errore sconosciuto, chiama get_response() per scoprire cosa è successo."
 
@@ -812,56 +820,56 @@ msgstr "Controlla chiave"
 msgid "Use the %1$s button to verify that the key is accessible for search engines. Clicking on it should open the key file in your browser and show the API key."
 msgstr "Usa il pulsante %1$s per verificare che la chiave sia accessibile ai motori di ricerca. Facendo clic su di esso si dovrebbe aprire il file della chiave nel tuo browser e mostrare la chiave API."
 
-#: includes/admin/class-pro-notice.php:221
-#: includes/admin/class-pro-notice.php:240
+#: includes/admin/class-pro-notice.php:222
+#: includes/admin/class-pro-notice.php:241
 msgid "and Many More…"
 msgstr "e molti altri..."
 
-#: includes/admin/class-pro-notice.php:219
-#: includes/admin/class-pro-notice.php:238
+#: includes/admin/class-pro-notice.php:220
+#: includes/admin/class-pro-notice.php:239
 msgid "24x7 Premium Support"
 msgstr "Supporto Premium 24x7"
 
-#: includes/admin/class-pro-notice.php:217
-#: includes/admin/class-pro-notice.php:236 assets/admin/js/post-list.js:1
+#: includes/admin/class-pro-notice.php:218
+#: includes/admin/class-pro-notice.php:237 assets/admin/js/post-list.js:1
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Keyword Rank Tracker"
 msgstr "Rilevatore di posizione delle parole chiave"
 
-#: includes/admin/class-pro-notice.php:216
-#: includes/admin/class-pro-notice.php:235
+#: includes/admin/class-pro-notice.php:217
+#: includes/admin/class-pro-notice.php:236
 msgid "Content A.I. (Artificial Intelligence)"
 msgstr "Contenuto A.I. (Intelligenza Artificiale)"
 
-#: includes/admin/class-pro-notice.php:215
-#: includes/admin/class-pro-notice.php:234
+#: includes/admin/class-pro-notice.php:216
+#: includes/admin/class-pro-notice.php:235
 msgid "Unlimited Websites"
 msgstr "Siti illimitati"
 
-#: includes/admin/class-pro-notice.php:212
-#: includes/admin/class-pro-notice.php:231
+#: includes/admin/class-pro-notice.php:213
+#: includes/admin/class-pro-notice.php:232
 msgid "Rank Your Content With the Power of PRO & A.I."
 msgstr "Classifica il tuo contenuto con le funzioni di PRO & A.I."
 
-#: includes/admin/class-pro-notice.php:220
-#: includes/admin/class-pro-notice.php:239
+#: includes/admin/class-pro-notice.php:221
+#: includes/admin/class-pro-notice.php:240
 msgid "SEO Email Reports"
 msgstr "Rapporti email SEO"
 
-#: includes/modules/instant-indexing/class-api.php:358
+#: includes/modules/instant-indexing/class-api.php:359
 msgid "Invalid URL."
 msgstr "URL non valido."
 
-#: includes/modules/instant-indexing/class-api.php:357
+#: includes/modules/instant-indexing/class-api.php:358
 msgid "Invalid API key."
 msgstr "Chiave API non valida."
 
-#: includes/modules/instant-indexing/class-api.php:356
+#: includes/modules/instant-indexing/class-api.php:357
 msgid "Invalid request."
 msgstr "Richiesta non valida."
 
-#: includes/modules/instant-indexing/class-api.php:354
+#: includes/modules/instant-indexing/class-api.php:355
 msgid "Unknown error."
 msgstr "Errore sconosciuto."
 
@@ -948,51 +956,51 @@ msgid "Invalid URLs provided."
 msgstr "L'URL fornito non è valido."
 
 #. translators: %s: Number of pages submitted.
-#: includes/modules/instant-indexing/class-instant-indexing.php:445
+#: includes/modules/instant-indexing/class-instant-indexing.php:457
 msgid "%s page submitted to IndexNow."
 msgid_plural "%s pages submitted to IndexNow."
 msgstr[0] "%s pagina inviata a IndexNow."
 msgstr[1] "%s pagine inviate a IndexNow."
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:439
+#: includes/modules/instant-indexing/class-instant-indexing.php:451
 msgid "Error submitting page to IndexNow."
 msgstr "Errore nell'invio della pagina a IndexNow."
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:359
+#: includes/modules/instant-indexing/class-instant-indexing.php:371
 msgid "Error: could not get history."
 msgstr "Errore: impossibile ottenere la cronologia."
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:358
+#: includes/modules/instant-indexing/class-instant-indexing.php:370
 msgid "Error: could not clear history."
 msgstr "Errore: impossibile cancellare la cronologia."
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:224
+#: includes/modules/instant-indexing/class-instant-indexing.php:228
 msgid "The last 100 IndexNow API requests."
 msgstr "Le ultime 100 richieste API di IndexNow."
 
 #: includes/modules/content-ai/class-content-ai-page.php:190
-#: includes/modules/instant-indexing/class-instant-indexing.php:223
+#: includes/modules/instant-indexing/class-instant-indexing.php:227
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 msgid "History"
 msgstr "Cronologia"
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:210
+#: includes/modules/instant-indexing/class-instant-indexing.php:214
 msgid "Send URLs directly to the IndexNow API."
 msgstr "Invia gli URL direttamente all'API di IndexNow."
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:140
+#: includes/modules/instant-indexing/class-instant-indexing.php:144
 msgid "Instant Indexing: Submit Page"
 msgstr "Indicizzazione istantanea: Invia pagina"
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:104
+#: includes/modules/instant-indexing/class-instant-indexing.php:108
 msgid "Instant Indexing: Submit Pages"
 msgstr "Indicizzazione istantanea: Invia pagine"
 
-#: includes/modules/instant-indexing/class-api.php:360
+#: includes/modules/instant-indexing/class-api.php:361
 msgid "Internal server error."
 msgstr "Errore interno del server."
 
-#: includes/modules/instant-indexing/class-api.php:359
+#: includes/modules/instant-indexing/class-api.php:360
 msgid "Too many requests."
 msgstr "Troppe richieste."
 
@@ -1014,11 +1022,11 @@ msgstr "Nessun URL fornito."
 msgid "Too Many Requests (potential Spam)."
 msgstr "Troppe richieste (potenziale spam)."
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:357
+#: includes/modules/instant-indexing/class-instant-indexing.php:369
 msgid "An error occurred while submitting the URL."
 msgstr "Si è verificato un errore durante l'invio dell'URL."
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:360
+#: includes/modules/instant-indexing/class-instant-indexing.php:372
 msgid "No submissions yet."
 msgstr "Ancora nessun invio."
 
@@ -1046,27 +1054,27 @@ msgstr "Tipi di articoli auto-pubblicati"
 msgid "Submit posts from these post types automatically to the IndexNow API when a post is published, updated, or trashed."
 msgstr "Invia automaticamente questi tipi di post all'API di IndexNow quando un post viene pubblicato, aggiornato o cestinato."
 
-#: includes/module/class-manager.php:539
+#: includes/module/class-manager.php:540
 msgid "Buy"
 msgstr "Acquista"
 
-#: includes/module/class-manager.php:535
+#: includes/module/class-manager.php:536
 msgid "24/7 Support"
 msgstr "Assistenza 24/7"
 
-#: includes/module/class-manager.php:533
+#: includes/module/class-manager.php:534
 msgid "Track 500 Keywords"
 msgstr "Monitora 500 parole chiave"
 
-#: includes/module/class-manager.php:532
+#: includes/module/class-manager.php:533
 msgid "Free 15 Content AI Credits"
 msgstr "15 crediti gratuiti per il Content AI"
 
-#: includes/module/class-manager.php:531
+#: includes/module/class-manager.php:532
 msgid "Unlimited personal websites"
 msgstr "Siti web personali illimitati"
 
-#: includes/module/class-manager.php:529
+#: includes/module/class-manager.php:530
 msgid "Take SEO to the Next Level!"
 msgstr "Porta la tua SEO a un altro livello!"
 
@@ -1082,9 +1090,9 @@ msgstr "Acquista Rank Math PRO!"
 msgid "Take your SEO to the Next Level!"
 msgstr "Porta la tua SEO a un altro livello!"
 
-#: includes/admin/class-pro-notice.php:218
-#: includes/admin/class-pro-notice.php:237
-#: includes/module/class-manager.php:534
+#: includes/admin/class-pro-notice.php:219
+#: includes/admin/class-pro-notice.php:238
+#: includes/module/class-manager.php:535
 msgid "Powerful Schema Generator"
 msgstr "Potente Generatore Schema"
 
@@ -1136,7 +1144,7 @@ msgstr "Quando l'opzione è abilitata e un archivio di autori viene condiviso su
 msgid "When the option is enabled and a %s is shared on Slack, additional information will be shown (estimated time to read and author)."
 msgstr "Quando l'opzione è abilitata e un %s è condiviso su Slack, saranno mostrate informazioni aggiuntive (tempo stimato di lettura e autore)."
 
-#: includes/rest/class-headless.php:57
+#: includes/rest/class-headless.php:62
 msgid "URL to get HTML tags for."
 msgstr "URL per ottenere i tag HTML."
 
@@ -1160,175 +1168,175 @@ msgstr "Abilita questa opzione per registrare un endpoint API REST che restituis
 msgid "New!"
 msgstr "Nuovo!"
 
-#: includes/module/class-manager.php:379
+#: includes/module/class-manager.php:380
 msgid "You cant access this page."
 msgstr "Non puoi accedere a questa pagina."
 
-#: includes/helpers/class-choices.php:730
+#: includes/helpers/class-choices.php:750
 msgid "Viet Nam"
 msgstr "Vietnam"
 
-#: includes/helpers/class-choices.php:728
+#: includes/helpers/class-choices.php:748
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: includes/helpers/class-choices.php:722
+#: includes/helpers/class-choices.php:742
 msgid "Tunisia"
 msgstr "Tunisia"
 
-#: includes/helpers/class-choices.php:725
+#: includes/helpers/class-choices.php:745
 msgid "United Arab Emirates"
 msgstr "Emirati Arabi Uniti"
 
-#: includes/helpers/class-choices.php:717
+#: includes/helpers/class-choices.php:737
 msgid "Sri Lanka"
 msgstr "Sri Lanka"
 
-#: includes/helpers/class-choices.php:714
+#: includes/helpers/class-choices.php:734
 msgid "Slovenia"
 msgstr "Slovenia"
 
-#: includes/helpers/class-choices.php:713
+#: includes/helpers/class-choices.php:733
 msgid "Slovakia"
 msgstr "Slovacchia"
 
-#: includes/helpers/class-choices.php:711
+#: includes/helpers/class-choices.php:731
 msgid "Serbia"
 msgstr "Serbia"
 
-#: includes/helpers/class-choices.php:710
+#: includes/helpers/class-choices.php:730
 msgid "Senegal"
 msgstr "Senegal"
 
-#: includes/helpers/class-choices.php:703
+#: includes/helpers/class-choices.php:723
 msgid "Peru"
 msgstr "Perù"
 
-#: includes/helpers/class-choices.php:702
+#: includes/helpers/class-choices.php:722
 msgid "Paraguay"
 msgstr "Paraguay"
 
-#: includes/helpers/class-choices.php:701
+#: includes/helpers/class-choices.php:721
 msgid "Pakistan"
 msgstr "Pakistan"
 
-#: includes/helpers/class-choices.php:698
+#: includes/helpers/class-choices.php:718
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: includes/helpers/class-choices.php:694
+#: includes/helpers/class-choices.php:714
 msgid "Morocco"
 msgstr "Marocco"
 
-#: includes/helpers/class-choices.php:692
+#: includes/helpers/class-choices.php:712
 msgid "Malta"
 msgstr "Malta"
 
-#: includes/helpers/class-choices.php:689
+#: includes/helpers/class-choices.php:709
 msgid "Lithuania"
 msgstr "Lituania"
 
-#: includes/helpers/class-choices.php:688
+#: includes/helpers/class-choices.php:708
 msgid "Latvia"
 msgstr "Lettonia"
 
-#: includes/helpers/class-choices.php:684
+#: includes/helpers/class-choices.php:704
 msgid "Jordan"
 msgstr "Giordania"
 
-#: includes/helpers/class-choices.php:675
+#: includes/helpers/class-choices.php:695
 msgid "Guatemala"
 msgstr "Guatemala"
 
-#: includes/helpers/class-choices.php:673
+#: includes/helpers/class-choices.php:693
 msgid "Ghana"
 msgstr "Ghana"
 
-#: includes/helpers/class-choices.php:669
+#: includes/helpers/class-choices.php:689
 msgid "Estonia"
 msgstr "Estonia"
 
-#: includes/helpers/class-choices.php:668
+#: includes/helpers/class-choices.php:688
 msgid "El Salvador"
 msgstr "El Salvador"
 
-#: includes/helpers/class-choices.php:666
+#: includes/helpers/class-choices.php:686
 msgid "Ecuador"
 msgstr "Ecuador"
 
-#: includes/helpers/class-choices.php:663
+#: includes/helpers/class-choices.php:683
 msgid "Cyprus"
 msgstr "Cipro"
 
-#: includes/helpers/class-choices.php:662
+#: includes/helpers/class-choices.php:682
 msgid "Croatia"
 msgstr "Croazia"
 
-#: includes/helpers/class-choices.php:661
+#: includes/helpers/class-choices.php:681
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
-#: includes/helpers/class-choices.php:657
+#: includes/helpers/class-choices.php:677
 msgid "Cambodia"
 msgstr "Cambogia"
 
-#: includes/helpers/class-choices.php:656
+#: includes/helpers/class-choices.php:676
 msgid "Bulgaria"
 msgstr "Bulgaria"
 
-#: includes/helpers/class-choices.php:652
+#: includes/helpers/class-choices.php:672
 msgid "Belarus"
 msgstr "Bielorussia"
 
-#: includes/helpers/class-choices.php:651
+#: includes/helpers/class-choices.php:671
 msgid "Bangladesh"
 msgstr "Bangladesh"
 
-#: includes/helpers/class-choices.php:695
+#: includes/helpers/class-choices.php:715
 msgid "Myanmar"
 msgstr "Birmania"
 
-#: includes/helpers/class-choices.php:685
+#: includes/helpers/class-choices.php:705
 msgid "Kazakhstan"
 msgstr "Kazakistan"
 
-#: includes/helpers/class-choices.php:649
+#: includes/helpers/class-choices.php:669
 msgid "Azerbaijan"
 msgstr "Azerbaijan"
 
-#: includes/helpers/class-choices.php:646
+#: includes/helpers/class-choices.php:666
 msgid "Armenia"
 msgstr "Armenia"
 
-#: includes/helpers/class-choices.php:644
+#: includes/helpers/class-choices.php:664
 msgid "Algeria"
 msgstr "Algeria"
 
-#: includes/helpers/class-choices.php:650
+#: includes/helpers/class-choices.php:670
 msgid "Bahrain"
 msgstr "Bahrain"
 
-#: includes/helpers/class-choices.php:654
+#: includes/helpers/class-choices.php:674
 msgid "Bolivia, Plurinational State Of"
 msgstr "Bolivia, Stato plurinazionale della"
 
-#: includes/helpers/class-choices.php:687
+#: includes/helpers/class-choices.php:707
 msgid "Korea, Republic Of"
 msgstr "Corea, Repubblica della"
 
-#: includes/helpers/class-choices.php:690
+#: includes/helpers/class-choices.php:710
 msgid "Macedonia, The Former Yugoslav Republic Of"
 msgstr "Macedonia, ex Repubblica jugoslava della"
 
-#: includes/helpers/class-choices.php:708
+#: includes/helpers/class-choices.php:728
 msgid "Russian Federation"
 msgstr "Federazione Russa"
 
-#: includes/helpers/class-choices.php:727
+#: includes/helpers/class-choices.php:747
 msgid "United States Of America"
 msgstr "Stati Uniti d'America"
 
-#: includes/helpers/class-choices.php:729
+#: includes/helpers/class-choices.php:749
 msgid "Venezuela, Bolivarian Republic Of"
 msgstr "Venezuela (Repubblica Bolivariana del)"
 
@@ -1347,7 +1355,7 @@ msgstr "Content AI"
 msgid "Get sophisticated AI suggestions for related Keywords, Questions & Links to include in the SEO meta & Content Area. Supports 80+ Countries."
 msgstr "Ottieni sofisticati suggerimenti AI per parole chiave correlate, domande e link da includere nel meta SEO e nell'area dei contenuti. Supporta più di 80 Paesi."
 
-#: includes/module/class-manager.php:417
+#: includes/module/class-manager.php:418
 msgid "NEW!"
 msgstr "NUOVO!"
 
@@ -1421,7 +1429,7 @@ msgstr "Quando un'immagine in evidenza o un'immagine OpenGraph non è impostata 
 msgid "If you are new to Rank Math, %s to learn more."
 msgstr "Se stai iniziando ora con Rank Math, puoi trovare più info qui %s"
 
-#: includes/helpers/class-choices.php:716
+#: includes/helpers/class-choices.php:736
 msgid "Spain"
 msgstr "Spagna"
 
@@ -1447,11 +1455,11 @@ msgstr "Impossibile verificare la presenza delle parola chiave di riferimento ne
 msgid "Add SEO Controls"
 msgstr "Aggiungi controlli SEO"
 
-#: includes/admin/class-pro-notice.php:243
+#: includes/admin/class-pro-notice.php:244
 msgid "I already purchased"
 msgstr "Ho già acquistato"
 
-#: includes/admin/class-pro-notice.php:243
+#: includes/admin/class-pro-notice.php:244
 msgid "Yes, I want better SEO"
 msgstr "Sì, voglio migliorare la SEO"
 
@@ -1476,15 +1484,15 @@ msgstr "Non hai i permessi per modificare questo termine."
 msgid "Invalid term ID."
 msgstr "ID del termine non valido."
 
-#: includes/admin/class-pro-notice.php:224
+#: includes/admin/class-pro-notice.php:225
 msgid "No, I don't want it"
 msgstr "No, non voglio"
 
-#: includes/admin/class-pro-notice.php:224
+#: includes/admin/class-pro-notice.php:225
 msgid "Yes, I want to learn more"
 msgstr "Sì, voglio saperne di più"
 
-#: includes/admin/class-pro-notice.php:224
+#: includes/admin/class-pro-notice.php:225
 msgid "I already upgraded"
 msgstr "Ho già fatto l'upgrade"
 
@@ -1499,26 +1507,6 @@ msgstr "Questa azione è IRREVERSIBILE."
 #: rank-math.php:469
 msgid "CAUTION:"
 msgstr "ATTENZIONE:"
-
-#: includes/modules/database-tools/class-database-tools.php:314
-msgid "No data found to delete."
-msgstr "Non abbiamo trovato dati da eliminare."
-
-#: includes/modules/database-tools/class-database-tools.php:320
-msgid "Deletion started. A success message will be shown here once the process completes. You can close this page."
-msgstr "La cancellazione è iniziata. Qui verrà mostrato un messaggio di successo una volta completato il processo. Puoi chiudere questa pagina."
-
-#: includes/modules/database-tools/class-database-tools.php:426
-msgid "Delete Old Schema Data"
-msgstr "Elimina i vecchi dati Schema"
-
-#: includes/modules/database-tools/class-database-tools.php:427
-msgid "Delete the schema data from the old format (<1.0.48). Note: This process is irreversible and will delete all the metadata prefixed with rank_math_snippet."
-msgstr "Elimina i dati Schema del vecchio formato (<1.0.48). Nota: questo processo è irreversibile e cancellerà tutti i metadati con prefisso rank_math_snippet."
-
-#: includes/modules/database-tools/class-database-tools.php:428
-msgid "Are you sure you want to delete the old schema data? This action is irreversible."
-msgstr "Vuoi davvero eliminare i vecchi dati Schema? Questa azione è irreversibile."
 
 #. Translators: placeholder is "click here" as a link.
 #: includes/admin/wizard/views/your-site.php:32
@@ -1609,11 +1597,6 @@ msgstr "Per aggiornare le tue preferenze email, %s."
 msgid "Rank Math [SEO Report] - %s"
 msgstr "Rank Math [SEO Report] - %s"
 
-#. Translators: placeholders are the opening and closing anchor tags.
-#: includes/updates/update-1.0.65.php:47
-msgid "Rank Math: Introducing SEO Performance Reports via Email. %1$sClick here to enable it%2$s."
-msgstr "Rank Math: Abbiamo introdotto i report sulle prestazioni SEO via email. %1$sFai clic qui per attivarlo%2$s."
-
 #: includes/admin/class-notices.php:254
 msgid "<b>Rank Math Warning:</b> Changing the permalinks on a live, indexed site may result in serious loss of traffic if done incorrectly. Consider adding a new redirection from the old URL format to the new one."
 msgstr "<b>Avviso di Rank Math Warning:</b> Cambiare i permalink su un sito live e indicizzato può comportare una grave perdita di traffico, se fatto in modo scorretto. Considera l'aggiunta di un nuovo reindirizzamento dal vecchio formato di URL a quello nuovo."
@@ -1663,19 +1646,19 @@ msgstr "Parole chiave di riferimento dell'articolo"
 msgid "Locations Sitemap %1$s %2$s"
 msgstr "Sitemap delle località %1$s %2$s"
 
-#: includes/modules/database-tools/class-database-tools.php:102
+#: includes/modules/database-tools/class-database-tools.php:101
 msgid "No Rank Math transients found."
 msgstr "Non abbiamo trovato nessun transient Rank Math."
 
-#: includes/modules/database-tools/class-database-tools.php:144
+#: includes/modules/database-tools/class-database-tools.php:143
 msgid "No Internal Links data found."
 msgstr "Non abbiamo trovato dati per i link interni."
 
-#: includes/modules/database-tools/class-database-tools.php:164
+#: includes/modules/database-tools/class-database-tools.php:163
 msgid "No 404 log data found."
 msgstr "Non abbiamo trovato dati nel registro 404."
 
-#: includes/modules/database-tools/class-database-tools.php:183
+#: includes/modules/database-tools/class-database-tools.php:182
 msgid "No Redirections found."
 msgstr "Non abbiamo trovato reindirizzamenti."
 
@@ -1809,7 +1792,7 @@ msgid "Yes, you deserve it"
 msgstr "Sì, te lo meriti"
 
 #: includes/admin/class-ask-review.php:178
-#: includes/admin/class-pro-notice.php:243
+#: includes/admin/class-pro-notice.php:244
 msgid "No, maybe later"
 msgstr "No, forse più tardi"
 
@@ -1829,23 +1812,23 @@ msgstr "NUOVO"
 msgid "Google Permission"
 msgstr "Permessi Google"
 
-#: includes/modules/instant-indexing/class-instant-indexing.php:209
+#: includes/modules/instant-indexing/class-instant-indexing.php:213
 #: includes/modules/instant-indexing/views/console.php:28
 msgid "Submit URLs"
 msgstr "Invia URL"
 
 #. translators: Link to kb article
-#: includes/modules/instant-indexing/class-instant-indexing.php:218
+#: includes/modules/instant-indexing/class-instant-indexing.php:222
 msgid "Instant Indexing module settings. %s."
 msgstr "Impostazioni del modulo Instant Indexing. %s"
 
 #: includes/module/class-manager.php:167
-#: includes/modules/instant-indexing/class-instant-indexing.php:245
-#: includes/modules/instant-indexing/class-instant-indexing.php:246
+#: includes/modules/instant-indexing/class-instant-indexing.php:249
+#: includes/modules/instant-indexing/class-instant-indexing.php:250
 msgid "Instant Indexing"
 msgstr "Instant Indexing"
 
-#: includes/modules/database-tools/class-database-tools.php:214
+#: includes/modules/database-tools/class-database-tools.php:213
 msgid "Table re-creation started. It might take a couple of minutes."
 msgstr "La ricreazione della tabella è iniziata. Potrebbero volerci un paio di minuti."
 
@@ -1873,11 +1856,12 @@ msgstr "Accordato"
 msgid "Not Given"
 msgstr "Non accordato"
 
-#: includes/modules/analytics/google/class-permissions.php:126
+#: includes/modules/analytics/google/class-permissions.php:128
 msgid "Warning:"
 msgstr "Attenzione:"
 
-#: includes/modules/analytics/google/class-permissions.php:126
+#. translators: %s is the reconnect link.
+#: includes/modules/analytics/google/class-permissions.php:132
 msgid "You have not given the permission to fetch this data. Please <a href=\"%s\">reconnect</a> with all required permissions."
 msgstr "Non hai dato il permesso di recuperare questi dati. <a href=\"%s\">Connettiti di nuovo</a> con tutti i permessi necessari."
 
@@ -1894,16 +1878,16 @@ msgstr "URL dell'organizzazione aggiunto nelle impostazioni SEO locale."
 msgid "It seems like the connection with your Google account & Rank Math needs to be made again. <a href=\"%s\" class=\"rank-math-reconnect-google\">Please click here.</a>"
 msgstr "Sembra che la connessione tra il tuo account Google e Rank Math debba essere riavviata. <a href=\"%s\" class=\"rank-math-reconnect-google\">Fai clic qui.</a>"
 
-#: includes/modules/database-tools/class-database-tools.php:373
+#: includes/modules/database-tools/class-database-tools.php:353
 msgid "Re-create Missing Database Tables"
 msgstr "Ricrea le tabelle mancanti del database"
 
-#: includes/modules/database-tools/class-database-tools.php:374
+#: includes/modules/database-tools/class-database-tools.php:354
 msgid "Check if required tables exist and create them if not."
 msgstr "Controlla se le tabelle richieste esistono e creale se non esistono."
 
 #. translators: reconnect link
-#: includes/modules/analytics/google/class-request.php:178
+#: includes/modules/analytics/google/class-request.php:182
 msgid "There is a problem with the Google auth token. Please <a href=\"%1$s\" class=\"button button-link rank-math-reconnect-google\">reconnect your app</a>"
 msgstr "C'è un problema con il token di autorizzazione Google. <a href=\"%1$s\" class=\"button button-link rank-math-reconnect-google\">Connetti di nuovo la tua app</a>."
 
@@ -1915,7 +1899,7 @@ msgstr "Importa le informazioni meta dei tuoi termini come i titoli, le descrizi
 msgid "No token"
 msgstr "Nessun token"
 
-#: includes/module/class-manager.php:411
+#: includes/module/class-manager.php:412
 #: includes/modules/status/class-system-status.php:141
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "Free"
@@ -1981,7 +1965,7 @@ msgstr "Tabella del database: Google AdSense"
 msgid "Database Table: Keyword Manager"
 msgstr "Tabella del database: Keyword Manager"
 
-#: includes/modules/database-tools/class-database-tools.php:375
+#: includes/modules/database-tools/class-database-tools.php:355
 msgid "Re-create Tables"
 msgstr "Ricrea le tabelle"
 
@@ -1994,7 +1978,7 @@ msgid "Video Settings imported successfully."
 msgstr "Impostazioni Video importate con successo."
 
 #. Translators: placeholder is a link to the Pro version
-#: includes/modules/local-seo/views/titles-options.php:291
+#: includes/modules/local-seo/views/titles-options.php:334
 msgid "Multiple Locations are available in the %s."
 msgstr "Sono disponibili più località nella %s."
 
@@ -2120,11 +2104,6 @@ msgstr "Posizioni 11-50"
 msgid "Upgrade"
 msgstr "Aggiorna"
 
-#. Translators: placeholders are the opening and closing anchor tags.
-#: includes/updates/update-1.0.49.php:60
-msgid "Thank you for updating Rank Math! We've completely revamped our Analytics module with Google Analytics & Google Search Console integrations. For a seamless experience, please re-authenticate your Google account. %1$sClick here to Connect%2$s"
-msgstr "Grazie per aver aggiornato Rank Math! Abbiamo rinnovato completamente il nostro modulo Analytics con le integrazioni di Google Analytics e Google Search Console. Per un'esperienza senza problemi, ti preghiamo di riautenticare il tuo account Google. %1$sFai cli qui per connetterti%2$s"
-
 #: includes/modules/analytics/class-analytics-common.php:300
 msgid "Search Traffic"
 msgstr "Traffico di ricerca"
@@ -2146,7 +2125,7 @@ msgstr "Articoli"
 #: includes/admin/wizard/views/search-console-ui.php:278
 #: includes/admin/wizard/views/search-console-ui.php:303
 #: includes/admin/wizard/views/search-console-ui.php:378
-#: includes/module/class-manager.php:419
+#: includes/module/class-manager.php:420
 #: includes/modules/analytics/views/options.php:149
 msgid "PRO"
 msgstr "PRO"
@@ -2195,8 +2174,9 @@ msgstr "Visualizza"
 msgid "Exclude Logged-in users"
 msgstr "Escludi utenti connessi"
 
+#. Translators: placeholder is the KB link.
 #: includes/admin/wizard/views/google-connect.php:37
-#: includes/admin/wizard/views/rank-math-connect.php:45
+#: includes/admin/wizard/views/rank-math-connect.php:48
 #: includes/admin/wizard/views/search-console-ui.php:389
 msgid "We do not store any of the data from your Google account on our servers, everything is processed & stored on your server. We take your privacy extremely seriously and ensure it is never misused. %s"
 msgstr "Non memorizziamo nessuno dei dati del tuo account Google sui nostri server, tutto viene elaborato e memorizzato sul tuo server. Prendiamo sul serio la tua privacy e ci assicuriamo che non venga mai usata in modo improprio. %s"
@@ -2217,171 +2197,171 @@ msgstr "Vantaggi della connessione dell'account Google"
 msgid "Import Locations Settings from Yoast plugin."
 msgstr "Importa le impostazioni delle località dal plugin Yoast."
 
-#: includes/helpers/class-choices.php:726
+#: includes/helpers/class-choices.php:746
 msgid "United Kingdom"
 msgstr "Regno Unito"
 
-#: includes/helpers/class-choices.php:724
+#: includes/helpers/class-choices.php:744
 msgid "Ukraine"
 msgstr "Ucraina"
 
-#: includes/helpers/class-choices.php:723
+#: includes/helpers/class-choices.php:743
 msgid "Turkey"
 msgstr "Turchia"
 
-#: includes/helpers/class-choices.php:720
+#: includes/helpers/class-choices.php:740
 msgid "Taiwan"
 msgstr "Taiwan"
 
-#: includes/helpers/class-choices.php:719
+#: includes/helpers/class-choices.php:739
 msgid "Switzerland"
 msgstr "Svizzera"
 
-#: includes/helpers/class-choices.php:718
+#: includes/helpers/class-choices.php:738
 msgid "Sweden"
 msgstr "Svezia"
 
-#: includes/helpers/class-choices.php:715
+#: includes/helpers/class-choices.php:735
 msgid "South Africa"
 msgstr "Sud Africa"
 
-#: includes/helpers/class-choices.php:712
+#: includes/helpers/class-choices.php:732
 msgid "Singapore"
 msgstr "Singapore"
 
-#: includes/helpers/class-choices.php:709
+#: includes/helpers/class-choices.php:729
 msgid "Saudi Arabia"
 msgstr "Arabia Saudita"
 
-#: includes/helpers/class-choices.php:707
+#: includes/helpers/class-choices.php:727
 msgid "Romania"
 msgstr "Romania"
 
-#: includes/helpers/class-choices.php:706
+#: includes/helpers/class-choices.php:726
 msgid "Portugal"
 msgstr "Portogallo"
 
-#: includes/helpers/class-choices.php:705
+#: includes/helpers/class-choices.php:725
 msgid "Poland"
 msgstr "Polonia"
 
-#: includes/helpers/class-choices.php:704
+#: includes/helpers/class-choices.php:724
 msgid "Philippines"
 msgstr "Filippine"
 
-#: includes/helpers/class-choices.php:700
+#: includes/helpers/class-choices.php:720
 msgid "Norway"
 msgstr "Norvegia"
 
-#: includes/helpers/class-choices.php:699
+#: includes/helpers/class-choices.php:719
 msgid "Nigeria"
 msgstr "Nigeria"
 
-#: includes/helpers/class-choices.php:697
+#: includes/helpers/class-choices.php:717
 msgid "New Zealand"
 msgstr "Nuova Zelanda"
 
-#: includes/helpers/class-choices.php:696
+#: includes/helpers/class-choices.php:716
 msgid "Netherlands"
 msgstr "Paesi Bassi"
 
-#: includes/helpers/class-choices.php:693
+#: includes/helpers/class-choices.php:713
 msgid "Mexico"
 msgstr "Messico"
 
-#: includes/helpers/class-choices.php:686
+#: includes/helpers/class-choices.php:706
 msgid "Kenya"
 msgstr "Kenya"
 
-#: includes/helpers/class-choices.php:683
+#: includes/helpers/class-choices.php:703
 msgid "Japan"
 msgstr "Giappone"
 
-#: includes/helpers/class-choices.php:682
+#: includes/helpers/class-choices.php:702
 msgid "Italy"
 msgstr "Italia"
 
-#: includes/helpers/class-choices.php:681
+#: includes/helpers/class-choices.php:701
 msgid "Israel"
 msgstr "Israele"
 
-#: includes/helpers/class-choices.php:680
+#: includes/helpers/class-choices.php:700
 msgid "Ireland"
 msgstr "Irlanda"
 
-#: includes/helpers/class-choices.php:679
+#: includes/helpers/class-choices.php:699
 msgid "Indonesia"
 msgstr "Indonesia"
 
-#: includes/helpers/class-choices.php:678
+#: includes/helpers/class-choices.php:698
 msgid "India"
 msgstr "India"
 
-#: includes/helpers/class-choices.php:677
+#: includes/helpers/class-choices.php:697
 msgid "Hungary"
 msgstr "Ungheria"
 
-#: includes/helpers/class-choices.php:676
+#: includes/helpers/class-choices.php:696
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
-#: includes/helpers/class-choices.php:674
+#: includes/helpers/class-choices.php:694
 msgid "Greece"
 msgstr "Grecia"
 
-#: includes/helpers/class-choices.php:672
+#: includes/helpers/class-choices.php:692
 msgid "Germany"
 msgstr "Germania"
 
-#: includes/helpers/class-choices.php:671
+#: includes/helpers/class-choices.php:691
 msgid "France"
 msgstr "Francia"
 
-#: includes/helpers/class-choices.php:670
+#: includes/helpers/class-choices.php:690
 msgid "Finland"
 msgstr "Finlandia"
 
-#: includes/helpers/class-choices.php:667
+#: includes/helpers/class-choices.php:687
 msgid "Egypt"
 msgstr "Egitto"
 
-#: includes/helpers/class-choices.php:665
+#: includes/helpers/class-choices.php:685
 msgid "Denmark"
 msgstr "Danimarca"
 
-#: includes/helpers/class-choices.php:664
+#: includes/helpers/class-choices.php:684
 msgid "Czechia"
 msgstr "Repubblica Ceca"
 
-#: includes/helpers/class-choices.php:660
+#: includes/helpers/class-choices.php:680
 msgid "Colombia"
 msgstr "Colombia"
 
-#: includes/helpers/class-choices.php:659
+#: includes/helpers/class-choices.php:679
 msgid "Chile"
 msgstr "Cile"
 
-#: includes/helpers/class-choices.php:658
+#: includes/helpers/class-choices.php:678
 msgid "Canada"
 msgstr "Canada"
 
-#: includes/helpers/class-choices.php:655
+#: includes/helpers/class-choices.php:675
 msgid "Brazil"
 msgstr "Brasile"
 
-#: includes/helpers/class-choices.php:653
+#: includes/helpers/class-choices.php:673
 msgid "Belgium"
 msgstr "Belgio"
 
-#: includes/helpers/class-choices.php:648
+#: includes/helpers/class-choices.php:668
 msgid "Austria"
 msgstr "Austria"
 
-#: includes/helpers/class-choices.php:647
+#: includes/helpers/class-choices.php:667
 msgid "Australia"
 msgstr "Australia"
 
-#: includes/helpers/class-choices.php:645
+#: includes/helpers/class-choices.php:665
 msgid "Argentina"
 msgstr "Argentina"
 
@@ -2444,11 +2424,11 @@ msgid_plural "%s weeks"
 msgstr[0] "%s settimana"
 msgstr[1] "%s settimane"
 
-#: includes/helpers/class-choices.php:721
+#: includes/helpers/class-choices.php:741
 msgid "Thailand"
 msgstr "Thailandia"
 
-#: includes/helpers/class-choices.php:691
+#: includes/helpers/class-choices.php:711
 msgid "Malaysia"
 msgstr "Malesia"
 
@@ -2462,7 +2442,7 @@ msgstr "Configura facilmente Google Analytics senza utilizzare un plugin di terz
 msgid "Verify site ownership on Google Search Console in a single click"
 msgstr "Verifica la proprietà del sito su Google Search Console con un solo clic"
 
-#: includes/helpers/class-choices.php:643
+#: includes/helpers/class-choices.php:663
 msgid "Worldwide"
 msgstr "Tutto il mondo"
 
@@ -2580,25 +2560,25 @@ msgstr "Usa il nostro rivoluzionario SEO Analyzer per analizzare il tuo sito web
 msgid "Learn more about the benefits of connecting your account here."
 msgstr "Scopri di più sui vantaggi di collegare il tuo account."
 
-#: includes/helpers/class-schema.php:89
+#: includes/helpers/class-schema.php:90
 #: includes/settings/titles/post-types.php:136
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "WooCommerce Product"
 msgstr "Prodotto WooCommerce"
 
-#: includes/helpers/class-schema.php:93
+#: includes/helpers/class-schema.php:94
 #: includes/settings/titles/post-types.php:136
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "EDD Product"
 msgstr "Prodotto EDD"
 
-#: includes/frontend/class-shortcodes.php:368
+#: includes/frontend/class-shortcodes.php:373
 msgid "Email:"
 msgstr "Email:"
 
-#: includes/frontend/class-shortcodes.php:309
+#: includes/frontend/class-shortcodes.php:314
 msgid "Telephone"
 msgstr "Telefono"
 
@@ -2741,7 +2721,7 @@ msgstr "Analizza il tuo sito %1$s collegando il tuo account Rank Math %2$s"
 msgid "PHP OpenSSL Extension installed"
 msgstr "Estensione PHP OpenSSL installata"
 
-#: includes/module/class-manager.php:351
+#: includes/module/class-manager.php:352
 msgid "Google Web Stories"
 msgstr "Google Web Stories"
 
@@ -2753,11 +2733,11 @@ msgstr "Estensione PHP OpenSSL mancante"
 msgid "SEO Score: Ok"
 msgstr "Punteggio SEO: ok"
 
-#: includes/module/class-manager.php:356
+#: includes/module/class-manager.php:357
 msgid "Please activate Web Stories plugin to use this module."
 msgstr "Attiva il plugin Web Stories per utilizzare questo modulo."
 
-#: includes/module/class-manager.php:352
+#: includes/module/class-manager.php:353
 msgid "Make any Story created with the Web Stories WordPress plugin SEO-Ready with automatic support for Schema and Meta tags."
 msgstr "Crea tutte le storie che vuoi con il plugin Web Stories WordPress: è pronto per la SEO e ha il supporto automatico per Schema e Meta tag."
 
@@ -2966,8 +2946,8 @@ msgstr "Scegli come vuoi che Rank Math gestisca la SEO del tuo WooCommerce. %s."
 msgid "WordPress Dashboard > Settings > Permalinks > Product permalinks Example: default: /product/accessories/action-figures/acme/ - becomes: /accessories/action-figures/acme/"
 msgstr "Bacheca WordPress > Impostazioni > Permalink > Permalink prodotto. Esempio: /product/accessories/action-figures/acme/ diventa: /accessories/action-figures/acme/"
 
-#: includes/modules/database-tools/class-database-tools.php:282
-#: includes/modules/database-tools/class-database-tools.php:301
+#: includes/modules/database-tools/class-database-tools.php:281
+#: includes/modules/database-tools/class-database-tools.php:300
 msgid "Conversion started. A success message will be shown here once the process completes. You can close this page."
 msgstr "Conversione iniziata. Verrà mostrato un messaggio di successo qui una volta che il processo è completato. Puoi chiudere questa pagina."
 
@@ -3160,24 +3140,24 @@ msgstr "Online + Offline"
 msgid "Blocks import failed."
 msgstr "Importazione dei blocchi non riuscita."
 
-#: includes/modules/schema/blocks/class-block-howto.php:499
+#: includes/modules/schema/blocks/class-block-howto.php:498
 msgid "Total Time:"
 msgstr "Tempo totale:"
 
 #. translators: placeholders are units of time, e.g. '1 day, 8 hours and 30
 #. minutes'
-#: includes/modules/schema/blocks/class-block-howto.php:493
+#: includes/modules/schema/blocks/class-block-howto.php:492
 msgid "%1$s, %2$s and %3$s"
 msgstr "%1$s, %2$s e %3$s"
 
 #. translators: placeholders are units of time, e.g. '1 hour and 30 minutes'
-#: includes/modules/schema/blocks/class-block-howto.php:491
+#: includes/modules/schema/blocks/class-block-howto.php:490
 msgid "%1$s and %2$s"
 msgstr "%1$s e %2$s"
 
 #. translators: %d is the number of minutes.
 #. translators: %d: minutes
-#: includes/modules/schema/blocks/class-block-howto.php:484
+#: includes/modules/schema/blocks/class-block-howto.php:483
 #: includes/opengraph/class-slack.php:311
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -3185,14 +3165,14 @@ msgstr[0] "%d minuto"
 msgstr[1] "%d minuti"
 
 #. translators: %d is the number of hours.
-#: includes/modules/schema/blocks/class-block-howto.php:479
+#: includes/modules/schema/blocks/class-block-howto.php:478
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d ora"
 msgstr[1] "%d ore"
 
 #. translators: %d is the number of days.
-#: includes/modules/schema/blocks/class-block-howto.php:474
+#: includes/modules/schema/blocks/class-block-howto.php:473
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d giorno"
@@ -3206,7 +3186,7 @@ msgstr "Importa blocchi"
 msgid "Import and convert all compatible blocks in post contents."
 msgstr "Importa e converti tutti i blocchi compatibili nei contenuti degli articoli."
 
-#: includes/admin/importers/class-yoast.php:1208
+#: includes/admin/importers/class-yoast.php:1245
 msgid "No post found."
 msgstr "Nessun articolo trovato."
 
@@ -3220,7 +3200,7 @@ msgstr "Blocchi importati dagli articoli %1$s - %2$s su %3$s "
 msgid "Your sitemap index can be found here: %s"
 msgstr "L'indice della tua sitemap si trova qui: %s"
 
-#: includes/modules/database-tools/class-database-tools.php:391
+#: includes/modules/database-tools/class-database-tools.php:371
 msgid "Are you sure you want to convert Yoast blocks into Rank Math blocks? This action is irreversible."
 msgstr "Sei sicuro di voler convertire i blocchi Yoast in blocchi Rank Math? Questa azione è irreversibile."
 
@@ -3234,21 +3214,21 @@ msgstr "Non ordinato"
 msgid "Numbered"
 msgstr "Numerato"
 
-#: includes/modules/database-tools/class-database-tools.php:392
-#: includes/modules/database-tools/class-database-tools.php:402
+#: includes/modules/database-tools/class-database-tools.php:372
+#: includes/modules/database-tools/class-database-tools.php:382
 msgid "Convert Blocks"
 msgstr "Converti i blocchi"
 
-#: includes/modules/database-tools/class-database-tools.php:389
+#: includes/modules/database-tools/class-database-tools.php:369
 msgid "Yoast Block Converter"
 msgstr "Yoast Block Converter"
 
-#: includes/modules/database-tools/class-database-tools.php:276
-#: includes/modules/database-tools/class-database-tools.php:295
+#: includes/modules/database-tools/class-database-tools.php:275
+#: includes/modules/database-tools/class-database-tools.php:294
 msgid "No posts found to convert."
 msgstr "Non abbiamo trovato articoli da convertire."
 
-#: includes/modules/database-tools/class-database-tools.php:400
+#: includes/modules/database-tools/class-database-tools.php:380
 msgid "Convert TOC block created using AIOSEO. Use this option to easily move your previous blocks into Rank Math."
 msgstr "Convert FAQ & HowTo Blocks created using Yoast. Use this option to easily move your previous blocks into Rank Math."
 
@@ -3280,7 +3260,7 @@ msgid "This is the version you are using on this site."
 msgstr "Questa è la versione che stai usando su questo sito."
 
 #: includes/module/class-manager.php:278
-#: includes/modules/database-tools/class-database-tools.php:334
+#: includes/modules/database-tools/class-database-tools.php:314
 msgid "Database Tools"
 msgstr "Strumenti del database"
 
@@ -3532,36 +3512,36 @@ msgstr "ID unico dell'oggetto"
 msgid "Meta to add or update data."
 msgstr "Meta per aggiungere o aggiornare i dati."
 
-#: includes/modules/database-tools/class-database-tools.php:360
+#: includes/modules/database-tools/class-database-tools.php:340
 msgid "Remove transients"
 msgstr "Rimuovi i transient"
 
-#: includes/modules/database-tools/class-database-tools.php:358
+#: includes/modules/database-tools/class-database-tools.php:338
 msgid "Remove Rank Math Transients"
 msgstr "Rimuovi i transient di Rank Math"
 
-#: includes/modules/database-tools/class-database-tools.php:359
+#: includes/modules/database-tools/class-database-tools.php:339
 msgid "If you see any issue while using Rank Math or one of its options - clearing the Rank Math transients fixes the problem in most cases. Deleting transients does not delete ANY data added using Rank Math."
 msgstr "Se noti qualche problema mentre usi Rank Math o una delle sue opzioni, cancella i transient di Rank Math e dovresti risolvere il problema nella maggior parte dei casi. Eliminare i transient non cancella NESSUN dato aggiunto usando Rank Math."
 
-#: includes/modules/database-tools/class-database-tools.php:409
+#: includes/modules/database-tools/class-database-tools.php:389
 msgid "In some instances, the internal links data might show an inflated number or no number at all. Deleting the internal links data might fix the issue."
 msgstr "In alcuni casi, i dati dei link interni potrebbero mostrare un numero esagerato o anche nessun numero. Eliminare i dati dei link interni potrebbe risolvere il problema."
 
-#: includes/modules/database-tools/class-database-tools.php:418
+#: includes/modules/database-tools/class-database-tools.php:398
 msgid "Getting a redirection loop or need a fresh start? Delete all the redirections using this tool. Note: This process is irreversible and will delete ALL your redirection rules."
 msgstr "Stai vedendo un loop di reindirizzamento o vuoi iniziare daccapo? Elimina tutti i reindirizzamenti con questo strumento. Nota: è un processo irreversibile che cancellerà TUTTE le tue regole di reindirizzamento."
 
-#: includes/modules/database-tools/class-database-tools.php:365
-#: includes/modules/database-tools/class-database-tools.php:368
+#: includes/modules/database-tools/class-database-tools.php:345
+#: includes/modules/database-tools/class-database-tools.php:348
 msgid "Clear 404 Log"
 msgstr "Svuota il registro degli errori 404"
 
-#: includes/modules/database-tools/class-database-tools.php:366
+#: includes/modules/database-tools/class-database-tools.php:346
 msgid "Is the 404 error log getting out of hand? Use this option to clear ALL 404 logs generated by your website in the Rank Math 404 Monitor."
 msgstr "Il registro degli errori 404 ti sta sfuggendo di mano? Usa questa opzione per cancellare da Rank Math 404 Monitor TUTTI i registri 404 generati dal tuo sito web."
 
-#: includes/modules/database-tools/class-database-tools.php:351
+#: includes/modules/database-tools/class-database-tools.php:331
 msgid "Flush SEO Analyzer Data"
 msgstr "Flush SEO Analysis Data"
 
@@ -3671,7 +3651,7 @@ msgstr "Mostra la pagina del blog nei breadcrumb."
 msgid "System Status"
 msgstr "Stato del sistema"
 
-#: includes/module/class-manager.php:342
+#: includes/module/class-manager.php:343
 msgid "ACF"
 msgstr "ACF"
 
@@ -3679,62 +3659,62 @@ msgstr "ACF"
 msgid "Status & Tools"
 msgstr "Stato e strumenti"
 
-#: includes/module/class-manager.php:347
+#: includes/module/class-manager.php:348
 msgid "Please activate ACF plugin to use this module."
 msgstr "Attiva il plugin ACF per utilizzare questo modulo."
 
-#: includes/modules/database-tools/class-database-tools.php:190
+#: includes/modules/database-tools/class-database-tools.php:189
 msgid "Redirection rules successfully deleted."
 msgstr "Reindirizzamenti eliminati correttamente."
 
-#: includes/modules/database-tools/class-database-tools.php:420
+#: includes/modules/database-tools/class-database-tools.php:400
 msgid "Delete Redirections"
 msgstr "Elimina i reindirizzamenti"
 
-#: includes/modules/database-tools/class-database-tools.php:417
+#: includes/modules/database-tools/class-database-tools.php:397
 msgid "Delete Redirections Rules"
 msgstr "Elimina le regole di reindirizzamento"
 
-#: includes/module/class-manager.php:343
+#: includes/module/class-manager.php:344
 msgid "ACF support helps Rank Math SEO read and analyze content written in the Advanced Custom Fields. If your theme uses ACF, you should enable this option."
 msgstr "Il supporto ACF aiuta Rank Math SEO a leggere e analizzare il contenuto scritto negli Advanced Custom Fields. Se il tuo tema usa ACF, dovresti abilitare questa opzione."
 
-#: includes/modules/database-tools/class-database-tools.php:408
+#: includes/modules/database-tools/class-database-tools.php:388
 msgid "Delete Internal Links Data"
 msgstr "Elimina i dati sui link interni"
 
-#: includes/modules/database-tools/class-database-tools.php:410
+#: includes/modules/database-tools/class-database-tools.php:390
 msgid "Are you sure you want to delete Internal Links Data? This action is irreversible."
 msgstr "Vuoi davvero cancellare i dati dei link interni? Questa azione è irreversibile."
 
-#: includes/modules/database-tools/class-database-tools.php:411
+#: includes/modules/database-tools/class-database-tools.php:391
 msgid "Delete Internal Links"
 msgstr "Elimina i link interni"
 
-#: includes/modules/database-tools/class-database-tools.php:419
+#: includes/modules/database-tools/class-database-tools.php:399
 msgid "Are you sure you want to delete all the Redirection Rules? This action is irreversible."
 msgstr "Vuoi davvero eliminare tutte le regole di reindirizzamento? Questa azione è irreversibile."
 
-#: includes/modules/database-tools/class-database-tools.php:367
+#: includes/modules/database-tools/class-database-tools.php:347
 msgid "Are you sure you want to delete the 404 log? This action is irreversible."
 msgstr "Vuoi davvero eliminare il registro degli errori 404? Questa azione è irreversibile."
 
 #. Translators: placeholder is the number of transients deleted.
-#: includes/modules/database-tools/class-database-tools.php:113
+#: includes/modules/database-tools/class-database-tools.php:112
 msgid "%d Rank Math transient cleared."
 msgid_plural "%d Rank Math transients cleared."
 msgstr[0] "È stato cancellato %d transient di Rank Math"
 msgstr[1] "Sono stati cancellati %d transient di Rank Math"
 
-#: includes/modules/database-tools/class-database-tools.php:151
+#: includes/modules/database-tools/class-database-tools.php:150
 msgid "Internal Links successfully deleted."
 msgstr "I link interni sono stati eliminati correttamente."
 
-#: includes/modules/database-tools/class-database-tools.php:170
+#: includes/modules/database-tools/class-database-tools.php:169
 msgid "404 Log successfully deleted."
 msgstr "Registro 404 eliminato correttamente."
 
-#: includes/modules/database-tools/class-database-tools.php:353
+#: includes/modules/database-tools/class-database-tools.php:333
 msgid "Clear SEO Analyzer"
 msgstr "Clear SEO Analysis"
 
@@ -4122,22 +4102,22 @@ msgid "Index"
 msgstr "Index"
 
 #. translators: 1 is plugin name
-#: includes/admin/wizard/class-import.php:183
+#: includes/admin/wizard/class-import.php:186
 msgid "Import settings and meta data from the %1$s plugin."
 msgstr "Importa impostazioni e metadati dal plugin %1$s ."
 
 #. translators: 1 is plugin name
-#: includes/admin/wizard/class-import.php:183
+#: includes/admin/wizard/class-import.php:186
 msgid "Import meta data from the %1$s plugin."
 msgstr "Importa i metadati dal plugin %1$s ."
 
 #. translators: 2 is link to Knowledge Base article
-#: includes/admin/wizard/class-import.php:186
+#: includes/admin/wizard/class-import.php:189
 msgid "The process may take a few minutes if you have a large number of posts or pages <a href=\"%2$s\" target=\"_blank\">Learn more about the import process here.</a>"
 msgstr "Il processo può richiedere alcuni minuti se hai un gran numero di articoli o pagine <a href=\"%2$s\" target=\"_blank\">Per saperne di più sul processo di importazione leggi qui.</a>"
 
 #. translators: 1 is plugin name
-#: includes/admin/wizard/class-import.php:190
+#: includes/admin/wizard/class-import.php:193
 msgid " %1$s plugin will be disabled automatically moving forward to avoid conflicts. <strong>It is thus recommended to import the data you need now.</strong>"
 msgstr "Il plugin %1$s d'ora in poi verrà disattivato automaticamente per evitare conflitti. <strong>Ti raccomandiamo di importare ora i dati di cui hai bisogno.</strong>"
 
@@ -4210,7 +4190,7 @@ msgstr "<strong>Errore API:</strong> %s"
 msgid "Sorry, field is empty which is not allowed."
 msgstr "Il campo è vuoto e non è consentito."
 
-#: includes/rest/class-admin.php:161
+#: includes/rest/class-admin.php:163
 msgid "Module slug"
 msgstr "Slug del modulo"
 
@@ -4230,7 +4210,7 @@ msgstr "Riscrivi i titoli"
 msgid "Your current theme doesn't support title-tag. Enable this option to rewrite page, post, category, search and archive page titles."
 msgstr "Il tuo tema attuale non supporta i tag title. Abilita questa opzione per riscrivere i titoli di pagine, articoli, categorie, ricerca e archivio."
 
-#: includes/rest/class-admin.php:167
+#: includes/rest/class-admin.php:169
 msgid "Module state either on or off"
 msgstr "Stato del modulo attivato o disattivato"
 
@@ -4531,8 +4511,9 @@ msgid "Default"
 msgstr "Predefinito"
 
 #: includes/modules/404-monitor/views/options.php:58
-#: includes/modules/local-seo/views/titles-options.php:157
-#: includes/modules/local-seo/views/titles-options.php:199
+#: includes/modules/local-seo/views/titles-options.php:167
+#: includes/modules/local-seo/views/titles-options.php:209
+#: includes/modules/local-seo/views/titles-options.php:253
 #: includes/modules/redirections/class-form.php:89
 msgid "Remove"
 msgstr "Rimuovi"
@@ -4601,35 +4582,35 @@ msgstr "Nascondi"
 msgid "Hide details"
 msgstr "Nascondi i dettagli"
 
-#: includes/modules/local-seo/views/titles-options.php:176
+#: includes/modules/local-seo/views/titles-options.php:186
 msgid "Sunday"
 msgstr "Domenica"
 
-#: includes/modules/local-seo/views/titles-options.php:175
+#: includes/modules/local-seo/views/titles-options.php:185
 msgid "Saturday"
 msgstr "Sabato"
 
-#: includes/modules/local-seo/views/titles-options.php:174
+#: includes/modules/local-seo/views/titles-options.php:184
 msgid "Friday"
 msgstr "Venerdì"
 
-#: includes/modules/local-seo/views/titles-options.php:173
+#: includes/modules/local-seo/views/titles-options.php:183
 msgid "Thursday"
 msgstr "Giovedì"
 
-#: includes/modules/local-seo/views/titles-options.php:172
+#: includes/modules/local-seo/views/titles-options.php:182
 msgid "Wednesday"
 msgstr "Mercoledì"
 
-#: includes/modules/local-seo/views/titles-options.php:171
+#: includes/modules/local-seo/views/titles-options.php:181
 msgid "Tuesday"
 msgstr "Martedì"
 
-#: includes/modules/local-seo/views/titles-options.php:170
+#: includes/modules/local-seo/views/titles-options.php:180
 msgid "Monday"
 msgstr "Lunedì"
 
-#: includes/modules/local-seo/views/titles-options.php:103
+#: includes/modules/local-seo/views/titles-options.php:113
 #: includes/modules/schema/shortcode/event.php:62
 #: includes/modules/schema/shortcode/person.php:27
 #: includes/modules/schema/shortcode/restaurant.php:20
@@ -4639,11 +4620,11 @@ msgstr "Lunedì"
 msgid "Address"
 msgstr "Indirizzo"
 
-#: includes/modules/local-seo/views/titles-options.php:93
+#: includes/modules/local-seo/views/titles-options.php:103
 msgid "Phone"
 msgstr "Telefono"
 
-#: includes/modules/local-seo/views/titles-options.php:84
+#: includes/modules/local-seo/views/titles-options.php:94
 #: includes/modules/schema/shortcode/person.php:20
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -4652,7 +4633,7 @@ msgid "Email"
 msgstr "Email"
 
 #: includes/modules/instant-indexing/views/history.php:15
-#: includes/modules/local-seo/views/titles-options.php:74
+#: includes/modules/local-seo/views/titles-options.php:84
 #: includes/modules/schema/shortcode/book.php:20
 #: includes/modules/schema/shortcode/music.php:20
 #: includes/modules/sitemap/sitemap-xsl.php:308
@@ -4662,7 +4643,7 @@ msgstr "Email"
 msgid "URL"
 msgstr "URL"
 
-#: includes/modules/local-seo/views/titles-options.php:64
+#: includes/modules/local-seo/views/titles-options.php:74
 #: includes/settings/titles/local.php:58
 msgid "Logo"
 msgstr "Logo"
@@ -4690,13 +4671,13 @@ msgstr "Azioni disponibili"
 msgid "Overview"
 msgstr "Panoramica"
 
-#: includes/helpers/class-choices.php:445 includes/helpers/class-schema.php:97
+#: includes/helpers/class-choices.php:445 includes/helpers/class-schema.php:98
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Video"
 msgstr "Video"
 
-#: includes/frontend/class-shortcodes.php:179
+#: includes/frontend/class-shortcodes.php:184
 msgid "Address:"
 msgstr "Indirizzo:"
 
@@ -4767,7 +4748,7 @@ msgstr "Pagina %1$d di %2$d"
 
 #: includes/module/class-module.php:96
 #: includes/modules/404-monitor/class-admin.php:219
-#: includes/modules/instant-indexing/class-instant-indexing.php:216
+#: includes/modules/instant-indexing/class-instant-indexing.php:220
 #: includes/modules/redirections/class-admin.php:357 rank-math.php:430
 #: assets/admin/js/rank-math-app.js:1
 #: includes/modules/schema/blocks/toc/assets/js/index.js:1
@@ -4780,26 +4761,26 @@ msgstr "Impostazioni"
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: includes/class-installer.php:344
+#: includes/class-installer.php:345
 #: includes/settings/general/breadcrumbs.php:121
 msgid "404 Error: page not found"
 msgstr "Errore 404: pagina non trovata"
 
 #. translators: Search query term
 #. translators: placeholder
-#: includes/class-installer.php:343
+#: includes/class-installer.php:344
 #: includes/settings/general/breadcrumbs.php:110
 msgid "Results for %s"
 msgstr "Risultati per %s"
 
 #. translators: Archive title
 #. translators: placeholder
-#: includes/class-installer.php:341
+#: includes/class-installer.php:342
 #: includes/settings/general/breadcrumbs.php:98
 msgid "Archives for %s"
 msgstr "Archivi per %s"
 
-#: includes/class-installer.php:339
+#: includes/class-installer.php:340
 #: includes/settings/general/breadcrumbs.php:65
 msgid "Home"
 msgstr "Home"
@@ -4901,13 +4882,13 @@ msgstr "Elimina definitivamente"
 msgid "Status"
 msgstr "Stato"
 
-#: includes/modules/local-seo/views/titles-options.php:236
-#: includes/modules/local-seo/views/titles-options.php:254
+#: includes/modules/local-seo/views/titles-options.php:279
+#: includes/modules/local-seo/views/titles-options.php:297
 #: includes/modules/sitemap/settings/html-sitemap.php:58
 msgid "Select Page"
 msgstr "Seleziona pagina"
 
-#: includes/modules/local-seo/views/titles-options.php:153
+#: includes/modules/local-seo/views/titles-options.php:163
 #: includes/modules/schema/class-snippet-shortcode.php:246
 msgid "Opening Hours"
 msgstr "Orari di apertura"
@@ -4957,7 +4938,7 @@ msgstr "Ristorante"
 msgid "Recipe"
 msgstr "Ricetta"
 
-#: includes/helpers/class-choices.php:441 includes/helpers/class-schema.php:109
+#: includes/helpers/class-choices.php:441 includes/helpers/class-schema.php:110
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Music"
@@ -4997,7 +4978,6 @@ msgstr "Il tuo sito è pronto!"
 #: includes/admin/views/import-export/backup-panel.php:43
 #: includes/modules/404-monitor/class-table.php:156
 #: includes/modules/404-monitor/class-table.php:276
-#: includes/modules/database-tools/class-database-tools.php:429
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Delete"
@@ -5071,7 +5051,7 @@ msgid "Article Type"
 msgstr "Tipo di articolo"
 
 #: includes/admin/wizard/class-schema-markup.php:82
-#: includes/helpers/class-choices.php:436 includes/helpers/class-schema.php:85
+#: includes/helpers/class-choices.php:436 includes/helpers/class-schema.php:86
 #: includes/settings/titles/post-types.php:167
 #: includes/settings/titles/post-types.php:214
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -5171,26 +5151,6 @@ msgstr "Il tuo sito è ora ottimizzato."
 msgid "Start Import"
 msgstr "Inizia l'importazione"
 
-#: includes/admin/wizard/class-import.php:44
-msgid "Importing: "
-msgstr "Importazione: "
-
-#. translators: Link to kb article
-#. translators: Link to social setting KB article
-#. translators: Link to How to Optimization KB article
-#: includes/admin/class-option-center.php:54
-#: includes/admin/class-option-center.php:62
-#: includes/admin/class-option-center.php:154
-#: includes/admin/wizard/class-optimization.php:37
-#: includes/modules/404-monitor/class-admin.php:224
-#: includes/modules/redirections/class-admin.php:352
-#: assets/admin/js/post-list.js:1
-#: includes/modules/analytics/assets/js/admin-bar.js:1
-#: includes/modules/content-ai/assets/js/content-ai-page.js:1
-#: includes/modules/content-ai/assets/js/content-ai.js:1
-msgid "Learn More"
-msgstr "Approfondisci"
-
 #. translators: Link to kb article
 #. translators: Link to KB article
 #. translators: Redirection page url
@@ -5220,8 +5180,8 @@ msgstr "Approfondisci"
 #: includes/modules/analytics/class-analytics.php:502
 #: includes/modules/content-ai/class-content-ai.php:111
 #: includes/modules/image-seo/class-admin.php:47
-#: includes/modules/instant-indexing/class-instant-indexing.php:210
-#: includes/modules/instant-indexing/class-instant-indexing.php:218
+#: includes/modules/instant-indexing/class-instant-indexing.php:214
+#: includes/modules/instant-indexing/class-instant-indexing.php:222
 #: includes/modules/redirections/class-admin.php:227
 #: includes/modules/robots-txt/class-robots-txt.php:69
 #: includes/modules/role-manager/views/main.php:28
@@ -5232,6 +5192,26 @@ msgstr "Approfondisci"
 #: includes/modules/sitemap/class-admin.php:230
 #: includes/modules/woocommerce/class-admin.php:76
 msgid "Learn more"
+msgstr "Approfondisci"
+
+#: includes/admin/wizard/class-import.php:44
+msgid "Importing: "
+msgstr "Importazione: "
+
+#. translators: Link to kb article
+#. translators: Link to social setting KB article
+#. translators: Link to How to Optimization KB article
+#: includes/admin/class-option-center.php:54
+#: includes/admin/class-option-center.php:62
+#: includes/admin/class-option-center.php:154
+#: includes/admin/wizard/class-optimization.php:37
+#: includes/modules/404-monitor/class-admin.php:224
+#: includes/modules/redirections/class-admin.php:352
+#: assets/admin/js/post-list.js:1
+#: includes/modules/analytics/assets/js/admin-bar.js:1
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+msgid "Learn More"
 msgstr "Approfondisci"
 
 #: includes/admin/class-admin-bar-menu.php:374
@@ -5308,7 +5288,7 @@ msgstr "Valore del campo personalizzato."
 msgid "No Archive"
 msgstr "Nessun archivio"
 
-#: includes/frontend/class-shortcodes.php:209
+#: includes/frontend/class-shortcodes.php:214
 msgid "Hours:"
 msgstr "Ore:"
 
@@ -5370,18 +5350,18 @@ msgstr "Supporto tecnico"
 msgid "Customer Service"
 msgstr "Assistenza clienti"
 
-#: includes/modules/local-seo/views/titles-options.php:198
+#: includes/modules/local-seo/views/titles-options.php:208
 msgid "Add number"
 msgstr "Aggiungi numero"
 
-#: includes/modules/local-seo/views/titles-options.php:195
+#: includes/modules/local-seo/views/titles-options.php:205
 #: includes/modules/schema/shortcode/restaurant.php:34
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Phone Number"
 msgstr "Numero di telefono"
 
-#: includes/modules/local-seo/views/titles-options.php:111
+#: includes/modules/local-seo/views/titles-options.php:121
 msgid "Address Format"
 msgstr "Formato indirizzo"
 
@@ -5389,31 +5369,31 @@ msgstr "Formato indirizzo"
 msgid "This field must not be empty."
 msgstr "Questo campo non deve essere vuoto."
 
-#: includes/modules/local-seo/views/titles-options.php:287
+#: includes/modules/local-seo/views/titles-options.php:330
 #: includes/modules/schema/shortcode/restaurant.php:27
 msgid "Geo Coordinates"
 msgstr "Coordinate geografiche"
 
-#: includes/modules/local-seo/views/titles-options.php:288
+#: includes/modules/local-seo/views/titles-options.php:331
 msgid "Latitude and longitude values separated by comma."
 msgstr "Valori di latitudine e longitudine separati da virgola."
 
-#: includes/modules/local-seo/views/titles-options.php:265
+#: includes/modules/local-seo/views/titles-options.php:308
 msgid "Contact Page"
 msgstr "Pagina di contatto"
 
-#: includes/modules/local-seo/views/titles-options.php:275
+#: includes/modules/local-seo/views/titles-options.php:318
 msgid "Google Maps API Key"
 msgstr "Chiave API di Google Maps"
 
-#: includes/modules/local-seo/views/titles-options.php:229
+#: includes/modules/local-seo/views/titles-options.php:239
 #: includes/modules/schema/shortcode/restaurant.php:41
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Price Range"
 msgstr "Fascia di prezzo"
 
-#: includes/modules/local-seo/views/titles-options.php:221
+#: includes/modules/local-seo/views/titles-options.php:231
 msgid "Format: +1-401-555-1212"
 msgstr "Formato: + 1-401-555-1212"
 
@@ -5421,6 +5401,7 @@ msgstr "Formato: + 1-401-555-1212"
 msgid "Emergency"
 msgstr "Emergenza"
 
+#: includes/modules/local-seo/views/titles-options.php:252
 #: includes/modules/redirections/class-form.php:41
 msgid "Add"
 msgstr "Aggiungi"
@@ -5515,7 +5496,7 @@ msgstr "Orario di apertura"
 msgid "Keywords"
 msgstr "Parole chiave"
 
-#: includes/admin/class-admin.php:335
+#: includes/admin/class-admin.php:369
 #: includes/modules/role-manager/class-role-manager.php:131
 #: includes/traits/class-ajax.php:59
 msgid "You are not authorized to perform this action."
@@ -5842,7 +5823,7 @@ msgstr "Attiva"
 msgid "Redirection successfully moved to Trash."
 msgstr "Il reindirizzamento spostato correttamente nel cestino."
 
-#: includes/modules/local-seo/views/titles-options.php:186
+#: includes/modules/local-seo/views/titles-options.php:196
 msgid "e.g. 09:00-17:00"
 msgstr "es. 09:00-17:00"
 
@@ -5894,9 +5875,10 @@ msgid "Your Website: %s"
 msgstr "Il tuo sito web: %s"
 
 #. translators: Link to How to Setup Sitemap KB article
+#. Translators: placeholder is the KB link.
 #: includes/admin/wizard/class-sitemap.php:37
 #: includes/admin/wizard/views/google-connect.php:37
-#: includes/admin/wizard/views/rank-math-connect.php:45
+#: includes/admin/wizard/views/rank-math-connect.php:48
 #: includes/admin/wizard/views/search-console-ui.php:160
 #: includes/admin/wizard/views/search-console-ui.php:389
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -6097,7 +6079,7 @@ msgstr "Tempo di cottura"
 msgid "Custom Redirection"
 msgstr "Reindirizzamento personalizzato"
 
-#: includes/modules/local-seo/views/titles-options.php:156
+#: includes/modules/local-seo/views/titles-options.php:166
 msgid "Add time"
 msgstr "Aggiungi orario"
 
@@ -6218,7 +6200,7 @@ msgstr "Tassonomie pubbliche"
 msgid "Redirect to Homepage"
 msgstr "Reindirizza alla homepage"
 
-#: includes/modules/local-seo/views/titles-options.php:230
+#: includes/modules/local-seo/views/titles-options.php:240
 msgid "The price range of the business, for example $$$."
 msgstr "La fascia di prezzo dell'attività, ad esempio $$$."
 
@@ -6334,7 +6316,7 @@ msgstr "Esporta in .htaccess"
 msgid "Export to Nginx config file"
 msgstr "Esporta nel file di configurazione di Nginx"
 
-#: includes/modules/local-seo/views/titles-options.php:138
+#: includes/modules/local-seo/views/titles-options.php:148
 msgid "Opening Hours Format"
 msgstr "Formato degli orari di apertura"
 
@@ -7104,13 +7086,13 @@ msgstr "Nessuno snippet"
 msgid "Any"
 msgstr "qualsiasi"
 
-#: includes/helpers/class-choices.php:440 includes/helpers/class-schema.php:101
+#: includes/helpers/class-choices.php:440 includes/helpers/class-schema.php:102
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Job Posting"
 msgstr "Offerte di lavoro"
 
-#: includes/helpers/class-choices.php:448 includes/helpers/class-schema.php:105
+#: includes/helpers/class-choices.php:448 includes/helpers/class-schema.php:106
 msgid "Software Application"
 msgstr "Applicazione software"
 
@@ -7323,29 +7305,24 @@ msgstr "Link in entrata"
 msgid "Person or Company"
 msgstr "Persona o azienda"
 
-#: includes/modules/local-seo/views/titles-options.php:75
 #: includes/settings/titles/local.php:69
 msgid "URL of the item."
 msgstr "URL dell'elemento."
 
-#: includes/modules/local-seo/views/titles-options.php:85
-msgid "Search engines display your email address."
-msgstr "I motori di ricerca mostra il tuo indirizzo email."
-
-#: includes/modules/local-seo/views/titles-options.php:94
-#: includes/modules/local-seo/views/titles-options.php:196
+#: includes/modules/local-seo/views/titles-options.php:104
+#: includes/modules/local-seo/views/titles-options.php:206
 msgid "Search engines may prominently display your contact phone number for mobile users."
 msgstr "I motori di ricerca possono mostrare in evidenza il tuo numero di telefono per gli utenti da mobile."
 
-#: includes/modules/local-seo/views/titles-options.php:112
+#: includes/modules/local-seo/views/titles-options.php:122
 msgid "Format used when the address is displayed using the <code>[rank_math_contact_info]</code> shortcode.<br><strong>Available Tags: {address}, {locality}, {region}, {postalcode}, {country}, {gps}</strong>"
 msgstr "Formato usato quando l'indirizzo viene visualizzato tramite lo shortcode <code>[rank_math_contact_info]</code>.<br><strong>Tag disponibili: {address}, {locality}, {region}, {postalcode}, {country}, {gps}</strong>"
 
-#: includes/modules/local-seo/views/titles-options.php:154
+#: includes/modules/local-seo/views/titles-options.php:164
 msgid "Select opening hours. You can add multiple sets if you have different opening or closing hours on some days or if you have a mid-day break. Times are specified using 24:00 time."
 msgstr "Seleziona gli orari di apertura. Puoi aggiungere più set se hai diversi orari di apertura o chiusura in alcuni giorni o se hai una pausa a metà giornata. Gli orari sono specificati usando il formato orario 24:00."
 
-#: includes/modules/local-seo/views/titles-options.php:143
+#: includes/modules/local-seo/views/titles-options.php:153
 msgid "Time format used in the contact shortcode."
 msgstr "Formato orario usato nello shortcode del contatto."
 
@@ -7381,24 +7358,24 @@ msgstr "Assistenza stradale"
 msgid "Package Tracking"
 msgstr "Tracciamento pacchi"
 
-#: includes/modules/local-seo/views/titles-options.php:247
+#: includes/modules/local-seo/views/titles-options.php:290
 msgid "About Page"
 msgstr "Pagina About"
 
-#: includes/modules/local-seo/views/titles-options.php:248
-#: includes/modules/local-seo/views/titles-options.php:266
+#: includes/modules/local-seo/views/titles-options.php:291
+#: includes/modules/local-seo/views/titles-options.php:309
 msgid "Select a page on your site where you want to show the LocalBusiness meta data."
 msgstr "Seleziona una pagina del tuo sito dove vuoi mostrare i meta dati di LocalBusiness."
 
 #. translators: %s expands to "Google Maps Embed API"
 #. https://developers.google.com/maps/documentation/embed
-#: includes/modules/local-seo/views/titles-options.php:277
+#: includes/modules/local-seo/views/titles-options.php:320
 msgid "An API Key is required to display embedded Google Maps on your site. Get it here: %s"
 msgstr "È necessaria una chiave API per visualizzare Google Maps incorporato nel tuo sito. Ottienila qui: %s"
 
 #. translators: %s expands to "Google Maps Embed API"
 #. https://developers.google.com/maps/documentation/embed
-#: includes/modules/local-seo/views/titles-options.php:277
+#: includes/modules/local-seo/views/titles-options.php:320
 msgid "Google Maps Embed API"
 msgstr "API Google Maps Embed"
 
@@ -7411,7 +7388,7 @@ msgid "Redirection Hits"
 msgstr "Reindirizzamenti realizzati"
 
 #. translators: source pattern
-#: includes/modules/redirections/class-redirection.php:393
+#: includes/modules/redirections/class-redirection.php:392
 msgid "Invalid regex pattern: %s"
 msgstr "Modello regex non valido: %s"
 
@@ -7626,8 +7603,8 @@ msgstr "Aggiorna capacità"
 msgid "Analytics"
 msgstr "Analytics"
 
-#: includes/modules/analytics/google/class-request.php:281
-#: includes/modules/analytics/google/class-request.php:339
+#: includes/modules/analytics/google/class-request.php:288
+#: includes/modules/analytics/google/class-request.php:346
 msgid "Bad request. Please check the code."
 msgstr "Richiesta erronea. Controlla il codice."
 
@@ -8332,6 +8309,7 @@ msgid "SEO Settings for Date Archives"
 msgstr "Impostazioni SEO per gli archivi per data"
 
 #: includes/admin/metabox/class-taxonomy-screen.php:130
+#: includes/modules/local-seo/views/titles-options.php:64
 #: includes/settings/general/rss-vars-table.php:20
 #: includes/settings/titles/post-types.php:191
 #: assets/admin/js/rank-math-app.js:1
@@ -8380,7 +8358,7 @@ msgstr "Off"
 #: includes/admin/class-admin-bar-menu.php:183
 #: includes/admin/class-admin-bar-menu.php:185
 #: includes/admin/class-admin-breadcrumbs.php:32
-#: includes/admin/class-admin-menu.php:105
+#: includes/admin/class-admin-menu.php:106
 #: includes/modules/version-control/class-version-control.php:235
 #: includes/modules/analytics/assets/js/stats.js:1
 msgid "Dashboard"
@@ -8498,9 +8476,8 @@ msgstr "Questo campo è obbligatorio."
 msgid "General"
 msgstr "Generale"
 
-#. Plugin Name of the plugin
 #: includes/admin/class-admin-bar-menu.php:173
-#: includes/admin/class-admin-menu.php:89
+#: includes/admin/class-admin-menu.php:90
 #: includes/admin/class-registration.php:213
 #: includes/admin/metabox/class-metabox.php:320
 msgid "Rank Math SEO"
@@ -8519,16 +8496,16 @@ msgstr "Aggiorna"
 msgid "Insert/edit link"
 msgstr "Inserisci/modifica link"
 
-#: includes/admin/class-admin.php:76
+#: includes/admin/class-admin.php:77
 msgid "Facebook profile URL"
 msgstr "URL del profilo Facebook"
 
-#: includes/admin/class-admin.php:75
+#: includes/admin/class-admin.php:76
 msgid "Twitter username (without @)"
 msgstr "Nome utente Twitter (senza @)"
 
 #. Author of the plugin
-#: includes/admin/class-admin-menu.php:62
+#: rank-math.php includes/admin/class-admin-menu.php:62
 #: includes/admin/class-post-filters.php:168
 #: includes/admin/class-registration.php:212 includes/class-cmb2.php:177
 #: includes/modules/analytics/views/email-reports/header.php:38
@@ -8693,7 +8670,7 @@ msgstr "Importa e esporta"
 msgid "Setup Wizard"
 msgstr "Configurazione guidata"
 
-#: includes/admin/class-admin-menu.php:115
+#: includes/admin/class-admin-menu.php:116
 msgid "Help &amp; Support"
 msgstr "Aiuto e supporto"
 
@@ -8714,15 +8691,15 @@ msgstr "Descrizione SEO"
 msgid "Basic SEO"
 msgstr "SEO di base"
 
-#: includes/admin/class-admin.php:120
+#: includes/admin/class-admin.php:121
 msgid "The canonical URL you entered does not seem to be a valid URL. Please double check it in the SEO meta box &raquo; Advanced tab."
 msgstr "L'URL canonico che hai inserito non sembra essere un URL valido. Ricontrolla nel meta box SEO &raquo; scheda Avanzate."
 
-#: includes/admin/class-admin.php:304
+#: includes/admin/class-admin.php:338
 msgid "Copy Link URL to Clipboard"
 msgstr "Copia l'URL del link negli appunti"
 
-#: includes/admin/class-admin.php:305
+#: includes/admin/class-admin.php:339
 msgid "Insert Link in Content"
 msgstr "Inserisci il link nel contenuto"
 
@@ -8860,6 +8837,6 @@ msgid "Other Business Website"
 msgstr "Altro sito web business"
 
 #: includes/admin/wizard/class-your-site.php:59
-#: includes/modules/local-seo/views/titles-options.php:127
+#: includes/modules/local-seo/views/titles-options.php:137
 msgid "Business Type"
 msgstr "Tipo di azienda"

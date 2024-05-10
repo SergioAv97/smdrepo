@@ -1,15 +1,45 @@
-# Translation of Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release) in Spanish (Spain)
-# This file is distributed under the same license as the Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release) package.
+# Translation of Plugins - Rank Math SEO with AI Best SEO Tools - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Rank Math SEO with AI Best SEO Tools - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-07 16:43:59+0000\n"
+"PO-Revision-Date: 2024-05-03 08:46:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
-"Project-Id-Version: Plugins - Rank Math SEO with AI SEO Tools - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Rank Math SEO with AI Best SEO Tools - Stable (latest release)\n"
+
+#. Translators: placeholder is the number of modified posts.
+#: includes/modules/content-ai/class-bulk-image-alt.php:174
+msgid "Image alt attributes successfully updated in %d posts. The process was stopped as you have used all the credits on your site."
+msgstr "Atributos alt de imagen actualizados correctamente en %d entradas. El proceso se ha detenido porque has utilizado todos los créditos de tu sitio."
+
+#: includes/modules/content-ai/class-bulk-image-alt.php:139
+msgid "Bulk image alt generation failed."
+msgstr "Error en la generación masiva de atributos alt de imágenes."
+
+#. Translators: placeholder is the number of modified posts.
+#: includes/modules/content-ai/class-bulk-image-alt.php:109
+msgid "Image alt attributes successfully updated in %d post."
+msgid_plural "Image alt attributes successfully updated in %d posts."
+msgstr[0] "Atributos alt de imagen actualizados correctamente en %d publicación."
+msgstr[1] "Atributos alt de imagen actualizados correctamente en %d publicaciones."
+
+#: includes/modules/content-ai/class-bulk-image-alt.php:54
+msgid "Bulk image alt generation started. It might take few minutes to complete the process."
+msgstr "Se ha iniciado la generación masiva de atributos alt de imagen. El proceso puede tardar unos minutos en completarse."
+
+#: includes/modules/content-ai/class-bulk-actions.php:76
+#: includes/modules/content-ai/class-bulk-actions.php:93
+msgid "Write Image Alt Text with AI"
+msgstr "Escribe el texto alternativo de la imagen con IA"
+
+#. Plugin Name of the plugin
+#: rank-math.php
+msgid "Rank Math SEO with AI Best SEO Tools"
+msgstr "Rank Math SEO with AI Best SEO Tools"
 
 #: includes/modules/local-seo/views/titles-options.php:250
 msgid "Provide relevant details of your company to include in the Organization Schema."
@@ -96,20 +126,20 @@ msgstr "Consigue acceso a más de 40 herramientas de IA avanzadas."
 msgid "Rank Math SEO is the Best WordPress SEO plugin with the features of many SEO and AI SEO tools in a single package to help multiply your SEO traffic."
 msgstr "Rank Math SEO es el mejor plugin de SEO para WordPress que combina las características de muchas herramientas de SEO y de IA para SEO en un único paquete y que te ayuda a multiplicar tu tráfico SEO."
 
-#: includes/modules/content-ai/class-content-ai-page.php:300
+#: includes/modules/content-ai/class-content-ai-page.php:301
 msgid "Bulk Editing Process Successfully Cancelled"
 msgstr "Proceso de edición por lotes cancelado con éxito"
 
-#: includes/modules/content-ai/class-content-ai-page.php:288
+#: includes/modules/content-ai/class-content-ai-page.php:289
 msgid "Terminate"
 msgstr "Terminar"
 
 #. Translators: placeholders are the number of posts that were processed.
-#: includes/modules/content-ai/class-content-ai-page.php:284
+#: includes/modules/content-ai/class-content-ai-page.php:285
 msgid "Terminate the ongoing Content AI Bulk Editing Process to halt any pending modifications and revert to the previous state. The bulk metadata has been generated for %1$d out of %1$d posts so far."
 msgstr "Finaliza el proceso de edición por de AI de contenidos en lotes en curso para detener cualquier modificación pendiente y volver al estado anterior. Los metadatos en lotes se han generado para %1$d de %1$d entradas hasta el momento."
 
-#: includes/modules/content-ai/class-content-ai-page.php:281
+#: includes/modules/content-ai/class-content-ai-page.php:282
 msgid "Cancel Content AI Bulk Editing Process"
 msgstr "Cancelar el proceso de edición masiva de la IA de contenidos"
 
@@ -691,63 +721,64 @@ msgstr "Tono por defecto"
 msgid "Content AI tailors keyword research to the target country for highly relevant suggestions. You can override this in individual posts/pages/CPTs."
 msgstr "Content AI adapta la búsqueda de palabras clave al país de destino para ofrecer sugerencias altamente relevantes. Puedes anular esta opción en entradas/páginas/CPT individuales."
 
-#: includes/modules/content-ai/class-content-ai-page.php:192
+#: includes/modules/content-ai/class-content-ai-page.php:193
 msgid "Content AI History"
 msgstr "Historial de Content AI"
 
-#: includes/modules/content-ai/class-content-ai-page.php:186
+#: includes/modules/content-ai/class-content-ai-page.php:187
 msgid "Content AI Chat"
 msgstr "Chat de Content AI"
 
-#: includes/modules/content-ai/class-content-ai-page.php:184
+#: includes/modules/content-ai/class-content-ai-page.php:185
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 msgid "Chat"
 msgstr "Chat"
 
-#: includes/modules/content-ai/class-content-ai-page.php:180
+#: includes/modules/content-ai/class-content-ai-page.php:181
 msgid "Content AI Editor"
 msgstr "Editor de Content AI"
 
-#: includes/modules/content-ai/class-content-ai-page.php:178
+#: includes/modules/content-ai/class-content-ai-page.php:179
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 msgid "Content Editor"
 msgstr "Editor de contenido"
 
-#: includes/modules/content-ai/class-content-ai-page.php:174
+#: includes/modules/content-ai/class-content-ai-page.php:175
 msgid "Content AI Tools"
 msgstr "Herramientas de Content AI"
 
-#: includes/modules/content-ai/class-content-ai-page.php:172
+#: includes/modules/content-ai/class-content-ai-page.php:173
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 msgid "AI Tools"
 msgstr "Herramientas IA"
 
-#: includes/modules/content-ai/class-bulk-actions.php:91
+#: includes/modules/content-ai/class-bulk-actions.php:114
 msgid "Another bulk editing process is already running. Please try again later after the existing process is complete."
 msgstr "Ya se está ejecutando otro proceso de edición masiva. Vuelve a intentarlo más tarde, una vez finalizado el proceso existente."
 
-#: includes/modules/content-ai/class-bulk-actions.php:70
+#: includes/modules/content-ai/class-bulk-actions.php:75
 msgid "Write SEO Title & Description with AI"
 msgstr "Escribir título y descripción SEO con IA"
 
-#: includes/modules/content-ai/class-bulk-actions.php:69
+#: includes/modules/content-ai/class-bulk-actions.php:74
 msgid "Write SEO Description with AI"
 msgstr "Escribir descripciones SEO con IA"
 
-#: includes/modules/content-ai/class-bulk-actions.php:68
+#: includes/modules/content-ai/class-bulk-actions.php:73
 msgid "Write SEO Title with AI"
 msgstr "Escribir título SEO con IA"
 
-#: includes/modules/content-ai/class-bulk-actions.php:67
+#: includes/modules/content-ai/class-bulk-actions.php:72
+#: includes/modules/content-ai/class-bulk-actions.php:92
 msgid "&#8595; Rank Math Content AI"
 msgstr "&#8595; Rank Math Content AI"
 
 #. Translators: placeholder is the new label.
-#: includes/modules/content-ai/class-content-ai-page.php:123
+#: includes/modules/content-ai/class-content-ai-page.php:124
 msgid "Content AI %s"
 msgstr "%s Content AI"
 
-#: includes/modules/content-ai/class-content-ai-page.php:71
+#: includes/modules/content-ai/class-content-ai-page.php:72
 msgid "Credits Remaining: "
 msgstr "Créditos restantes: "
 
@@ -817,12 +848,12 @@ msgid "Selected roles will be excluded from the XML &amp; HTML sitemaps."
 msgstr "Los perfiles seleccionados se excluirán de los mapas del sitio XML y HTML."
 
 #. Translators: link to the update page.
-#: includes/modules/content-ai/class-rest.php:481
+#: includes/modules/content-ai/class-rest.php:532
 msgid "Please update"
 msgstr "Por favor, actualiza"
 
 #. Translators: link to the update page.
-#: includes/modules/content-ai/class-rest.php:480
+#: includes/modules/content-ai/class-rest.php:531
 msgid "There is a new version of Content AI available! %s the Rank Math SEO plugin to use this feature."
 msgstr "¡Hay una nueva versión de Content AI disponible! %s el plugin Rank Math SEO para utilizar esta característica."
 
@@ -1003,7 +1034,7 @@ msgstr "Analizador de la competencia"
 msgid "SEO Analyzer"
 msgstr "Analizador SEO"
 
-#: includes/modules/database-tools/class-database-tools.php:390
+#: includes/modules/database-tools/class-database-tools.php:370
 msgid "Convert FAQ, HowTo, & Table of Contents Blocks created using Yoast. Use this option to easily move your previous blocks into Rank Math."
 msgstr "Convierte los bloques de FAQ, guía rápidas y tabla de contenidos creados usando Yoast. Usa esta opción para mover fácilmente a Rank Math tus bloques anteriores."
 
@@ -1079,11 +1110,11 @@ msgstr "Toma control sobre los ajustes por defecto disponibles para los bloques 
 msgid "Blocks"
 msgstr "Bloques"
 
-#: includes/modules/database-tools/class-database-tools.php:401
+#: includes/modules/database-tools/class-database-tools.php:381
 msgid "Are you sure you want to convert AIOSEO blocks into Rank Math blocks? This action is irreversible."
 msgstr "¿Seguro que quieres convertir los bloques de AIOSEO en bloques de Rank Math? Esta acción es irreversible."
 
-#: includes/modules/database-tools/class-database-tools.php:399
+#: includes/modules/database-tools/class-database-tools.php:379
 msgid "AIOSEO Block Converter"
 msgstr "Conversor de bloques de AIOSEO"
 
@@ -1242,7 +1273,7 @@ msgstr "Lista de términos de la taxonomía principal asociada a la entrada actu
 msgid "Primary Terms"
 msgstr "Términos principales"
 
-#: includes/modules/database-tools/class-database-tools.php:435
+#: includes/modules/database-tools/class-database-tools.php:406
 msgid "Update SEO Scores"
 msgstr "Actualizar puntuaciones SEO"
 
@@ -1275,11 +1306,11 @@ msgstr "Este proceso puede tardar un rato. Por favor, deja esta ventana abierta 
 msgid "Recalculating SEO Scores"
 msgstr "Recalculando las puntuaciones SEO"
 
-#: includes/modules/database-tools/class-database-tools.php:437
+#: includes/modules/database-tools/class-database-tools.php:408
 msgid "Recalculate Scores"
 msgstr "Recalcular puntuaciones"
 
-#: includes/modules/database-tools/class-database-tools.php:436
+#: includes/modules/database-tools/class-database-tools.php:407
 msgid "This tool will calculate the SEO score for the posts/pages that have a Focus Keyword set. Note: This process may take some time and the browser tab must be kept open while it is running."
 msgstr "Esta herramienta volverá a calcular la puntuación SEO de todas las entradas/páginas que tengan configurada una palabra clave objetivo. Nota: Este proceso puede tardar un rato y la pestaña del navegador debe mantenerse abierta mientras se está ejecutando."
 
@@ -1452,15 +1483,15 @@ msgstr "Por favor, intenta reconectar."
 msgid "Unable to validate Rank Math SEO registration data."
 msgstr "No ha sido posible validar los datos de registro de Rank Math SEO."
 
-#: includes/modules/database-tools/class-database-tools.php:382
+#: includes/modules/database-tools/class-database-tools.php:362
 msgid "Fix Collations"
 msgstr "Corregir recopilaciones"
 
-#: includes/modules/database-tools/class-database-tools.php:381
+#: includes/modules/database-tools/class-database-tools.php:361
 msgid "In some cases, the Analytics database tables or columns don't match with each other, which can cause database errors. This tool can fix that issue."
 msgstr "En algunos casos las tablas o columnas de la base de datos de analítica no coinciden entre ellas, lo que provoca errores con la base de datos. Esta herramienta puede corregir ese problema."
 
-#: includes/modules/database-tools/class-database-tools.php:380
+#: includes/modules/database-tools/class-database-tools.php:360
 msgid "Fix Analytics table collations"
 msgstr "Corregir recopilaciones de tabla de analítica"
 
@@ -1585,6 +1616,7 @@ msgstr "Soporte premium 24x7"
 #: includes/admin/class-pro-notice.php:237 assets/admin/js/post-list.js:1
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/content-ai/assets/js/media-edit.js:1
 msgid "Keyword Rank Tracker"
 msgstr "Seguimiento de puntuación de palabras clave"
 
@@ -1748,7 +1780,7 @@ msgstr "Se ha producido un error al enviar la URL."
 msgid "The last 100 IndexNow API requests."
 msgstr "Las 100 últimas solicitudes a la API IndexNow."
 
-#: includes/modules/content-ai/class-content-ai-page.php:190
+#: includes/modules/content-ai/class-content-ai-page.php:191
 #: includes/modules/instant-indexing/class-instant-indexing.php:227
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 msgid "History"
@@ -1908,7 +1940,7 @@ msgstr "URL desde la que obtener las etiquetas HTML."
 msgid "Click to refresh the available credits."
 msgstr "Haz clic para recargar los créditos disponibles."
 
-#: includes/modules/content-ai/class-content-ai-page.php:109
+#: includes/modules/content-ai/class-content-ai-page.php:110
 #: includes/modules/seo-analysis/class-admin.php:82
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "New!"
@@ -1922,23 +1954,23 @@ msgstr "Selecciona el tipo de contenido"
 msgid "Default Country"
 msgstr "País por defecto"
 
-#: includes/modules/content-ai/class-rest.php:521
+#: includes/modules/content-ai/class-rest.php:572
 msgid "You have used all the free credits which are allowed to this domain."
 msgstr "Has usado todos los créditos gratuitos permitidos para este dominio."
 
-#: includes/modules/content-ai/class-rest.php:515
+#: includes/modules/content-ai/class-rest.php:566
 msgid "This feature is not available on the localhost."
 msgstr "Esta característica no está disponible en localhost."
 
-#: includes/modules/content-ai/class-rest.php:492
+#: includes/modules/content-ai/class-rest.php:543
 msgid "No data found for the researched keyword."
 msgstr "No se encontraron datos para la palabra clave investigada."
 
-#: includes/modules/content-ai/class-rest.php:218
+#: includes/modules/content-ai/class-rest.php:238
 msgid "Content AI is not enabled on this Post type."
 msgstr "Content AI no está activo para este tipo de contenido."
 
-#: includes/modules/content-ai/class-rest.php:173
+#: includes/modules/content-ai/class-rest.php:193
 msgid "Sorry, only authenticated users can research the keyword."
 msgstr "Lo siento, solo los usuarios identificados pueden investigar la palabra clave"
 
@@ -1955,8 +1987,8 @@ msgid "Get sophisticated AI suggestions for related Keywords, Questions & Links 
 msgstr "Consigue sugerencias sofisticadas de la IA de palabras clave relacionadas, preguntas y enlaces a incluir en las áreas de meta y contenido SEO. Compatible con más de 80 países. "
 
 #: includes/module/class-manager.php:176
-#: includes/modules/content-ai/class-content-ai-page.php:118
-#: includes/modules/content-ai/class-content-ai-page.php:164
+#: includes/modules/content-ai/class-content-ai-page.php:119
+#: includes/modules/content-ai/class-content-ai-page.php:165
 #: includes/modules/content-ai/class-content-ai.php:109
 #: includes/modules/content-ai/class-content-ai.php:133
 #: includes/modules/role-manager/class-capability-manager.php:70
@@ -2254,31 +2286,6 @@ msgstr "Esta acción es IRREVERSIBLE."
 msgid "CAUTION:"
 msgstr "PRECAUCIÓN:"
 
-#: includes/modules/database-tools/class-database-tools.php:428
-msgid "Are you sure you want to delete the old schema data? This action is irreversible."
-msgstr "¿Seguro que quieres borrar los datos antiguos del schema? Esta acción es irreversible."
-
-#: includes/modules/database-tools/class-database-tools.php:427
-msgid "Delete the schema data from the old format (<1.0.48). Note: This process is irreversible and will delete all the metadata prefixed with rank_math_snippet."
-msgstr "Borra los datos de schema del formato antiguo (<1.0.48). Nota: Este proceso es irreversible y borrará todos los datos meta con el prefijo rank_math_snippet."
-
-#: includes/modules/database-tools/class-database-tools.php:426
-msgid "Delete Old Schema Data"
-msgstr "Borrar datos antiguos de Schema"
-
-#: includes/modules/database-tools/class-database-tools.php:320
-msgid "Deletion started. A success message will be shown here once the process completes. You can close this page."
-msgstr "Borrado iniciado. Se mostrará un mensaje de finalización cuando se complete el proceso. Puedes cerrar esta página."
-
-#: includes/modules/database-tools/class-database-tools.php:314
-msgid "No data found to delete."
-msgstr "No se han encontrado datos para borrar"
-
-#. Translators: placeholders are the opening and closing anchor tags.
-#: includes/updates/update-1.0.65.php:47
-msgid "Rank Math: Introducing SEO Performance Reports via Email. %1$sClick here to enable it%2$s."
-msgstr "Rank Math: Presenta los informes de rendimiento SEO por correo electrónico. %1$sHaz clic aquí para activarlos%2$s."
-
 #. Translators: placeholder is the site URL.
 #: includes/modules/analytics/class-email-reports.php:288
 msgid "Rank Math [SEO Report] - %s"
@@ -2441,23 +2448,23 @@ msgstr "Estás a punto de borrar todos los datos importados anteriormente."
 msgid "Are you sure you want to do this?"
 msgstr "¿Seguro que quieres hacer esto?"
 
-#: includes/modules/database-tools/class-database-tools.php:183
+#: includes/modules/database-tools/class-database-tools.php:182
 msgid "No Redirections found."
 msgstr "No se han encontrado redirecciones."
 
-#: includes/modules/database-tools/class-database-tools.php:164
+#: includes/modules/database-tools/class-database-tools.php:163
 msgid "No 404 log data found."
 msgstr "No se han encontrado datos de registro 404."
 
-#: includes/modules/database-tools/class-database-tools.php:144
+#: includes/modules/database-tools/class-database-tools.php:143
 msgid "No Internal Links data found."
 msgstr "No se han encontrado datos de enlaces internos."
 
-#: includes/modules/database-tools/class-database-tools.php:124
+#: includes/modules/database-tools/class-database-tools.php:123
 msgid "SEO Analyzer data has already been cleared."
 msgstr "Los datos del analizador SEO ya han sido vaciados."
 
-#: includes/modules/database-tools/class-database-tools.php:102
+#: includes/modules/database-tools/class-database-tools.php:101
 msgid "No Rank Math transients found."
 msgstr "No se han encontrado datos transitorios de Rank Math."
 
@@ -2616,7 +2623,7 @@ msgstr "Recuperación de datos cancelada."
 msgid "Cancel Fetching"
 msgstr "Cancelar recuperación"
 
-#: includes/modules/database-tools/class-database-tools.php:214
+#: includes/modules/database-tools/class-database-tools.php:213
 msgid "Table re-creation started. It might take a couple of minutes."
 msgstr "Iniciada la recreación de la tabla. Podría llevar un par de minutos."
 
@@ -2648,11 +2655,11 @@ msgstr "Añadida la URL de la organización en los ajustes de SEO locales"
 msgid "Reset"
 msgstr "Restablecer"
 
-#: includes/modules/database-tools/class-database-tools.php:374
+#: includes/modules/database-tools/class-database-tools.php:354
 msgid "Check if required tables exist and create them if not."
 msgstr "Comprueba si existen las tablas obligatorias y las crea si no fuera así."
 
-#: includes/modules/database-tools/class-database-tools.php:373
+#: includes/modules/database-tools/class-database-tools.php:353
 msgid "Re-create Missing Database Tables"
 msgstr "Volver a crear las tablas de la base de datos que faltan"
 
@@ -2670,7 +2677,7 @@ msgstr "Importa la información meta de tus términos, como los títulos, descri
 msgid "There is a problem with the Google auth token. Please <a href=\"%1$s\" class=\"button button-link rank-math-reconnect-google\">reconnect your app</a>"
 msgstr "Hay un problema con el token de identificación de Google. Por favor, <a href=\"%1$s\" class=\"button button-link rank-math-reconnect-google\">vuelve a conectar tu aplicación</a>"
 
-#: includes/modules/database-tools/class-database-tools.php:375
+#: includes/modules/database-tools/class-database-tools.php:355
 msgid "Re-create Tables"
 msgstr "Volver a crear las tablas"
 
@@ -2896,11 +2903,6 @@ msgstr "Entradas"
 #: includes/modules/analytics/class-analytics-common.php:300
 msgid "Search Traffic"
 msgstr "Tráfico en las búsquedas"
-
-#. Translators: placeholders are the opening and closing anchor tags.
-#: includes/updates/update-1.0.49.php:60
-msgid "Thank you for updating Rank Math! We've completely revamped our Analytics module with Google Analytics & Google Search Console integrations. For a seamless experience, please re-authenticate your Google account. %1$sClick here to Connect%2$s"
-msgstr "¡Gracias por actualizar Rank Math! Hemos revisado completamente nuestro módulo de analíticas con integraciones con Google Analytics y la Google Search Console. Para una experiencia fluida, por favor, vuelve a identificar tu cuenta de Google. %1$sClic aquí para conectar%2$s."
 
 #: includes/admin/importers/abstract-importer.php:155
 msgid "Import News Settings"
@@ -3534,6 +3536,7 @@ msgstr "Desconectar cuenta"
 #: includes/admin/views/plugin-activation.php:42 assets/admin/js/post-list.js:1
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/content-ai/assets/js/media-edit.js:1
 #: includes/modules/content-ai/blocks/command/assets/js/index.js:1
 #: includes/modules/content-ai/blocks/command/assets/src/edit.js:24
 msgid "Connect Now"
@@ -3769,8 +3772,8 @@ msgstr "Crea fácilmente redirecciones sin debatirte con tediosos códigos. %s."
 msgid "Monitor broken pages that ruin user-experience and affect SEO. %s."
 msgstr "Vigila páginas rotas que arruinan la experiencia de usuario y afectan al SEO. %s."
 
-#: includes/modules/database-tools/class-database-tools.php:282
-#: includes/modules/database-tools/class-database-tools.php:301
+#: includes/modules/database-tools/class-database-tools.php:281
+#: includes/modules/database-tools/class-database-tools.php:300
 msgid "Conversion started. A success message will be shown here once the process completes. You can close this page."
 msgstr "Conversión iniciada. Se mostrará un mensaje de finalización cuando se complete el proceso. Puedes cerrar esta página."
 
@@ -3942,24 +3945,24 @@ msgstr "Falló la importación de bloques."
 msgid "Imported blocks from posts %1$s - %2$s out of %3$s "
 msgstr "%1$s bloques importados desde las entradas - %2$s de %3$s "
 
-#: includes/modules/schema/blocks/class-block-howto.php:499
+#: includes/modules/schema/blocks/class-block-howto.php:498
 msgid "Total Time:"
 msgstr "Tiempo total:"
 
 #. translators: placeholders are units of time, e.g. '1 day, 8 hours and 30
 #. minutes'
-#: includes/modules/schema/blocks/class-block-howto.php:493
+#: includes/modules/schema/blocks/class-block-howto.php:492
 msgid "%1$s, %2$s and %3$s"
 msgstr "%1$s, %2$s y %3$s"
 
 #. translators: placeholders are units of time, e.g. '1 hour and 30 minutes'
-#: includes/modules/schema/blocks/class-block-howto.php:491
+#: includes/modules/schema/blocks/class-block-howto.php:490
 msgid "%1$s and %2$s"
 msgstr "%1$s y %2$s"
 
 #. translators: %d is the number of minutes.
 #. translators: %d: minutes
-#: includes/modules/schema/blocks/class-block-howto.php:484
+#: includes/modules/schema/blocks/class-block-howto.php:483
 #: includes/opengraph/class-slack.php:311
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -3967,14 +3970,14 @@ msgstr[0] "%d minuto"
 msgstr[1] "%d minutos"
 
 #. translators: %d is the number of hours.
-#: includes/modules/schema/blocks/class-block-howto.php:479
+#: includes/modules/schema/blocks/class-block-howto.php:478
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d hora"
 msgstr[1] "%d horas"
 
 #. translators: %d is the number of days.
-#: includes/modules/schema/blocks/class-block-howto.php:474
+#: includes/modules/schema/blocks/class-block-howto.php:473
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d día"
@@ -3995,25 +3998,25 @@ msgstr "Sin ordenar"
 msgid "Numbered"
 msgstr "Numerada"
 
-#: includes/modules/database-tools/class-database-tools.php:276
-#: includes/modules/database-tools/class-database-tools.php:295
+#: includes/modules/database-tools/class-database-tools.php:275
+#: includes/modules/database-tools/class-database-tools.php:294
 msgid "No posts found to convert."
 msgstr "No se han encontrado entradas para convertir."
 
-#: includes/modules/database-tools/class-database-tools.php:392
-#: includes/modules/database-tools/class-database-tools.php:402
+#: includes/modules/database-tools/class-database-tools.php:372
+#: includes/modules/database-tools/class-database-tools.php:382
 msgid "Convert Blocks"
 msgstr "Convertir bloques"
 
-#: includes/modules/database-tools/class-database-tools.php:391
+#: includes/modules/database-tools/class-database-tools.php:371
 msgid "Are you sure you want to convert Yoast blocks into Rank Math blocks? This action is irreversible."
 msgstr "¿Seguro que quieres convertir los bloques de Yoast en bloques de Rank Math? Esta acción es irreversible."
 
-#: includes/modules/database-tools/class-database-tools.php:400
+#: includes/modules/database-tools/class-database-tools.php:380
 msgid "Convert TOC block created using AIOSEO. Use this option to easily move your previous blocks into Rank Math."
 msgstr "Convierte los bloques de TOC creados usando AIOSEO. Usa esta opción para mover fácilmente a Rank Math tus bloques anteriores."
 
-#: includes/modules/database-tools/class-database-tools.php:389
+#: includes/modules/database-tools/class-database-tools.php:369
 msgid "Yoast Block Converter"
 msgstr "Conversor de bloques de Yoast"
 
@@ -4155,7 +4158,7 @@ msgid "This update will install a beta version of Rank Math."
 msgstr "Esta actualización instalará una versión beta de Rank Math."
 
 #: includes/module/class-manager.php:278
-#: includes/modules/database-tools/class-database-tools.php:334
+#: includes/modules/database-tools/class-database-tools.php:314
 msgid "Database Tools"
 msgstr "Herramientas de la base de datos"
 
@@ -4297,40 +4300,40 @@ msgstr "No se pudo actualizar la redirección."
 msgid "Enable the BuddyPress module for Rank Math SEO to make your BuddyPress forum SEO friendly by adding proper meta tags to all forum pages."
 msgstr "Activa el módulo de Rank Math SEO para BuddyPress para que tu foro BuddyPress sea amigable para el SEO añadiendo las etiquetas meta adecuadas a todas las páginas del foro."
 
-#: includes/modules/database-tools/class-database-tools.php:366
+#: includes/modules/database-tools/class-database-tools.php:346
 msgid "Is the 404 error log getting out of hand? Use this option to clear ALL 404 logs generated by your website in the Rank Math 404 Monitor."
 msgstr "¿El registro de errores 404 está fuera de control? Usa esta opción para vaciar TODOS los registros 404 generados por tu web en el monitor 404 de Rank Math."
 
-#: includes/modules/database-tools/class-database-tools.php:365
-#: includes/modules/database-tools/class-database-tools.php:368
+#: includes/modules/database-tools/class-database-tools.php:345
+#: includes/modules/database-tools/class-database-tools.php:348
 msgid "Clear 404 Log"
 msgstr "Vaciar el registro de errores 404"
 
-#: includes/modules/database-tools/class-database-tools.php:418
+#: includes/modules/database-tools/class-database-tools.php:398
 msgid "Getting a redirection loop or need a fresh start? Delete all the redirections using this tool. Note: This process is irreversible and will delete ALL your redirection rules."
 msgstr "¿Estás obteniendo un bucle de redirección o necesitas un nuevo comienzo? Borra todas las redirecciones con esta herramienta. Nota: Este proceso es irreversible y borrará TODAS tus reglas de redirección."
 
-#: includes/modules/database-tools/class-database-tools.php:409
+#: includes/modules/database-tools/class-database-tools.php:389
 msgid "In some instances, the internal links data might show an inflated number or no number at all. Deleting the internal links data might fix the issue."
 msgstr "En algunos casos, los datos de enlaces internos pueden mostrar un número inflado o ningún número en absoluto. El borrado de los datos de enlaces internos podría solucionar el problema."
 
-#: includes/modules/database-tools/class-database-tools.php:352
+#: includes/modules/database-tools/class-database-tools.php:332
 msgid "Need a clean slate or not able to run the SEO Analyzer tool? Flushing the analysis data might fix the issue. Flushing SEO Analyzer data is entirely safe and doesn't remove any critical data from your website."
 msgstr "¿Necesitas hacer borrón y cuenta nueva o no puedes ejecutar la herramienta del analizador SEO? Vaciar los datos del análisis podría solucionar el problema. El vaciado de datos del analizador SEO es completamente seguro y no elimina ningún dato crítico de tu sitio."
 
-#: includes/modules/database-tools/class-database-tools.php:351
+#: includes/modules/database-tools/class-database-tools.php:331
 msgid "Flush SEO Analyzer Data"
 msgstr "Purgar los datos del analizador SEO"
 
-#: includes/modules/database-tools/class-database-tools.php:360
+#: includes/modules/database-tools/class-database-tools.php:340
 msgid "Remove transients"
 msgstr "Eliminar datos transitorios"
 
-#: includes/modules/database-tools/class-database-tools.php:359
+#: includes/modules/database-tools/class-database-tools.php:339
 msgid "If you see any issue while using Rank Math or one of its options - clearing the Rank Math transients fixes the problem in most cases. Deleting transients does not delete ANY data added using Rank Math."
 msgstr "Si ves algún problema al usar Rank Math o alguna de sus opciones, el vaciado de los datos transitorios de Rank Math corrige el problema en la mayoría de los casos. La eliminación de datos transitorios no elimina los datos añadidos mediante Rank Math."
 
-#: includes/modules/database-tools/class-database-tools.php:358
+#: includes/modules/database-tools/class-database-tools.php:338
 msgid "Remove Rank Math Transients"
 msgstr "Eliminar datos transitorios de Rank Math"
 
@@ -4444,58 +4447,58 @@ msgstr "Estado del sistema"
 msgid "Status & Tools"
 msgstr "Estado y herramientas"
 
-#: includes/modules/database-tools/class-database-tools.php:190
+#: includes/modules/database-tools/class-database-tools.php:189
 msgid "Redirection rules successfully deleted."
 msgstr "Las reglas de redirección se han eliminado correctamente."
 
-#: includes/modules/database-tools/class-database-tools.php:170
+#: includes/modules/database-tools/class-database-tools.php:169
 msgid "404 Log successfully deleted."
 msgstr "El registro 404 se ha eliminado correctamente."
 
-#: includes/modules/database-tools/class-database-tools.php:151
+#: includes/modules/database-tools/class-database-tools.php:150
 msgid "Internal Links successfully deleted."
 msgstr "Los enlaces internos se han eliminado correctamente."
 
-#: includes/modules/database-tools/class-database-tools.php:131
+#: includes/modules/database-tools/class-database-tools.php:130
 msgid "SEO Analyzer data successfully deleted."
 msgstr "Los datos del analizador SEO se han borrado correctamente."
 
 #. Translators: placeholder is the number of transients deleted.
-#: includes/modules/database-tools/class-database-tools.php:113
+#: includes/modules/database-tools/class-database-tools.php:112
 msgid "%d Rank Math transient cleared."
 msgid_plural "%d Rank Math transients cleared."
 msgstr[0] "%d dato transitorio de Rank Math vaciado."
 msgstr[1] "%d datos transitorios de Rank Math vaciados."
 
-#: includes/modules/database-tools/class-database-tools.php:367
+#: includes/modules/database-tools/class-database-tools.php:347
 msgid "Are you sure you want to delete the 404 log? This action is irreversible."
 msgstr "¿Estás seguro de que quieres eliminar el registro 404? Esta acción es irreversible."
 
-#: includes/modules/database-tools/class-database-tools.php:420
+#: includes/modules/database-tools/class-database-tools.php:400
 msgid "Delete Redirections"
 msgstr "Borrar redirecciones"
 
-#: includes/modules/database-tools/class-database-tools.php:419
+#: includes/modules/database-tools/class-database-tools.php:399
 msgid "Are you sure you want to delete all the Redirection Rules? This action is irreversible."
 msgstr "¿Estás seguro de que quieres borrar todas las reglas de redirección? Esta acción es irreversible."
 
-#: includes/modules/database-tools/class-database-tools.php:417
+#: includes/modules/database-tools/class-database-tools.php:397
 msgid "Delete Redirections Rules"
 msgstr "Borrar las reglas de redirección"
 
-#: includes/modules/database-tools/class-database-tools.php:411
+#: includes/modules/database-tools/class-database-tools.php:391
 msgid "Delete Internal Links"
 msgstr "Eliminar enlaces internos"
 
-#: includes/modules/database-tools/class-database-tools.php:410
+#: includes/modules/database-tools/class-database-tools.php:390
 msgid "Are you sure you want to delete Internal Links Data? This action is irreversible."
 msgstr "¿Estás seguro de que quieres eliminar los datos de enlaces internos? Esta acción es irreversible."
 
-#: includes/modules/database-tools/class-database-tools.php:408
+#: includes/modules/database-tools/class-database-tools.php:388
 msgid "Delete Internal Links Data"
 msgstr "Borrar los datos de los enlaces internos"
 
-#: includes/modules/database-tools/class-database-tools.php:353
+#: includes/modules/database-tools/class-database-tools.php:333
 msgid "Clear SEO Analyzer"
 msgstr "Vaciar el analizador SEO"
 
@@ -6218,6 +6221,9 @@ msgid "Warning"
 msgstr "Advertencia"
 
 #: includes/modules/seo-analysis/class-result.php:177
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/content-ai/assets/js/media-edit.js:1
 msgid "Failed"
 msgstr "Falló"
 
@@ -8477,6 +8483,7 @@ msgstr "¡Tu sitio está listo!"
 #: includes/modules/analytics/assets/js/admin-bar.js:1
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/content-ai/assets/js/media-edit.js:1
 msgid "Learn More"
 msgstr "Aprende más"
 
@@ -8684,7 +8691,6 @@ msgstr "No hay copia de seguridad."
 #: includes/admin/views/import-export/backup-panel.php:43
 #: includes/modules/404-monitor/class-table.php:156
 #: includes/modules/404-monitor/class-table.php:276
-#: includes/modules/database-tools/class-database-tools.php:429
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Delete"
@@ -9450,8 +9456,7 @@ msgstr "Haz clic en el botón para copiar la URL o insertar un enlace en el cont
 msgid "Link Suggestions"
 msgstr "Sugerencias de enlaces"
 
-#. Plugin Name of the plugin
-#: rank-math.php includes/admin/class-admin-bar-menu.php:173
+#: includes/admin/class-admin-bar-menu.php:173
 #: includes/admin/class-admin-menu.php:90
 #: includes/admin/class-registration.php:213
 #: includes/admin/metabox/class-metabox.php:320

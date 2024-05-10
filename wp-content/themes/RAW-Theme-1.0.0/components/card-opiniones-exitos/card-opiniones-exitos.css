@@ -1,0 +1,118 @@
+#containerGeneralExitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #14264D;
+    padding: 100px;
+    
+}
+#tituloComponenteExito{
+    color: white !important;
+}
+
+#containerCards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas de tamaño igual */
+    grid-template-rows: repeat(2, auto); /* 2 filas de tamaño automático */
+    
+    grid-column-gap: 30px;
+    grid-row-gap: 35px;
+    
+    padding: 0px 100px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+ 
+}
+
+
+
+.carta-entrada-blogs-exitos{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 0%;
+    margin: 0%;
+    
+    width: 256px ;
+    height: 410px ;
+    
+    border-radius: 3px;
+    border: 1px solid;
+    transition: all .25s;
+    background-color: white;
+    border-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+    
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    
+        p{
+            font-size: 14px ; 
+        };
+}
+
+.carta-entrada-blogs-exitos:hover{
+    background-color: #fff; /* Cambia el color de fondo al blanco */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+    
+}
+
+    #containerImgExitos{
+        top: 0;
+        width: 100%;
+        height: 100%;
+
+        z-index: 1;
+    }
+
+
+#imgCardBlogsExitos{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    width: 291px ;
+    height: 134px ;
+
+    z-index: 1;
+}
+
+#containerTextCardExitos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 350px;
+    width: 100%;
+    margin: 20px 0px 0px;
+    padding: 0px 30px;
+
+    text-align: left; 
+    
+}
+
+
+
+#titleCardExitos{
+
+    height: 30%;
+    color: #54595F !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+#textCardExitos{
+    position: relative;
+   
+    margin-top: 30px;
+    height: 33%;
+    max-height: 33%;
+}
+#enlaceCardExitos{
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #DA765B;
+}

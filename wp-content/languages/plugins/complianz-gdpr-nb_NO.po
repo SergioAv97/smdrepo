@@ -2,14 +2,102 @@
 # This file is distributed under the same license as the Plugins - Complianz &#8211; GDPR/CCPA Cookie Consent - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-02-27 14:46:41+0000\n"
+"PO-Revision-Date: 2024-04-28 17:14:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-rc.1\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: nb_NO\n"
 "Project-Id-Version: Plugins - Complianz &#8211; GDPR/CCPA Cookie Consent - Stable (latest release)\n"
+
+#: settings/media/wp_enqueue_media_override.php:204
+msgid "Apply"
+msgstr "Bruk"
+
+#: settings/media/wp_enqueue_media_override.php:194
+msgid "Uploaded to this post"
+msgstr "Lastet opp til dette innlegget"
+
+#: settings/media/wp_enqueue_media_override.php:194
+msgid "Uploaded to this page"
+msgstr "Lastet opp til denne siden"
+
+#: settings/media/wp_enqueue_media_override.php:193
+msgctxt "noun"
+msgid "Trash"
+msgstr "Kast"
+
+#: settings/media/wp_enqueue_media_override.php:192
+msgid "Unattached"
+msgstr "Ikke vedlagt"
+
+#: settings/media/wp_enqueue_media_override.php:191
+msgid "Insert into post"
+msgstr "Sett inn i innlegg"
+
+#: settings/media/wp_enqueue_media_override.php:191
+msgid "Insert into page"
+msgstr "Sett inn på side"
+
+#: settings/media/wp_enqueue_media_override.php:190
+msgid "No items found."
+msgstr "Ingen elementer funnet."
+
+#: settings/media/wp_enqueue_media_override.php:189
+msgid "All dates"
+msgstr "Alle datoer"
+
+#: settings/media/wp_enqueue_media_override.php:188
+msgid "All media items"
+msgstr "Alle mediefiler"
+
+#: settings/media/wp_enqueue_media_override.php:183
+msgid "Insert Media"
+msgstr "Sett inn media"
+
+#: settings/media/wp_enqueue_media_override.php:182
+msgid "Media Library"
+msgstr "Mediebibliotek"
+
+#: settings/media/wp_enqueue_media_override.php:179
+msgid "Upload Images"
+msgstr "Last opp bilder"
+
+#: settings/media/wp_enqueue_media_override.php:178
+msgid "Upload Files"
+msgstr "Last opp filer"
+
+#: settings/media/wp_enqueue_media_override.php:175
+msgid "Drag and drop to reorder media files."
+msgstr "Dra og slipp for å endre rekkefølge på mediefiler."
+
+#. translators: This is a would-be plural string used in the media manager. If
+#. there is not a word you can use in your language to avoid issues with the
+#. lack of plural support here, turn it into "selected: %d" then translate it.
+#: settings/media/wp_enqueue_media_override.php:174
+msgid "%d selected"
+msgstr "%d valgt"
+
+#: settings/media/wp_enqueue_media_override.php:169
+msgid "Back"
+msgstr "Tilbake"
+
+#: settings/media/wp_enqueue_media_override.php:167
+msgid "Replace"
+msgstr "Erstatt"
+
+#: settings/media/wp_enqueue_media_override.php:164
+msgid "Select"
+msgstr "Velg"
+
+#: settings/media/wp_enqueue_media_override.php:162
+msgid "Add Media"
+msgstr "Legg til media"
+
+#: settings/media/wp_enqueue_media_override.php:161
+msgid "URL"
+msgstr "Nettadresse"
 
 #: settings/config/menu.php:489 settings/build/2824.a852e0b3b03bb65e4f2f.js:1
 #: settings/build/7636.f36d6a9f7e7628ce1fdd.js:1
@@ -705,6 +793,14 @@ msgstr "Rett til å bli glemt"
 msgid "Request for access"
 msgstr "Anmodning om tilgang"
 
+#: cron/cron.php:62
+msgid "Once every five minutes"
+msgstr "Hvert 5. minutt"
+
+#: cookiebanner/templates/cookiebanner.php:11
+msgid "Close dialog"
+msgstr "Lukk dialog"
+
 #: cookiebanner/settings.php:664
 msgid "Custom CSS is not recommended for publishers that use TCF and additional frameworks due to strict guidelines."
 msgstr "Tilpasset CSS anbefales ikke for utgivere som bruker TCF og tilleggsrammeverk på grunn av strenge retningslinjer."
@@ -887,11 +983,11 @@ msgstr "Cookie Blocker vil blant annet blokkere sporing og tredjepartsskript kon
 
 #: settings/config/fields/wizard/finish.php:36
 msgid "You can always enable and disable the Consent Banner when styling the Consent Banner, under Consent Banner settings."
-msgstr "Du kan alltid aktivere og deaktivere samtykkebanneret når du styler samtykkebanneret, under innstillinger for samtykkebanner."
+msgstr "Du kan alltid slå på og av Cookie Banner når du styler Cookie Banner, under Cookie Banner-innstillinger."
 
 #: settings/config/fields/wizard/finish.php:35
 msgid "If you enable this setting, a consent banner will be enabled, if needed."
-msgstr "Hvis du aktiverer denne innstillingen, aktiveres et samtykkebanner om nødvendig."
+msgstr "Hvis du slår på denne innstillingen, vil et cookie-banner bli slått på om nødvendig."
 
 #: settings/config/fields/wizard/services.php:104
 msgid "Will you self-host Google Fonts?"
@@ -915,7 +1011,7 @@ msgstr "Vennligst les denne %sartikkelen%s for å lese vår holdning til Google 
 
 #: config/warnings.php:70
 msgid "We have added additional support and recommend reviewing your settings."
-msgstr "Vi har lagt til ekstra støtte og anbefaler at du går gjennom dine innstillinger."
+msgstr "Vi har lagt til ekstra støtte og anbefaler at du går gjennom innstillingene dine."
 
 #: config/warnings.php:70
 msgid "Google Fonts requires your attention."
@@ -942,6 +1038,14 @@ msgstr "Cookie-banneret og Cookie-blokkeringen er nå klare til å aktiveres."
 #: cookiebanner/settings.php:62
 msgid "We use technologies like cookies to store and/or access device information. We do this to improve browsing experience and to show (non-) personalized ads. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions."
 msgstr "Vi bruker teknologier som informasjonskapsler for å lagre og/eller få tilgang til enhetsinformasjon. Vi gjør dette for å forbedre nettleseropplevelsen og for å vise (ikke-) personlig tilpassede annonser. Å samtykke til disse teknologiene vil tillate oss å behandle data som nettleseratferd eller unike ID-er på dette nettstedet. Å ikke samtykke eller trekke tilbake samtykke kan ha negativ innvirkning på visse funksjoner og funksjoner."
+
+#: settings/config/fields/wizard/general.php:352 settings/config/menu.php:418
+#: settings/config/menu.php:432 settings/build/2824.a852e0b3b03bb65e4f2f.js:1
+#: settings/build/7636.f36d6a9f7e7628ce1fdd.js:1
+#: settings/build/8824.d94b084089ddd88b1aff.js:1
+#: settings/src/Dashboard/Tools/Tools.js:46
+msgid "Records of Consent"
+msgstr "Registreringer av samtykke"
 
 #: settings/config/fields/tools/ab-testing.php:21
 msgid "If enabled, the plugin will visualize stored records of consent."
@@ -983,7 +1087,6 @@ msgstr "PHP-versjonen din er lavere enn den anbefalte PHP-versjonen. Noen funksj
 #: settings/build/7552.b57f976f5bb521ee880e.js:1
 #: settings/build/8824.d94b084089ddd88b1aff.js:1
 #: settings/build/index.1cffd4da35a767c8d5a3.js:1
-#: settings/build/index.71f507b41a51d0f4b911.js:1
 #: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:21
 #: settings/src/Settings/InstallPlugin/InstallPlugin.js:60
 #: settings/src/Settings/Premium.js:17
@@ -1025,7 +1128,7 @@ msgstr "Det kreves en cookieerklæring for å informere de besøkende om hvordan
 
 #: settings/config/fields/wizard/general.php:107
 msgid "There are some laws that only apply to one or more states and are described separately if needed."
-msgstr "Det er noen lover som bare gjelder for en eller flere stater og beskrives separat om nødvendig."
+msgstr "Det er noen lover som bare gjelder en eller flere stater og beskrives separat om nødvendig."
 
 #: settings/config/fields/wizard/general.php:106
 msgid "Do you specifically target visitors from these states?"
@@ -1122,7 +1225,6 @@ msgstr "Dataforespørsel"
 
 #: DNSMPD/class-admin-DNSMPD.php:362
 #: settings/build/1300.313f0f49f3b4e67ac46d.js:1
-#: settings/build/1300.a0950efcc9b9b65a1308.js:1
 #: settings/build/6112.614f15c1bf20cf408588.js:1
 #: settings/build/7944.5a7e0e8f288115f88373.js:1
 #: settings/build/8348.9b99a0a1b5003480c9cc.js:1
@@ -1267,7 +1369,7 @@ msgstr "Standardkonfigurasjonen er 'Samtykke per kategori'. Dette er for øyebli
 
 #: settings/config/fields/wizard/services.php:15
 msgid "Do you want to use 'Consent per Service'?"
-msgstr "Vil du bruke 'Samtykke per tjeneste'?"
+msgstr "Vil du bruke 'Samtykke per tjeneste?'"
 
 #: settings/config/fields/wizard/consent.php:127
 msgid "Learn more about using cookieless tracking with Matomo."
@@ -1304,7 +1406,7 @@ msgstr "Med Matomo-sporing uten informasjonskapsler, kreves det konfigurering av
 
 #: config/warnings.php:186
 msgid "Your site is not configured to show a consent banner at the moment."
-msgstr "Nettstedet ditt er for øyeblikket ikke konfigurert til å vise et samtykkebanner."
+msgstr "Nettstedet ditt er for øyeblikket ikke konfigurert til å vise et banner for informasjonskapsler."
 
 #: class-document.php:1176 documents/class-document.php:1067
 msgid "Click to accept marketing cookies"
@@ -1313,21 +1415,6 @@ msgstr "Klikk for å akseptere markedsføringscookies"
 #: settings/config/fields/tools/placeholders.php:80
 msgid "I agree"
 msgstr "Jeg er enig"
-
-#: callback-notices.php:114 settings/build/9080.8a8c975ca932d24767f5.js:1
-#: settings/src/Settings/CookieScan/CookieScanControl.js:46
-msgid "Please run the scan with these browser options disabled."
-msgstr "Kjør skanningen med disse nettleseralternativene deaktivert."
-
-#: callback-notices.php:114 settings/build/9080.8a8c975ca932d24767f5.js:1
-#: settings/src/Settings/CookieScan/CookieScanControl.js:46
-msgid "This will prevent most cookies from being placed."
-msgstr "Dette vil forhindre at de fleste informasjonskapsler plasseres."
-
-#: callback-notices.php:114 settings/build/9080.8a8c975ca932d24767f5.js:1
-#: settings/src/Settings/CookieScan/CookieScanControl.js:46
-msgid "Your browser has the Do Not Track or Global Privacy Control setting enabled."
-msgstr "Nettleseren din har innstillingen Ikke spor eller Global personvernkontroll aktivert."
 
 #: config/documents/documents.php:132
 msgid "Privacy Statement (ZA)"
@@ -1356,7 +1443,7 @@ msgstr "Se preferanser"
 
 #: config/warnings.php:207
 msgid "Your uploads folder is not writable. Complianz needs this folder to save the consent banner CSS."
-msgstr "Opplastingsmappen din er ikke skrivbar. Complianz trenger denne mappen for å lagre samtykkebanner-CSS."
+msgstr "Opplastingsmappen din er ikke skrivbar. Complianz trenger denne mappen for å lagre informasjonskapselbannerets CSS."
 
 #: class-document.php:1581 settings/build/1592.f9a865c8c98a19ab7b08.js:1
 #: settings/src/Settings/CreateDocuments/CreateDocumentsControl.js:31
@@ -1411,7 +1498,7 @@ msgstr "Installer %sManuelt%s."
 #: mailer/class-mail.php:70 upgrade/upgrade-to-pro.php:372
 #: upgrade/upgrade-to-pro.php:373
 msgid "An error occurred:"
-msgstr "En feil oppstod:"
+msgstr "En feil har oppstått:"
 
 #: settings/media/wp_enqueue_media_override.php:165
 #: upgrade/upgrade-to-pro.php:370 settings/build/1552.7537acb9e2ae1487f442.js:1
@@ -1444,7 +1531,7 @@ msgstr "Installasjonen er ferdig"
 
 #: upgrade/upgrade-to-pro.php:161
 msgid "Configure your Cookie Notice, Cookie Consent and Cookie Policy with our Wizard and Site Scan. Supports GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA and PIPEDA."
-msgstr "Konfigurer informasjonskapselvarselet, samtykket til informasjonskapsler og retningslinjer for informasjonskapsler med vår veiviser og nettstedskanning. Støtter GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA og PIPEDA."
+msgstr "Konfigurer varsel om informasjonskapsler, samtykket til informasjonskapsler og retningslinjer for informasjonskapsler med vår veiviser og skanning av informasjonskapsler. Støtter GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA og PIPEDA."
 
 #: upgrade/upgrade-to-pro.php:111
 msgid "Failed to activate plugin"
@@ -1580,7 +1667,7 @@ msgstr "Lagring av data eller tilgang er nødvendig for å kunne bruke en spesif
 
 #: cookiebanner/settings.php:336
 msgid "On the consent banner the generated documents are shown. The title is based on the actual post title."
-msgstr "På samtykkebanneret vises de genererte dokumentene. Tittelen er basert på den faktiske innleggstittelen."
+msgstr "På cookie-banneret vises de genererte dokumentene. Tittelen er basert på den faktiske innleggstittelen."
 
 #: cookiebanner/settings.php:72
 msgid "To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions."
@@ -1604,7 +1691,7 @@ msgstr "Boksskygge på topp- og bunntekst"
 
 #: cookiebanner/settings.php:369
 msgid "If enabled, a close icon will be shown on your consent banner."
-msgstr "Hvis aktivert, vil et lukkeikon vises på samtykkebanneret."
+msgstr "Hvis aktivert, vil et lukke-ikon vises på cookie-banneret."
 
 #: cookiebanner/settings.php:368
 msgid "Close button"
@@ -1702,6 +1789,10 @@ msgstr "Avkryssing av for alle tre avmerkingsboksene, vil vi sette statistikken 
 msgid "Are you targeting multiple regions?"
 msgstr "Har du flere regioner som målgruppe?"
 
+#: config/warnings.php:264
+msgid "Learn more about Google Consent Mode V2."
+msgstr "Finn ut mer om Googles samtykkemodus 2."
+
 #: config/warnings.php:256
 msgid "Legal compliance for webshops."
 msgstr "Juridisk samsvar for nettbutikker."
@@ -1798,13 +1889,13 @@ msgstr "Eksempel"
 msgid "Click to accept the cookies for this service"
 msgstr "Klikk for å godta informasjonskapsler for denne tjenesten"
 
-#: callback-notices.php:228 settings/config/fields-notices.php:107
+#: settings/config/fields-notices.php:107
 msgid "You're using Google Tag Manager. This means you need to configure Tag Manager to use the below categories."
 msgstr "Du bruker Google Tag Manager. Dette betyr at du må konfigurere Tag Manager for å bruke kategoriene nedenfor."
 
 #: mailer/class-mail.php:126
 msgid "Learn more"
-msgstr "Lære mer"
+msgstr "Lære mer."
 
 #: config/warnings.php:249
 msgid "Black Friday sale! Get 40% Off Complianz GDPR/CCPA premium!"
@@ -1820,7 +1911,7 @@ msgstr "Det er mulig å bruke regionomdirigering når GEO IP er aktivert, og du 
 
 #: settings/config/fields/wizard/documents.php:30
 msgid "GEO IP based redirect is available in Premium"
-msgstr "GEO IP -basert redirect er tilgjengelig i Premium"
+msgstr "Geo IP -basert redirect er tilgjengelig i %spremium %s"
 
 #: settings/config/fields/wizard/documents.php:21
 msgid "No, choose a menu per document"
@@ -1846,6 +1937,10 @@ msgstr "Skriv inn din Yandex ID"
 #: settings/config/fields/wizard/consent.php:390
 msgid "Please enter your GTM container ID"
 msgstr "Skriv inn GTM beholder-ID"
+
+#: settings/config/fields/wizard/consent.php:209
+msgid "Do you want to enable Google Consent Mode V2?"
+msgstr "Vil du aktivere Googles samtykkemodus?"
 
 #: settings/config/fields/wizard/consent.php:187
 msgid "Do you want Complianz to add %s to your website?"
@@ -2079,7 +2174,7 @@ msgstr "Denne informasjonskapselpolicyen ble sist oppdatert den %s og gjelder fo
 
 #: settings/config/menu.php:113
 msgid "Below you can choose to implement your statistics tooling with Complianz. We will add the needed snippets and control consent at the same time"
-msgstr "Nedenfor kan du velge å implementere statistikkverktøyet ditt med Complianz. Vi legger til de nødvendige kodebitene og kontrollerer samtykke samtidig"
+msgstr "Nedenfor kan du velge å implementere statistikkverktøyet ditt med Complianz. Vi legger til de nødvendige utdragene og kontrollerer samtykke samtidig."
 
 #: config/countries.php:99
 msgid "AU"
@@ -2091,7 +2186,7 @@ msgstr "Sensitive personopplysninger regnes som data som med stor sannsynlighet 
 
 #: settings/config/fields/wizard/general.php:51
 msgid "Do you target visitors from Germany, Austria, Belgium and/or Spain?"
-msgstr "Målretter du mot besøkende fra Tyskland, Østerrike, Belgia og/eller Spania?"
+msgstr "Henvender du deg mot besøkende fra Tyskland, Østerrike, Belgia eller Spania?"
 
 #: config/purpose.php:12
 msgid "Deliveries"
@@ -2099,7 +2194,7 @@ msgstr "Leveranser"
 
 #: cookiebanner/settings.php:805
 msgid "This button will reject all cookies except necessary cookies, and dismisses the consent banner."
-msgstr "Denne knappen vil avvise alle informasjonskapsler bortsett fra nødvendige informasjonskapsler, og stopper visning av samtykkebanneret."
+msgstr "Denne knappen vil avvise alle informasjonskapsler bortsett fra nødvendige informasjonskapsler, og stopper visning av Cookie Banner."
 
 #: settings/config/fields/wizard/general.php:36
 msgid "Which banner do you want to display in other regions?"
@@ -2111,7 +2206,7 @@ msgstr "Du har ikke akseptert bruken av cookiedatabase.org API. Velg ja for å f
 
 #: settings/config/menu.php:144
 msgid "We connect to this open-source database using an external API, which sends the results of the cookiescan (a list of found cookies, used plugins and your domain) to cookiedatabase.org, for the sole purpose of providing you with accurate descriptions and keeping them up-to-date on a regular basis."
-msgstr "Vi kobler til denne åpen kildekode-databasen ved hjelp av en ekstern API, som sender resultatene av informasjonskapselskanningen (en liste over funnet informasjonskapsler, brukte plugins og domenet ditt) til cookiedatabase.org, med det eneste formål å gi deg nøyaktige beskrivelser og holde dem oppdatert med jevne mellomrom."
+msgstr "Vi kobler til denne åpen kildekode-databasen ved hjelp av en ekstern API, som sender resultatene av informasjonskapselskanningen (en liste over funnet informasjonskapsler, brukte plugins og ditt domene) til cookiedatabase.org, med det eneste formål å gi deg nøyaktige beskrivelser og holde dem oppdatert med jevne mellomrom."
 
 #: settings/config/menu.php:143
 msgid "Complianz provides your Cookie Policy with comprehensive cookie descriptions, supplied by cookiedatabase.org."
@@ -2119,7 +2214,11 @@ msgstr "Complianz forsyner din personvernerklæring med omfattende beskrivelser 
 
 #: settings/config/menu.php:106
 msgid "For more information, %sread our 5 tips%s about the site scan."
-msgstr "For mer informasjon, %sles våre 5 tips%s om nettstedskanningen."
+msgstr "For mer informasjon, %sles våre 5 tips%s om cookie -skanning."
+
+#: settings/config/menu.php:26
+msgid "The Complianz wizard will guide you through the necessary steps to configure your website for privacy legislation around the world. We designed the wizard to be comprehensible, without making concessions in legal compliance."
+msgstr "Complianz-veiviseren vil veilede deg gjennom de nødvendige trinnene for å konfigurere nettstedet ditt for personvernlovgivning over hele verden. Vi har utformet veiviseren slik at den skal være forståelig, uten å gå på akkord med regelverket."
 
 #: settings/config/fields/general-settings/settings.php:120
 msgid "Restart plugin tour"
@@ -2157,15 +2256,15 @@ msgstr "Alle nødvendige sider er generert."
 
 #: config/warnings.php:89
 msgid "No site scan has been completed yet."
-msgstr "Ingen nettstedskanning er fullført ennå."
+msgstr "Ingen skanning av nettstedet er fullført ennå."
 
 #: config/warnings.php:88
 msgid "Last site scan completed on %s."
-msgstr "Siste nettstedskanning fullført %s."
+msgstr "Siste skanning av nettstedet fullført %s."
 
 #: config/warnings.php:60
 msgid "You have currently selected an informal language, which will result in informal use of language on the legal documents. If you prefer the formal style, you can activate this in the general settings."
-msgstr "Du har for øyeblikket valgt et uformelt språk, som vil resultere i uformell bruk av språk på de juridiske dokumentene. Hvis du foretrekker den formelle stilen, kan du aktivere denne i de generelle innstillingene."
+msgstr "Du har for øyeblikket valgt et uformelt språk, noe som vil føre til uformell språkbruk i de juridiske dokumentene. Hvis du foretrekker den formelle stilen, kan du aktivere dette i %sgenerelle innstillinger%s."
 
 #: config/warnings.php:15
 msgid "Complianz GDPR/CCPA %s. Learn more about our newest release."
@@ -2206,7 +2305,7 @@ msgstr "Avvis"
 
 #: cookiebanner/settings.php:675 settings/config/fields/tools/documents.php:42
 msgid "You can add additional custom CSS here. For tips and CSS lessons, check out our documentation."
-msgstr "Du kan legge til ekstra tilpasset CSS her. For tips og CSS-leksjoner, sjekk ut dokumentasjonen."
+msgstr "Du kan legge til ekstra tilpasset CSS her. For tips og CSS-leksjoner, sjekk ut %sdokumentasjonen%s"
 
 #: settings/config/menu.php:204
 msgid "Buttons"
@@ -2281,7 +2380,7 @@ msgstr "Skjul forhåndsvisning"
 
 #: cookiebanner/settings.php:747
 msgid "The tab will show after the visitor interacted with the banner, and can be used to make the consent banner reappear."
-msgstr "Fanen vises etter at den besøkende har samhandlet med banneret, og kan brukes til å få samtykkebanneret til å dukke opp igjen."
+msgstr "Fanen vises etter at bruker samhandlet med banneret, og kan brukes til å få Cookie-banneret fram igjen."
 
 #: cookiebanner/settings.php:746
 msgid "Text on the manage consent tab"
@@ -2371,14 +2470,14 @@ msgstr "Plassholdere"
 
 #: documents/admin-class-documents.php:304 settings/settings.php:640
 msgid "Terms & Conditions"
-msgstr "Vilkår & betingelser"
+msgstr "Vilkår og betingelser"
 
 #: settings/config/blocks.php:60 settings/build/1912.8526db4286cf06ec2d07.js:1
 #: settings/build/2824.a852e0b3b03bb65e4f2f.js:1
 #: settings/build/8824.d94b084089ddd88b1aff.js:1
 #: settings/src/Dashboard/OtherPlugins/OtherPluginsHeader.js:6
 msgid "Other Plugins"
-msgstr "Andre pluginer"
+msgstr "Andre utvidelser"
 
 #: settings/config/blocks.php:48
 msgid "Tips & Tricks"
@@ -2398,10 +2497,6 @@ msgstr "Installert"
 #: settings/src/Settings/Export/ExportControl.js:37
 msgid "Export"
 msgstr "Eksporter"
-
-#: callback-notices.php:15
-msgid "Cookiedatabase.org synchronization disabled."
-msgstr "Cookiedatabase.org-synkronisering deaktivert."
 
 #: settings/config/fields/wizard/consent.php:549
 msgid "Because Clicky always sets a so-called unique identifier cookie, consent for statistics is always required."
@@ -2435,7 +2530,7 @@ msgstr "Vennligst godta informasjonskapsler for markedsføring for å aktivere d
 
 #: settings/config/fields/wizard/general.php:385
 msgid "If you enable this option, Complianz will not show the consent banner to users that enabled a ‘Do Not Track’ or 'Global Privacy Control' setting in their browsers and their default consent status is set to ‘denied’."
-msgstr "Hvis du aktiverer dette alternativet, vil ikke Complianz vise samtykkebanneret til brukere som har aktivert en «Ikke spor» eller «Global Personvernkontroll»-innstilling i deres nettlesere, og deres standard samtykkestatus er satt til «Nektet»."
+msgstr "Hvis du aktiverer dette alternativet, vil ikke Complianz vise cookie-banneret til brukere som har aktivert en «Ikke spor» eller «Global Personvernkontroll»-innstilling i deres nettlesere, og deres standard samtykkestatus er satt til «Nektet»."
 
 #: settings/config/fields/wizard/general.php:353
 msgid "Enabling this option will extend our Proof of Consent method with user consent registration."
@@ -2445,11 +2540,17 @@ msgstr "Aktivering av dette alternativet vil styrke vår \"Bevis på samtykke\"-
 msgid "Extend Proof of Consent with Records of Consent"
 msgstr "Utvid bevis på samtykke med registreringer av samtykker"
 
+#: cookiebanner/class-cookiebanner.php:853
+#: settings/build/7944.5a7e0e8f288115f88373.js:1
+#: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:195
+msgid "No Warning"
+msgstr "Ingen advarsel"
+
 #: cookiebanner/class-cookiebanner.php:850
 #: settings/build/7944.5a7e0e8f288115f88373.js:1
 #: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:194
 msgid "No Choice"
-msgstr "Ikke noe valg"
+msgstr "Ingen valg"
 
 #: cookiebanner/class-cookiebanner.php:849
 msgid "Do Not Track"
@@ -2499,7 +2600,7 @@ msgstr "Behandle samtykke"
 
 #: settings/config/fields/wizard/consent.php:363
 msgid "For the Google Analytics tracking ID, log in and click Admin and copy the tracking ID."
-msgstr "For Google Analytics sporings-ID, logg på og klikk Admin og kopier sporings-ID."
+msgstr "For Google Analytics sporings-ID, logg på, klikk på Admin og kopier sporings-ID."
 
 #: templates/cookiepolicy/services.php:9
 msgctxt "cookie policy"
@@ -2520,7 +2621,7 @@ msgstr "Siste feil i konsollen:"
 
 #: config/warnings.php:172
 msgid "JavaScript errors are detected on the front-end of your site. This may break the consent banner functionality."
-msgstr "JavaScript-feil er oppdaget på fronten av nettstedet ditt. Dette kan bryte funksjonaliteten til samtykkebanneret."
+msgstr "Javascript-feil oppdaget i frontenden av nettstedet ditt. Dette kan ødelegge funksjonen for cookie-banneren."
 
 #: config/documents/cookie-policy-br.php:147
 #: config/documents/cookie-policy-ca.php:146
@@ -2542,11 +2643,7 @@ msgstr "Du har uttalt at du ikke bruker tredjeparts tjenester. Bruker du plugins
 msgid "Do you want to block reCAPTCHA before consent, and when consent is revoked?"
 msgstr "Vil du blokkere reCAPTCHA før samtykke, og når samtykke tilbakekalles?"
 
-#: callback-notices.php:262
-msgid "You use plugins which place first-party marketing cookies. You can view these plugins on the integrations page. Complianz cannot automatically block first-party marketing cookies unless these plugins conform to the WP Consent API."
-msgstr "Du bruker plugins som plasserer førsteparts markedsførings-cookies. Du kan se disse pluginene på integrasjonssiden. Complianz kan ikke automatisk blokkere førsteparts markedsførings-cookies med mindre disse pluginene samsvarer med WP Consent API."
-
-#: callback-notices.php:180 settings/config/fields/wizard/services.php:78
+#: settings/config/fields/wizard/services.php:78
 msgid "If you choose to block reCAPTCHA, please make sure you add a placeholder to your forms."
 msgstr "Hvis du velger å blokkere reCAPTCHA, må du sørge for at du legger til en plassholder i skjemaene dine."
 
@@ -2570,7 +2667,7 @@ msgstr "Bruk CSS-dokument fra Complianz"
 
 #: settings/config/fields/tools/support.php:22
 msgid "When safe mode is enabled, all integrations will be disabled temporarily, please read the instructions to debug the issue or ask support if needed."
-msgstr "Når sikkermodus er aktivert, vil alle integrasjoner deaktiveres midlertidig. Les disse instruksjonene for å feilsøke problemet eller be om støtte hvis det er nødvendig."
+msgstr "Når sikker modus er aktivert, vil alle integrasjoner deaktiveres midlertidig. Les %sdisse instruksjonene%s for å feilsøke problemet eller be om støtte hvis det er nødvendig."
 
 #: settings/config/fields/tools/support.php:18
 msgid "Enable safe mode"
@@ -2578,11 +2675,11 @@ msgstr "Aktiver sikkermodus"
 
 #: settings/config/menu.php:106
 msgid "Complianz will scan several pages of your website for first-party cookies and known third-party scripts. The scan will be recurring monthly to keep you up-to-date!"
-msgstr "Complianz vil skanne flere sider på nettstedet ditt for førsteparts informasjonskapsler og kjente tredjepartsskript. Skanningen vil gjenta seg månedlig for å holde deg oppdatert!"
+msgstr "Complianz vil skanne mange sider på nettstedet ditt for informasjonskapsler og kjente tredjepartsskript. Skanningen vil gjenta seg månedlig for å holde deg oppdatert!"
 
 #: settings/config/menu.php:31
 msgid "Here you can select which legal documents you want to generate with Complianz. You can also use existing legal documents."
-msgstr "Her kan du velge hvilke juridiske dokumenter du ønsker å generere med Complianz. Du kan også bruke eksisterende juridiske dokumenter."
+msgstr "Her kan du velge hvilke juridiske dokumenter du vil generere med Complianz. Du kan også bruke eksisterende juridiske dokumenter."
 
 #: settings/config/fields/wizard/services.php:339
 msgid "Do you want to disable the storage of personal data by the WP comments function and the checkbox?"
@@ -2618,7 +2715,6 @@ msgstr "Du trenger ikke å konfigurere nettstedet ditt for ‘utilsiktede’ bes
 msgid "Click to accept %s cookies and enable this content"
 msgstr "Klikk for å godta %s informasjonskapsler og aktivere dette innholdet"
 
-#: callback-notices.php:247 callback-notices.php:249
 #: settings/config/fields-notices.php:130
 #: settings/config/fields-notices.php:137
 msgid "It is recommended to select a Privacy Statement."
@@ -2656,23 +2752,15 @@ msgstr "Glidebryter"
 
 #: cookiebanner/settings.php:315
 msgid "This style is for the checkboxes on the consent banner, as well as on your policy for managing consent."
-msgstr "Denne stilen er for avmerkingsboksene på samtykkebanneret, samt for retningslinjene dine for administrering av samtykke."
+msgstr "Denne stilen er for avkrysningsboksene på cookie-banneren, samt for retningslinjene dine for administrasjon av samtykke."
 
 #: cookiebanner/settings.php:314
 msgid "Checkbox style"
 msgstr "Avmerkingsboks-Stil"
 
-#: callback-notices.php:163 callback-notices.php:172
-msgid "The cookie scan detected cookies from services which share data with Third Parties. If these cookies were also used in the past 12 months, you should at least select the option 'Internet activity...'"
-msgstr "Cookieskanningen oppdaget cookies fra tjenester som deler data med tredjeparter. Hvis disse cookiene også ble brukt de siste 12 månedene, bør du i det minste velge alternativet 'Internett-aktivitet ...'"
-
-#: callback-notices.php:133 settings/config/fields-notices.php:88
+#: settings/config/fields-notices.php:88
 msgid "Your site uses Divi. If you use reCAPTCHA on your site, you may need to disable the reCAPTCHA integration in Complianz. "
 msgstr "Nettstedet ditt bruker Divi. Hvis du bruker reCAPTCHA på nettstedet ditt, må du kanskje deaktivere reCAPTCHA-integrasjonen i Complianz. "
-
-#: callback-notices.php:100
-msgid "The cookie scan detected cookies from services that share data with Third Parties. According to US privacy laws, your website is considered to sell personal data if it collects and shares any personal data in return for money or services. This includes a service like Google Analytics."
-msgstr "Skanningen etter infokapsler oppdaget infokapseler fra tjenester som deler data med tredjeparter. I følge amerikanske personvernlover anses nettstedet ditt å selge personopplysninger hvis det samler inn og deler personlige opplysninger med en tredjepart mot penger eller tjenester. Dette inkluderer tjenester som Google Analytics."
 
 #: class-field.php:2062
 msgid "Services in %s"
@@ -2692,7 +2780,7 @@ msgstr "Administrer samtykkeinnstillingene dine"
 
 #: settings/config/fields/wizard/general.php:29
 msgid "If you want to dynamically apply privacy laws based on the visitor's location, consider upgrading to the premium version, which allows you to apply a privacy law specific for that region."
-msgstr "Hvis du vil bruke personvernlover dynamisk basert på den besøkendes beliggenhet, bør du vurdere å oppgradere til premium-versjonen, som lar deg bruke en spesifikk personvernlov for den regionen."
+msgstr "Hvis du vil bruke personvernlover dynamisk basert på den besøkendes beliggenhet, bør du vurdere å oppgradere til %spremium-versjonen%s, som lar deg bruke en spesifikk personvernlov for den regionen."
 
 #: settings/config/fields/wizard/general.php:18
 msgid "Which privacy law or guideline do you want to use as the default for your worldwide visitors?"
@@ -2702,13 +2790,9 @@ msgstr "Hvilken personvernlov eller retningslinje vil du bruke som standard for 
 msgid "Impressum"
 msgstr "Impressum"
 
-#: callback-notices.php:249 settings/config/fields-notices.php:137
+#: settings/config/fields-notices.php:137
 msgid "The link to the Privacy Statement is used in your Cookie Policy."
 msgstr "Lenken til personvernerklæringen brukes i cookie-erklæringen din."
-
-#: callback-notices.php:247
-msgid "The link to the Privacy Statement is used in the cookie banner and in your Cookie Policy."
-msgstr "Lenken til personvernerklæringen brukes i cookie-banneren og i cookies."
 
 #: class-field.php:1146
 msgid "None selected"
@@ -2745,11 +2829,7 @@ msgstr "Lag dokumenter"
 
 #: settings/config/menu.php:158
 msgid "Generate your documents, then you can add them to your menu directly or do it manually after the wizard is finished."
-msgstr "Generer dokumentene dine, så kan du legge dem til i menyen din direkte eller gjøre det manuelt etter at veiviseren er ferdig."
-
-#: callback-notices.php:199
-msgid "You haven't created all required pages yet. You can add missing pages in the previous step, or create them manually with the shortcode. You can come back later to this step to add your pages to the desired menu, or do it manually via Appearance > Menu."
-msgstr "Du har ikke opprettet alle nødvendige sider ennå. Du kan legge til manglende sider i det forrige trinnet, eller opprette dem manuelt med kortkoden. Du kan komme tilbake til dette trinnet senere for å legge til sidene til den ønsket menyen, eller gjøre det manuelt via Utseende > Meny."
+msgstr "Generer dokumentene dine, så kan du legge dem til i menyen direkte eller gjøre det manuelt etter at veiviseren er ferdig."
 
 #: class-document.php:1537 class-document.php:1623
 msgid "Update pages"
@@ -2825,6 +2905,10 @@ msgstr "Dansk"
 #: config/countries.php:407
 msgid "English"
 msgstr "Engelsk"
+
+#: settings/media/wp_enqueue_media_override.php:253
+msgid "Video Details"
+msgstr "Video-detaljer"
 
 #: settings/media/wp_enqueue_media_override.php:166
 #: settings/build/1592.f9a865c8c98a19ab7b08.js:1
@@ -2938,7 +3022,7 @@ msgstr "Cookie-erklæring (CA)"
 msgid "Canada (PIPEDA)"
 msgstr "Canada (PIPEDA)"
 
-#: callback-notices.php:274 settings/config/fields-notices.php:160
+#: settings/config/fields-notices.php:160
 msgid "You have selected options that indicate your site processes sensitive, personal data. You should select 'Yes'"
 msgstr "Du har valgt alternativer som indikerer at nettstedet ditt behandler sensitive personopplysninger. Du bør velge \"Ja\""
 
@@ -2972,7 +3056,7 @@ msgstr "Vil du be om samtykke for statistikk?"
 
 #: settings/config/menu.php:83
 msgid "Details per Purpose"
-msgstr "Detaljer per formål"
+msgstr "Detaljer pr formål"
 
 #: integrations/plugins/google-analytics-dashboard-for-wp.php:57
 msgid "You have selected you do not share data with third-party networks. Display advertising is now disabled in %s."
@@ -2989,7 +3073,7 @@ msgstr "Du har en duplikatimplementering av statistikkverktøyet på nettstedet 
 
 #: config/warnings.php:150
 msgid "Enable the cookiedatabase.org API for automatic descriptions, or add these manually."
-msgstr "Aktiver cookiedatabase.org API for automatiske beskrivelser, eller legg til disse manuelt."
+msgstr "Aktiver cookiedatabase.org API for automatiske beskrivelser, eller legg til disse %smanuelt%s."
 
 #: config/warnings.php:149
 msgid "You have cookies with incomplete descriptions."
@@ -3013,31 +3097,15 @@ msgstr "Denne cookie-erklæringen ble synkronisert med %scookiedatabase.org%s p�
 
 #: settings/config/fields/general-settings/settings.php:55
 msgid "Complianz provides your Cookie Policy with comprehensive cookie descriptions, supplied by cookiedatabase.org. We connect to this open-source database using an external API, which sends the results of the cookiescan (a list of found cookies, used plugins and your domain) to cookiedatabase.org, for the sole purpose of providing you with accurate descriptions and keeping them up-to-date on a regular basis."
-msgstr "Complianz leverer en cookieerklæring med omfattende beskrivelse av cookies, levert av cookiedatabase.org. Vi kobler oss til denne databasen ved hjelp av et eksternt API, som sender resultatene av en cookiescan (en liste over cookies som er funnet, plugins du bruker og domenet ditt) til cookiedatabase.org, utelukkende med formål om å gi deg nøyaktige beskrivelser og holde dem regelmessig oppdatert."
+msgstr "Complianz leverer en cookieerklæring med omfattende beskrivelse av cookies, levert av %scookiedatabase.org%s. Vi kobler oss til denne databasen ved hjelp av et eksternt API, som sender resultatene av en cookiescan (en liste over cookies som er funnet, plugins du bruker og domenet ditt) til cookiedatabase.org, utelukkende med formål om å gi deg nøyaktige beskrivelser og holde dem regelmessig oppdatert. For mer informasjon, les %sPrivacy Statement%s"
 
-#: callback-notices.php:37 settings/config/fields-notices.php:20
+#: settings/config/fields-notices.php:20
 msgid "Please make sure you remove your current implementation to prevent double statistics tracking."
 msgstr "Vennligst sørg for å fjerne din nåværende implementering for å forhindre dobbel statistikk sporing."
 
-#: callback-notices.php:9 callback-notices.php:36
-msgid "This field has been pre-filled based on the scan results."
-msgstr "Dette feltet ble forhåndsinnfylt som følge av skanning."
-
-#: callback-notices.php:19
-msgid "Your server does not have CURL installed, which is required for the sync. Please contact your hosting company to install CURL."
-msgstr "Serveren din har ikke cURL installert, som er nødvendig for synkronisering. Ta kontakt med din hostingleverandør for å installere cURL."
-
-#: callback-notices.php:26
-msgid "Synchronization disabled: This happens when all cookies have synchronized to cookiedatabase.org in the last week."
-msgstr "Synkronisering deaktivert: Dette skjer når alle cookies er synkronisert til cookiedatabase.org i den siste uken."
-
 #: settings/config/fields/wizard/consent.php:17
 msgid "If you want to clear all cookies from the plugin, you can do so here. If you want to start with a clean slate, you might need to clear your browsercache, to make sure all cookies are removed from your browser as well."
-msgstr "Hvis du vil slette alle informasjonskapsler fra denne plugin, kan du gjøre det her. Hvis du vil starte med en ren nettleser, kan det hende du må tømme nettleserbufferen (browsercache) din, for å sikre at alle informasjonskapsler er fjernet fra nettleseren din også."
-
-#: callback-notices.php:107
-msgid "Your server does not have CURL installed, which is required for the scan. Please contact your hosting company to install CURL."
-msgstr "Serveren din har ikke cURL installert, som er nødvendig for skanningen. Ta kontakt med din hostingleverandør for å installere cURL."
+msgstr "Hvis du vil tømme alle cookies fra plugin-en, kan du gjøre det her. Du må kjøre en skanning igjen etterpå. Hvis du vil starte med en ren tavle, kan det hende at du må tømme nettleser-cachen for å sikre at alle cookies fjernes fra nettleseren din også."
 
 #: cookiebanner/class-banner-loader.php:1152
 msgid "(not synced yet)"
@@ -3146,10 +3214,6 @@ msgstr "Beklager men vi greidde ikke å aktivere Complianz integrasjon"
 msgid "Integrate Forminator with Complianz Privacy Suite"
 msgstr "Integer Forminator med Complianz Privacy Suite"
 
-#: callback-notices.php:150
-msgid "Because your site uses third-party cookies, the cookie blocker is now activated. If you experience issues on the front-end of your site due to blocked scripts, you can disable specific services or plugin integrations in the %sintegrations section%s, or you can disable the cookie blocker entirely on the %ssettings page%s"
-msgstr "Siden nettstedet ditt bruker tredjeparts cookies, er cookieblokkeringen nå aktivert. Hvis du opplever problemer på forsiden av nettstedet ditt på grunn av blokkerte skript, kan du deaktivere spesifikke tjenester eller plugin-integrasjoner i %sintegrasjonsdelen%s, eller du kan deaktivere cookie-blokkeringen helt på %sinnstillinger-siden%s"
-
 #: integrations/plugins/monsterinsights.php:45
 msgid "You have selected you anonymize IP addresses. This setting is now enabled in MonsterInsights."
 msgstr "Du har valgt å anonymisere Ip-adresser. Disse innstillingene er nå aktivert i MonsterInsights."
@@ -3192,7 +3256,7 @@ msgstr "Storbritannia"
 
 #: settings/config/menu.php:118
 msgid "Statistics configuration"
-msgstr "Statistikk konfigurasjon"
+msgstr "Statistikk - konfigurasjon"
 
 #: class-document.php:768 class-document.php:776
 #: documents/class-document.php:708 documents/class-document.php:715
@@ -3212,7 +3276,7 @@ msgstr "Tjenester"
 msgid "Integrations"
 msgstr "Integrasjoner"
 
-#: callback-notices.php:235 settings/config/fields-notices.php:117
+#: settings/config/fields-notices.php:117
 msgid "Categories are mandatory for your statistics configuration."
 msgstr "Kategorier er obligatorisk for din statistikk-konfigurasjon."
 
@@ -3291,7 +3355,7 @@ msgstr "Dersom du aktiverer dette, vil WordPress ikke lagre personlige data samm
 
 #: settings/config/fields/wizard/services.php:94
 msgid "Your site uses Google Fonts. For best privacy compliance, we recommend to self host Google Fonts. To self host, follow the instructions in the below link."
-msgstr "Nettstedet ditt bruker Google Fonts. For best mulig overholdelse av personvernet anbefaler vi at du selv er vert for Google Fonts. For selv å være vert, følg instruksjonene i lenken nedenfor."
+msgstr "Nettstedet ditt bruker Google Fonts, For best mulig overholdelse av personvern, anbefaler vi at man bruker egen web hosting til Google Fonts. For å gjøre dette, følg instruksjonene i %sdenne artikkelen%s"
 
 #: settings/config/fields/tools/placeholders.php:15
 msgid "If you experience styling issues with videos or iFrames you can disable the placeholder insertion, which in some themes can conflict with theme styling."
@@ -3335,7 +3399,7 @@ msgstr "Vi bruker reklame informasjonskapsler på dette nettstedet, noe som gjø
 
 #: cookiebanner/settings.php:170
 msgid "When enabled, this is the consent banner that is used for all visitors. Enabling it will disable this setting on the current default banner. Disabling it will enable randomly a different default banner."
-msgstr "Når dette er aktivert, er det dette samtykkebanneret som brukes for alle besøkende. Aktiveringen vil deaktivere denne innstillingen på standardbanneret (default banner). Deaktivering vil aktivere tilfeldig et annet standardbanner."
+msgstr "Når aktivert, dette er det informasjonskapsel-banneret som blir brukt for alle besøkende. Dersom det aktiveres vil slå av standard banneret. Dersom det slås av vil det aktivere et annet standard banner."
 
 #: cookiebanner/settings.php:97
 msgid "For internal use only"
@@ -3418,7 +3482,7 @@ msgstr "Timeout i sekunder"
 
 #: cookiebanner/settings.php:235
 msgid "When dismiss on time out is enabled, the consent banner will be dismissed after 10 seconds, or the time you choose below."
-msgstr "Når avvis ved tidsavbrudd er aktivert, vil samtykkebanneret bli avvist etter 10 sekunder, eller tiden du velger nedenfor."
+msgstr "Når avslå ved tidsavbrudd er aktivert, blir cookiebanneren avvist etter 10 sekunder, eller tiden du velger nedenfor."
 
 #: cookiebanner/settings.php:234
 msgid "Dismiss on time out"
@@ -3426,7 +3490,7 @@ msgstr "Avvis ved tidsavbrudd"
 
 #: cookiebanner/settings.php:219
 msgid "When dismiss on scroll is enabled, the consent banner will be dismissed as soon as the user scrolls."
-msgstr "Når avvis ved scrolling er aktivert, vil samtykkebanneret bli avvist så snart brukeren scroller."
+msgstr "Når \"Skjul ved skroll\" er aktivert, blir cookiebanneren avvist så snart brukeren skroller."
 
 #: cookiebanner/settings.php:218
 msgid "Dismiss on scroll"
@@ -3454,11 +3518,7 @@ msgstr "Det er anbefalt å la Complianz styre statistikk-skriptet. På denne må
 msgid "Website information"
 msgstr "Nettsted informasjon"
 
-#: callback-notices.php:187
-msgid "You have indicated you use a statistics tool which tracks personal data. You can insert this script here so it only fires if the user consents to this."
-msgstr "Du har indikert at du bruker et statistikkverktøy som sporer personopplysninger. Du kan sette inn dette skriptet her, så det bare utløses hvis brukeren samtykker til dette."
-
-#: callback-notices.php:39 settings/config/fields/wizard/consent.php:394
+#: settings/config/fields/wizard/consent.php:394
 #: settings/config/fields/wizard/consent.php:485
 msgid "If you add the ID for your statistics tool here, Complianz will configure your site for statistics tracking."
 msgstr "Hvis du legger til ID-en for statistikkverktøyet ditt her, vil Complianz konfigurere nettstedet ditt for statistikksporing."
@@ -3560,6 +3620,11 @@ msgstr "Sivilstatus"
 msgid "Social Media accounts"
 msgstr "Kontoer på sosiale medier"
 
+#: config/purpose.php:21 settings/build/7944.5a7e0e8f288115f88373.js:1
+#: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:225
+msgid "IP Address"
+msgstr "Ip-adresse"
+
 #: settings/config/fields/general-settings/settings.php:95
 msgid "Email address"
 msgstr "E-post adresse"
@@ -3607,7 +3672,7 @@ msgstr "Beklager, det ser ut som du er en Bot"
 
 #: proof-of-consent/class-proof-of-consent.php:64
 msgid "Select a region"
-msgstr "Velg en region"
+msgstr "(velg en region)"
 
 #: functions.php:527
 msgid "Denied"
@@ -3647,7 +3712,7 @@ msgstr "Europeiske Union (GDPR)"
 
 #: settings/config/fields/tools/data.php:38
 msgid "This will reset all settings to defaults. All data in the Complianz plugin will be deleted!"
-msgstr "Dette vil tilbakestille alle innstillinger til standard. Alle data i Complianz-pluginen vil bli slettet!"
+msgstr "Dette vil nullstille alle innstillinger til standard-verdier. Alle data i Complianz vil bli slettet"
 
 #: settings/config/fields/tools/data.php:14
 msgid "Export settings"
@@ -4096,15 +4161,6 @@ msgctxt "Subject in notification email"
 msgid "Your legal documents on %s need to be updated."
 msgstr "Dine juridiske dokumenter på %s trenger å bli oppdatert."
 
-#: callback-notices.php:122
-msgid "You are using an anonymous window. This will prevent most cookies from being placed. Please run the scan in a normal browser window."
-msgstr "Du bruker et anonymt utforsker-vindu. Dette vil hindre at de fleste cookies blir plassert. Vennligst kjør skanning fra et vanlig Utforsker-vindu."
-
-#: callback-notices.php:119 settings/build/9080.8a8c975ca932d24767f5.js:1
-#: settings/src/Settings/CookieScan/CookieScanControl.js:39
-msgid "You are using an ad blocker. This will prevent most cookies from being placed. Please run the scan without an adblocker enabled."
-msgstr "Du bruker en annonseblokkering. Dette vil forhindre at de fleste informasjonskapsler plasseres. Vennligst kjør skanningen uten en adblocker aktivert."
-
 #: settings/config/fields/tools/support.php:39
 msgid "System Status"
 msgstr "Systemstatus"
@@ -4122,7 +4178,7 @@ msgstr "Dokumenter"
 msgid "Data successfully cleared"
 msgstr "Vellykket sletting av data"
 
-#: callback-notices.php:77 settings/config/fields-notices.php:55
+#: settings/config/fields-notices.php:55
 msgid "The scan found forms on your site, which means answer should probably include \"contact\"."
 msgstr "Skanningen fant formularer på ditt nettsted, som betyr at bør inkludere «Kontakt» i valgene under."
 
@@ -4159,11 +4215,11 @@ msgstr "Last ned"
 
 #: settings/config/fields/wizard/consent.php:403
 msgid "For the Google Tag Manager code, log in and you will immediatly see your container codes. The one next to your website name is the code you will need to fill in here, the container ID."
-msgstr "For Google Tag Manager-koden, logg inn og du vil umiddelbart se container-kodene dine. Den ved siden av navnet på nettstedet ditt er koden du må fylle inn her, container-ID."
+msgstr "Logg inn for Google Tag Manager koden. Så, vil du øyeblikkelig se Container kodene. Koden nærmes navnet på ditt web sted er koden du må fylle inn her, Container ID."
 
 #: settings/config/fields/tools/documents.php:23
 msgid "Enable if you want to add custom CSS for the documents"
-msgstr "Aktiver hvis du vil legge til tilpasset CSS for dokumentene"
+msgstr "Slå på dersom du ønsker å benytte tilpasset CSS for dokumentene"
 
 #: cookiebanner/settings.php:662
 msgid "Use Custom CSS"
@@ -4224,7 +4280,7 @@ msgstr "Varighet i dager for A/B testperioden"
 
 #: settings/config/fields/tools/ab-testing.php:36
 msgid "If enabled, the plugin will track which consent banner has the best conversion rate."
-msgstr "Hvis den er aktivert, vil plugin spore hvilket samtykkebanner som har den beste konverteringsfrekvensen."
+msgstr "Hvis slått på, vil utvidelsen spore hvilket cookie-banner som har den beste konverteringsfrekvensen."
 
 #: settings/config/fields/tools/ab-testing.php:31
 msgid "Enable A/B testing"
@@ -4296,7 +4352,7 @@ msgstr "Bruker nettstedet ditt tredjeparts tjenester?"
 msgid "Custom CSS"
 msgstr "Egendefinert CSS"
 
-#: callback-notices.php:90 settings/config/fields-notices.php:69
+#: settings/config/fields-notices.php:69
 msgid "The scan found third-party services on your website: %s, this means the answer should be yes."
 msgstr "Skanningen fant tredjeparts tjenester på nettstedet ditt: %s, dette betyr at svaret skal være ja."
 
@@ -4331,7 +4387,6 @@ msgstr "Navn"
 
 #: class-field.php:943 settings/build/300.014b08be1dac0b2aeb8d.js:1
 #: settings/build/1300.313f0f49f3b4e67ac46d.js:1
-#: settings/build/1300.a0950efcc9b9b65a1308.js:1
 #: settings/build/2680.0fe54e6009060d7088b4.js:1
 #: settings/build/4128.3275de3976cbfbe6ea0f.js:1
 #: settings/build/5384.d1da4d6574dd818b127e.js:1
@@ -4513,7 +4568,6 @@ msgid "When you visit our website for the first time, we will show you a pop-up 
 msgstr "Når du besøker nettstedet vårt for første gang, vil vi vise deg en pop-up med en forklaring om informasjonskapsler. Så snart du klikker på \"%s\", samtykker du til at vi bruker alle informasjonskapsler og plugin-moduler som beskrevet i popup-vinduet og erklæringen for informasjonskapsler. Du kan deaktivere bruken av informasjonskapsler via nettleseren din, men vær oppmerksom på at nettsiden vår kanskje ikke lenger fungerer som den skal."
 
 #: settings/config/menu.php:101 settings/build/1300.313f0f49f3b4e67ac46d.js:1
-#: settings/build/1300.a0950efcc9b9b65a1308.js:1
 #: settings/src/Settings/ProofOfConsent/ProofOfConsentControl.js:177
 msgid "Consent"
 msgstr "Samtykke"
@@ -5564,7 +5618,7 @@ msgstr "Cookie-melding"
 
 #: settings/config/fields/general-settings/settings.php:129
 msgid "Consent banner expiration in days"
-msgstr "Samtykkebanner utløper om dager"
+msgstr "Cookie-banner varighet i dager"
 
 #: config/warnings.php:116
 msgid "Google Analytics is being used, but is not configured in Complianz."
@@ -5755,18 +5809,6 @@ msgstr "Vedlegg"
 msgid "Select a menu"
 msgstr "Velg en meny"
 
-#: callback-notices.php:217 settings/build/6632.974eefb032cd447892d8.js:1
-#: settings/src/Settings/DocumentsMenu/DocumentsMenuControl.js:53
-msgid "Great! All your generated documents have been assigned to a menu, so you can skip this step."
-msgstr "Flott! Alle dine genererte dokumenter har blitt tilordnet en meny, så du kan hoppe over dette trinnet."
-
-#: callback-notices.php:211 settings/build/6632.974eefb032cd447892d8.js:1
-#: settings/src/Settings/DocumentsMenu/DocumentsMenuControl.js:46
-msgid "The generated document %s has not been assigned to a menu yet, you can do this now, or skip this step and do it later."
-msgid_plural "Not all generated documents have been assigned to a menu yet, you can do this now, or skip this step and do it later."
-msgstr[0] "Det genererte dokumentet %s har ikke blitt tilordnet en meny ennå, du kan gjøre dette nå, eller hoppe over dette trinnet og gjøre det senere."
-msgstr[1] ""
-
 #: class-document.php:1664 class-document.php:1728
 msgid "No menus were found. Skip this step, or %screate a menu%s first."
 msgstr "Ingen menyer ble funnet. Hopp over dette trinnet, eller %sopprett en meny%s først."
@@ -5775,13 +5817,9 @@ msgstr "Ingen menyer ble funnet. Hopp over dette trinnet, eller %sopprett en men
 msgid "%s at %s"
 msgstr "%s på %s."
 
-#: callback-notices.php:53
-msgid "The cookie scan detected %s on your site, which means the answer to this question should be %s."
-msgstr "Cookieskanningen detekterte %s på ditt nettsted, som betyr at svaret på dette spørsmålet bør være %s."
-
 #: config/warnings.php:185
 msgid "Your site requires a consent banner, which has been enabled."
-msgstr "Nettstedet ditt krever et samtykkebanner, som er aktivert."
+msgstr "Nettstedet ditt krever at en cookie-banner er aktivert."
 
 #: mailer/class-mail.php:50
 msgid "Email address not valid"
@@ -5800,7 +5838,7 @@ msgstr "Veiviser"
 
 #: class-admin.php:236 settings/config/menu.php:280
 #: settings/config/menu.php:284 settings/build/index.1cffd4da35a767c8d5a3.js:1
-#: settings/build/index.71f507b41a51d0f4b911.js:1 settings/src/Header.js:32
+#: settings/src/Header.js:32
 msgid "Support"
 msgstr "Support"
 
@@ -5811,6 +5849,6 @@ msgstr "Support"
 msgid "Settings"
 msgstr "Innstillinger"
 
-#: callback-notices.php:67 settings/config/fields-notices.php:45
+#: settings/config/fields-notices.php:45
 msgid "The scan found social media buttons or widgets for %s on your site, which means the answer should be yes"
 msgstr "Skanningen fant knapper for sosiale medier eller widgets for %s på nettweb sted, som betyr at svarer bør være ja"

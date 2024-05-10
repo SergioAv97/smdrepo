@@ -1,0 +1,32 @@
+.slider-equipo {
+
+	p {
+		text-align: center;
+	}
+
+	.raw-slider2 {
+		margin: 2.5rem auto 0;
+	}
+
+}
+
+@media all and (max-width:768px) {
+
+	.slider-equipo {
+
+		.raw-slider2 {
+			margin: 2.5rem auto 0;
+		}
+	}
+
+}
+
+@media all and (max-width:425px) {
+
+	.slider-equipo {
+		.raw-slider2 {
+			margin: 2.5rem auto 0;
+		}
+	}
+
+}

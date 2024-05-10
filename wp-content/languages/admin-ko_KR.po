@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-03 15:06:12+0000\n"
+"PO-Revision-Date: 2024-05-07 06:00:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +16,7 @@ msgstr ""
 #, gp-priority: high
 msgctxt "start of week"
 msgid "1"
-msgstr "0"
+msgstr "1"
 
 #. translators: default GMT offset or timezone string. Must be either a valid
 #. offset (-12 to 14) or a valid timezone string (America/New_York). See
@@ -35,7 +35,359 @@ msgstr "0"
 #, gp-priority: high
 msgctxt "default GMT offset or timezone string"
 msgid "0"
-msgstr "Asia/Seoul"
+msgstr "0"
+
+#: wp-admin/menu.php:209
+msgctxt "patterns menu item"
+msgid "Patterns"
+msgstr "패턴"
+
+#: wp-admin/about.php:234
+msgid "This release includes 110+ performance updates, with an impressive increase in speed and efficiency across the Post Editor and Site Editor. Loading is over two times faster than in 6.4, with input processing speed up to five times faster than the previous release. Translated sites see up to 25% improvement in load time for this release."
+msgstr "이번 릴리스에는 110개 이상의 성능 업데이트가 포함되어 있으며, 글 편집기와 사이트 편집기 전반에서 속도와 효율성이 놀랍도록 향상되었습니다. 로딩 속도는 6.4 버전보다 2배 이상 빨라졌으며, 입력 처리 속도는 이전 버전보다 최대 5배 빨라졌습니다. 번역된 사이트의 경우 이번 릴리스에서 로딩 시간이 최대 25% 개선되었습니다."
+
+#: wp-admin/about.php:146
+msgid "Find and organize your data however you like with data views for pages, templates, patterns, and template parts. Arrange it in a table or grid view with the option to toggle fields and make bulk changes."
+msgstr "페이지, 템플릿, 패턴, 템플릿 파트의 데이터 보기로 원하는 대로 데이터를 찾고 정리하세요. 필드를 전환하고 변경 사항을 한꺼번에 적용하는 옵션으로 데이터를 표나 격자 모양에 정렬하세요."
+
+#: wp-admin/options-general.php:179 wp-admin/options-general.php:185
+msgid "Change Site Icon"
+msgstr "사이트 아이콘 변경"
+
+#. translators: 1: Plugin name, 2: Number of plugins, 3: A comma-separated list
+#. of plugin names.
+#: wp-admin/includes/plugin.php:1223
+msgid "<strong>Error:</strong> %1$s requires %2$d plugin to be installed and activated: %3$s."
+msgid_plural "<strong>Error:</strong> %1$s requires %2$d plugins to be installed and activated: %3$s."
+msgstr[0] "<strong>에러:</strong> %1$s 플러그인을 실행하려면 다음과 같은 %2$d개의 플러그인을 설치하고 활성화해야 합니다(목록: %3$s)."
+
+#: wp-admin/includes/plugin-install.php:994
+#: wp-admin/includes/plugin-install.php:999
+msgctxt "plugin"
+msgid "Update Now"
+msgstr "지금 업데이트"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:336
+#: wp-admin/includes/theme-install.php:207
+msgctxt "theme"
+msgid "Install Now"
+msgstr "지금 설치하기"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:1584
+msgid "This plugin cannot be activated because required plugins are missing or inactive."
+msgstr "필수 플러그인이 누락되었거나 비활성 상태이므로 이 플러그인을 활성화할 수 없습니다."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:1582
+msgid "This plugin is active but may not function correctly because required plugins are missing or inactive."
+msgstr "이 플러그인은 활성화되어 있지만 필요한 플러그인이 누락되었거나 비활성화되어 있어 제대로 작동하지 않을 수 있습니다."
+
+#. translators: %s: List of dependency names.
+#: wp-admin/includes/class-wp-plugins-list-table.php:1574
+msgid "<strong>Requires:</strong> %s"
+msgstr "<strong>필수 플러그인:</strong> %s"
+
+#. translators: %s: List of dependencies.
+#: wp-admin/includes/class-wp-plugins-list-table.php:1540
+msgid "<strong>Required by:</strong> %s"
+msgstr "<strong>필요 플러그인:</strong> %s"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:1535
+msgid "Note: This plugin cannot be deactivated or deleted until the plugins that require it are deactivated or deleted."
+msgstr "참고: 이 플러그인은 해당 플러그인이 필요한 플러그인이 비활성화되거나 삭제될 때까지 비활성화하거나 삭제할 수 없습니다."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:897
+msgid "You cannot deactivate this plugin as other plugins depend on it."
+msgstr "다른 플러그인이 필요하기 때문에, 이 플러그인을 비활성화할 수 없습니다."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:863
+#: wp-admin/includes/class-wp-plugins-list-table.php:969
+msgid "You cannot delete this plugin as other plugins require it."
+msgstr "다른 플러그인이 필요하기 때문에, 이 플러그인을 삭제할 수 없습니다."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:833
+#: wp-admin/includes/class-wp-plugins-list-table.php:939
+msgid "You cannot activate this plugin as it has unmet requirements."
+msgstr "요구사항을 충족하지 않았기 때문에 이 플러그인을 활성화할 수 없습니다."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:807
+msgid "You cannot deactivate this plugin as other plugins require it."
+msgstr "다른 플러그인이 필요하기 때문에, 이 플러그인을 비활성화할 수 없습니다."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:614
+msgctxt "plugin"
+msgid "Deactivate"
+msgstr "비활성화"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:614
+#: wp-admin/includes/class-wp-plugins-list-table.php:823
+msgctxt "plugin"
+msgid "Network Deactivate"
+msgstr "네트워크 비활성화"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:610
+#: wp-admin/includes/class-wp-plugins-list-table.php:937
+#: wp-admin/includes/class-wp-plugins-list-table.php:954
+#: wp-admin/includes/plugin-install.php:890
+#: wp-admin/includes/plugin-install.php:1014
+#: wp-admin/includes/plugin-install.php:1045 wp-admin/js/updates.js:971
+#: wp-admin/js/updates.js:1016
+msgctxt "plugin"
+msgid "Activate"
+msgstr "활성화"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:789
+msgid "Additional plugins are required"
+msgstr "추가 플러그인이 필요합니다."
+
+#: wp-admin/includes/class-wp-debug-data.php:387
+msgid "Site ID"
+msgstr "사이트 ID"
+
+#. translators: 1: Current PHP version, 2: PHP version required by the new
+#. theme version.
+#: wp-admin/includes/class-theme-upgrader.php:468
+msgid "The PHP version on your server is %1$s, however the new theme version requires %2$s."
+msgstr "서버의 PHP는 %1$s 버전이지만, 새로운 테마는 %2$s 버전이 필요합니다."
+
+#. translators: 1: Current WordPress version, 2: WordPress version required by
+#. the new theme version.
+#: wp-admin/includes/class-theme-upgrader.php:454
+msgid "Your WordPress version is %1$s, however the new theme version requires %2$s."
+msgstr "사용 중인 워드프레스는 %1$s 버전입니다. 하지만 새로운 테마를 실행하려면 %2$s 버전이 필요합니다."
+
+#: wp-admin/includes/class-plugin-installer-skin.php:124
+#: wp-admin/includes/class-wp-plugins-list-table.php:610
+#: wp-admin/includes/class-wp-plugins-list-table.php:831
+#: wp-admin/includes/class-wp-plugins-list-table.php:848
+#: wp-admin/includes/plugin-install.php:1027
+#: wp-admin/includes/plugin-install.php:1045 wp-admin/js/updates.js:960
+msgctxt "plugin"
+msgid "Network Activate"
+msgstr "네트워크 활성화"
+
+#. translators: %s: Plugin name.
+#: wp-admin/includes/ajax-actions.php:4579
+msgid "%s is already active."
+msgstr "%s가 이미 활성화되었습니다."
+
+#: wp-admin/import.php:166 wp-admin/includes/plugin-install.php:364
+#: wp-admin/includes/plugin-install.php:957
+#: wp-admin/includes/plugin-install.php:972
+#: wp-admin/includes/plugin-install.php:977 wp-admin/press-this.php:63
+#: wp-admin/js/updates.js:1330 wp-admin/js/updates.js:2655
+#: wp-admin/js/updates.js:2736
+msgctxt "plugin"
+msgid "Install Now"
+msgstr "지금 설치"
+
+#: wp-admin/credits.php:32
+msgid "Created by a worldwide team of passionate individuals"
+msgstr "전 세계의 열정적인 팀원들에 의해 만들어졌습니다"
+
+#: wp-admin/about.php:244
+msgid "This release includes more than 65 accessibility improvements across the platform, making it more accessible than ever. This release adds fixes to contrast settings, cursor focus, submenus, and positioning of elements, among many others, that help improve the WordPress experience for everyone."
+msgstr "이번 릴리스에는 플랫폼 전반에 걸쳐 65개 이상의 접근성 개선 사항이 포함되어 있어 그 어느 때보다 접근성이 향상되었습니다. 이번 릴리스에는 명암대비 설정, 커서 초점, 하위 메뉴, 요소 위치 등 여러 가지가 수정되어 모든 사람의 워드프레스 환경을 개선하는 데 도움이 됩니다."
+
+#: wp-admin/about.php:243
+msgid "Accessibility improvements"
+msgstr "접근성 개선"
+
+#: wp-admin/about.php:233
+msgid "Performance updates"
+msgstr "성능 개선"
+
+#. translators: %s: Requires Plugins
+#: wp-admin/about.php:213
+msgid "There&#8217;s now an easier way to manage plugin dependencies. Plugin authors can supply a new %s header with a comma-separated list of required plugin slugs, presenting users with links to install and activate those plugins first."
+msgstr "이제 플러그인 의존성을 더 쉽게 관리할 수 있는 방법이 생겼습니다. 플러그인 개발자는 새 %s 플러그인헤더에 쉼표로 구분된 필수  슬러그 목록을 제공하여 사용자에게 해당 플러그인을 먼저 설치하고 활성화할 수 있는 링크를 제공할 수 있습니다."
+
+#: wp-admin/about.php:208
+msgid "Explore improvements to the plugin experience"
+msgstr "플러그인 사용 환경 개선 사항 살펴보기"
+
+#: wp-admin/about.php:199
+msgid "Give designers and creators using Classic themes access to an upgraded design experience. Opt in to support for spacing, border, typography, and color options, even without using theme.json. Once support is enabled, more tools will be automatically added as they become available."
+msgstr "클래식 테마를 사용해 디자이너와 사이트 제작자에게 업그레이드된 디자인 경험을 선사하세요. theme.json을 사용하지 않고도 간격, 테두리 선, 타이포그라피, 색상 옵션을 설정할 수 있습니다. 일단 지원을 활성화해두면 이후 더 많은 도구가 자동으로 추가됩니다."
+
+#: wp-admin/about.php:198
+msgid "Add appearance tools to Classic themes"
+msgstr "클래식 테마에 모양 도구 추가"
+
+#: wp-admin/about.php:185
+msgid "Link core block attributes to custom fields and use the value of custom fields without creating custom blocks. Powered by the Block Bindings API, developers can extend this capability further to connect blocks to any dynamic content—even beyond custom fields. If there&#8217;s data stored elsewhere, easily point blocks to that new source with only a few lines of code."
+msgstr "사용자 정의 블록 생성 없이 코어 블록 속성을 사용자 정의 필드에 연결하고 사용자 정의 필드 값을 사용하세요. Block Bindings API를 활용해 개발자는 이 능력을 확장하여 사용자 정의 필드를 넘어 어떤 동적 콘텐츠로든지 블록을 연결할 수 있습니다. 다른 곳에 저장된 데이터가 있다면 코드 몇 줄로 작성한 새 소스로 해당 블록을 쉽게 가리키세요."
+
+#: wp-admin/about.php:184
+msgid "Connect blocks to custom fields or other dynamic content"
+msgstr "사용자 지정 필드 또는 기타 동적 콘텐츠에 블록 연결"
+
+#: wp-admin/about.php:175
+msgid "The Interactivity API offers developers a standardized method for building interactive front-end experiences with blocks. It simplifies the process, with fewer dependencies on external tooling, while maintaining optimal performance. Use it to create memorable user experiences, like fetching search results instantly or letting visitors interact with content in real time."
+msgstr "Interactivity API는 블록으로 상호작용하는 프론트엔드 경험을 구축하는 표준 방법을 개발자에게 제공합니다. 외부 도구 의존성을 줄이면서 프로세스를 단순하게 하고 최적 성능을 유지하게 합니다. 즉석 검색 결과 가져오기나 콘텐츠와 방문자가 실시간으로 상호작용하게 하는 것처럼 인상적인 사용자 경험을 창조하는 데 이것을 사용하세요."
+
+#: wp-admin/about.php:174
+msgid "Bring interactions to blocks with the Interactivity API"
+msgstr "인터랙티비티 API로 블록에 인터랙션 제공"
+
+#: wp-admin/about.php:160
+msgid "Create and manage links easily with a more intuitive link-building experience, like a streamlined UI and a shortcut for copying links."
+msgstr "간소화된 UI와 링크 복사 바로 가기 등 보다 직관적인 링크 구축 환경으로 링크를 쉽게 만들고 관리할 수 있습니다."
+
+#: wp-admin/about.php:159
+msgid "Improved link controls"
+msgstr "향상된 링크 제어"
+
+#: wp-admin/about.php:153
+msgid "Feel the difference when you move things around, with helpful visual cues like displaced items in List View or frictionless dragging to anywhere in your workspace—from beginning to end."
+msgstr "목록 보기에서 항목의 위치를  바꾸거나 작업 공간의 어느 곳으로든 부드럽게 드래그할 수 있는 등 유용한 시각적 신호를 통해 물건을 옮길 때 차이를 느껴보세요."
+
+#: wp-admin/about.php:152
+msgid "Smoother drag-and-drop"
+msgstr "더 부드러운 드래그앤드롭"
+
+#: wp-admin/about.php:145
+msgid "Discover new Data Views"
+msgstr "새로운 데이터 보기 살펴보기"
+
+#: wp-admin/about.php:136
+msgid "With shadow supports enabled, you can create layouts with visual depth or add a little personality to your design."
+msgstr "그림자 효과 지원을 활성화하면 시각적으로 깊이 있는 레이아웃을 만들거나 디자인에 약간의 개성을 더할 수 있습니다."
+
+#: wp-admin/about.php:135
+msgid "Add box shadow supports to even more blocks"
+msgstr "더 많은 블록에 그림자 효과 지원"
+
+#: wp-admin/about.php:129
+msgid "Set aspect ratios for Cover block images and easily add color overlays that automatically source color from your chosen image."
+msgstr "커버 블록 이미지 종횡비를 설정하고 선택한 이미지에서 자동으로 색상을 가져오는 색상 오버레이를 쉽게 추가하세요."
+
+#: wp-admin/about.php:128
+msgid "Get more control over images in Cover blocks"
+msgstr "커버 블록의 이미지를 더욱 효과적으로 제어하기"
+
+#: wp-admin/about.php:122
+msgid "Control size, repeat, and focal point options so you can play around with subtle or splashy ways to add visual interest to layouts."
+msgstr "크기, 반복, 초점 옵션을 제어하면 미묘하거나 화려한 방법으로 레이아웃에 시각적 특징을 더할 수 있습니다."
+
+#: wp-admin/about.php:121
+msgid "Do more with background images in Group blocks"
+msgstr "그룹 블록에서 배경 이미지로 더 많은 작업 수행"
+
+#: wp-admin/about.php:107
+msgid "Work through creative projects with a more comprehensive picture of what&#8217;s been done—and what you can fall back on. Get details like time stamps, quick summaries, and a paginated list of total revisions. View revisions from the Style Book to see changes outside of what you&#8217;re working on. Revisions are also now available for templates and template parts."
+msgstr "완료된 작업과 되돌아볼 수 있는 작업을 보다 종합적으로 파악하고 창의적인 프로젝트를 진행하세요. 타임스탬프, 빠른 요약, 페이지 번호가 매겨진 전체 수정본 목록과 같은 세부 정보를 확인하세요. 스타일북에서 수정본을 확인하여 작업 중인 내용 외의 변경 사항을 확인하세요. 이제 템플릿과 템플릿 파트에 대한 수정본도 사용할 수 있습니다."
+
+#: wp-admin/about.php:106
+msgid "Get more details from your style revisions"
+msgstr "스타일 개정판에서 더 자세한 정보 얻기"
+
+#: wp-admin/about.php:100
+msgid "The new Font Library puts you in control of an essential piece of your site&#8217;s design—typography—without coding or extra steps. Effortlessly install, remove, and activate local and Google Fonts across your site for any block theme. The ability to include custom typography collections gives site creators and publishers even more choice."
+msgstr "새로운 글꼴 라이브러리를 사용하면 코딩이나 추가적인 과정없이 사이트 디자인 타이포그라피의 필수적인 요소를 다룰 수 있습니다. 손쉽게 로컬 글꼴과 Google Fonts를 설치, 제거, 활성화하여 모든 블록 테마에 적용할 수 있습니다. 원하는 타이포그라피 컬렉션을 포함할 수 있어 사이트 제작자와 퍼블리셔에게 더 많은 선택권을 제공합니다."
+
+#: wp-admin/about.php:99
+msgid "Add and manage fonts across your site"
+msgstr "사이트 전체의 글꼴 추가 및 관리"
+
+#: wp-admin/about.php:87
+msgid "Take your site-building experience further with WordPress 6.5. Explore more avenues to make it your own, with new features and enhancements that will help fine-tune your creative work. Discover the latest additions to the developer experience, with fresh foundational tools poised to transform the future of blocks."
+msgstr "워드프레스 6.5로 사이트 구축 경험을 한 단계 더 발전시키세요. 창의적인 작업을 세밀하게 조정하는 데 도움이 되는 새로운 기능과 향상된 기능으로 나만의 사이트를 만들 수 있는 더 많은 방법을 살펴보세요. 블록의 미래를 변화시킬 새로운 기본 도구와 함께 개발자 경험에 추가된 최신 기능을 살펴보세요."
+
+#: wp-admin/update.php:158 wp-admin/update.php:310
+msgid "Only .zip archives may be uploaded."
+msgstr ".zip 아카이브만 업로드할 수 있습니다."
+
+#. translators: %s: Link to activate the Classic Widgets plugin.
+#: wp-admin/widgets-form-blocks.php:87
+msgid "The block widgets require JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Widgets plugin</a>."
+msgstr "블록 위젯을 사용하려면 자바스크립트가 필요합니다. 사용중인 브라우저의 설정에서 자바스크립트를 활성화해 주시거나, <a href=\"%s\">클래식 위젯 플러그인</a>을 활성화해 주세요."
+
+#. translators: %s: Link to install the Classic Editor plugin.
+#: wp-admin/edit-form-blocks.php:338
+msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or install the <a href=\"%s\">Classic Editor plugin</a>."
+msgstr "블록 에디터를 사용하려면 자바스크립트가 필요합니다. 사용중인 브라우저의 설정에서 자바스크립트를 활성화해 주시거나, <a href=\"%s\">고전 편집기 플러그인</a>을 설치해 주세요."
+
+#. translators: %s: Link to activate the Classic Editor plugin.
+#: wp-admin/edit-form-blocks.php:329
+msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Editor plugin</a>."
+msgstr "블록 에디터를 사용하려면 자바스크립트가 필요합니다. 사용중인 브라우저의 설정에서 자바스크립트를 활성화해 주시거나, <a href=\"%s\">고전 편집기 플러그인</a>을 활성화해 주세요."
+
+#: wp-admin/my-sites.php:81 wp-admin/network/menu.php:53
+#: wp-admin/network/site-new.php:182 wp-admin/network/site-new.php:192
+#: wp-admin/network/sites.php:381
+msgid "Add New Site"
+msgstr "새 사이트 추가"
+
+#: wp-admin/menu.php:310 wp-admin/plugins.php:757 wp-admin/network/menu.php:106
+msgid "Add New Plugin"
+msgstr "새 플러그인 추가"
+
+#: wp-admin/includes/image-edit.php:80
+msgid "Rotate 180&deg;"
+msgstr "180&deg; 회전"
+
+#: wp-admin/includes/image-edit.php:79
+msgid "Rotate 90&deg; right"
+msgstr "시계 방향으로 90&deg; 회전"
+
+#: wp-admin/includes/image-edit.php:78
+msgid "Rotate 90&deg; left"
+msgstr "반시계 방향으로 90&deg; 회전"
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:392
+msgid "%s pattern moved to the Trash."
+msgid_plural "%s patterns moved to the Trash."
+msgstr[0] "%s개 패턴을 휴지통에 넣었습니다."
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:390
+msgid "%s pattern permanently deleted."
+msgid_plural "%s patterns permanently deleted."
+msgstr[0] "%s개 패턴을 완전히 삭제했습니다."
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:385
+msgid "%s pattern updated."
+msgid_plural "%s patterns updated."
+msgstr[0] "%s 개 패턴이 업데이트되었습니다."
+
+#. translators: %s: The dismiss dashicon used for buttons that dismiss or
+#. remove.
+#: wp-admin/edit.php:293
+msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the %s<span class=\"screen-reader-text\">remove</span> button next to its name in the Bulk Edit area that appears."
+msgstr "일괄 편집을 사용하면 선택한 모든 글에 대한 메타 데이터 (카테고리, 글쓴이, 등)를 한번에 변경할 수 있습니다. 그룹에서 글을 삭제하려면 나타나는 일괄 편집 영역에서 해당 이름 옆의 %s<span class=\"screen-reader-text\">삭제</span> 버튼을 클릭하세요."
+
+#. translators: 1: WordPress Release Notes link, 2: WordPress version number.
+#: wp-admin/about.php:308
+msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
+msgstr "<a href=\"%1$s\">WordPress %2$s 릴리스 노트</a>를 읽어보세요. 설치 정보, 개선 및 수정 사항, 릴리스 기여자, 학습 자료, 파일 변경 목록에 대한 정보가 있습니다."
+
+#. translators: 1: WordPress Field Guide link, 2: WordPress version number.
+#: wp-admin/about.php:289
+msgid "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
+msgstr "<a href=\"%1$s\">워드프레스 %2$s 필드 가이드</a>를 살펴보세요. 자세한 개발자 노트를 통해 워드프레스를 구현하는 데 도움이 되는 이번 릴리스의 변경 사항에 대해 알아보세요."
+
+#: wp-admin/includes/user.php:721 wp-admin/includes/user.php:744
+msgid "Invalid URL format."
+msgstr "잘못된 URL 형식입니다."
+
+#. translators: 1: Current PHP version, 2: PHP version required by the new
+#. plugin version.
+#: wp-admin/includes/class-plugin-upgrader.php:369
+msgid "The PHP version on your server is %1$s, however the new plugin version requires %2$s."
+msgstr "현재 서버의 PHP 버전은 %1$s 이며, 새로운 플러그인 버전에는 %2$s 이(가) 필요합니다."
+
+#. translators: 1: Current WordPress version, 2: WordPress version required by
+#. the new plugin version.
+#: wp-admin/includes/class-plugin-upgrader.php:355
+msgid "Your WordPress version is %1$s, however the new plugin version requires %2$s."
+msgstr "현재 워드프레스 버전은 %1$s이며, 새로운 플러그인 버전에는 %2$s이(가) 필요합니다."
+
+#. translators: %s: WordPress version.
+#: wp-admin/about.php:66
+msgid "https://wordpress.org/support/wordpress-version/version-%s/"
+msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
 #: wp-admin/contribute.php:103 wp-admin/credits.php:57 wp-admin/credits.php:65
 msgid "https://make.wordpress.org/contribute/"
@@ -393,6 +745,14 @@ msgstr "자신의 기술과 관심사에 맞는 영역을 찾는 것이 의미 �
 msgid "Shape the future of the web with WordPress"
 msgstr "워드프레스로 웹의 미래를 설계하세요"
 
+#: wp-admin/contribute.php:94
+msgid "WordPress app: Kotlin, Java, Swift, Objective-C, Vue, Python, and TypeScript."
+msgstr "워드프레스 앱: Kotlin, Java, Swift, Objective-C, Vue, Python 및 TypeScript 등."
+
+#: wp-admin/contribute.php:93
+msgid "WordPress Core and Block Editor: HTML, CSS, PHP, SQL, JavaScript, and React."
+msgstr "워드프레스 코어 및 블록 편집기: HTML, CSS, PHP, SQL, JavaScript, and React 등."
+
 #: wp-admin/contribute.php:91
 msgid "WordPress embraces new technologies, while being committed to backward compatibility. The WordPress project uses the following languages and libraries:"
 msgstr "워드프레스는 이전 버전과의 호환성을 유지하면서 새로운 기술을 수용합니다. 워드프레스 프로젝트는 다음 언어 및 라이브러리를 사용합니다."
@@ -404,6 +764,10 @@ msgstr "코드에 <strong>기여</strong>하고, UX를 개선하고, 워드프�
 #: wp-admin/contribute.php:88
 msgid "<strong>Write</strong> and submit patches to fix bugs or help build new features."
 msgstr "버그를 수정하거나 새 기능을 빌드하는 데 도움이 되는 패치를 <strong>작성</strong>하고 제출하세요."
+
+#: wp-admin/contribute.php:87
+msgid "<strong>Test</strong> new releases and proposed features for the Block Editor."
+msgstr "블록 에디터의 새로운 릴리스 및 제안된 기능을 <strong>테스트</strong>해 보세요."
 
 #: wp-admin/contribute.php:86
 msgid "<strong>Find</strong> and report bugs in the WordPress core software."
@@ -417,6 +781,10 @@ msgstr "코딩을 하거나 방법을 배우고 싶다면 다양한 방법으로
 msgid "Code-based contribution"
 msgstr "코드 기반 기여"
 
+#: wp-admin/contribute.php:71
+msgid "<strong>Explore</strong> ways to reduce the environmental impact of websites."
+msgstr "수백만 개의 웹사이트가 환경에 미치는 영향을 줄이는 방법을 <strong>탐색</strong>하세요."
+
 #: wp-admin/contribute.php:70
 msgid "<strong>Edit</strong> videos and add captions to WordPress.tv."
 msgstr "비디오를 <strong>편집</strong>하고 WordPress.tv에 캡션을 추가합니다."
@@ -424,6 +792,14 @@ msgstr "비디오를 <strong>편집</strong>하고 WordPress.tv에 캡션을 추
 #: wp-admin/contribute.php:69
 msgid "<strong>Lend</strong> your creative imagination to the WordPress UI design."
 msgstr "워드프레스 UI 디자인에 창의적인 상상력을 <strong>대여</strong>하세요."
+
+#: wp-admin/contribute.php:68
+msgid "<strong>Organize</strong> or participate in local Meetups and WordCamps."
+msgstr "지역 워드프레스 밋업 및 워드캠프를 <strong>조직</strong>하거나 참여하세요."
+
+#: wp-admin/contribute.php:67
+msgid "<strong>Curate</strong> submissions or take photos for the Photo Directory."
+msgstr "제출물을 <strong>선별</strong>하거나 사진 디렉토리에 사용할 사진을 찍습니다."
 
 #: wp-admin/contribute.php:66
 msgid "<strong>Promote</strong> the WordPress project to your community."
@@ -465,6 +841,10 @@ msgstr "기술을 적용하거나 새로운 기술을 배우십시오."
 msgid "Be part of a global open source community."
 msgstr "글로벌 오픈 소스 커뮤니티의 일원이 되십시오."
 
+#: wp-admin/contribute.php:47
+msgid "Join the diverse WordPress contributor community and connect with other people who are passionate about maintaining a free and open web."
+msgstr "다양한 워드프레스 기여자 커뮤니티에 가입하여 자유롭고 개방적인 웹을 유지하려는 열정을 가진 다른 사람들과 교류하세요."
+
 #: wp-admin/contribute.php:46
 msgid "Do you use WordPress for work, for personal projects, or even just for fun? You can help shape the long-term success of the open source project that powers millions of websites around the world."
 msgstr "업무용, 개인 프로젝트용 또는 재미용으로 워드프레스를 사용하십니까? 전 세계 수백만 개의 웹 사이트를 지원하는 오픈 소스 프로젝트의 장기적인 성공을 형성하는 데 도움을 줄 수 있습니다."
@@ -472,6 +852,11 @@ msgstr "업무용, 개인 프로젝트용 또는 재미용으로 워드프레스
 #: wp-admin/contribute.php:29
 msgid "Be the future of WordPress"
 msgstr "워드프레스의 미래가 되십시오"
+
+#. translators: 1: Learn WordPress link, 2: Workshops link.
+#: wp-admin/about.php:268
+msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
+msgstr "<a href=\"%1$s\">워드프레스 배우기</a>는 초보자와 숙련된 워드프레스 사용자를 위한 무료 리소스입니다. Learn에는 워드프레스의 다양한 기능을 사용하는 방법 동영상, 주제를 심도 있게 살펴볼 수 있는 <a href=\"%2$s\">대화형 워크샵</a>, 워드프레스의 특정 영역을 자세히 살펴볼 수 있는 강의 계획이 준비되어 있습니다."
 
 #: wp-admin/comment.php:72 wp-admin/edit-comments.php:232
 #: wp-admin/edit-form-advanced.php:320 wp-admin/edit-form-advanced.php:338
@@ -621,12 +1006,12 @@ msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Docum
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">사용자 정의하기 문서</a>"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:363
+#: wp-admin/about.php:394
 msgid "https://wordpress.org/download/"
 msgstr "https://wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:360
+#: wp-admin/about.php:391
 msgid "This is the final release of WordPress %s"
 msgstr "워드프레스 %s의 최종 릴리즈입니다."
 
@@ -685,7 +1070,7 @@ msgstr "블록 테마는사이트의 모든 요소에 대해 블록을 사용하
 
 #: wp-admin/site-health.php:277
 msgid "Recommended items are considered beneficial to your site, although not as important to prioritize as a critical issue, they may include improvements to things such as; Performance, user experience, and more."
-msgstr "추천된 아이템이 사이트에 혜택을 줄 것으로 생각되는데 치명적인 문제만큼 우선권에 있어서 중요하지는 않더라고 성능, 사용자 경험, 등과 같은 것에 대한 개선이 포함됩니다."
+msgstr "추천 항목은 중요한 문제만큼 우선순위를 정하는 것이 중요하지는 않지만 성능, 사용자 환경 등에 대한 개선 사항이 포함될 수 있습니다."
 
 #: wp-admin/site-health.php:264
 msgid "Critical issues are items that may have a high impact on your sites performance or security, and resolving these issues should be prioritized."
@@ -961,17 +1346,21 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "이 문제가 다시는 발생하지 않도록 워드프레스 코어 개발자에 문의하세요."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:357
+#: wp-admin/about.php:388
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "중요! 사용중인 워드프레스 버전 (%1$s)은 조만간 보안 업데이트가 중지될 것입니다. 사이트를 안정하게 지키려면 <a href=\"%2$s\">워드프레스 최신 버전으로 업데이트</a>해주세요."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:354
+#: wp-admin/about.php:385
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "중요! 사용중인 워드프레스 버전 (%1$s)이 더 이상 지원되지 않습니다. 더 이상 보안 업데이트를 사이트에서 받지 못합니다. 사이트를 안전하게 유지하려면 <a href=\"%2$s\">워드프레스를 최신 버전으로 업데이트 해주세요</a>."
 
+#: wp-admin/about.php:290
+msgid "https://make.wordpress.org/core/wordpress-6-5-field-guide/"
+msgstr "https://make.wordpress.org/core/wordpress-6-5-field-guide/"
+
 #. translators: %s: Version number.
-#: wp-admin/about.php:228
+#: wp-admin/about.php:259
 msgid "Learn more about WordPress %s"
 msgstr "워드프레스 %s에 대해 더 알아보기"
 
@@ -1126,6 +1515,10 @@ msgstr "전세계의 개인정보법은 사업과 온라인 서비스 영위시 
 #: wp-admin/erase-personal-data.php:41
 msgid "<strong>Comments</strong> &mdash; WordPress does not delete comments. The software does anonymize (but, again, <em>never</em> publishes) the associated Email Address, IP Address, and User Agent (Browser/OS)."
 msgstr "<strong>댓글</strong> &mdash; 워드프레스는 댓글을 삭제하지 않습니다. 소프트웨어는 관련 이메일 주소, IP 주소, 사용자 에이전트 (브라우저/OS)를 익명화 합니다(하지만 역시 <em>전혀</em> 공개하지 않습니다)."
+
+#: wp-admin/erase-personal-data.php:37
+msgid "WordPress collects (but <em>never</em> publishes) a limited amount of data from logged-in users but then deletes it or anonymizes it. That data can include:"
+msgstr "워드프레스에서는 로그인한 사용자로부터 제한된 양의 데이터를 수집(하지만 <em>절대</em> 게시하지 않음)하지만 삭제하거나 익명화합니다. 이러한 데이터에는 다음이 포함될 수 있습니다:"
 
 #: wp-admin/erase-personal-data.php:28
 msgid "Note: As this tool only gathers data from WordPress and participating plugins, you may need to do more to comply with erasure requests. For example, you are also responsible for ensuring that data collected by or stored with the 3rd party services your organization uses gets deleted."
@@ -1760,7 +2153,7 @@ msgstr "디렉토리 목록화 실패함."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:105
 #: wp-admin/includes/class-wp-theme-install-list-table.php:60
-#: wp-admin/includes/file.php:33 wp-admin/js/updates.js:3016
+#: wp-admin/includes/file.php:33 wp-admin/js/updates.js:3043
 msgid "Search Results"
 msgstr "검색 결과"
 
@@ -1885,7 +2278,7 @@ msgstr "새 응용 프로그램 비밀번호 추가"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "응용 프로그램 비밀번호 생성은 필수지만, 사용자 업데이트는 하지 않습니다."
 
-#: wp-admin/about.php:298
+#: wp-admin/about.php:329
 msgid "Go to Updates"
 msgstr "업데이트로 가기"
 
@@ -2098,6 +2491,10 @@ msgstr "일부 화면 요소는 체크박스를 이용해 보이거나 숨길 �
 msgid "Screen elements"
 msgstr "화면 요소"
 
+#: wp-admin/includes/user.php:751
+msgid "The URL must be served over a secure connection."
+msgstr "이 URL은 보안 연결을 통해 제공되어야 합니다."
+
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:572
 msgid "If you request a password reset, your IP address will be included in the reset email."
@@ -2184,7 +2581,7 @@ msgstr "사용자 개인정보 내보내기 파일을 만들 수 없습니다. Z
 #. translators: %s: Search query.
 #: wp-admin/edit-comments.php:282 wp-admin/edit-tags.php:342
 #: wp-admin/edit.php:429 wp-admin/link-manager.php:111 wp-admin/plugins.php:765
-#: wp-admin/upload.php:429 wp-admin/users.php:795 wp-admin/js/updates.js:3106
+#: wp-admin/upload.php:429 wp-admin/users.php:795 wp-admin/js/updates.js:3133
 #: wp-admin/network/sites.php:389 wp-admin/network/themes.php:374
 #: wp-admin/network/users.php:300
 msgid "Search results for: %s"
@@ -2373,7 +2770,7 @@ msgstr "이 플러그인을 이미 설치했습니다."
 #. translators: %s: Plugin name and version.
 #. translators: %s: Plugin name.
 #: wp-admin/includes/plugin-install.php:992 wp-admin/includes/update.php:568
-#: wp-admin/js/updates.js:2535
+#: wp-admin/js/updates.js:2562
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr "%s 바로 업데이트"
@@ -2382,8 +2779,8 @@ msgstr "%s 바로 업데이트"
 #. translators: %s: Plugin name and version.
 #. translators: %s: Plugin name.
 #: wp-admin/import.php:165 wp-admin/includes/plugin-install.php:955
-#: wp-admin/includes/plugin-install.php:970 wp-admin/js/updates.js:1299
-#: wp-admin/js/updates.js:2544 wp-admin/js/updates.js:2705
+#: wp-admin/includes/plugin-install.php:970 wp-admin/js/updates.js:1326
+#: wp-admin/js/updates.js:2571 wp-admin/js/updates.js:2732
 msgctxt "plugin"
 msgid "Install %s now"
 msgstr "지금 %s 설치"
@@ -2689,7 +3086,7 @@ msgid "Schedule"
 msgstr "예약"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:305
-#: wp-admin/js/updates.js:3125
+#: wp-admin/js/updates.js:3152
 msgid "No plugins found. Try a different search."
 msgstr "플러그인을 찾을 수 없습니다. 다른 검색을 시도하세요."
 
@@ -2761,13 +3158,13 @@ msgid "The active theme has the following error: \"%s\"."
 msgstr "활성 테마는 다음 오류가 있습니다: \"%s\"."
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:1319
-#: wp-admin/themes.php:781 wp-admin/js/updates.js:3441
+#: wp-admin/themes.php:781 wp-admin/js/updates.js:3473
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:812
 msgid "Enable auto-updates"
 msgstr "자동 업데이트 활성화"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:1315
-#: wp-admin/themes.php:777 wp-admin/js/updates.js:3430
+#: wp-admin/themes.php:777 wp-admin/js/updates.js:3462
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:808
 msgid "Disable auto-updates"
 msgstr "자동 업데이트 비활성화"
@@ -2804,7 +3201,7 @@ msgid "Automatic Updates"
 msgstr "자동 업데이트"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:428
-#: wp-admin/plugin-editor.php:34 wp-admin/js/updates.js:1448
+#: wp-admin/plugin-editor.php:34 wp-admin/js/updates.js:1475
 msgid "No plugins are currently available."
 msgstr "현재 사용가능한 플러그인이 없습니다."
 
@@ -2922,7 +3319,7 @@ msgstr "자동 업데이트"
 #: wp-admin/includes/class-wp-debug-data.php:1055
 #: wp-admin/includes/class-wp-debug-data.php:1370
 #: wp-admin/includes/class-wp-plugins-list-table.php:1306
-#: wp-admin/themes.php:772 wp-admin/js/updates.js:3443
+#: wp-admin/themes.php:772 wp-admin/js/updates.js:3475
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:799
 msgid "Auto-updates disabled"
 msgstr "자동 업데이트 비활성화됨"
@@ -2930,7 +3327,7 @@ msgstr "자동 업데이트 비활성화됨"
 #: wp-admin/includes/class-wp-debug-data.php:1053
 #: wp-admin/includes/class-wp-debug-data.php:1368
 #: wp-admin/includes/class-wp-plugins-list-table.php:1304
-#: wp-admin/themes.php:774 wp-admin/js/updates.js:3432
+#: wp-admin/themes.php:774 wp-admin/js/updates.js:3464
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:797
 msgid "Auto-updates enabled"
 msgstr "자동 업데이트를 활성화됨"
@@ -5113,7 +5510,7 @@ msgstr "이 플러그인은 사용하고 있는 워드프레스와 PHP 버전에
 
 #. translators: %s: WordPress version number.
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:280 wp-admin/includes/update.php:323
+#: wp-admin/about.php:311 wp-admin/includes/update.php:323
 #: wp-admin/index.php:119 wp-admin/install.php:249 wp-admin/update-core.php:94
 #: wp-admin/upgrade.php:81
 msgid "https://wordpress.org/documentation/wordpress-version/version-%s/"
@@ -5146,6 +5543,11 @@ msgstr "테마를 복구할 수 없음."
 #: wp-admin/edit-tags.php:628
 msgid "Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the default category %s. The default category cannot be deleted."
 msgstr "카테고리를 삭제해도 해당 카테고리에 있던 글은 삭제되지 않습니다. 대신, 삭제된 카테고리에 있던 글은 기본 카테고리 %s로 이동합니다. 기본 카테고리는 삭제할 수 없습니다."
+
+#. translators: %s: A link to install the Classic Widgets plugin.
+#: wp-admin/widgets-form-blocks.php:96
+msgid "The block widgets require JavaScript. Please enable JavaScript in your browser settings, or install the <a href=\"%s\">Classic Widgets plugin</a>."
+msgstr "블록 편집기는 자바스크립트가 필요합니다. 브라우저 설정에서 자바 스크립트를 활성화하거나 <a href=\"%s\">고전 편집기 플러그인</a>을 사용해주세요."
 
 #: wp-admin/post.php:47
 msgid "A post type mismatch has been detected."
@@ -5244,6 +5646,16 @@ msgstr "예제 페이지입니다. 한 곳에서 유지하고 사이트 탐색(�
 #: wp-admin/includes/class-wp-posts-list-table.php:1561
 msgid "Export &#8220;%s&#8221; as JSON"
 msgstr "&#8220;%s&#8221;을(를) JSON으로 내보내기"
+
+#: wp-admin/edit.php:386
+msgid "1 pattern not updated, somebody is editing it."
+msgstr "1개의 패턴이 업데이트되지 않았습니다. 누군가 편집하는 중입니다."
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:394
+msgid "%s pattern restored from the Trash."
+msgid_plural "%s patterns restored from the Trash."
+msgstr[0] "%s 패턴이 휴지통에서 복원되었습니다."
 
 #: wp-admin/setup-config.php:304
 msgid "<strong>Error:</strong> \"Table Prefix\" must not be empty."
@@ -5344,6 +5756,10 @@ msgstr "이 섹션에서 사용자와 사이트 방문자에게서 수집한 개
 msgid "Suggested text:"
 msgstr "제안된 텍스트:"
 
+#: wp-admin/privacy-policy-guide.php:77
+msgid "The template contains a suggestion of sections you most likely will need. Under each section heading, you will find a short summary of what information you should provide, which will help you to get started. Some sections include suggested policy content, others will have to be completed with information from your theme and plugins."
+msgstr "템플릿에는 가장 필요한 섹션에 대한 제안이 포함되어 있습니다. 각 섹션 제목 아래에는 어떤 정보를 제공해야 하는지에 대한 간단한 요약이 있어 시작하는 데 도움이 됩니다. 일부 섹션에는 제안된 정책 콘텐츠가 포함되어 있으며, 다른 섹션은 테마 및 플러그인의 정보로 작성해야 합니다."
+
 #. translators: %s: Date of privacy policy text update.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:408
 msgid "Updated %s."
@@ -5390,10 +5806,20 @@ msgstr "규제 산업의 구성원이거나, 추가 개인정보 보호법을 �
 msgid "Industry regulatory disclosure requirements"
 msgstr "산업 규제 공개 요구사항"
 
+#. translators: Privacy policy tutorial.
+#: wp-admin/includes/class-wp-privacy-policy-content.php:651
+msgid "If your website provides a service which includes automated decision making - for example, allowing customers to apply for credit, or aggregating their data into an advertising profile - you must note that this is taking place, and include information about how that information is used, what decisions are made with that aggregated data, and what rights users have over decisions made without human intervention."
+msgstr "웹사이트가 자동화된 의사 결정이 포함된 서비스를 제공하는 경우(예: 고객의 신용 신청 허용 또는 고객의 데이터를 광고 프로필로 집계), 해당 정보가 어떻게 사용되는지, 집계된 데이터로 어떤 결정을 내리는지, 사람의 개입 없이 이루어진 결정에 대해 사용자가 어떤 권리를 갖는지에 대한 정보를 포함해야 합니다."
+
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:649
 msgid "What automated decision making and/or profiling we do with user data"
 msgstr "자동으로 의사 결정 그리고/또는 사용자 자료로 수행하는 자료 수집하는 것은 무엇인가요"
+
+#. translators: Privacy policy tutorial.
+#: wp-admin/includes/class-wp-privacy-policy-content.php:644
+msgid "If your website receives data about users from third parties, including advertisers, this information must be included within the section of your privacy policy dealing with third party data."
+msgstr "웹사이트가 광고주를 포함하여 제3자로부터 사용자에 대한 데이터를 받는다면, 이에 대한 정보는 개인정보 처리방침에서 제3자 데이터에 관한 영역에 포함해야 합니다."
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:642
@@ -5470,6 +5896,11 @@ msgstr "웹사이트에 등록한 사용자에 대해, 사용자 프로필에 �
 msgid "If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue."
 msgstr "댓글을 남길 경우 댓글과 해당 메타데이터는 영구히 보존됩니다. 이것은 댓글에 관련 댓글이 있을 경우 검토중으로 있는 것을 방지하기 위해 인지하고 자동으로 승인하기 위해서 입니다."
 
+#. translators: Privacy policy tutorial.
+#: wp-admin/includes/class-wp-privacy-policy-content.php:580
+msgid "In this section you should explain how long you retain personal data collected or processed by the website. While it is your responsibility to come up with the schedule of how long you keep each dataset for and why you keep it, that information does need to be listed here. For example, you may want to say that you keep contact form entries for six months, analytics records for a year, and customer purchase records for ten years."
+msgstr "이 섹션에서는 웹사이트에서 수집하거나 처리하는 개인 데이터를 얼마나 오래 보관하는지 설명해야 합니다. 각 데이터 세트의 보관 기간과 보관 이유는 회원님의 책임이지만, 해당 정보는 반드시 여기에 기재해야 합니다. 예를 들어 문의 양식 항목은 6개월, 분석 기록은 1년, 고객 구매 기록은 10년간 보관한다고 명시할 수 있습니다."
+
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:576
 msgid "How long we retain your data"
@@ -5534,6 +5965,11 @@ msgstr "로그인 페이지를 방문하면, 브라우저가 쿠키를 수용하
 #: wp-admin/includes/class-wp-privacy-policy-content.php:535
 msgid "If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year."
 msgstr "사이트에 댓글을 남기면 이름, 이메일 주소와 웹사이트를 쿠키에 ,저장할 것인지 선택할 수 있습니다. 이들은 여러분의 편의를 위한 것이기에 또 다른 댓글을 남길 때 세부사항을 채울 필요가 없습니다. 이 쿠키는 최근 1년 동안 남습니다."
+
+#. translators: Privacy policy tutorial.
+#: wp-admin/includes/class-wp-privacy-policy-content.php:532
+msgid "In this subsection you should list the cookies your website uses, including those set by your plugins, social media, and analytics. We have provided the cookies which WordPress installs by default."
+msgstr "이 하위 영역에서는 웹사이트가 사용하는 쿠키를 목록화해야 합니다. 여기에는 플러그인, 소셜 미디어, 분석에 의한 설정도 포함합니다. 워드프레스가 기본으로 설치하는 쿠키를 제공합니다."
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:528
@@ -5617,6 +6053,10 @@ msgstr "개인정보 처리방침을 작성하는 것은 사이트 관리자의 
 #: wp-admin/privacy-policy-guide.php:78
 msgid "Please edit your privacy policy content, making sure to delete the summaries, and adding any information from your theme and plugins. Once you publish your policy page, remember to add it to your navigation menu."
 msgstr "개인정보 처리방침 콘텐츠를 편집하세요. 요약부분을 삭제했는지 확인하고 테마와 플러그인으로부터도 모든 정보를 추가하세요. 개인정보 처리방침 페이지를 발행했다면 내비게이션 메뉴에 추가할 것을 잊지마세요."
+
+#: wp-admin/privacy-policy-guide.php:76
+msgid "This text template will help you to create your website&#8217;s privacy policy."
+msgstr "이 텍스트 템플릿은 웹사이트의 개인정보처리방침을 작성하는 데 도움이 됩니다."
 
 #: wp-admin/options-privacy.php:193
 msgid "As a website owner, you may need to follow national or international privacy laws. For example, you may need to create and display a privacy policy."
@@ -6050,6 +6490,10 @@ msgstr "저희는 개인정보 보호와 투명성을 매우 중요하게 여깁
 msgid "https://wordpress.org/about/license/"
 msgstr "https://wordpress.org/about/license/"
 
+#: wp-admin/privacy.php:46
+msgid "From time to time, your WordPress site may send data to WordPress.org &#8212; including, but not limited to &#8212; the version you are using, and a list of installed plugins and themes."
+msgstr "워드프레스 사이트는 때때로 사용 중인 버전, 설치된 플러그인 및 테마 목록 등을 포함하되 이에 국한되지 않는 데이터를 워드프레스닷오알지(WordPress.org)로 전송할 수 있습니다."
+
 #. translators: Attachment information. %s: Date the attachment was uploaded.
 #: wp-admin/includes/meta-boxes.php:445
 msgid "Uploaded on: %s"
@@ -6341,6 +6785,14 @@ msgstr "플러그인 활성화 &amp; 끌어오기로 가기"
 msgid "Your scheduled changes just published"
 msgstr "예약한 변경사항을 방금 발행했습니다"
 
+#: wp-admin/includes/class-theme-installer-skin.php:141
+#: wp-admin/includes/class-theme-upgrader-skin.php:113
+#: wp-admin/includes/class-wp-themes-list-table.php:215
+#: wp-admin/js/updates.js:1833
+msgctxt "theme"
+msgid "Activate"
+msgstr "활성화"
+
 #: wp-admin/options-discussion.php:60
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new posts"
 msgstr "새 글에서 다른 블로그로부터 링크 알림(핑백과 트랙백) 허용하기"
@@ -6367,12 +6819,12 @@ msgstr "%s 활성화"
 msgid "No media files found."
 msgstr "미디어 파일을 찾을 수 없습니다."
 
-#: wp-admin/import.php:139 wp-admin/import.php:188 wp-admin/js/updates.js:1252
+#: wp-admin/import.php:139 wp-admin/import.php:188 wp-admin/js/updates.js:1279
 msgid "Run Importer"
 msgstr "가져오기 실행"
 
 #. translators: %s: Importer name.
-#: wp-admin/import.php:138 wp-admin/import.php:187 wp-admin/js/updates.js:1248
+#: wp-admin/import.php:138 wp-admin/import.php:187 wp-admin/js/updates.js:1275
 msgid "Run %s"
 msgstr "%s 실행"
 
@@ -6882,8 +7334,8 @@ msgstr "404 템플릿 임베드"
 msgid "Embed Template"
 msgstr "템플릿 임베드"
 
-#: wp-admin/includes/plugin-install.php:1010 wp-admin/js/updates.js:1146
-#: wp-admin/js/updates.js:1154
+#: wp-admin/includes/plugin-install.php:1010 wp-admin/js/updates.js:1179
+#: wp-admin/js/updates.js:1188
 msgctxt "plugin"
 msgid "Active"
 msgstr "활성"
@@ -6909,6 +7361,10 @@ msgstr "플러그인을 삭제할 수 없습니다."
 #: wp-admin/update.php:57 wp-admin/update.php:80
 msgid "Sorry, you are not allowed to update plugins for this site."
 msgstr "죄송합니다. 이 사이트의 플러그인을 업데이트 할 권한이 없습니다."
+
+#: wp-admin/includes/ajax-actions.php:4572
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr "이 사이트의 플러그인을 활성화 할 권한이 없습니다."
 
 #: wp-admin/includes/ajax-actions.php:4428
 msgid "Theme could not be deleted."
@@ -7376,6 +7832,10 @@ msgstr "%d픽셀"
 msgid "Images should be at least %s wide."
 msgstr "이미지는 최소한 %s 폭이어야 합니다."
 
+#: wp-admin/user-new.php:619
+msgid "Send the new user an email about their account"
+msgstr "새 사용자에게 계정에 대한 이메일 보내기"
+
 #: wp-admin/user-new.php:616
 msgid "Send User Notification"
 msgstr "사용자 알림 전송하기"
@@ -7387,7 +7847,7 @@ msgid "(Currently set to: %s)"
 msgstr "(현재 설정: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:328
+#: wp-admin/about.php:359
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>버전 %s</strong>은(는) 보안 문제를 처리했습니다."
 
@@ -7399,15 +7859,15 @@ msgstr "https://en.gravatar.com/"
 msgid "Profile Picture"
 msgstr "프로필 사진"
 
-#: wp-admin/about.php:325
+#: wp-admin/about.php:356
 msgid "Maintenance and Security Releases"
 msgstr "유지보수와 보안 릴리스"
 
-#: wp-admin/about.php:322
+#: wp-admin/about.php:353
 msgid "Security Releases"
 msgstr "보안 릴리스"
 
-#: wp-admin/about.php:319
+#: wp-admin/about.php:350
 msgid "Maintenance Releases"
 msgstr "유지보수 릴리즈"
 
@@ -8022,10 +8482,22 @@ msgstr "이미지를 처리할 수 없습니다."
 msgid "Confirm Password"
 msgstr "비밀번호 확인"
 
+#: wp-admin/options-general.php:195
+msgid "Remove Site Icon"
+msgstr "사이트 아이콘 제거"
+
 #. translators: 1: wp-config.php, 2: Secret key service URL.
 #: wp-admin/maint/repair.php:85
 msgid "While you are editing your %1$s file, take a moment to make sure you have all 8 keys and that they are unique. You can generate these using the <a href=\"%2$s\">WordPress.org secret key service</a>."
 msgstr "%1$s 파일을 편집하는 중에, 8자리 키를 가졌고 고유한 지 확인하는 시간을 가져보세요. <a href=\"%2$s\">WordPress.org 보안 키 서비스</a>를 사용하여 이를 만들 수 있습니다."
+
+#: wp-admin/options-general.php:180
+msgid "Set as Site Icon"
+msgstr "사이트 아이콘 설정"
+
+#: wp-admin/options-general.php:178 wp-admin/options-general.php:187
+msgid "Choose a Site Icon"
+msgstr "사이트 아이콘 선택"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-application-passwords-list-table.php:258
@@ -8580,6 +9052,10 @@ msgstr[0] "%d개의 별 평점"
 msgid "Select bulk action"
 msgstr "일괄 작업 선택"
 
+#: wp-admin/user-new.php:475 wp-admin/user-new.php:642
+msgid "Add the user without sending an email that requires their confirmation"
+msgstr "확인용 이메일을 보내지 않고 사용자 추가하기"
+
 #. translators: %s: List view URL.
 #: wp-admin/upload.php:235
 msgid "The grid view for the Media Library requires JavaScript. <a href=\"%s\">Switch to the list view</a>."
@@ -8814,6 +9290,11 @@ msgstr "<strong>테마와 플러그인</strong> &mdash; 이 화면에서 개별 
 msgid "On this screen, you can update to the latest version of WordPress, as well as update your themes, plugins, and translations from the WordPress.org repositories."
 msgstr "이 화면에서 워드프레스 최신 버전으로 업데이트 할 수 있습니다. 또한 WordPress.org의 저장소로부터 테마, 플러그인, 번역을 업데이트 할 수 있습니다."
 
+#. translators: %s: https://wordpress.org/themes
+#: wp-admin/themes.php:156
+msgid "If you would like to see more themes to choose from, click on the &#8220;Add New Theme&#8221; button and you will be able to browse or search for additional themes from the <a href=\"%s\">WordPress Theme Directory</a>. Themes in the WordPress Theme Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&#8217;re free!"
+msgstr "선택할 수 있는 테마를 더 보고 싶으면 &#8220;새 테마 추가&#8221; 버튼을 클릭하면 <a href=\"%s\">WordPress 테마 디렉토리</a>에서 추가 테마를 찾아보거나 검색할 수 있습니다. 워드프레스 테마 디렉토리의 테마는 타사에서 디자인 및 개발했으며 워드프레스에서 사용하는 라이선스와 호환됩니다. 게다가 무료입니다!"
+
 #. translators: 1: Number of megabytes, 2: Percentage.
 #: wp-admin/includes/dashboard.php:1690
 msgid "%1$s MB (%2$s%%) Space Used"
@@ -9023,7 +9504,7 @@ msgstr "최근 발행함"
 
 #: wp-admin/includes/dashboard.php:944
 msgid "Publishing Soon"
-msgstr "이내 발행하는 중"
+msgstr "발행 예정"
 
 #: wp-admin/includes/dashboard.php:599
 msgid "What&#8217;s on your mind?"
@@ -10374,6 +10855,10 @@ msgstr "%s이(가) 작성했습니다."
 msgid "Add Comment"
 msgstr "댓글 추가"
 
+#: wp-admin/includes/template.php:464
+msgid "Add New Comment"
+msgstr "새 댓글 추가"
+
 #. Author URI of the plugin
 #: hello.php
 msgid "http://ma.tt/"
@@ -10703,45 +11188,47 @@ msgstr "이 네트워크에 있는 기존의 사용자를 이 사이트에 초�
 msgid "Show Toolbar when viewing site"
 msgstr "사이트를 볼 때 도구모음을 보기"
 
+#. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:351
+#: wp-admin/about.php:63 wp-admin/about.php:382
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "자세한 정보는 <a href=\"%s\">릴리즈 안내</a>를 참고하세요."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:345
+#: wp-admin/about.php:376
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>버전 %1$s</strong>이(가) 몇 가지 보안 문제를 해결하고 %2$s 버그를 수정했습니다."
 
+#. translators: 1: WordPress version number, 2: Plural number of bugs.
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:339
+#: wp-admin/about.php:51 wp-admin/about.php:370
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>버전 %1$s</strong>이(가) 보안 문제를 해결하고 %2$s 버그를 수정했습니다."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:333
+#: wp-admin/about.php:364
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>버전 %1$s</strong>이(가) %2$s 버그를 해결했습니다."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:330
+#: wp-admin/about.php:361
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>버전 %s</strong>은(는) 보안 문제를 처리했습니다."
 
-#: wp-admin/about.php:324
+#: wp-admin/about.php:46 wp-admin/about.php:355
 msgid "Maintenance and Security Release"
 msgstr "유지 보수와 보안 릴리스"
 
-#: wp-admin/about.php:321
+#: wp-admin/about.php:352
 msgid "Security Release"
 msgstr "보안 릴리스"
 
-#: wp-admin/about.php:318
+#: wp-admin/about.php:349
 msgid "Maintenance Release"
 msgstr "유지 보수 릴리스"
 
@@ -11015,15 +11502,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "왜냐하면 이는 다중 사이트 설치이기 때문입니다. 사용자명이나 이메일, 그리고 정의한 역할로 네트워크에 이미 존재하는 계정을 추가할 수도 있습니다. 비밀번호를 지정하는 것과 같은 더 많은 옵션에 대해, 네트워크 관리자여야하고 네트워크 관리자 > 모든 사용자 아래에 있는 사용자 프로필을 편집할 수 있는 존재하는 사용자의 이름 아래 있는 마우스 올리기 링크를 사용해야 합니다."
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:50
+#: wp-admin/about.php:81
 msgid "Welcome to WordPress %s"
 msgstr "워드프레스 %s에 오신 것을 환영합니다."
 
-#: wp-admin/about.php:305
+#: wp-admin/about.php:336
 msgid "Go to Dashboard &rarr; Home"
 msgstr "알림판 &rarr; 홈으로 이동하기"
 
-#: wp-admin/about.php:298
+#: wp-admin/about.php:329
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "알림판 &rarr; 업데이트로 이동하기"
 
@@ -11449,6 +11936,11 @@ msgstr "이름"
 msgid "You can find additional themes for your site by using the Theme Browser/Installer on this screen, which will display themes from the <a href=\"%s\">WordPress Theme Directory</a>. These themes are designed and developed by third parties, are available free of charge, and are compatible with the license WordPress uses."
 msgstr "<a href=\"%s\">워드프레스 테마 디렉터리</a>에서 테마를 보일 이 화면의 테마 탐색기/설치 도구를 사용하여 사이트에 대한 추가 테가를 찾을 수 있습니다. 타사가 설계하고 개발한 이 테마는, 무료로 사용할 수 있고, 워드프레스가 사용하는 라이선스와 호환합니다."
 
+#. translators: %s: WordPress Plugin Directory URL.
+#: wp-admin/plugins.php:569
+msgid "If you would like to see more plugins to choose from, click on the &#8220;Add New Plugin&#8221; button and you will be able to browse or search for additional plugins from the <a href=\"%s\">WordPress Plugin Directory</a>. Plugins in the WordPress Plugin Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&#8217;re free!"
+msgstr "더 많은 플러그인을 선택하려면, &#8220;새로 추가&#8221; 버튼을 누르고 <a href=\"%s\">워드프레스 플러그인 디렉터리</a>에서 추가 플러그인을 탐색하고 검색할 수 있을 것입니다. 워드프레스 플러그인 디렉터리의 플러그인은 타사가 설계하고 개발했고, 워드프레스가 사용하는 라이선스와 호환합니다. 아, 그리고 무료입니다!"
+
 #. translators: %s: MAX_FILE_SIZE
 #: wp-admin/includes/file.php:898
 msgid "The uploaded file exceeds the %s directive that was specified in the HTML form."
@@ -11638,7 +12130,7 @@ msgid "This child theme inherits templates from a parent theme, %s."
 msgstr "이 자식 테마는 부모 테마 %s에서 템플릿을 상속합니다."
 
 #: wp-admin/includes/class-theme-installer-skin.php:150
-#: wp-admin/js/updates.js:1795
+#: wp-admin/js/updates.js:1822
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:467
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:589
 msgid "Network Enable"
@@ -12746,7 +13238,7 @@ msgstr "워드프레스 업데이트"
 msgid "Edit menu item"
 msgstr "메뉴 아이템 편집"
 
-#: wp-admin/about.php:305 wp-admin/includes/network.php:166
+#: wp-admin/about.php:336 wp-admin/includes/network.php:166
 msgid "Go to Dashboard"
 msgstr "알림판으로 가기"
 
@@ -13125,7 +13617,7 @@ msgstr "플러그인 다시 활성화"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:482
 #: wp-admin/update-core.php:913 wp-admin/js/updates.js:854
-#: wp-admin/js/updates.js:1882
+#: wp-admin/js/updates.js:1909
 msgid "Installation failed."
 msgstr "설치 실패함."
 
@@ -13773,6 +14265,10 @@ msgstr "프로필"
 #: wp-admin/menu.php:96
 msgid "Comments %s"
 msgstr "댓글 %s"
+
+#: wp-admin/menu.php:67
+msgid "Library"
+msgstr "라이브러리"
 
 #: wp-admin/media-new.php:43
 msgid "Upload New Media"
@@ -15361,6 +15857,12 @@ msgctxt "posts"
 msgid "Mine <span class=\"count\">(%s)</span>"
 msgid_plural "Mine <span class=\"count\">(%s)</span>"
 msgstr[0] "내 글 <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:388
+msgid "%s pattern not updated, somebody is editing it."
+msgid_plural "%s patterns not updated, somebody is editing them."
+msgstr[0] "%s개의 패턴을 업데이트하지 않았습니다. 다른 사람이 편집하고 있습니다."
 
 #. translators: %s: Number of posts.
 #: wp-admin/edit.php:359

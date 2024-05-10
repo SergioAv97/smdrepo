@@ -7,6 +7,7 @@ import MeetingSaveBlock from './MeetingSaveBlock';
 import MeetingEdit from '../../shared/Meeting/MeetingEdit';
 import ErrorHandler from '../../shared/Common/ErrorHandler';
 import { __ } from '@wordpress/i18n';
+import { isFullSiteEditor } from '../../utils/withMetaData';
 
 const ConnectionStatus = {
   Connected: 'Connected',
@@ -36,14 +37,15 @@ export default function registerMeetingBlock() {
     }
   };
 
-  if (!WpBlocksApi) {
+  // We do not support the full site editor: https://issues.hubspotcentral.com/browse/WP-1033
+  if (!WpBlocksApi || isFullSiteEditor()) {
     return null;
   }
 
   WpBlocksApi.registerBlockType('leadin/hubspot-meeting-block', {
     title: __('Hubspot Meetings Scheduler', 'leadin'),
     description: __(
-      'Schedule meetings faster and forget the back-and-forth emails. Your calendar stays full, and you stay productive',
+      'Schedule meetings faster and forget the back-and-forth emails Your calendar stays full, and you stay productive',
       'leadin'
     ),
     icon: CalendarIcon,
