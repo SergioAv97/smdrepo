@@ -1,0 +1,37 @@
+.texto-dos-elementos {
+	.grid {
+		grid-template-columns: 53% 47%;
+		column-gap: 3rem;
+
+		.title {
+			color: var(--raw-color-grey-6e);
+			font-size: var(--raw-font-size-large);
+		}
+
+		div:last-of-type .title {
+			display: block;
+			text-align: center;
+			margin: -1rem auto 2rem;
+			font-size: var(--raw-font-size-bigger);
+		}
+
+		img {
+			margin-top: 3rem;
+		}
+	}
+
+	.special {
+		margin: 2rem 0;
+		text-align: center;
+
+		.single {
+			font-size: var(--raw-font-size-large);
+			font-weight: var(--raw-font-weight-thin);
+
+			a {
+				font-size: var(--raw-font-size-large);
+				font-weight: var(--raw-font-weight-thin);
+			}
+		}
+	}
+}

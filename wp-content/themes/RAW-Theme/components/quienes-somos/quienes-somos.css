@@ -1,0 +1,47 @@
+.quienes-somos {
+	.grid {
+		div {
+			margin-right: 4rem;
+
+			.title {
+				color: var(--raw-color-blue-bg);
+				text-align: left;
+			}
+		}
+	}
+}
+
+@media all and (max-width:768px) {
+
+	.quienes-somos {
+		.grid {
+			div {
+				text-align: center;
+				margin-right: 0;
+
+				.title {
+					text-align: center;
+				}
+
+				p:not(.title) {
+					padding: 0 2rem;
+				}
+			}
+		}
+
+		.raw-slider {
+			margin: 2.5rem auto -2.5rem;
+		}
+	}
+
+}
+
+@media all and (max-width:425px) {
+
+	.quienes-somos {
+		.raw-slider {
+			margin: 2.5rem auto -12rem;
+		}
+	}
+
+}

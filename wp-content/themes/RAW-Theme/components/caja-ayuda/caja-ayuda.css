@@ -1,0 +1,116 @@
+.raw-component-caja-ayuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 50px 50px 50px 50px;
+}
+
+
+
+#raw-container-caja-ayuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+
+    max-width: 1140px;
+    max-height: 445px;
+    
+    background-color: #14264D;
+    border-radius: 40px;
+
+    h1{
+        margin-bottom: 0%;
+        font-size: 70px;
+        color: #FFFFFF;
+    }
+    p{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 45px;
+        color: #d76e51;
+    }
+    h2{
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-size: 70px;
+        color: #FFFFFF;
+    }
+}
+
+#raw-enlace-mobil{
+    display: flex;
+    
+    flex-direction: row;
+    padding-right: 50px !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 10px;
+}
+#iconMobil{
+    margin-top: 2%;
+    margin-right: 5%;
+    width: 62px ;
+    height: 62px;
+}
+
+@media (max-width: 580px) {
+    .raw-component-caja-ayuda{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 0%;
+        margin-top: 20% ;
+        margin-left: 5%;
+        margin-right: 5%;
+
+
+    }
+    #raw-container-caja-ayuda{
+        
+        max-height: 800px;
+        background-color: #14264D;
+        border-radius: 40px;
+        padding: 10%;
+        h1{
+            margin-bottom: 0%;
+            font-size: 40px;
+            color: #FFFFFF;
+        }
+        p{
+            margin-top: 2%;
+            margin-bottom: 2%;
+            font-size: 30px;
+            color: #d76e51;
+        }
+        h2{
+            margin-top: 0%;
+            margin-bottom: 0%;
+            font-size: 40px;
+            color: #FFFFFF;
+        }
+        #iconMobil{
+            margin-top: 2%;
+            width: 290px ;
+            height: 290px;
+        }
+        #raw-enlace-mobil{
+            display: flex;
+            
+            flex-direction: column;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+            padding-right: 0px !important;
+        }
+    }
+   
+}
+
+
+
